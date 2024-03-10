@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="{{ locale }}">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>{{ title }} | a pleasant view</title>
+	<meta name="description" content="Website subscriptions for small businesses and agencies.">
+</head>
+<body>
+	<a href="{{ permalink }}">{{ site.title }}</a>
+	{% block content %}
+		<h1>a pleasant view</h1>
+		<p>No content found.</p>
+		<p>Site languages:</p>
+		<ul>
+			<li><a href="/en/">English</a></li>
+			<li><a href="/nl/">Nederlands</a></li>
+			<li><a href="/fr/">Français</a></li>
+		</ul>
+	{% endblock %}
+</body>
+</html>
