@@ -1,3 +1,4 @@
+/** @param { import("@11ty/eleventy/src/UserConfig.js").default } eleventyConfig */
 export default function (eleventyConfig) {
 	return {
 		dir: {
