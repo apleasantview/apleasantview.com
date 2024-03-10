@@ -2,17 +2,10 @@
 permalink: /en/
 title: Website subscriptions
 ---
-<!DOCTYPE html>
-<html lang="{{ locale }}">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>{{ title }} | a pleasant view</title>
-</head>
-<body>
-	<a href="{{ permalink }}">Home</a>
+{% extends "layouts/base.njk" %}
+
+{% block content %}
 	<h1>A monthly subscription plan for all your website related tasks.</h1>
 	<p><strong>Includes</strong> design • content updates • development • maintenance • technical support</p>
 	<a href="mailto:hello@apleasantview.com">Request more information</a>
-</body>
-</html>
+{% endblock %}

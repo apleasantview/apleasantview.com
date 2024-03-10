@@ -2,17 +2,10 @@
 permalink: /nl/
 title: Websites abonnementen
 ---
-<!DOCTYPE html>
-<html lang="{{ locale }}">
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>{{ title }} | a pleasant view</title>
-</head>
-<body>
-	<a href="{{ permalink }}">Home</a>
+{% extends "layouts/base.njk" %}
+
+{% block content %}
 	<h1>Een maandelijks abonnement voor al uw website taken.</h1>
 	<p><strong>Inclusief</strong> ontwerp • inhoudsupdates • ontwikkeling • onderhoud • technische ondersteuning</p>
 	<a href="mailto:hello@apleasantview.com">Meer informatie aanvragen</a>
-</body>
-</html>
+{% endblock %}
