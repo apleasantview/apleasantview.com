@@ -1,3 +1,5 @@
+import debug from "./_11ty/plugins/pdehaan-debug/.eleventy.js";
+
 /** @param { import("@11ty/eleventy/src/UserConfig.js").default } eleventyConfig */
 export default function (eleventyConfig) {
 	eleventyConfig.addTemplateFormats("css");
@@ -11,6 +13,9 @@ export default function (eleventyConfig) {
 			};
 		}
 	});
+
+	/* Plugins */
+	eleventyConfig.addPlugin(debug);
 
 	return {
 		dir: {
