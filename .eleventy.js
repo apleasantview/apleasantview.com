@@ -1,6 +1,6 @@
 import { EleventyHtmlBasePlugin } from "@11ty/eleventy";
 import debug from "./_11ty/plugins/pdehaan-debug/.eleventy.js";
-import assets from "./_11ty/plugins/assets-citizens/.eleventy.js";
+import assets from "./_11ty/plugins/assets-css/.eleventy.js";
 
 /** @param { import("@11ty/eleventy/src/UserConfig.js").default } eleventyConfig */
 export default function (eleventyConfig) {
