@@ -20,6 +20,7 @@ body {
 	padding: 4em 1em;
 	color: light-dark(#555, initial);
 	text-align: center;
+	background-color: light-dark(#F3F7FC, initial);
 }
 
 a:not([class]), p, h1 {
