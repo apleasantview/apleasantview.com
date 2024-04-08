@@ -22,7 +22,7 @@ export default function (eleventyConfig) {
 					minify: true,
 					targets
 				})
-				console.log(input);
+				// console.log(input);
 				return code;
 			};
 		}
