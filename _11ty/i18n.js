@@ -2,16 +2,16 @@ export const i18n = {
 	defaultLanguage: "en",
 	languages: {
 		en: {
-			title: "",
-			description: ""
+			title: "a pleasant view",
+			description: "Web design and development subscriptions."
 		},
 		nl: {
 			title: "",
-			description: ""
+			description: "Webdesign en ontwikkeling abonnementen."
 		},
 		fr: {
 			title: "",
-			description: ""
+			description: "Design et développement de sites webs par abonnements."
 		}
 	}
 }
