@@ -11,16 +11,29 @@
 	<meta name="color-scheme" content="light dark">
 </head>
 <body>
-	<a href="{{ permalink }}">{{ site.title }}</a>
+	<header>
+		<div>
+			<a href="{{ permalink }}">{{ site.title }}</a>
+		</div>
+	</header>
 	{% block content %}
-		<h1>a pleasant view</h1>
-		<p>No content found.</p>
-		<p>Site languages:</p>
-		<ul>
-			<li><a href="/en/">English</a></li>
-			<li><a href="/nl/">Nederlands</a></li>
-			<li><a href="/fr/">Français</a></li>
-		</ul>
+		<main>
+			<h1>a pleasant view</h1>
+			<p>No content found.</p>
+			<p>Site languages:</p>
+			<ul>
+				<li><a href="/en/">English</a></li>
+				<li><a href="/nl/">Nederlands</a></li>
+				<li><a href="/fr/">Français</a></li>
+			</ul>
+		</main>
 	{% endblock %}
+	<footer>
+		<div>
+			<small>
+				&copy; a pleasant view 2024
+			</small>
+		</div>
+	</footer>
 </body>
 </html>
