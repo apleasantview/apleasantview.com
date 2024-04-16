@@ -4,6 +4,10 @@
 export default function (eleventyConfig) {
 	const settings = eleventyConfig.globalData.site.sitemap;
 
+	eleventyConfig.addShortcode("sitemap", (options) => {
+		return;
+	})
+
 	eleventyConfig.on("eleventy.after", async ({ dir, results }) => {
     // Read more below
 		// console.log(dir);
