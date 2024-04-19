@@ -12,6 +12,10 @@ html[data-theme=dark] {
   color-scheme: dark;
 }
 
+* + *:not(body, section, div) {
+	margin-block-start: 1em;
+}
+
 body {
 	margin-inline: auto;
 	max-width: 1160px;
@@ -27,10 +31,6 @@ header, footer {
 
 section {
 	padding-block: 1.25rem;
-}
-
-* + *:not(section, div) {
-	margin-block-start: 1em;
 }
 
 a:not([class]), p, h1 {
