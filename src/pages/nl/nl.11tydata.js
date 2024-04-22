@@ -1,3 +1,4 @@
 export default {
-	locale: "nl"
+	locale: "nl",
+	date: "Last Modified"
 }
