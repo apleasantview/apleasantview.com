@@ -7,7 +7,6 @@ export default function (eleventyConfig, options = {}) {
 		...options
 	};
 
-	eleventyConfig.addFilter('inspect', inspect);
-	eleventyConfig.addFilter('json', (obj, space = options.space) => JSON.stringify(obj, null, space));
+	eleventyConfig.addFilter('inspect', obj => inspect(obj, { sorted: true }));
 	eleventyConfig.addFilter('keys', obj => Object.keys(obj).sort());
 };
