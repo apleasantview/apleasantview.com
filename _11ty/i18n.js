@@ -2,16 +2,31 @@ export const i18n = {
 	defaultLanguage: "en",
 	languages: {
 		en: {
+			contentDir: "content/en",
+			languageCode: "en",
+			languageName: "English",
 			title: "a pleasant view",
-			description: "Web design and development subscriptions."
+			data: {
+				description: "Web design and development subscriptions."
+			}
 		},
 		nl: {
-			title: "",
-			description: "Webdesign en ontwikkeling abonnementen."
+			contentDir: "content/nl",
+			languageCode: "nl",
+			languageName: "Nederlands",
+			title: "a pleasant view",
+			data: {
+				description: "Webdesign en ontwikkeling abonnementen."
+			}
 		},
 		fr: {
-			title: "",
-			description: "Design et développement de sites webs par abonnements."
+			contentDir: "content/fr",
+			languageCode: "fr",
+			languageName: "Français",
+			title: "a pleasant view",
+			data: {
+				description: "Design et développement de sites webs par abonnements."
+			}
 		}
 	}
 }
