@@ -14,6 +14,8 @@ export default function (eleventyConfig, options = {}) {
 		...options
 	}
 
+	eleventyConfig.addGlobalData("i18n", config);
+
 	eleventyConfig.addCollection("languages", function(collection) {
 		const site = eleventyConfig.globalData.site;
 
