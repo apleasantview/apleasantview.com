@@ -1,5 +1,19 @@
 /** @param { import("@11ty/eleventy/src/UserConfig.js").default } eleventyConfig */
-export default function (eleventyConfig) {
+export default function (eleventyConfig, options = {}) {
+	let config = {
+		defaultLanguage: "en",
+		languages: {
+			en: {
+				contentDir: "",
+				languageCode: "",
+				languageDirection: "",
+				languageName: "",
+				title: "",
+			}
+		},
+		...options
+	}
+
 	eleventyConfig.addCollection("languages", function(collection) {
 		const site = eleventyConfig.globalData.site;
 
