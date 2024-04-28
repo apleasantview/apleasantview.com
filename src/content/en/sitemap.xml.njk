@@ -6,23 +6,19 @@ eleventyExcludeFromCollections: true
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
+{%- for item in collections.all -%}
+  {% if item.data.locale === locale %}
   <url>
-    <loc>https://www.apleasantview.com/</loc>
-    <lastmod>2024-04-28T10:57:57.728+02:00</lastmod>
+    <loc>{{ item.url | htmlBaseUrl(site.baseURL) }}</loc>
+    <lastmod>{{ item.page.date | dateISO }}</lastmod>
+    {%- for link in collections.translations[item.data.translationKey] %}
     <xhtml:link
                 rel="alternate"
-                hreflang="nl"
-                href="https://www.apleasantview.com/nl/"
+                hreflang="{{ link.language }}"
+                href="{{ link.url | htmlBaseUrl(site.baseURL) }}"
                 />
-    <xhtml:link
-                rel="alternate"
-                hreflang="fr"
-                href="https://www.apleasantview.com/fr/"
-                />
-    <xhtml:link
-                rel="alternate"
-                hreflang="en"
-                href="https://www.apleasantview.com/"
-                />
+    {%- endfor %}
   </url>
+  {%- endif %}
+{%- endfor %}
 </urlset>
