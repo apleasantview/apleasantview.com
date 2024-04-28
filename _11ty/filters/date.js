@@ -1,5 +1,5 @@
 import { DateTime } from "luxon";
-/* Source: https://github.com/collapsology/collapsology/blob/master/src/_11ty/filters/date.js */
+/* Source: Jérôme Coupé - https://github.com/collapsology/collapsology/blob/master/src/_11ty/filters/date.js */
 
 /**
  * Format dates to ISO
