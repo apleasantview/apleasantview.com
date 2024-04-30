@@ -5,11 +5,11 @@ export default {
 	eleventyComputed: {
 		datePublished: (data) => {
 			const stats = fs.statSync(data.page.inputPath);
-			return stats.birthtime;
+			return stats.birthtimeMs;
 		},
 		dateModified: (data) => {
 			const stats = fs.statSync(data.page.inputPath);
-			return stats.ctime;
+			return stats.ctimeMs;
 		}
 	}
 }
