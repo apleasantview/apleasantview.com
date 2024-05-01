@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="{{ locale }}">
+<html lang="{{ locale | default(site.defaultLanguage) }}">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -11,11 +11,11 @@
 	<link rel="alternate" hreflang="{{ item.language}}" href="{{ item.url }}">
 	{%- endfor -%}
 	{%- for item in collections.translations[translationKey] -%}
-	{% if item.language === i18n.defaultLanguage %}
+	{% if item.language === site.defaultLanguage %}
 	<link rel="alternate" hreflang="x-default" href="{{ item.url }}">
 	{% endif %}
 	{%- endfor -%}
-	<meta name="description" content="{{ description | default(i18n.languages[locale].data.description) }}">
+	<meta name="description" content="{{ description | default(site.languages[locale].description) }}">
 	<meta name="color-scheme" content="light dark">
 	<script type="application/ld+json">
 		{
@@ -87,6 +87,7 @@
 			</small>
 			<br>
 			{# {{ site.i18n | inspect }} #}
+			{{ site | inspect }}
 		</div>
 	</footer>
 </body>
