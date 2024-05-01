@@ -9,6 +9,7 @@ export default function (eleventyConfig, options = {}) {
 				languageDirection: "",
 				languageName: "",
 				title: "",
+				description: ""
 			}
 		},
 		...options
