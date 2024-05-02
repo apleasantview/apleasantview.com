@@ -10,7 +10,7 @@ eleventyExcludeFromCollections: true
   {% if item.data.language === language %}
   <url>
     <loc>{{ item.url | htmlBaseUrl(site.baseURL) }}</loc>
-    <lastmod>{{ item.data.dateModified | dateISO }}</lastmod>
+    <lastmod>{{ item.page.dateModified | dateISO }}</lastmod>
     {%- for link in collections.translations[item.data.translationKey] %}
     <xhtml:link
                 rel="alternate"
