@@ -24,7 +24,7 @@ export default function (eleventyConfig, options = {}) {
 		allPages.forEach(page => {
 			if (page.data.translationKey) {
 				const translationKey = page.data.translationKey;
-				const language = page.data.locale;
+				const language = page.data.language;
 				const url = page.url;
 				const title = page.data.title;
 

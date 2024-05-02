@@ -1,5 +1,5 @@
 ---
-permalink: /{{ locale }}/sitemap.xml
+permalink: /{{ language }}/sitemap.xml
 layout: null
 eleventyExcludeFromCollections: true
 ---
@@ -7,7 +7,7 @@ eleventyExcludeFromCollections: true
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
 {%- for item in collections.all -%}
-  {% if item.data.locale === locale %}
+  {% if item.data.language === language %}
   <url>
     <loc>{{ item.url | htmlBaseUrl(site.baseURL) }}</loc>
     <lastmod>{{ item.data.dateModified | dateISO }}</lastmod>

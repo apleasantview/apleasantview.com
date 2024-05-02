@@ -1,7 +1,7 @@
 import fs from "fs";
 
 export default {
-	locale: "nl",
+	language: "nl",
 	eleventyComputed: {
 		datePublished: (data) => {
 			const stats = fs.statSync(data.page.inputPath);
