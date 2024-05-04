@@ -17,50 +17,6 @@
 	{%- endfor -%}
 	<meta name="description" content="{{ description | default(site.languages[locale].description) }}">
 	<meta name="color-scheme" content="light dark">
-	<script type="application/ld+json">
-		{
-			"@context": "http://schema.org",
-			"@graph": [
-				{
-					"@type": ["Organization", "Brand"],
-					"@id": "https://www.apleasantview.com/#organization",
-					"name": "a pleasant view",
-					"url": "https://www.apleasantview.com",
-					"description": "Website subscriptions for entrepreneurs and SMBs in Amsterdam and beyond.",
-					"foundingDate": "2014-05-01",
-					"slogan": "Have a pleasant view",
-					"legalName": "a pleasant view",
-					"sameAs": [
-						"https://www.linkedin.com/company/apleasantview/",
-						"https://github.com/apleasantview/",
-						"https://twitter.com/apleasantview/",
-						"https://www.facebook.com/apleasantview/"
-					],
-					"numberOfEmployees": 1,
-					"founder": {
-						"@type": "Person",
-						"name": "Cristovao Verstraeten",
-						"url": "https://www.linkedin.com/in/cverstraeten/",
-						"sameAs": "https://github.com/cristovaov/"
-					}
-				},
-				{
-					"@type": "WebSite",
-					"@id": "https://www.apleasantview.com/#website",
-					"url": "https://www.apleasantview.com/",
-					"name": "a pleasant view",
-					"description": "Website subscriptions",
-					"publisher": {
-						"@id": "https://www.apleasantview.com/#organization"
-					},
-					"inLanguage": ["en", "nl", "fr"],
-					"copyrightHolder": {
-						"@id": "https://www.apleasantview.com/#organization"
-					}
-				}
-			]
-		}
-</script>
 </head>
 <body>
 	<header>
