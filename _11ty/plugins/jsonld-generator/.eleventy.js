@@ -10,9 +10,9 @@ const dateISO = function (date) {
 export default function (eleventyConfig, options = {}) {
 	eleventyConfig.addGlobalData("eleventyComputed.page._schema", () => {
 		return (data) => {
-			let websiteURL = "https://www.apleasantview.com/";
+			let websiteURL = "https://www.apleasantview.com";
 			if (data.language !== "en") {
-				websiteURL = websiteURL + data.language + "/"
+				websiteURL = websiteURL + "/" + data.language + "/"
 			}
 
 			const jsonLdData = {
@@ -61,8 +61,8 @@ export default function (eleventyConfig, options = {}) {
 					},
 					{
 						"@type": "WebPage",
-						"@id": data.page.url,
-						"url": data.page.url,
+						"@id": websiteURL,
+						"url": websiteURL,
 						"name": data.title,
 						"description": data.description,
 						"isPartOf": {
