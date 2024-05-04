@@ -2,6 +2,7 @@ import path from "node:path"
 import browserslist from "browserslist";
 import { bundle, browserslistToTargets } from "lightningcss";
 
+/** @param { import("@11ty/eleventy/src/UserConfig.js").default } eleventyConfig */
 export default function (eleventyConfig) {
 	eleventyConfig.addTemplateFormats("css");
 
