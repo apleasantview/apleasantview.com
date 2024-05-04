@@ -69,7 +69,8 @@ export default function (eleventyConfig, options = {}) {
 							"@id": `${websiteURL}#website`
 						},
 						"datePublished": dateISO(data.page.datePublished),
-						"dateModified": dateISO(data.page.dateModified)
+						"dateModified": dateISO(data.page.dateModified),
+						"inLanguage": data.language
 					}
 				]
 			};
