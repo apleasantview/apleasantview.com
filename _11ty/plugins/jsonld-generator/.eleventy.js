@@ -1,3 +1,11 @@
+import { DateTime } from "luxon";
+
+const dateISO = function (date) {
+	const jsDate = new Date(date);
+	const dt = DateTime.fromJSDate(jsDate);
+	return dt.toISO();
+};
+
 /** @param { import("@11ty/eleventy/src/UserConfig.js").default } eleventyConfig */
 export default function (eleventyConfig, options = {}) {
 	eleventyConfig.addGlobalData("eleventyComputed.page._schema", () => {
@@ -5,7 +13,7 @@ export default function (eleventyConfig, options = {}) {
 			let websiteURL = "https://www.apleasantview.com/";
 			if (data.language !== "en") {
 				websiteURL = websiteURL + data.language + "/"
-			} 
+			}
 
 			const jsonLdData = {
 				"@context": "http://schema.org",
@@ -50,9 +58,22 @@ export default function (eleventyConfig, options = {}) {
 						"copyrightHolder": {
 							"@id": "https://www.apleasantview.com/#organization"
 						}
+					},
+					{
+						"@type": "WebPage",
+						"@id": data.page.url,
+						"url": data.page.url,
+						"name": data.title,
+						"description": data.description,
+						"isPartOf": {
+							"@id": `${websiteURL}#website`
+						},
+						"datePublished": dateISO(data.page.datePublished),
+						"dateModified": dateISO(data.page.dateModified)
 					}
 				]
 			};
+			// console.log(Object.keys(data.page));
 			return jsonLdData;
 		}
 	});
