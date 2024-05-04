@@ -22,15 +22,16 @@ export default function (eleventyConfig) {
 	eleventyConfig.addFilter("dateISO", dateISO);
 
 	/* Plugins */
-	eleventyConfig.addPlugin(EleventyHtmlBasePlugin, {
-		baseHref: process.env.URL || "/"
-	});
-
 	eleventyConfig.addPlugin(debug);
 	eleventyConfig.addPlugin(assets);
 	eleventyConfig.addPlugin(multilingual, i18n);
 	eleventyConfig.addPlugin(jsonLD, {});
 	// eleventyConfig.addPlugin(sitemap);
+
+	eleventyConfig.addPlugin(EleventyHtmlBasePlugin, {
+		baseHref: process.env.URL || "/"
+	});
+
 
 	return {
 		dir: {
