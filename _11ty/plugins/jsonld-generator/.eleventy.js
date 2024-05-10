@@ -1,18 +1,16 @@
-import { DateTime } from "luxon";
-
-const dateISO = function (date) {
-	const jsDate = new Date(date);
-	const dt = DateTime.fromJSDate(jsDate);
-	return dt.toISO();
-};
+import { applyBaseToUrl } from "@11ty/eleventy/src/Plugins/HtmlBasePlugin.js";
+import DateGitFirstAdded from "@11ty/eleventy/src/Util/DateGitFirstAdded.js";
+import DateGitLastUpdated from "@11ty/eleventy/src/Util/DateGitLastUpdated.js";
 
 /** @param { import("@11ty/eleventy/src/UserConfig.js").default } eleventyConfig */
 export default function (eleventyConfig, options = {}) {
-	eleventyConfig.addGlobalData("eleventyComputed.page._schema", () => {
+	eleventyConfig.addGlobalData("eleventyComputed.page._schema", async () => {
 		return (data) => {
-			let websiteURL = "https://www.apleasantview.com";
+			let websiteURL = "https://www.apleasantview.com/";
+			let inputForGitDate = data.page.inputPath;
+
 			if (data.language !== "en") {
-				websiteURL = websiteURL + "/" + data.language + "/"
+				websiteURL = websiteURL + data.language + "/"
 			}
 
 			const jsonLdData = {
@@ -61,15 +59,15 @@ export default function (eleventyConfig, options = {}) {
 					},
 					{
 						"@type": "WebPage",
-						"@id": websiteURL,
-						"url": websiteURL,
+						"@id": applyBaseToUrl(data.page.url, websiteURL, {}),
+						"url": applyBaseToUrl(data.page.url, websiteURL, {}),
 						"name": data.title,
 						"description": data.description,
 						"isPartOf": {
 							"@id": `${websiteURL}#website`
 						},
-						"datePublished": dateISO(data.page.datePublished),
-						"dateModified": dateISO(data.page.dateModified),
+						"datePublished": DateGitFirstAdded(inputForGitDate),
+						"dateModified": DateGitLastUpdated(inputForGitDate),
 						"inLanguage": data.language
 					}
 				]
@@ -84,9 +82,10 @@ export default function (eleventyConfig, options = {}) {
 		if (outputPath && outputPath.endsWith(".html")) {
 			// Define your JSON-LD data
 			const jsonLdData = this.page._schema;
+			const jsonLDStringified = JSON.stringify(jsonLdData);
 
 			// Convert JSON data to string
-			const jsonLdScript = `<script class="jsonld-generator" type="application/ld+json">${JSON.stringify(jsonLdData)}</script>`;
+			const jsonLdScript = `<script class="jsonld-generator" type="application/ld+json">${jsonLDStringified}</script>`;
 
 			// Inject JSON-LD markup into the content
 			const injectedMarkup = `${jsonLdScript}</head>`;
