@@ -1,0 +1,7 @@
+<div class="language-switcher">
+	<div class="language-switcher__inner">
+		{% for item, value in site.languages %}
+			<a href="{{ item | htmlBaseUrl() }}">{{ value.languageName }}</a>
+		{% endfor %}
+	</div>
+</div>
