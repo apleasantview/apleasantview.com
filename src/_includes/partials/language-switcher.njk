@@ -1,7 +1,7 @@
-<div class="c-language-switcher">
+<aside class="c-language-switcher">
 	<div class="c-language-switcher__inner">
 		{% for item, value in site.languages %}
-			<a class="c-language-switcher__item" href="/{{ item }}/">{{ value.languageName }}</a>
+			<a lang="{{ item }}" hreflang="{{ item }}" href="/{{ item }}/" class="c-language-switcher__item">{{ value.languageName }}</a>
 		{% endfor %}
 	</div>
-</div>
+</aside>

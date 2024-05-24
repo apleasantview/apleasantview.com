@@ -1,2 +1,5 @@
 @import "./reset.css";
 @import "./base.css";
+
+/* Components */
+@import "./components/c-language-switcher.css";
