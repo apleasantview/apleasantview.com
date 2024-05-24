@@ -1,7 +1,7 @@
-<div class="language-switcher">
-	<div class="language-switcher__inner">
+<div class="c-language-switcher">
+	<div class="c-language-switcher__inner">
 		{% for item, value in site.languages %}
-			<a href="{{ item | htmlBaseUrl() }}">{{ value.languageName }}</a>
+			<a class="c-language-switcher__item" href="/{{ item }}/">{{ value.languageName }}</a>
 		{% endfor %}
 	</div>
 </div>
