@@ -38,7 +38,7 @@ a:not([class]), p, h1 {
 a:not([class]) {
 	text-decoration-thickness: 0.05em;
 	text-underline-offset: 0.2em;
-	transition: all 0.3s linear;
+	transition: all 0.3s ease-out;
 }
 
 a:not([class]):hover {
