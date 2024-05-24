@@ -11,4 +11,13 @@ div.c-language-switcher__inner {
 a.c-language-switcher__item {
 	margin-top: 0;
 	color: light-dark(hsl(220, 37%, 32%), hsl(220, 53%, 97%));
+	border: 1px solid transparent;
+	transition: all 0.3s ease-out;
+	padding-left: 0.25em;
+	padding-right: 0.25em;
+}
+
+a.c-language-switcher__item:hover {
+	border-color: light-dark(hsl(220, 37%, 32%), hsl(220, 53%, 97%));;
+	background-color: light-dark(hsl(220 37% 32% / 0.075), hsl(220 53% 97% / 0.1));
 }
