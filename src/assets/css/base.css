@@ -102,7 +102,6 @@ ul, ol, li {
 	background-image: url("/assets/img/gN8yawzdJm-1440.avif");
 	mix-blend-mode: multiply;
 	pointer-events: none;
-	background-position: center;
 	/* background-size: contain; */
 	opacity: 0.06;
 }
