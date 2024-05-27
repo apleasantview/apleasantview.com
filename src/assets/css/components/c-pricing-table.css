@@ -15,6 +15,7 @@
 	border: 1px solid light-dark(hsl(220, 37%, 32%), hsl(220, 53%, 97%));
 	border-radius: 8px;
 	height: auto;
+	background-color: hsl(220 37% 80% / 0.08);
 }
 
 .c-pricing-table__card h3 {
