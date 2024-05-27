@@ -4,6 +4,7 @@
 }
 
 div.c-language-switcher__inner {
+	padding-inline: 1rem;
 	display: flex;
 	align-items: flex-start;
 	gap: 1rem;
