@@ -92,23 +92,24 @@ ul, ol, li {
 	margin: 0;
 }
 
-.texture {
+.o-texture {
 	position: absolute;
 	top: 0;
 	bottom: 0;
 	left: 0;
 	right: 0;
 	background-repeat: repeat;
-	background-image: url("/assets/img/sandy-grained-beige-stucco-optim.jpg");
+	/* background-image: url("/assets/img/sandy-grained-beige-stucco-optim.jpg"); */
+	background-image: url("/assets/img/gN8yawzdJm-2937.avif");
 	mix-blend-mode: multiply;
 	pointer-events: none;
 	background-position: center;
-	background-size: contain;
-	opacity: 0.15;
+	/* background-size: contain; */
+	opacity: 0.06;
 }
 
 @media (min-width: 1440px) {
-	.texture {
+	.o-texture {
 		opacity: 0.08;
 	}
 }
