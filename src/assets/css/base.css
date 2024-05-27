@@ -61,7 +61,7 @@ a:not([class]) {
 dl {
 	display: flex;
 	flex-wrap: wrap;
-	gap: 1.75em;
+	gap: 1.75rem;
 	margin-top: 1.75em
 }
 
@@ -82,7 +82,7 @@ dt + dd {
 	margin-top: 0.5em;
 }
 
-*:not(dl) > div:first-child {
+*:not(dl) > div:not([class]):first-child {
 	padding-inline: 1rem;
 }
 
