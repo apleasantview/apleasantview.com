@@ -17,8 +17,12 @@
 	height: auto;
 }
 
-.c-pricing-table__card > h3 {
+.c-pricing-table__card h3 {
 	margin: 0;
+}
+
+.c-pricing-table__card p {
+	text-wrap: initial;
 }
 
 @media (min-width: 768px) {
