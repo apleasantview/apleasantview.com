@@ -7,6 +7,7 @@ eleventyExcludeFromCollections: true
 <head>
 	<meta charset="UTF-8">
 	<title>{{ site.title }}</title>
+	<link rel="stylesheet" href="/assets/css/index.css">
 	<link rel="canonical" href="/">
 	<meta http-equiv="refresh" content="0; url=/">
 	<meta name="robots" content="noindex">
@@ -14,4 +15,7 @@ eleventyExcludeFromCollections: true
 	<meta name="description" content="{{ description | default(site.languages[locale].description) }}">
 	<meta name="color-scheme" content="light dark">
 </head>
+<body>
+	<link rel="stylesheet" href="/assets/img/sandy-grained-beige-stucco-optim.jpg" as="image" fetchpriority="high">
+</body>
 </html>
