@@ -1,0 +1,28 @@
+.c-pricing-table {
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+	margin-top: 1.75rem;
+}
+
+.c-pricing-table__inner {
+	display: grid;
+	gap: 1.75rem;
+	grid-template-columns: repeat(1, minmax(0, 1fr));
+}
+
+.c-pricing-table__card {
+	padding: 0.75rem;
+	border: 1px solid light-dark(hsl(220, 37%, 32%), hsl(220, 53%, 97%));
+	border-radius: 8px;
+	height: auto;
+}
+
+.c-pricing-table__card > h3 {
+	margin: 0;
+}
+
+@media (min-width: 768px) {
+	.c-pricing-table__inner {
+		grid-template-columns: repeat(3, minmax(0, 1fr));
+	}
+}
