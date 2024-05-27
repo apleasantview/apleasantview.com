@@ -53,14 +53,9 @@ p {
 	text-wrap: balance;
 }
 
-a:last-of-type {
-	margin-block-start: 1.75em;
-	display: inline-block;
-}
-
-div > p + a:last-of-type {
-	margin-block-start: 1em;
-	display: inline;
+a:not([class]) {
+	border: 0.125em solid transparent;
+	margin-left: -0.125em;
 }
 
 dl {
