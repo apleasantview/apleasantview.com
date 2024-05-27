@@ -32,6 +32,7 @@ export default function (eleventyConfig) {
 		baseHref: process.env.URL || "/"
 	});
 
+	eleventyConfig.addPassthroughCopy("./src/assets/img/");
 
 	return {
 		dir: {

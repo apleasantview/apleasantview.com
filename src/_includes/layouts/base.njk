@@ -21,6 +21,7 @@
 <body>
 	{% include "partials/language-switcher.njk" %}
 	<header>
+		<link rel="stylesheet" href="/assets/img/sandy-grained-beige-stucco-optim.jpg" as="image" fetchpriority="high">
 		<div>
 			<a href="{{ permalink }}">{{ site.title }}</a>
 		</div>
@@ -46,5 +47,6 @@
 			{# {{ site.i18n | inspect }} #}
 		</div>
 	</footer>
+	<div class="texture"></div>
 </body>
 </html>
