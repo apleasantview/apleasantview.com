@@ -85,3 +85,8 @@ dt + dd {
 *:not(dl) > div:first-child {
 	padding-inline: 1rem;
 }
+
+ul, ol, li {
+	padding: 0;
+	margin: 0;
+}
