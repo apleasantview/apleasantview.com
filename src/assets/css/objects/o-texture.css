@@ -11,3 +11,9 @@
 	opacity: 0.08;
 	overflow: hidden;
 }
+
+@media (prefers-color-scheme: light) {
+	.o-texture {
+		opacity: 0.18;
+	}
+}
