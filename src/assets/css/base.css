@@ -11,7 +11,7 @@ html[data-theme=dark] {
   color-scheme: dark;
 }
 
-* + *:not(body, section, div) {
+* + *:not(body, section, div, aside) {
 	margin-block-start: 1em;
 }
 
