@@ -1,6 +1,9 @@
 @import "./reset.css";
 @import "./base.css";
 
+/* Objects */
+@import "./objects/o-texture.css";
+
 /* Components */
 @import "./components/c-language-switcher.css";
 @import "./components/c-pricing-table.css";

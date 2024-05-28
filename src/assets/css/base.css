@@ -91,23 +91,3 @@ ul, ol, li {
 	padding: 0;
 	margin: 0;
 }
-
-.o-texture {
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	background-repeat: repeat;
-	background-image: url("/assets/img/2-_FQp-yOr-1440.avif");
-	mix-blend-mode: multiply;
-	pointer-events: none;
-	/* background-size: contain; */
-	opacity: 0.06;
-}
-
-@media (min-width: 1440px) {
-	.o-texture {
-		opacity: 0.08;
-	}
-}
