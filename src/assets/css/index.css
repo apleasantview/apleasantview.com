@@ -7,3 +7,6 @@
 /* Components */
 @import "./components/c-language-switcher.css";
 @import "./components/c-pricing-table.css";
+
+/* Utilities */
+@import "./utilities/u-wrapper.css";
