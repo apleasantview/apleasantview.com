@@ -16,6 +16,7 @@
 	border-radius: 8px;
 	height: auto;
 	background-color: hsl(220 37% 80% / 0.08);
+	max-width: 45ch;
 }
 
 .c-pricing-table__card h3 {
