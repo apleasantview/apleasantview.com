@@ -15,7 +15,7 @@
 	<link rel="alternate" hreflang="x-default" href="{{ item.url }}">
 	{% endif %}
 	{%- endfor -%}
-	<meta name="description" content="{{ description | default(site.languages[locale].description) }}">
+	<meta name="description" content="{{ description | default(site.languages[language].description) }}">
 	<meta name="color-scheme" content="light dark">
 </head>
 <body>
