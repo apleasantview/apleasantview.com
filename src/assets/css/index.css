@@ -1,5 +1,12 @@
-@import "./reset.css";
-@import "./base.css";
+/* Settings */
+@import "./settings/font-sizes.css";
+
+/* Generic */
+@import "./generic/reset.css";
+
+/* Elements */
+@import "./elements/base.css";
+@import "./elements/headings.css";
 
 /* Objects */
 @import "./objects/o-texture.css";
