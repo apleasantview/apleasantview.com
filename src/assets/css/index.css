@@ -1,5 +1,6 @@
 /* Settings */
 @import "./settings/font-sizes.css";
+@import "./settings/spacings.css";
 
 /* Generic */
 @import "./generic/reset.css";

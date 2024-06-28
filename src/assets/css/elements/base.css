@@ -11,8 +11,8 @@ html[data-theme=dark] {
   color-scheme: dark;
 }
 
-* + *:not(body, section, div, aside) {
-	margin-block-start: 1em;
+* + *:not(body, section, div, aside, br) {
+	margin-block-start: var(--space-xl);
 }
 
 body {
@@ -27,7 +27,7 @@ body {
 }
 
 header, footer {
-	padding-block: 1rem;
+	padding-block: var(--space-s);
 }
 
 footer {
@@ -35,7 +35,7 @@ footer {
 }
 
 section {
-	padding-block: 2.25rem;
+	padding-block: var(--space-l-xl);
 }
 
 a:not([class]), p, h1 {
@@ -69,7 +69,7 @@ dl {
 	display: flex;
 	flex-wrap: wrap;
 	gap: 1.75rem;
-	margin-top: 1.75em
+	margin-top: var(--space-xl);
 }
 
 dl > div {
@@ -78,7 +78,6 @@ dl > div {
 
 dt, dd {
 	margin: 0;
-	text-wrap: balance;
 }
 
 dt {

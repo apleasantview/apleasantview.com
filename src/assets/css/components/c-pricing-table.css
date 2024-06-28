@@ -1,6 +1,6 @@
 .c-pricing-table {
-	padding-top: 1rem;
-	padding-bottom: 1rem;
+	padding-top: var(--space-s);
+	padding-bottom: var(--space-s);
 	margin-top: 1.75rem;
 }
 
@@ -11,7 +11,7 @@
 }
 
 .c-pricing-table__card {
-	padding: 0.75rem;
+	padding: var(--space-s-m);
 	border: 1px solid light-dark(hsl(220, 37%, 32%), hsl(220, 53%, 97%));
 	border-radius: 8px;
 	height: auto;
@@ -25,6 +25,10 @@
 
 .c-pricing-table__card p {
 	text-wrap: initial;
+}
+
+.c-pricing-table__card * + p {
+	margin-top: var(--space-m);
 }
 
 @media (min-width: 768px) {
