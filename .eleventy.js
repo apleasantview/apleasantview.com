@@ -9,7 +9,6 @@ import debug from "./_11ty/plugins/debug-utils/.eleventy.js";
 import assetsLightningCSS from "./_11ty/plugins/assets-lightningcss/.eleventy.js";
 import multilingual from "./_11ty/plugins/i18n-feature/.eleventy.js";
 import jsonLD from "./_11ty/plugins/jsonld-generator/.eleventy.js";
-// import sitemap from "./_11ty/plugins/sitemap-generator/.eleventy.js";
 
 import { EleventyHtmlBasePlugin } from "@11ty/eleventy";
 
@@ -29,7 +28,6 @@ export default function (eleventyConfig) {
 	});
 
 	eleventyConfig.addPlugin(jsonLD, {});
-	// eleventyConfig.addPlugin(sitemap);
 
 	eleventyConfig.addPlugin(EleventyHtmlBasePlugin, {
 		baseHref: process.env.URL || "/"
