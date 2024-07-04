@@ -31,6 +31,7 @@ export default function (eleventyConfig, options = {}) {
 				if (!translations[translationKey]) {
 					translations[translationKey] = [];
 				}
+
 				translations[translationKey].push({
 					title: title,
 					language: language,
@@ -41,10 +42,4 @@ export default function (eleventyConfig, options = {}) {
 
 		return translations;
 	});
-
-	let extensionMap;
-	eleventyConfig.on("eleventy.extensionmap", (map) => {
-		extensionMap = map;
-	});
-	// console.log(extensionMap);
 }

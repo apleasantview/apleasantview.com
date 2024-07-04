@@ -1,6 +1,5 @@
 /* Site config */
 import { site } from "./_11ty/site.js";
-import { i18n } from "./_11ty/i18n.js";
 
 /* Filters */
 import { dateISO } from "./_11ty/filters/date.js";
@@ -24,7 +23,11 @@ export default function (eleventyConfig) {
 	/* Plugins */
 	eleventyConfig.addPlugin(debug);
 	eleventyConfig.addPlugin(assets);
-	eleventyConfig.addPlugin(multilingual, i18n);
+	eleventyConfig.addPlugin(multilingual, {
+		defaultLanguage: site.defaultLanguage,
+		languages: site.languages
+	});
+
 	eleventyConfig.addPlugin(jsonLD, {});
 	// eleventyConfig.addPlugin(sitemap);
 
