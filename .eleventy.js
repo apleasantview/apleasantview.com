@@ -6,7 +6,7 @@ import { dateISO } from "./_11ty/filters/date.js";
 
 /* Plugins */
 import debug from "./_11ty/plugins/debug-utils/.eleventy.js";
-import assets from "./_11ty/plugins/assets-css/.eleventy.js";
+import assetsLightningCSS from "./_11ty/plugins/assets-lightningcss/.eleventy.js";
 import multilingual from "./_11ty/plugins/i18n-feature/.eleventy.js";
 import jsonLD from "./_11ty/plugins/jsonld-generator/.eleventy.js";
 // import sitemap from "./_11ty/plugins/sitemap-generator/.eleventy.js";
@@ -22,7 +22,7 @@ export default function (eleventyConfig) {
 
 	/* Plugins */
 	eleventyConfig.addPlugin(debug);
-	eleventyConfig.addPlugin(assets);
+	eleventyConfig.addPlugin(assetsLightningCSS);
 	eleventyConfig.addPlugin(multilingual, {
 		defaultLanguage: site.defaultLanguage,
 		languages: site.languages
