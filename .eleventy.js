@@ -1,4 +1,5 @@
 /* Site config */
+import "dotenv/config";
 import { site } from "./_11ty/site.js";
 
 /* Filters */
@@ -6,11 +7,13 @@ import { dateISO } from "./_11ty/filters/date.js";
 
 /* Plugins */
 import debug from "./_11ty/plugins/debug-utils/.eleventy.js";
-import assetsLightningCSS from "./_11ty/plugins/assets-lightningcss/.eleventy.js";
+import assetsPostCSS from "./_11ty/plugins/assets-postcss/.eleventy.js";
 import multilingual from "./_11ty/plugins/i18n-feature/.eleventy.js";
 import jsonLD from "./_11ty/plugins/jsonld-generator/.eleventy.js";
 
 import { EleventyHtmlBasePlugin } from "@11ty/eleventy";
+
+const isProd = process.env.ELEVENTY_ENV === "production" || false;
 
 /** @param { import("@11ty/eleventy/src/UserConfig.js").default } eleventyConfig */
 export default function (eleventyConfig) {
@@ -21,7 +24,10 @@ export default function (eleventyConfig) {
 
 	/* Plugins */
 	eleventyConfig.addPlugin(debug);
-	eleventyConfig.addPlugin(assetsLightningCSS);
+	eleventyConfig.addPlugin(assetsPostCSS, {
+		enableSourceMaps: !isProd
+	});
+
 	eleventyConfig.addPlugin(multilingual, {
 		defaultLanguage: site.defaultLanguage,
 		languages: site.languages
