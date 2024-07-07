@@ -13,6 +13,9 @@ import jsonLD from "./_11ty/plugins/jsonld-generator/.eleventy.js";
 
 import { EleventyHtmlBasePlugin } from "@11ty/eleventy";
 
+/* PostCSS */
+import postcssPresetEnv from "postcss-preset-env";
+
 const isProd = process.env.ELEVENTY_ENV === "production" || false;
 
 /** @param { import("@11ty/eleventy/src/UserConfig.js").default } eleventyConfig */
@@ -25,7 +28,15 @@ export default function (eleventyConfig) {
 	/* Plugins */
 	eleventyConfig.addPlugin(debug);
 	eleventyConfig.addPlugin(assetsPostCSS, {
-		enableSourceMaps: !isProd
+		additionalPlugins: [postcssPresetEnv({
+			features: {
+				"is-pseudo-class": {preserve: true},
+				"not-pseudo-class": false,
+				"logical-viewport-units": false
+			}
+		})],
+		enableSourceMaps: !isProd,
+		minify: isProd
 	});
 
 	eleventyConfig.addPlugin(multilingual, {
