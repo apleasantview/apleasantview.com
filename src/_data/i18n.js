@@ -1,4 +1,4 @@
-export const i18n = {
+export default {
 	defaultLanguage: "en",
 	languages: {
 		en: {

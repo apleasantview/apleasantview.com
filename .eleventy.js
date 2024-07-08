@@ -1,6 +1,6 @@
 /* Site config */
 import "dotenv/config";
-import { site } from "./_11ty/site.js";
+import site from "./src/_data/site.js";
 
 /* Filters */
 import { dateISO } from "./_11ty/filters/date.js";
@@ -20,7 +20,7 @@ const isProd = process.env.ELEVENTY_ENV === "production" || false;
 
 /** @param { import("@11ty/eleventy/src/UserConfig.js").default } eleventyConfig */
 export default function (eleventyConfig) {
-	eleventyConfig.addGlobalData("site", site);
+	// eleventyConfig.addGlobalData("site", site);
 
 	/* Filters */
 	eleventyConfig.addFilter("dateISO", dateISO);
