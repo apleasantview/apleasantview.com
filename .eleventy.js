@@ -1,27 +1,25 @@
 /* Site config */
 import "dotenv/config";
-import site from "./src/_data/site.js";
+import i18n from "./src/_data/i18n.js"
 
 /* Filters */
 import { dateISO } from "./_11ty/filters/date.js";
 
 /* Plugins */
+import { EleventyHtmlBasePlugin } from "@11ty/eleventy";
+
 import debug from "./_11ty/plugins/debug-utils/.eleventy.js";
 import assetsPostCSS from "./_11ty/plugins/assets-postcss/.eleventy.js";
 import multilingual from "./_11ty/plugins/i18n-feature/.eleventy.js";
 import jsonLD from "./_11ty/plugins/jsonld-generator/.eleventy.js";
 
-import { EleventyHtmlBasePlugin } from "@11ty/eleventy";
-
-/* PostCSS */
+/* PostCSS plugins */
 import postcssPresetEnv from "postcss-preset-env";
 
 const isProd = process.env.ELEVENTY_ENV === "production" || false;
 
 /** @param { import("@11ty/eleventy/src/UserConfig.js").default } eleventyConfig */
 export default function (eleventyConfig) {
-	// eleventyConfig.addGlobalData("site", site);
-
 	/* Filters */
 	eleventyConfig.addFilter("dateISO", dateISO);
 
@@ -40,8 +38,8 @@ export default function (eleventyConfig) {
 	});
 
 	eleventyConfig.addPlugin(multilingual, {
-		defaultLanguage: site.defaultLanguage,
-		languages: site.languages
+		defaultLanguage: i18n.defaultLanguage,
+		languages: i18n.languages
 	});
 
 	eleventyConfig.addPlugin(jsonLD, {});
