@@ -15,7 +15,7 @@ export default function (eleventyConfig, options = {}) {
 		...options
 	}
 
-	eleventyConfig.addGlobalData("i18n", config);
+	// eleventyConfig.addGlobalData("i18n", config);
 
 	eleventyConfig.addCollection("translations", function (collection) {
 		const allPages = collection.getAll();
