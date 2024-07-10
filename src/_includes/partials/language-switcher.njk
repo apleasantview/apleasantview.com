@@ -1,7 +1,7 @@
 <aside class="c-language-switcher">
 	<div class="c-language-switcher__inner u-wrapper">
-		{% for item, value in site.languages %}
-		{% if item === site.defaultLanguage %}
+		{% for item, value in i18n.languages %}
+		{% if item === i18n.defaultLanguage %}
 			<a lang="{{ item }}" hreflang="{{ item }}" href="/" class="c-language-switcher__item">{{ value.languageName }}</a>
 		{% else %}
 			<a lang="{{ item }}" hreflang="{{ item }}" href="/{{ item }}/" class="c-language-switcher__item">{{ value.languageName }}</a>
