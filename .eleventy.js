@@ -8,9 +8,9 @@ import { dateISO } from "./_11ty/filters/date.js";
 /* Plugins */
 import { EleventyHtmlBasePlugin } from "@11ty/eleventy";
 
-import debug from "./_11ty/plugins/debug-utils/.eleventy.js";
+import debug from "./_11ty/plugins/utils-debug/.eleventy.js";
 import assetsPostCSS from "./_11ty/plugins/assets-postcss/.eleventy.js";
-import multilingual from "./_11ty/plugins/i18n-feature/.eleventy.js";
+import multilingual from "./_11ty/plugins/feature-i18n/.eleventy.js";
 import jsonLD from "./_11ty/plugins/jsonld-generator/.eleventy.js";
 
 /* PostCSS plugins */
