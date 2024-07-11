@@ -11,7 +11,7 @@ if (isProd) {
 	additionalPlugins.push(
 		postcssPresetEnv({
 			features: {
-				"is-pseudo-class": {preserve: true},
+				"is-pseudo-class": { preserve: true },
 				"not-pseudo-class": false,
 				"logical-viewport-units": false
 			}
