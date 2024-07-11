@@ -2,6 +2,7 @@ import path from "node:path";
 import postcss from "postcss";
 import postcssImport from "postcss-import";
 import cssnano from "cssnano"; // Import cssnano for minification
+import postcssConfig from "../../../postcss.config.js";
 
 /** 
  * @param { import("@11ty/eleventy/src/UserConfig.js").default } eleventyConfig 
@@ -35,9 +36,9 @@ export default function (eleventyConfig, options = {}) {
 					plugins.push(cssnano()); // Add cssnano for minification if minify is true
 				}
 
-				let code = await postcss(plugins).process(_inputContent, {
+				let code = await postcss(postcssConfig.plugins).process(_inputContent, {
 					from: inputPath,
-					map: enableSourceMaps // Enable or disable source maps based on the parameter
+					map: postcssConfig.map // Enable or disable source maps based on the parameter
 				});
 
 				return code.css;
