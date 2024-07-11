@@ -4,7 +4,8 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>{{ title }} | a pleasant view</title>
-	<link rel="stylesheet" href="/assets/css/index.css">
+	{{ "./src/assets/css/index.css" | inlineCSS | safe }}
+	{# <link rel="stylesheet" href="/assets/css/index.css"> #}
 	<script defer data-domain="apleasantview.com" src="https://plausible.io/js/script.js"></script>
 	<link rel="canonical" href="{{ permalink }}">
 	{%- for item in collections.translations[translationKey] %}
