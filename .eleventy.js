@@ -13,29 +13,17 @@ import assetsPostCSS from "./_11ty/plugins/assets-postcss/.eleventy.js";
 import multilingual from "./_11ty/plugins/feature-i18n/.eleventy.js";
 import jsonLD from "./_11ty/plugins/jsonld-generator/.eleventy.js";
 
-/* PostCSS plugins */
-import postcssPresetEnv from "postcss-preset-env";
-
 const isProd = process.env.ELEVENTY_ENV === "production" || false;
 
 /** @param { import("@11ty/eleventy/src/UserConfig.js").default } eleventyConfig */
 export default function (eleventyConfig) {
 	/* Filters */
 	eleventyConfig.addFilter("dateISO", dateISO);
+	eleventyConfig.addFilter("inlineCSS", assetsPostCSS.inlineCSS);
 
 	/* Plugins */
 	eleventyConfig.addPlugin(debug);
-	eleventyConfig.addPlugin(assetsPostCSS, {
-		additionalPlugins: [postcssPresetEnv({
-			features: {
-				"is-pseudo-class": {preserve: true},
-				"not-pseudo-class": false,
-				"logical-viewport-units": false
-			}
-		})],
-		enableSourceMaps: !isProd,
-		minify: isProd
-	});
+	eleventyConfig.addPlugin(assetsPostCSS.generateCSS);
 
 	eleventyConfig.addPlugin(multilingual, {
 		defaultLanguage: i18n.defaultLanguage,
