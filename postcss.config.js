@@ -20,7 +20,7 @@ if (isProd) {
 }
 
 const config = {
-	plugins: postcssImport, ...additionalPlugins,
+	plugins: [postcssImport, ...additionalPlugins],
 	map: !isProd
 };
 
