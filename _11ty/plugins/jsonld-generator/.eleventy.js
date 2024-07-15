@@ -6,11 +6,17 @@ import DateGitLastUpdated from "@11ty/eleventy/src/Util/DateGitLastUpdated.js";
 export default function (eleventyConfig, options = {}) {
 	eleventyConfig.addGlobalData("eleventyComputed.page._schema", async () => {
 		return (data) => {
-			let websiteURL = "https://www.apleasantview.com/";
+			// console.log(data);
+			let websiteURL = data.site.baseURL;
+			let websiteDescription = data.site.description;
 			let inputForGitDate = data.page.inputPath;
 
-			if (data.language !== "en") {
+			
+			if (!data.eleventyExcludeFromCollections && data.language !== data.site.defaultLanguage) {
 				websiteURL = websiteURL + data.language + "/"
+				// websiteDescription = data.i18n.languages[data.language].description;
+				// console.log(data.page.inputPath);
+				// console.log(data.language);
 			}
 
 			const jsonLdData = {
@@ -48,7 +54,7 @@ export default function (eleventyConfig, options = {}) {
 						"@id": `${websiteURL}#website`,
 						"url": websiteURL,
 						"name": "a pleasant view",
-						"description": "Website subscriptions",
+						"description": websiteDescription,
 						"publisher": {
 							"@id": "https://www.apleasantview.com/#organization"
 						},
