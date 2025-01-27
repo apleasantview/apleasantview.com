@@ -4,6 +4,8 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>{{ title }} | a pleasant view</title>
+	{{ "./src/assets/css/index.css" | inlineCSS | safe }}
+	{# <link rel="stylesheet" href="/assets/css/index.css"> #}
 	<link rel="preload" href="/assets/img/2-_FQp-yOr-1440.avif" as="image" fetchpriority="high">
 	<script defer data-domain="apleasantview.com" src="https://plausible.io/js/script.js"></script>
 	<link rel="canonical" href="{{ permalink }}">
