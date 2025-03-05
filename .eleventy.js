@@ -23,7 +23,7 @@ export default function (eleventyConfig) {
 
 	/* Plugins */
 	eleventyConfig.addPlugin(debug);
-	// eleventyConfig.addPlugin(assetsPostCSS.generateCSS);
+	eleventyConfig.addPlugin(assetsPostCSS.generateCSS);
 
 	eleventyConfig.addPlugin(multilingual, {
 		defaultLanguage: i18n.defaultLanguage,

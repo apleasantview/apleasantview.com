@@ -19,7 +19,7 @@
 	{%- endfor -%}
 	<meta name="description" content="{{ description | default(site.description) }}">
 	<meta name="color-scheme" content="light dark">
-	<link rel="preload" href="/assets/img/2-_FQp-yOr-1440.avif" as="image" fetchpriority="high">
+	{% generateJSONLD %}
 </head>
 <body>
 	<div class="o-texture"></div>
@@ -29,8 +29,8 @@
 			<a href="{{ permalink }}">{{ site.title }}</a>
 		</div>
 	</header>
-	{% block content %}
 		<main>
+		{% block content %}
 			<h1>a pleasant view</h1>
 			<p>No content found.</p>
 			<p>Site languages:</p>
@@ -39,12 +39,12 @@
 				<li><a href="/nl/">Nederlands</a></li>
 				<li><a href="/fr/">Français</a></li>
 			</ul>
+		{% endblock %}
 		</main>
-	{% endblock %}
 	<footer>
 		<div class="u-wrapper">
 			<small>
-				&copy; 2024 a pleasant view - {{ l10n[language].KvK }}: 60532955
+				&copy; a pleasant view - 2024 | {{ l10n[language].KvK }}: 60532955
 			</small>
 			<br>
 			{# {{ site.i18n | inspect }} #}

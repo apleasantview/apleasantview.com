@@ -11,7 +11,7 @@ html[data-theme=dark] {
   color-scheme: dark;
 }
 
-* + *:not(body, section, div, aside, br) {
+* + *:not(body, section, div, aside, br, header) {
 	margin-block-start: var(--space-xl);
 }
 
@@ -27,7 +27,12 @@ body {
 }
 
 header, footer {
-	padding-block: var(--space-s);
+	padding-block: var(--space-xs);
+}
+
+main {
+	flex: 1;
+	display: flex;
 }
 
 footer {
@@ -95,4 +100,20 @@ dt + dd {
 ul, ol, li {
 	padding: 0;
 	margin: 0;
+}
+
+
+.u-wrapper {
+  width: 100%;
+}
+
+main {
+  align-items: end;
+  justify-content: center;
+}
+
+body > main:nth-child(4) > section:nth-child(1) {
+  /* height: 100%; */
+  display: flex;
+  width: 100%;
 }

@@ -1,13 +1,14 @@
 .c-language-switcher {
-	padding-top: 1.5rem;
-	padding-bottom: 0.5rem;
+	padding-top: var(--space-s);
+	padding-bottom: var(--space-s);
 }
 
 div.c-language-switcher__inner {
 	padding-inline: 1rem;
 	display: flex;
 	align-items: flex-start;
-	gap: 1rem;
+	justify-content: flex-end;
+	gap: var(--space-s);
 	transform: translateX(-0.25em);
 }
 
@@ -16,6 +17,7 @@ a.c-language-switcher__item {
 	color: light-dark(hsl(220, 37%, 32%), hsl(220, 53%, 97%));
 	border: 0.25em solid transparent;
 	transition: all 0.3s ease-out;
+	font-size: var(--step--1)
 }
 
 a.c-language-switcher__item:hover {

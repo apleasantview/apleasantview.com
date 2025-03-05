@@ -11,7 +11,7 @@ export default function (eleventyConfig, options = {}) {
 			let websiteDescription = data.site.description;
 			let inputForGitDate = data.page.inputPath;
 
-			
+
 			if (!data.eleventyExcludeFromCollections && data.language !== data.site.defaultLanguage) {
 				websiteURL = websiteURL + data.language + "/"
 				// websiteDescription = data.i18n.languages[data.language].description;
@@ -27,7 +27,7 @@ export default function (eleventyConfig, options = {}) {
 						"@id": "https://www.apleasantview.com/#organization",
 						"name": "a pleasant view",
 						"url": "https://www.apleasantview.com/",
-						"description": "Website subscriptions for entrepreneurs and SMBs.",
+						"description": "Website services for entrepreneurs and SMBs.",
 						"foundingDate": "2014-05-01",
 						"slogan": "Have a pleasant view",
 						"legalName": "a pleasant view",
@@ -83,23 +83,17 @@ export default function (eleventyConfig, options = {}) {
 		}
 	});
 
-	eleventyConfig.addTransform("injectJsonLd", function (content, outputPath) {
-		// Check if the output path is an HTML file
-		if (outputPath && outputPath.endsWith(".html")) {
-			// Define your JSON-LD data
-			const jsonLdData = this.page._schema;
-			const jsonLDStringified = JSON.stringify(jsonLdData);
+	eleventyConfig.addShortcode("generateJSONLD", function () {
+		const jsonLdData = this.page._schema;
+		const jsonLDStringified = JSON.stringify(jsonLdData);
 
-			// Convert JSON data to string
-			const jsonLdScript = `<script class="jsonld-generator" type="application/ld+json">${jsonLDStringified}</script>`;
+		// Convert JSON data to string
+		const jsonLdScript = `<script class="jsonld-generator" type="application/ld+json">${jsonLDStringified}</script>`;
 
-			// Inject JSON-LD markup into the content
-			const injectedMarkup = `${jsonLdScript}</head>`;
+		// Inject JSON-LD markup into the content
+		// const injectedMarkup = `${jsonLdScript}</head>`;
 
-			// Return the modified content
-			return content.replace("</head>", injectedMarkup);
-		}
-		// Return unmodified content for other file types
-		return content;
-	});
+		// Return the modified content
+		return jsonLdScript;
+	})
 }
