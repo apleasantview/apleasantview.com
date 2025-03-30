@@ -16,11 +16,6 @@ const config = {
 			"> 0.2% and not dead"
 		],
 		"preserve": true,
-		features: {
-			"is-pseudo-class": { preserve: true },
-			"not-pseudo-class": false,
-			"logical-viewport-units": false
-		}
 	}), ...productionPlugins],
 	map: !isProd
 };
