@@ -1,24 +1,27 @@
+import postcssImportExtGlob from "postcss-import-ext-glob";
 import postcssImport from "postcss-import";
 import postcssPresetEnv from "postcss-preset-env";
 import cssnano from "cssnano"; // Import cssnano for minification
 
 const isProd = process.env.ELEVENTY_ENV === "production" || false;
-const additionalPlugins = [];
+const productionPlugins = [];
 
 if (isProd) {
-	additionalPlugins.push(
-		postcssPresetEnv({
-			features: {
-				"is-pseudo-class": { preserve: true },
-				"not-pseudo-class": false,
-				"logical-viewport-units": false
-			}
-		}),
-		cssnano);
+	productionPlugins.push(cssnano);
 }
 
 const config = {
-	plugins: [postcssImport, ...additionalPlugins],
+	plugins: [postcssImportExtGlob, postcssImport, postcssPresetEnv({
+		"browsers": [
+			"> 0.2% and not dead"
+		],
+		"preserve": true,
+		features: {
+			"is-pseudo-class": { preserve: true },
+			"not-pseudo-class": false,
+			"logical-viewport-units": false
+		}
+	}), ...productionPlugins],
 	map: !isProd
 };
 

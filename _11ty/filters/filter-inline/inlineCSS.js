@@ -1,6 +1,6 @@
 import fs from "fs/promises";
 import postcss from "postcss";
-import postcssConfig from "../../../../postcss.config.js";
+import postcssConfig from "../../../postcss.config.js";
 
 export default async function inlineCSS(cssFilePath) {
 	try {
