@@ -1,22 +1,12 @@
-import { applyBaseToUrl } from "@11ty/eleventy/src/Plugins/HtmlBasePlugin.js";
-import DateGitFirstAdded from "@11ty/eleventy/src/Util/DateGitFirstAdded.js";
-import DateGitLastUpdated from "@11ty/eleventy/src/Util/DateGitLastUpdated.js";
-
 /** @param { import("@11ty/eleventy/src/UserConfig.js").default } eleventyConfig */
-export default function (eleventyConfig, options = {}) {
+export default function (eleventyConfig) {
 	eleventyConfig.addGlobalData("eleventyComputed.page._schema", async () => {
 		return (data) => {
-			// console.log(data);
 			let websiteURL = data.site.baseURL;
 			let websiteDescription = data.site.description;
-			let inputForGitDate = data.page.inputPath;
-
 
 			if (!data.eleventyExcludeFromCollections && data.language !== data.site.defaultLanguage) {
 				websiteURL = websiteURL + data.language + "/"
-				// websiteDescription = data.i18n.languages[data.language].description;
-				// console.log(data.page.inputPath);
-				// console.log(data.language);
 			}
 
 			const jsonLdData = {
@@ -65,35 +55,40 @@ export default function (eleventyConfig, options = {}) {
 					},
 					{
 						"@type": "WebPage",
-						"@id": applyBaseToUrl(data.page.url, websiteURL, {}),
-						"url": applyBaseToUrl(data.page.url, websiteURL, {}),
+						"@id": data.page.url,
+						"url": data.page.url,
 						"name": data.title,
 						"description": data.description,
 						"isPartOf": {
 							"@id": `${websiteURL}#website`
 						},
-						"datePublished": DateGitFirstAdded(inputForGitDate),
-						"dateModified": DateGitLastUpdated(inputForGitDate),
+						"datePublished": data.date || new Date().toISOString(),
+						"dateModified": data.date || new Date().toISOString(),
 						"inLanguage": data.language
 					}
 				]
 			};
-			// console.log(Object.keys(data.page));
 			return jsonLdData;
 		}
 	});
 
-	eleventyConfig.addShortcode("generateJSONLD", function () {
-		const jsonLdData = this.page._schema;
-		const jsonLDStringified = JSON.stringify(jsonLdData);
-
-		// Convert JSON data to string
-		const jsonLdScript = `<script class="jsonld-generator" type="application/ld+json">${jsonLDStringified}</script>`;
-
-		// Inject JSON-LD markup into the content
-		// const injectedMarkup = `${jsonLdScript}</head>`;
-
-		// Return the modified content
-		return jsonLdScript;
-	})
+	eleventyConfig.addShortcode("generateJSONLD", function (data) {
+		// Get the computed schema data
+		const schemaData = this.page._schema;
+		if (!schemaData) {
+			console.warn("No schema data found for page:", this.page.url);
+			return "";
+		}
+		
+		// Ensure we have a function to get the data
+		if (typeof schemaData === "function") {
+			const jsonLdData = schemaData(data);
+			const jsonLDStringified = JSON.stringify(jsonLdData);
+			return `<script class="jsonld-generator" type="application/ld+json">${jsonLDStringified}</script>`;
+		}
+		
+		// If we already have the data object
+		const jsonLDStringified = JSON.stringify(schemaData);
+		return `<script class="jsonld-generator" type="application/ld+json">${jsonLDStringified}</script>`;
+	});
 }

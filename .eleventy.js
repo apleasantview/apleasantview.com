@@ -29,8 +29,6 @@ export default function (eleventyConfig) {
 		languages: i18n.languages
 	});
 
-	eleventyConfig.addPlugin(plugins.jsonLD, {});
-
 	eleventyConfig.addPlugin(plugins.EleventyHtmlBasePlugin, {
 		baseHref: process.env.URL || "/"
 	});
