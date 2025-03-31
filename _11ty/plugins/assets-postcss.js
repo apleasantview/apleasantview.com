@@ -1,9 +1,9 @@
 import path from "node:path";
 import postcss from "postcss";
-import postcssConfig from "../../../../postcss.config.js";
+import postcssConfig from "../../postcss.config.js";
 
-/** @param { import("@11ty/eleventy/src/UserConfig.js").default } eleventyConfig */
-export default function generateCSS(eleventyConfig) {
+/** @param {import("@11ty/eleventy").UserConfig} eleventyConfig */
+export default function assetsPostCSS(eleventyConfig) {
 	eleventyConfig.addTemplateFormats("css");
 
 	eleventyConfig.addExtension("css", {
@@ -14,14 +14,13 @@ export default function generateCSS(eleventyConfig) {
 			}
 
 			return async () => {
-				let result = await postcss(postcssConfig.plugins)
-					.process(_inputContent, {
-						from: inputPath,
-						map: postcssConfig.map
-					});
+				let result = await postcss(postcssConfig.plugins).process(_inputContent, {
+					from: inputPath,
+					map: postcssConfig.map // Enable or disable source maps based on the parameter
+				});
 
 				return result.css;
 			};
 		}
 	});
-}
+} 

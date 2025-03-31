@@ -1,5 +1,5 @@
 import { dateISO } from "./filters/date.js";
-import inlineCSS from "./filters/filter-inline/inlineCSS.js";
+import inlineCSS from "./filters/filter-inlinecss.js";
 
 export default {
 	dateISO,
