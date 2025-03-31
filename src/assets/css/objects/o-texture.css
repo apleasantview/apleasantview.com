@@ -6,7 +6,7 @@
 	right: 0;
 	background-repeat: repeat;
 	background-image: url("/assets/img/2-_FQp-yOr-1440.avif");
-	mix-blend-mode: multiply;
+	mix-blend-mode: revert;
 	pointer-events: none;
 	opacity: 0.10;
 	overflow: hidden;
