@@ -2,7 +2,7 @@ import fs from "fs/promises";
 import postcss from "postcss";
 import postcssConfig from "../../postcss.config.js";
 
-export default async function inlineCSS(cssFilePath) {
+export default async function inlinePostCSS(cssFilePath) {
 	try {
 		let cssContent = await fs.readFile(cssFilePath, 'utf8');
 

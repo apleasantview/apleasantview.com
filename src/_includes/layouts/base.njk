@@ -1,12 +1,13 @@
 <!DOCTYPE html>
-<html lang="{{ language | default(site.defaultLanguage) }}">
+<html lang="{{ language | default(_i18n.defaultLanguage) | default(site.defaultLanguage) }}">
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>{{ title }} | a pleasant view</title>
-	{{ "./src/assets/css/index.css" | inlineCSS | safe }}
+	{{ "./src/assets/css/index.css" | inlinePostCSS | safe }}
 	{# <link rel="stylesheet" href="/assets/css/index.css"> #}
 	<link rel="preload" href="/assets/img/2-_FQp-yOr-1440.avif" as="image" fetchpriority="high">
+	<script src="/assets/js/index.js" defer></script>
 	<script defer data-domain="apleasantview.com" src="https://plausible.io/js/script.js"></script>
 	<link rel="canonical" href="{{ permalink }}">
 	{%- for item in collections.translations[translationKey] %}
@@ -17,18 +18,20 @@
 	<link rel="alternate" hreflang="x-default" href="{{ item.url }}">
 	{% endif %}
 	{%- endfor -%}
-	<meta name="description" content="{{ description | default(site.description) }}">
+	<meta name="generator" content="{{ eleventy.generator }}">
+	<meta name="description" content="{{ description | default(site.tagline) }}">
 	<meta name="color-scheme" content="light dark">
 </head>
 <body>
 	<div class="o-texture"></div>
-	{% include "partials/language-switcher.njk" %}
+	<a href="#main" class="skip-link">Skip to main content</a>
 	<header>
+		{% include "partials/language-switcher.njk" %}
 		<div class="u-wrapper">
 			<a href="{{ permalink }}">{{ site.title }}</a>
 		</div>
 	</header>
-		<main>
+	<main id="main" tabindex="-1">
 		{% block content %}
 			<h1>a pleasant view</h1>
 			<p>No content found.</p>
@@ -43,7 +46,7 @@
 	<footer>
 		<div class="u-wrapper">
 			<small>
-				&copy; a pleasant view - 2024 | {{ l10n[language].KvK }}: 60532955
+				&copy; a pleasant view - 2024 | {{ translations[language].KvK }}: 60532955
 			</small>
 			<br>
 			{# {{ site.i18n | inspect }} #}

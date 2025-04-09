@@ -2,12 +2,15 @@
 @import "./settings/font-sizes.css";
 @import "./settings/spacings.css";
 
+/* 02. Tools */
+@import "./tools/modern-reset.css" layer(reset);
+
 /* 03. Generic */
-@import "./generic/modern-reset.css" layer(reset);
+@import "./generic/base.css";
+@import "./generic/headings.css";
+@import "./generic/skip-link.css";
 
 /* 04. Elements */
-@import "./elements/base.css";
-@import "./elements/headings.css";
 
 /* Objects */
 @import "./objects/o-texture.css";

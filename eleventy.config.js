@@ -16,13 +16,14 @@ export default function (eleventyConfig) {
 
 	// Filters.
 	eleventyConfig.addFilter("dateISO", filters.dateISO);
-	eleventyConfig.addFilter("inlineCSS", filters.inlineCSS);
+	eleventyConfig.addFilter("inlinePostCSS", filters.inlinePostCSS);
 
 	// Passthrough copy.
 	eleventyConfig.addPassthroughCopy({"./src/static": "/"});
 	eleventyConfig.addPassthroughCopy("./src/assets/img/");
 
 	// Plugins.
+	eleventyConfig.addPlugin(plugins.assetsESBuild);
 	eleventyConfig.addPlugin(plugins.assetsPostCSS);
 	eleventyConfig.addPlugin(plugins.multilingual, {
 		defaultLanguage: i18n.defaultLanguage,

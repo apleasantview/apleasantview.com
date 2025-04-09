@@ -1,6 +1,6 @@
 /** @param { import("@11ty/eleventy/src/UserConfig.js").default } eleventyConfig */
 export default function (eleventyConfig, options = {}) {
-	let config = {
+	const config = {
 		defaultLanguage: "en",
 		languages: {
 			en: {
@@ -9,14 +9,16 @@ export default function (eleventyConfig, options = {}) {
 				languageDirection: "",
 				languageName: "",
 				title: "",
-				description: ""
+				tagline: ""
 			}
 		},
 		...options
 	}
 
-	// eleventyConfig.addGlobalData("i18n", config);
+	// Expose i18n configuration globally
+	eleventyConfig.addGlobalData("_i18n", config);
 
+	// Add translations collection
 	eleventyConfig.addCollection("translations", function (collection) {
 		const allPages = collection.getAll();
 		const translations = {};
