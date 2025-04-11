@@ -1,0 +1,10 @@
+.sr-only {
+  border: 0 !important;
+  clip-path: inset(50%) !important; /* 2 */
+  height: 1px !important;
+  margin: -1px !important;
+  overflow: hidden !important;
+  padding: 0 !important;
+  width: 1px !important;
+  white-space: nowrap !important; /* 3 */
+}

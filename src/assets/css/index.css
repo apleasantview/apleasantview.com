@@ -9,6 +9,7 @@
 @import "./generic/base.css";
 @import "./generic/headings.css";
 @import "./generic/skip-link.css";
+@import "./generic/sr-only.css";
 
 /* 04. Elements */
 
