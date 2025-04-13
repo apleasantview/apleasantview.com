@@ -1,5 +1,5 @@
 <div class="c-language-switcher">
-	<div class="c-language-switcher__inner u-wrapper">
+	<div class="c-language-switcher__inner u-wrapper--full">
 		{% for item, value in _i18n.languages %}
 		{% if item === _i18n.defaultLanguage %}
 			<a lang="{{ item }}" hreflang="{{ item }}" href="/" class="c-language-switcher__item">{{ value.languageName }}</a>
