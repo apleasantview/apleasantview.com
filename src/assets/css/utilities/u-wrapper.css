@@ -1,5 +1,13 @@
 .u-wrapper {
+	width: 100%;
 	max-width: 1192px;
 	margin: 0 auto;
-	padding-inline: 1rem;
+	padding-inline: var(--space-s);
+}
+
+.u-wrapper--full {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 100vw;
+	padding-inline: var(--space-s);
 }

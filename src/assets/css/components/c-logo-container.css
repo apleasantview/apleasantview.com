@@ -1,0 +1,21 @@
+.c-logo-container {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding-inline: var(--space-s-xl);
+}
+
+.c-logo-container__link {
+	display: block;
+	padding-bottom: var(--space-s);
+}
+
+.c-logo-container__title {
+	max-width: 420px;
+}
+
+@media (min-width: 188.75rem) {
+	.c-logo-container {
+		padding-inline: var(--space-s-3xl);
+	}
+}

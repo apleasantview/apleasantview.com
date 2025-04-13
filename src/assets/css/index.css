@@ -7,11 +7,12 @@
 
 /* 03. Generic */
 @import "./generic/base.css";
+@import "./generic/header.css";
 @import "./generic/headings.css";
-@import "./generic/skip-link.css";
-@import "./generic/sr-only.css";
-
+@import "./generic/sections.css";
 /* 04. Elements */
+@import "./elements/skip-link.css";
+@import "./elements/sr-only.css";
 
 /* Objects */
 @import "./objects/o-svg.css";
@@ -20,9 +21,9 @@
 /* Components */
 @import "./components/c-language-switcher.css";
 @import "./components/c-pricing-table.css";
-
+@import "./components/c-logo-container.css";
 /* 07. Utilities */
-@import "./utilities/u-wrapper.css";
+@import "./utilities/u-wrapper.css" layer(utilities);
 
 /* CSS is organised followng ITCSS and BEMIT naming conventions, see:
 @link: https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/

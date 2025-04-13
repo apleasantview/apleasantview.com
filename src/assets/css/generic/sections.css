@@ -1,0 +1,9 @@
+section {
+	min-height: 70svh;
+	display: flex;
+	width: 100%;
+}
+
+section > * {
+	margin-top: auto;
+}
