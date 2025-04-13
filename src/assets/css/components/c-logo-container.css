@@ -8,9 +8,6 @@
 .c-logo-container__link {
 	display: block;
 	padding-bottom: var(--space-s);
-}
-
-.c-logo-container__title {
 	max-width: 420px;
 }
 
