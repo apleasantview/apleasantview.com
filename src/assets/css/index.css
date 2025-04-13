@@ -4,6 +4,7 @@
 
 /* 02. Tools */
 @import "./tools/modern-reset.css" layer(reset);
+@import "./tools/mouse-follower.css";
 
 /* 03. Generic */
 @import "./generic/base.css";
