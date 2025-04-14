@@ -12,7 +12,6 @@ document.addEventListener("DOMContentLoaded", () => {
   (function () {
     let cursor;
     let scroller;
-    let firstMove = true;
 
     initialiseApp();
 
@@ -39,20 +38,6 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 
     function initialiseCursor() {
-//       cursor = document.querySelector(".o-cursor");
-
-//       let xTo = gsap.quickTo(cursor, "x", { duration: 0.6, ease: "power3" });
-//       let yTo = gsap.quickTo(cursor, "y", { duration: 0.6, ease: "power3" });
-
-//       window.addEventListener("mousemove", (event) => {
-//         if (firstMove) {
-//           firstMove = false;
-//           gsap.to(cursor, { autoAlpha: 1, duration: 0.6, delay: 0.6, ease: "power2.out" });
-//         }
-
-//         xTo(event.clientX);
-//         yTo(event.clientY);
-//       });
         cursor = new MouseFollower();
     }
 
