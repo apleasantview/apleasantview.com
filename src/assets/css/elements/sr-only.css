@@ -7,4 +7,5 @@
   padding: 0 !important;
   width: 1px !important;
   white-space: nowrap !important; /* 3 */
+  position: absolute;
 }
