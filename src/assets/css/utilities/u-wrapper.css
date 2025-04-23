@@ -1,8 +1,7 @@
 .u-wrapper {
 	width: 100%;
-	max-width: 1192px;
 	margin: 0 auto;
-	padding-inline: var(--space-s);
+	padding-inline: var(--space-s-5xl);
 }
 
 .u-wrapper--full {
