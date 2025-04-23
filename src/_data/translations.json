@@ -1,11 +1,14 @@
 {
 	"en": {
-		"KvK": "CoC"
+		"KvK": "CoC",
+		"services": "website design • website development • content updates • maintenance • technical support"
 	},
 	"nl": {
-		"KvK": "KvK"
+		"KvK": "KvK",
+		"services": "website ontwerp • website ontwikkeling • inhoudsupdates • onderhoud • technische ondersteuning"
 	},
 	"fr": {
-		"KvK": "CdC"
+		"KvK": "CdC",
+		"services": "design de sites web • développement de sites web • mises à jour du contenu • maintenance • support technique"
 	}
 } 
