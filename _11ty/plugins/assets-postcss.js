@@ -8,6 +8,8 @@ export default function assetsPostCSS(eleventyConfig) {
 
 	eleventyConfig.addExtension("css", {
 		outputFileExtension: "css",
+	useLayouts: false,
+
 		compile: async function (_inputContent, inputPath) {
 			if (!inputPath.startsWith("./src/assets/css/") || path.basename(inputPath) !== "index.css") {
 				return;
@@ -19,6 +21,7 @@ export default function assetsPostCSS(eleventyConfig) {
 					map: postcssConfig.map // Enable or disable source maps based on the parameter
 				});
 
+				// console.log(result.map._sources._array);
 				return result.css;
 			};
 		}
