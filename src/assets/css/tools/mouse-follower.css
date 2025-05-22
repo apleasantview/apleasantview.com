@@ -20,7 +20,9 @@
 	transform: scale(0.2);
 	background: currentColor;
 	border-radius: 50%;
-	transition: transform .25s ease-in-out, opacity .1s
+	transition: transform .25s ease-in-out, opacity .1s;
+	outline: 1px solid currentColor;
+	outline-offset: 2rem;
 }
 
 .mf-cursor.-inverse {
