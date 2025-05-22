@@ -8,7 +8,7 @@ export default function assetsPostCSS(eleventyConfig) {
 
 	eleventyConfig.addExtension("css", {
 		outputFileExtension: "css",
-	useLayouts: false,
+		useLayouts: false,
 
 		compile: async function (_inputContent, inputPath) {
 			if (!inputPath.startsWith("./src/assets/css/") || path.basename(inputPath) !== "index.css") {
