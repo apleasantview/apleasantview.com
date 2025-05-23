@@ -2,14 +2,14 @@
 	position: absolute;
 	bottom: 0;
 	left: 0;
-	padding-block-start: var(--space-m);
 	padding-inline: var(--space-s-xl);
 	height: fit-content;
+	backdrop-filter: blur(4px);
 }
 
 .c-logo-container__link {
 	display: block;
-	padding-top: var(--space-l);
+	padding-top: var(--space-s);
 	padding-bottom: var(--space-s);
 	max-width: 420px;
 }

@@ -2,7 +2,6 @@
 	padding-block: var(--space-xs);
 	position: sticky;
 	top: 0;
-	z-index: 100;
 }
 
 div.c-language-switcher__inner {
