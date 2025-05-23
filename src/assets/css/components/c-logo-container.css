@@ -9,7 +9,7 @@
 
 .c-logo-container__link {
 	display: block;
-	padding-top: var(--space-s);
+	padding-top: var(--space-m);
 	padding-bottom: var(--space-s);
 	max-width: 420px;
 }
