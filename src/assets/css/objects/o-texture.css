@@ -6,10 +6,10 @@
 	right: 0;
 	background-image: url("/assets/img/2-_FQp-yOr-1440.avif");
 	background-repeat: repeat;
-	background-attachment: fixed;
+	background-attachment: scroll;
 	mix-blend-mode: revert;
 	pointer-events: none;
 	opacity: 0.10;
 	overflow: hidden;
-	z-index: -1;
+	z-index: 1;
 }
