@@ -1,14 +1,17 @@
 {
 	"en": {
 		"KvK": "CoC",
-		"services": "website design • website development • content updates • maintenance • technical support"
+		"services": "website design • website development • content updates • maintenance • technical support",
+		"footer": "We serve a limited number of clients at any time."
 	},
 	"nl": {
 		"KvK": "KvK",
-		"services": "website ontwerp • website ontwikkeling • inhoudsupdates • onderhoud • technische ondersteuning"
+		"services": "website ontwerp • website ontwikkeling • inhoudsupdates • onderhoud • technische ondersteuning",
+		"footer": "Wij bedienen op elk moment een beperkt aantal klanten."
 	},
 	"fr": {
 		"KvK": "CdC",
-		"services": "design de sites web • développement de sites web • mises à jour du contenu • maintenance • support technique"
+		"services": "design de sites web • développement de sites web • mises à jour du contenu • maintenance • support technique",
+		"footer": "Nous accompagnons un nombre limité de clients à la fois."
 	}
 } 
