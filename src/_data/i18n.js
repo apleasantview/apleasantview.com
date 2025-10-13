@@ -6,7 +6,7 @@ export default {
 			languageCode: "en",
 			languageName: "English",
 			title: "a pleasant view",
-			description: "Web design and development subscriptions."
+			description: "Digital Services for Amsterdam West & the Jordaan"
 		},
 		nl: {
 			contentDir: "content/nl",

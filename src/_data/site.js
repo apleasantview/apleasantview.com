@@ -1,7 +1,7 @@
 export default {
 	baseURL: "https://www.apleasantview.com/",
 	title: "a pleasant view",
-	tagline: "Website services for small businesses and agencies.",
+	tagline: "Digital Services for Amsterdam West & the Jordaan",
 	defaultLanguage: "en",
 	multilingual: true,
 	"@graph": [

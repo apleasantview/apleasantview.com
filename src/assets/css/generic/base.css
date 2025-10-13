@@ -11,7 +11,7 @@ html[data-theme=dark] {
   color-scheme: dark;
 }
 
-* + *:not(body, main, section, div, aside, br, header, small) {
+* + *:not(body, main, section, div, aside, br, header, small, footer p) {
 	margin-block-start: var(--space-xl);
 }
 
@@ -33,16 +33,11 @@ main {
 footer {
 	margin-top: auto;
 	font-size: var(--step--1);
-	line-height: 1.2;
 }
 
 footer > * > small {
 	display: block;
 	margin-block-start: var(--space-2xs);
-}
-
-section {
-	padding-block: var(--space-l-xl);
 }
 
 a:not([class]), p, h1 {

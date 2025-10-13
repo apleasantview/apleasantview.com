@@ -2,8 +2,8 @@ section {
 	min-height: 100vh;
 	display: flex;
 	width: 100%;
-}
-
-section > * {
-	margin-top: auto;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-end;
+	padding-block: var(--space-xl);
 }
