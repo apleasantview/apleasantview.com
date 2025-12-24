@@ -18,6 +18,10 @@ export default function (eleventyConfig, options = {}) {
 	// Expose i18n configuration globally
 	eleventyConfig.addGlobalData("_i18n", config);
 
+	eleventyConfig.addGlobalData("eleventyComputed.page.locale", () => {
+		return (data) => { return data.language};
+	});
+
 	// Add translations collection
 	eleventyConfig.addCollection("translations", function (collection) {
 		const allPages = collection.getAll();
