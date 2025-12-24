@@ -1,25 +1,19 @@
 <!DOCTYPE html>
 <html lang="{{ language | default(_i18n.defaultLanguage) | default(site.defaultLanguage) }}">
 <head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<title>{{ title }} | a pleasant view</title>
-	{{ "./src/assets/css/index.css" | inlinePostCSS | safe }}
-	{# <link rel="stylesheet" href="/assets/css/index.css"> #}
-	<link rel="preload" href="/assets/img/2-_FQp-yOr-1440.avif" as="image" fetchpriority="high">
-	<script src="/assets/js/index.js" defer></script>
-	<script defer data-domain="apleasantview.com" src="https://plausible.io/js/script.js"></script>
-	<link rel="canonical" href="{{ permalink }}">
-	{%- for item in collections.translations[translationKey] %}
-	<link rel="alternate" hreflang="{{ item.language}}" href="{{ item.url }}">
-	{%- endfor -%}
-	{%- for item in collections.translations[translationKey] -%}
-	{% if item.language === site.defaultLanguage %}
-	<link rel="alternate" hreflang="x-default" href="{{ item.url }}">
+	<baseline-head></baseline-head>
+	{# hreflang/alternate links from collections.translations #}
+	{% set translations = collections.translations[translationKey] %}
+	{% set defaultLang = site.defaultLanguage %}
+	{% if translations %}
+		{% for language, item in translations %}
+			<link rel="alternate" hreflang="{{ item.lang }}" href="{{ item.url }}">
+			{% if item.isDefault %}<link rel="alternate" hreflang="x-default" href="{{ item.url }}">{% endif %}
+		{% endfor %}
 	{% endif %}
-	{%- endfor -%}
+	<link rel="preload" href="/assets/img/2-_FQp-yOr-1440.avif" as="image" fetchpriority="high">
+	<script defer data-domain="apleasantview.com" src="https://plausible.io/js/script.js"></script>
 	<meta name="generator" content="{{ eleventy.generator }}">
-	<meta name="description" content="{{ description | default(site.tagline) }}">
 	<meta name="color-scheme" content="light dark">
 </head>
 <body>
