@@ -20,4 +20,4 @@ const config = {
 	map: !isProd
 };
 
-export default config
+export default config;
