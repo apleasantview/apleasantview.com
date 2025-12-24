@@ -21,6 +21,7 @@
   "dependencies": {
     "@11ty/eleventy": "^3.0.1-alpha.5",
     "@11ty/eleventy-img": "^6.0.1",
+    "@apleasantview/eleventy-plugin-baseline": "^0.1.0-next.8",
     "cross-env": "^7.0.3",
     "cssnano": "^7.0.6",
     "dotenv": "^16.4.7",
