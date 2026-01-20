@@ -6,7 +6,7 @@
 	"configurations": [
 		{
 			"command": "npm run dryrun",
-			"name": "Run 11ty dry run",
+			"name": "Debug 11ty",
 			"request": "launch",
 			"type": "node-terminal",
 			"cwd": "${workspaceFolder}"
