@@ -1,3 +1,8 @@
+import { createRequire } from "node:module";
+
+const require = createRequire(import.meta.url);
+const strings = require("./i18n/strings.json");
+
 export default {
 	defaultLanguage: "en",
 	languages: {
@@ -22,5 +27,6 @@ export default {
 			title: "a pleasant view",
 			tagline: "Design et développement de sites webs par abonnements."
 		}
-	}
+	},
+	strings
 }
