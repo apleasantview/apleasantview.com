@@ -1,3 +1,7 @@
+h1, h2, h3 {
+	letter-spacing: 0.02em;
+}
+
 h1 {
 	font-size: var(--step-3);
 }

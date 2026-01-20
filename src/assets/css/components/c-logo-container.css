@@ -14,8 +14,3 @@
 	max-width: 420px;
 }
 
-@media (min-width: 188.75rem) {
-	.c-logo-container {
-		padding-inline: var(--space-s-3xl);
-	}
-}
