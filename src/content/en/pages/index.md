@@ -1,4 +1,4 @@
----
+ ---
 title: Digital Services for Amsterdam West & the Jordaan
 description: A small digital agency in Amsterdam West that helps small businesses manage and improve their online presence with personal and reliable support.
 permalink: /
@@ -22,14 +22,23 @@ A few times per year, new client spaces open up.
 
 <section>
 
-## Your Local Partner for Digital Growth
+## Your local partner for calm, practical digital support
 
-**A Pleasant View** supports small businesses in Amsterdam West and the Jordaan with their digital presence.  
-We deliver clear communication, reliable service, and practical solutions that really work.  
+At `a pleasant view`, we support small businesses with the online basics and the day-to-day tech that keep work moving.
 
-Being local allows us to respond quickly and think along with what’s happening in the neighborhood.  
-Whether it’s a website update, hosting issue, or IT support: we’re here to help.  
-*Tell us your challenges — we’re happy to assist.*
+**Online essentials**
+- domains & DNS and hosting (set up properly, kept tidy over time)
+- privacy-first analytics and search engine visibility
+- local business profile upkeep
+- small website edits and fixes
+
+**Day-to-day tech support**
+- laptops and basic setups (including buying advice and upgrades)
+- troubleshooting when something doesn’t work (Wi‑Fi, printers, “it won’t turn on”)
+- practical fixes that aren’t dramatic, just effective
+
+We keep it simple and dependable.  
+That means we’re not the right fit for e-commerce, complex web apps, or 24/7 support.
 
 [Learn more about our approach →](/approach)
 

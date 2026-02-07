@@ -11,7 +11,7 @@ html[data-theme=dark] {
   color-scheme: dark;
 }
 
-* + *:not(body, main, section, div, aside, br, header, small, footer p) {
+* + *:not(body, main, section, div, aside, br, header, small, footer p, li, ul) {
 	margin-block-start: var(--space-xl);
 }
 
@@ -95,8 +95,7 @@ dt + dd {
 	padding-inline: 1rem;
 }
 
-ul, ol, li {
-	padding: 0;
+ul, ol {
 	margin: 0;
 }
 
