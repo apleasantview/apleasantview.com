@@ -1,0 +1,43 @@
+html {
+  color-scheme: light dark;
+}
+
+/* Light theme mapping (default + explicit) */
+:root {
+  color-scheme: light;
+
+  --color-background-default: var(--color-background-default-light);
+  --color-text-primary: var(--color-text-primary-light);
+  --color-border-default: var(--color-border-default-light);
+  --color-surface-hover: var(--color-surface-hover-light);
+}
+
+:root[data-theme='light'] {
+  color-scheme: light;
+
+  --color-background-default: var(--color-background-default-light);
+  --color-text-primary: var(--color-text-primary-light);
+  --color-border-default: var(--color-border-default-light);
+  --color-surface-hover: var(--color-surface-hover-light);
+}
+
+/* Dark theme mapping (system default + explicit) */
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme]) {
+    color-scheme: dark;
+
+    --color-background-default: var(--color-background-default-dark);
+    --color-text-primary: var(--color-text-primary-dark);
+    --color-border-default: var(--color-border-default-dark);
+    --color-surface-hover: var(--color-surface-hover-dark);
+  }
+}
+
+:root[data-theme='dark'] {
+  color-scheme: dark;
+
+  --color-background-default: var(--color-background-default-dark);
+  --color-text-primary: var(--color-text-primary-dark);
+  --color-border-default: var(--color-border-default-dark);
+  --color-surface-hover: var(--color-surface-hover-dark);
+}

@@ -1,21 +1,21 @@
 .c-pricing-table {
 	padding-top: var(--space-s);
 	padding-bottom: var(--space-s);
-	margin-top: 1.75rem;
+	margin-top: var(--space-stack-card);
 }
 
 .c-pricing-table__inner {
 	display: grid;
-	gap: 1.75rem;
+	gap: var(--space-cluster-card);
 	grid-template-columns: repeat(1, minmax(0, 1fr));
 }
 
 .c-pricing-table__card {
 	padding: var(--space-s-m);
-	border: 1px solid light-dark(hsl(220, 37%, 32%), hsl(220, 53%, 97%));
-	border-radius: 8px;
+	border: var(--border-width-default) solid var(--color-border-default);
+	border-radius: var(--border-radius-card);
 	height: auto;
-	background-color: hsl(220 37% 80% / 0.08);
+	background-color: var(--color-slate-200-alpha-08);
 	max-width: 45ch;
 }
 

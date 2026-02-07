@@ -1,11 +1,17 @@
 /* 01. Settings */
-@import "./settings/font-sizes.css";
-@import "./settings/spacings.css";
+@import "./settings/brand-colors.css";
+@import "./settings/brand-typography.css";
+@import "./settings/brand-spacing.css";
+@import "./settings/brand-borders.css";
+@import "./settings/fluid-typography.css";
+@import "./settings/fluid-spacing.css";
 
 /* 02. Tools */
 
 
 /* 03. Generic */
+@import "./generic/brand-semantics.css";
+@import "./generic/theme.css";
 @import "./generic/modern-reset.css" layer(reset);
 @import "./generic/skip-link.css";
 @import "./generic/sr-only.css";
@@ -24,6 +30,7 @@
 @import "./components/c-language-switcher.css";
 @import "./components/c-pricing-table.css";
 @import "./components/c-logo-container.css";
+/* @import-glob "./components/*.css" layer(components); */
 
 /* 07. Utilities */
 @import "./utilities/u-wrapper.css";

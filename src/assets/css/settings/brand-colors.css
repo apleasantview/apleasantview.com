@@ -1,0 +1,26 @@
+:root {
+  /* Extracted color primitives (temp) */
+  /* Source: `temp/css/light-dark-colours.md` */
+  /* Note: `src/assets/css/settings/tokens/**` is intentionally excluded for now. */
+
+  /* Black & White */
+  --color-white: #ffffff; /* extracted from `#fff` */
+
+  /* Near-white */
+  --color-slate-25: #F3F6FB; /* extracted from inline SVG */
+
+  /* Slate (from extracted HSL) */
+  --color-slate-50: hsl(220 53% 97%);
+  --color-slate-800: hsl(220 37% 32%);
+  --color-slate-950: hsl(249 11% 12%);
+
+  /* Slate (alpha variants) */
+  --color-slate-800-alpha-075: hsl(220 37% 32% / 0.075);
+  --color-slate-50-alpha-10: hsl(220 53% 97% / 0.1);
+  --color-slate-200-alpha-08: hsl(220 37% 80% / 0.08);
+
+  /* RGB primaries (from named CSS colours) */
+  --color-red-500: #ff0000;   /* `red` */
+  --color-green-500: #008000; /* `green` */
+  --color-blue-500: #0000ff;  /* `blue` */
+}

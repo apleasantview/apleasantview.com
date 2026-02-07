@@ -4,6 +4,6 @@
 }
 
 .o-svg svg > path {
-  fill: light-dark(hsl(220, 37%, 32%), hsl(220, 53%, 97%));
-	stroke: light-dark(hsl(220, 37%, 32%), hsl(220, 53%, 97%));
+  fill: var(--color-text-primary);
+	stroke: var(--color-text-primary);
 }

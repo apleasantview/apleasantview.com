@@ -1,0 +1,22 @@
+:root {
+  /* Extracted typography primitives (temp) */
+  /* Source: `temp/css/typography.md` */
+
+  /* Font stack */
+  --font-family-brand: Seravek, 'Gill Sans Nova', Ubuntu, Calibri, 'DejaVu Sans', source-sans-pro, sans-serif;
+
+  /* Weights */
+  --font-weight-bold: 700;
+
+  /* Line height (unitless ratios, plus one component constant) */
+  --line-height-tight: 1.2;
+  --line-height-body: 1.5;
+  --line-height-cursor: 1.25rem; /* 20px */
+
+  /* Sizes (component constants extracted from CSS) */
+  --font-size-cursor: 1rem; /* 16px */
+
+  /* Letter spacing */
+  --letter-spacing-body: 0.015em;
+  --letter-spacing-heading: 0.02em;
+}

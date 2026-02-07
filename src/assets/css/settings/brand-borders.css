@@ -1,0 +1,16 @@
+:root {
+  /* Extracted border primitives (temp) */
+  /* Source: `temp/css/borders.md` */
+
+  /* Widths */
+  --border-width-1: 1px;
+  --border-width-ink-thin: 0.125em;
+  --border-width-ink-thick: 0.25em;
+
+  /* Radii */
+  --border-radius-lg: 0.5rem; /* 8px */
+  --border-radius-circle: 50%;
+
+  /* Outline */
+  --outline-width-1: 1px;
+}

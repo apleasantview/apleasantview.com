@@ -88,12 +88,21 @@
     filter: none;
   }
   96% {
-    filter: drop-shadow(-16px 0 red) drop-shadow(-16px 0 green) drop-shadow(-16px 0 blue);
+    filter: drop-shadow(-16px 0 var(--color-glitch-red)) drop-shadow(-16px 0 var(--color-glitch-green)) drop-shadow(-16px 0 var(--color-glitch-blue));
   }
   97% {
-    filter: drop-shadow(16px 0 red) drop-shadow(16px 0 green) drop-shadow(16px 0 blue);
+    filter: drop-shadow(16px 0 var(--color-glitch-red)) drop-shadow(16px 0 var(--color-glitch-green)) drop-shadow(16px 0 var(--color-glitch-blue));
   }
   98% {
     filter: none;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .glitch-container,
+  .glitch-container::before,
+  .glitch-container::after,
+  .js-fade.glitch {
+    animation: none !important;
   }
 }
