@@ -1,4 +1,4 @@
- ---
+---
 title: Digital Services for Amsterdam West & the Jordaan
 description: A small digital agency in Amsterdam West that helps small businesses manage and improve their online presence with personal and reliable support.
 permalink: /
