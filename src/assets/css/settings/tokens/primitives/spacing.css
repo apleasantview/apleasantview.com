@@ -1,0 +1,15 @@
+:root {
+  /* Spacing scale (rem tokens with px hints; 1rem = 16px) */
+  /* Use: 3xs–xs for tight gaps, s–l for typical UI spacing, xl+ for sections. */
+  --space-3xs: 0.25rem; /* 4px */
+  --space-2xs: 0.5rem; /* 8px */
+  --space-xs: 0.75rem; /* 12px */
+  --space-s: 1rem; /* 16px */
+  --space-m: 1.25rem; /* 20px */
+  --space-l: 1.5rem; /* 24px */
+  --space-xl: 1.75rem; /* 28px */
+  --space-2xl: 2rem; /* 32px - large sections */
+  --space-3xl: 3rem; /* 48px - hero spacing */
+  --space-4xl: 4rem; /* 64px - page sections */
+  --space-0: 0; /* zero */
+}
