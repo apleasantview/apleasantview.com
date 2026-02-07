@@ -3,31 +3,33 @@
 @import "./settings/spacings.css";
 
 /* 02. Tools */
-@import "./tools/modern-reset.css" layer(reset);
-@import "./tools/lenis.css";
-@import "./tools/mouse-follower.css";
+
 
 /* 03. Generic */
-@import "./generic/base.css";
-@import "./generic/header.css";
-@import "./generic/headings.css";
-@import "./generic/sections.css";
-/* 04. Elements */
-@import "./elements/skip-link.css";
-@import "./elements/sr-only.css";
+@import "./generic/modern-reset.css" layer(reset);
+@import "./generic/skip-link.css";
+@import "./generic/sr-only.css";
 
-/* Objects */
+/* 04. Base elements */
+@import "./base/elements.css";
+@import "./base/sections.css";
+@import "./base/header.css";
+@import "./base/headings.css";
+
+/* 05. Layouts and Objects */
 @import "./objects/o-svg.css";
 @import "./objects/o-texture.css";
 
-/* Components */
+/* 06. Components */
 @import "./components/c-language-switcher.css";
 @import "./components/c-pricing-table.css";
 @import "./components/c-logo-container.css";
 
 /* 07. Utilities */
-@import "./utilities/u-wrapper.css" layer(utilities);
-@import "./utilities/u-glitch.css" layer(utilities);
+@import "./utilities/u-wrapper.css";
+@import "./utilities/u-glitch.css";
+@import "./utilities/lenis.css";
+@import "./utilities/mouse-follower.css";
 
 /* CSS is organised followng ITCSS and BEMIT naming conventions, see:
 @link: https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/
