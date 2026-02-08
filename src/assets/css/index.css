@@ -1,8 +1,8 @@
 /* 01. Settings */
-@import "./settings/colors.css";
-@import "./settings/typography.css";
-@import "./settings/spacing.css";
-@import "./settings/borders.css";
+@import "./settings/brand-colors.css";
+@import "./settings/brand-typography.css";
+@import "./settings/brand-spacing.css";
+@import "./settings/brand-borders.css";
 @import "./settings/fluid-typography.css";
 @import "./settings/fluid-spacing.css";
 
@@ -16,12 +16,26 @@
 @import "./generic/sr-only.css";
 
 /* 04. Base elements */
+@import "./base/elements.css";
+@import "./base/sections.css";
+@import "./base/header.css";
+@import "./base/headings.css";
 
 /* 05. Layouts and Objects */
+@import "./objects/o-svg.css";
+@import "./objects/o-texture.css";
 
 /* 06. Components */
+@import "./components/c-language-switcher.css";
+@import "./components/c-pricing-table.css";
+@import "./components/c-logo-container.css";
+/* @import-glob "./components/*.css" layer(components); */
 
 /* 07. Utilities */
+@import "./utilities/u-wrapper.css";
+@import "./utilities/u-glitch.css";
+@import "./utilities/lenis.css";
+@import "./utilities/mouse-follower.css";
 
 /* CSS is organised followng ITCSS and BEMIT naming conventions, see:
 @link: https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/
