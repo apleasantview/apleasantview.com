@@ -17,7 +17,7 @@ a.c-language-switcher__item {
 	color: var(--color-text-primary);
 	border: var(--border-width-link-strong) solid transparent;
 	transition: all 0.3s ease-out;
-	font-size: var(--step--1)
+	font-size: var(--step--1);
 }
 
 a.c-language-switcher__item:hover {

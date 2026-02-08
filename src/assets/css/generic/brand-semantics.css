@@ -1,4 +1,4 @@
-/* Brand semantic colour tokens (temp). Primitive tier in `temp/css/primitives.colors.extracted.css`. */
+/* Brand semantic colour tokens. Primitive tier in `settings/brand-*.css`. */
 :root {
   /* Color roles (theme-split) */
   --color-background-default-light: var(--color-slate-50);

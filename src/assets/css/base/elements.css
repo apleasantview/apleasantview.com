@@ -19,6 +19,8 @@ body {
 
 main {
 	flex: 1;
+	align-items: end;
+	justify-content: center;
 }
 
 footer {
@@ -39,6 +41,8 @@ a:not([class]) {
 	text-decoration-thickness: var(--link-underline-thickness);
 	text-underline-offset: var(--link-underline-offset);
 	transition: all 0.3s ease-out;
+	border: var(--border-width-link) solid transparent;
+	margin-left: var(--space-inline-nudge);
 }
 
 :where(a, button, input, select, textarea, summary, [tabindex]:not([tabindex="-1"])):focus-visible {
@@ -57,11 +61,6 @@ html[lang=fr] h1 {
 p {
 	text-wrap: balance;
 	letter-spacing: var(--text-letterspacing-body);
-}
-
-a:not([class]) {
-	border: var(--border-width-link) solid transparent;
-	margin-left: var(--space-inline-nudge);
 }
 
 dl {
@@ -93,12 +92,6 @@ dt + dd {
 
 ul, ol {
 	margin: 0;
-}
-
-
-main {
-  align-items: end;
-  justify-content: center;
 }
 
 .js-stroke {

@@ -1,0 +1,177 @@
+---
+title: Theme Test
+permalink: /theme-test/
+lang: en
+eleventyExcludeFromCollections: true
+---
+<!doctype html>
+<html lang="en">
+  <head>
+    <baseline-head></baseline-head>
+
+    <!-- Demo-only layout so the page is readable.
+         This is NOT part of the defaults CSS. -->
+    <style>
+      body {
+        padding: 2rem;
+      }
+      main {
+        max-width: 72ch;
+        margin-inline: auto;
+      }
+      section + section {
+        margin-top: 3rem;
+      }
+    </style>
+    <!-- {% set cssPath = "./src/content/theme-test/theme-test.css" %}
+    {{ cssPath | inlinePostCSS | safe }} -->
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Theme test</h1>
+        <p>
+          This page exercises common HTML elements (WordPress “theme unit test” style breadth) to validate a
+          reusable, standalone defaults stylesheet.
+        </p>
+        <p>
+          Here is a <a href="#links">regular link</a>, a <a href="#links">second link</a> (hover/focus), and a
+          <a href="https://example.com">visited link example</a> (after you click it).
+        </p>
+      </header>
+
+      <section aria-labelledby="typography">
+        <h2 id="typography">Typography</h2>
+
+        <h3>Paragraphs and inline elements</h3>
+        <p>
+          This is a paragraph with <strong>strong text</strong>, <em>emphasis</em>, <small>small text</small>,
+          <mark>highlighted text</mark>, and an abbreviation:
+          <abbr title="Cascading Style Sheets">CSS</abbr>.
+        </p>
+        <p>
+          Superscript E = mc<sup>2</sup> and subscript H<sub>2</sub>O. Here is inline code: <code>const x = 1;</code>
+          and a keyboard hint: <kbd>Ctrl</kbd> + <kbd>K</kbd>.
+        </p>
+
+        <h3 id="links">Links</h3>
+        <p>
+          Links should be clearly visible, underlined, and show an obvious keyboard focus ring:
+          <a href="#typography">jump to typography</a>.
+        </p>
+
+        <h3>Blockquote</h3>
+        <blockquote>
+          <p>
+            “Simplicity is about subtracting the obvious and adding the meaningful.”
+          </p>
+          <p>
+            <cite>— John Maeda</cite>
+          </p>
+        </blockquote>
+
+        <h3>Horizontal rule</h3>
+        <hr />
+
+        <h3>Preformatted text</h3>
+        <pre><code>function greet(name) {
+  return `Hello, ${name}!`;
+}
+
+console.log(greet("world"));
+</code></pre>
+      </section>
+
+      <section aria-labelledby="lists">
+        <h2 id="lists">Lists</h2>
+
+        <h3>Unordered list</h3>
+        <ul>
+          <li>List item one</li>
+          <li>
+            List item two
+            <ul>
+              <li>Nested item A</li>
+              <li>Nested item B</li>
+            </ul>
+          </li>
+          <li>List item three</li>
+        </ul>
+
+        <h3>Ordered list</h3>
+        <ol>
+          <li>First</li>
+          <li>Second</li>
+          <li>Third</li>
+        </ol>
+
+        <h3>Description list</h3>
+        <dl>
+          <dt>Definition term</dt>
+          <dd>Definition description with a bit more text to wrap onto the next line.</dd>
+          <dt>Another term</dt>
+          <dd>Another description.</dd>
+        </dl>
+      </section>
+
+      <section aria-labelledby="media">
+        <h2 id="media">Media</h2>
+
+        <figure>
+          <img
+            alt="A placeholder image"
+            src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='1200' height='675'%3E%3Crect width='100%25' height='100%25' fill='%23f6f8fa'/%3E%3Ctext x='50%25' y='50%25' dominant-baseline='middle' text-anchor='middle' font-family='Arial' font-size='48' fill='%239aa4b2'%3E1200%C3%97675%3C/text%3E%3C/svg%3E"
+          />
+          <figcaption>Figure + figcaption</figcaption>
+        </figure>
+      </section>
+
+      <section aria-labelledby="tables">
+        <h2 id="tables">Tables</h2>
+
+        <table>
+          <caption>Example table caption</caption>
+          <thead>
+            <tr>
+              <th scope="col">Name</th>
+              <th scope="col">Role</th>
+              <th scope="col">Notes</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Alice</td>
+              <td>Editor</td>
+              <td>Has access to content.</td>
+            </tr>
+            <tr>
+              <td>Bob</td>
+              <td>Author</td>
+              <td>Can publish posts.</td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+
+      <section aria-labelledby="details">
+        <h2 id="details">Details / summary</h2>
+
+        <details>
+          <summary>Expandable section</summary>
+          <p>
+            This content is inside <code>&lt;details&gt;</code>. It should be readable and spaced.
+          </p>
+          <ul>
+            <li>Item one</li>
+            <li>Item two</li>
+          </ul>
+        </details>
+      </section>
+
+      <footer>
+        <p><small>End of test page.</small></p>
+      </footer>
+    </main>
+  </body>
+</html>
+
