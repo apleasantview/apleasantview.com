@@ -7,7 +7,7 @@ translationKey: homepage
 layout: layouts/page.njk
 ---
 
-<section>
+<section class="u-flow">
 
 # Digital Services for Amsterdam West & the Jordaan
 
@@ -20,7 +20,7 @@ A few times per year, new client spaces open up.
 [Be the first to know →](mailto:hello@apleasantview.com)
 </section>
 
-<section>
+<section class="u-flow">
 
 ## Your local partner for calm, practical digital support
 

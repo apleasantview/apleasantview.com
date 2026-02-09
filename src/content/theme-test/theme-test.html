@@ -18,19 +18,23 @@ lang: en
         max-width: 72ch;
         margin-inline: auto;
       }
-      section + section {
+      section {
         margin-top: 3rem;
       }
+
+      section > * + * {
+        margin-top: var(--flow-space);
+      }
     </style>
-    <!-- {% set cssPath = "./src/content/theme-test/theme-test.css" %}
-    {{ cssPath | inlinePostCSS | safe }} -->
+    {% set cssPath = "./src/content/theme-test/theme-test.css" %}
+    {{ cssPath | inlinePostCSS | safe }}
   </head>
   <body>
     <main>
       <header>
         <h1>Theme test</h1>
         <p>
-          This page exercises common HTML elements (WordPress “theme unit test” style breadth) to validate a
+          This page exercises common HTML elements to validate a
           reusable, standalone defaults stylesheet.
         </p>
         <p>

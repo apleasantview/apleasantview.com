@@ -79,11 +79,11 @@
   }
 }
 
-.js-fade.glitch {
-  animation: colorShift 3s infinite;
+.u-glitch {
+  animation: u-glitch-colorShift 3s infinite;
 }
 
-@keyframes colorShift {
+@keyframes u-glitch-colorShift {
   0%, 95%, 100% {
     filter: none;
   }
@@ -102,7 +102,7 @@
   .glitch-container,
   .glitch-container::before,
   .glitch-container::after,
-  .js-fade.glitch {
+  .glitch {
     animation: none !important;
   }
 }

@@ -4,10 +4,17 @@
   --border-width-2: 2px;
   --border-width-4: 4px;
 
+  --border-width-ink-thin: 0.125em;
+  --border-width-ink-thick: 0.25em;
+  
   /* Radii (quarter/rem scale) */
   --border-radius-sm: 0.125rem; /* 2px */
   --border-radius-md: 0.375rem; /* 6px */
   --border-radius-lg: 0.5rem;   /* 8px */
   --border-radius-xl: 0.75rem;  /* 12px */
   --border-radius-full: 9999px; /* Pill shape */
+  --border-radius-circle: 50%; /* Circle shape */
+
+  /* Outline */
+  --outline-width-1: 1px;
 }

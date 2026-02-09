@@ -1,0 +1,35 @@
+:root {
+  /* Fixed spacing scale (rem tokens with px hints; 1rem = 16px) */
+  /* Use: 3xs–xs for tight gaps, s–l for typical UI spacing, xl+ for sections. */
+  --space-size-3xs: 0.25rem; /* 4px */
+  --space-size-2xs: 0.5rem; /* 8px */
+  --space-size-xs: 0.75rem; /* 12px */
+  --space-size-s: 1rem; /* 16px */
+  --space-size-m: 1.25rem; /* 20px */
+  --space-size-l: 1.5rem; /* 24px */
+  --space-size-xl: 1.75rem; /* 28px */
+  --space-size-2xl: 2rem; /* 32px - large sections */
+  --space-size-3xl: 3rem; /* 48px - hero spacing */
+  --space-size-4xl: 4rem; /* 64px - page sections */
+  --space-size-0: 0; /* zero */
+  --space-size-1: 1px;
+
+  /* Fixed spacing (rem/px) TO-REMOVE-LATER */
+  --space-static-1px: 1px;
+  --space-static-16: 1rem;    /* 16px */
+  --space-static-28: 1.75rem; /* 28px */
+  --space-static-32: 2rem;    /* 32px */
+
+  /* Flow spacing defaults */
+  --space-flow-paragraph: 1em;
+  --space-flow-heading: 1.5em;
+
+  /* Contextual offsets */
+  --space-inline-nudge: -0.125em;
+  --space-stack-tight: 0.5em;
+  --space-scroll-target: 5ex;
+
+  /* Utility-specific constants */
+  --space-sr-only-offset: -1px;
+  --space-cursor-media-offset: -200px;
+}

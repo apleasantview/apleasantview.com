@@ -1,25 +1,21 @@
 .c-language-switcher {
-	padding-block: var(--space-xs);
-	position: sticky;
-	top: 0;
+	max-width: fit-content;
 }
 
 div.c-language-switcher__inner {
-	padding-inline: var(--space-s-xl);
 	display: flex;
 	align-items: flex-start;
-	justify-content: flex-end;
 	gap: var(--space-s);
 }
 
-a.c-language-switcher__item {
+.c-language-switcher__item {
 	margin-top: 0;
 	color: var(--color-text-primary);
 	border: var(--border-width-link-strong) solid transparent;
 	transition: all 0.3s ease-out;
-	font-size: var(--step--1);
+	font-size: var(--text-size-secondary);
 }
 
-a.c-language-switcher__item:hover {
+.c-language-switcher__item:hover {
 	background-color: var(--color-surface-hover);
 }

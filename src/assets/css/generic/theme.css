@@ -7,8 +7,12 @@ html {
   color-scheme: light;
 
   --color-background-default: var(--color-background-default-light);
+  --color-background-subtle: var(--color-background-subtle-light);
   --color-text-primary: var(--color-text-primary-light);
+  --color-accent: var(--color-accent-light);
+  --color-text-muted: var(--color-text-muted-light);
   --color-border-default: var(--color-border-default-light);
+  --color-border-strong: var(--color-border-strong-light);
   --color-surface-hover: var(--color-surface-hover-light);
 }
 
@@ -16,8 +20,12 @@ html {
   color-scheme: light;
 
   --color-background-default: var(--color-background-default-light);
+  --color-background-subtle: var(--color-background-subtle-light);
   --color-text-primary: var(--color-text-primary-light);
+  --color-accent: var(--color-accent-light);
+  --color-text-muted: var(--color-text-muted-light);
   --color-border-default: var(--color-border-default-light);
+  --color-border-strong: var(--color-border-strong-light);
   --color-surface-hover: var(--color-surface-hover-light);
 }
 
@@ -27,8 +35,12 @@ html {
     color-scheme: dark;
 
     --color-background-default: var(--color-background-default-dark);
+    --color-background-subtle: var(--color-background-subtle-dark);
     --color-text-primary: var(--color-text-primary-dark);
+    --color-accent: var(--color-accent-dark);
+    --color-text-muted: var(--color-text-muted-dark);
     --color-border-default: var(--color-border-default-dark);
+    --color-border-strong: var(--color-border-strong-dark);
     --color-surface-hover: var(--color-surface-hover-dark);
   }
 }
@@ -37,7 +49,11 @@ html {
   color-scheme: dark;
 
   --color-background-default: var(--color-background-default-dark);
+  --color-background-subtle: var(--color-background-subtle-dark);
   --color-text-primary: var(--color-text-primary-dark);
+  --color-accent: var(--color-accent-dark);
+  --color-text-muted: var(--color-text-muted-dark);
   --color-border-default: var(--color-border-default-dark);
+  --color-border-strong: var(--color-border-strong-dark);
   --color-surface-hover: var(--color-surface-hover-dark);
 }

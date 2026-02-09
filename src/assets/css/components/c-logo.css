@@ -1,0 +1,8 @@
+.c-logo--header {
+	max-width: fit-content;
+}
+
+.c-logo__link {
+	display: block;
+	color: var(--color-text-primary);
+}

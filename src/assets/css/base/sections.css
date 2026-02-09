@@ -1,9 +1,0 @@
-section {
-	min-height: 75svh;
-	display: flex;
-	width: 100%;
-	flex-direction: column;
-	flex-wrap: wrap;
-	justify-content: flex-end;
-	padding-block: var(--space-xl);
-}
