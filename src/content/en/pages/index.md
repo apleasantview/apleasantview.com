@@ -40,8 +40,6 @@ At `a pleasant view`, we support small businesses with the online basics and the
 We keep it simple and dependable.  
 That means we’re not the right fit for e-commerce, complex web apps, or 24/7 support.
 
-[Learn more about our approach →](/approach)
-
 *Local, simple, dependable.*
 
 </section>

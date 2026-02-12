@@ -41,8 +41,6 @@ Bij `a pleasant view` ondersteunen we kleine ondernemers met de online basis —
 We houden het simpel en betrouwbaar.  
 Dat betekent dat we niet de juiste match zijn voor e‑commerce, complexe webapps, of 24/7 support.
 
-[Lees meer over onze aanpak →](/approach)
-
 *Lokaal, simpel, betrouwbaar.*
 
 </section>
