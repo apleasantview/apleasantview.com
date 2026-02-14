@@ -27,6 +27,7 @@ main {
 footer {
 	margin-top: auto;
 	padding-block: var(--space-inset-s);
+	font-size: var(--text-size-secondary);
 }
 
 section {
