@@ -5,41 +5,58 @@ permalink: /
 language: en
 translationKey: homepage
 layout: layouts/page.njk
+date: 2026-02-13
 ---
 
 <section class="u-flow">
 
-# Digital Services for Amsterdam West & the Jordaan
+# Digital Services for Amsterdam‑West & the Jordaan
 
-An independent digital agency that helps businesses manage and improve their online presence.  
-We provide ongoing support that is simple, personal, and dependable, so you can focus on running your business.
+A digital agency that helps businesses manage and improve their online presence.  
+We provide ongoing web and practical IT support that’s simple, personal, and dependable—so you can focus on your business.
 
 We work intentionally with a small number of clients at a time.  
 A few times per year, new client spaces open up.
 
 [Be the first to know →](mailto:hello@apleasantview.com)
+
 </section>
 
 <section class="u-flow">
 
-## Your local partner for calm, practical digital support
+## Your local partner for steady digital growth
 
-At `a pleasant view`, we support small businesses with the online basics and the day-to-day tech that keep work moving.
+At `a pleasant view`, we support small businesses with their online presence — from websites and hosting to the practical IT details that keep things running.
 
-**Online essentials**
-- domains & DNS and hosting (set up properly, kept tidy over time)
-- privacy-first analytics and search engine visibility
-- local business profile upkeep
-- small website edits and fixes
+We focus on clear communication, reliable support, and practical improvements, so you always know who to turn to when something needs attention.
 
-**Day-to-day tech support**
-- laptops and basic setups (including buying advice and upgrades)
-- troubleshooting when something doesn’t work (Wi‑Fi, printers, “it won’t turn on”)
-- practical fixes that aren’t dramatic, just effective
+Being nearby means we can respond quickly and understand the rhythm of local work.
+A quick update, a domain renewal, a small fix — handled without fuss.
 
-We keep it simple and dependable.  
-That means we’re not the right fit for e-commerce, complex web apps, or 24/7 support.
+{# [Learn more about our approach →](/approach) #}
 
-*Local, simple, dependable.*
+
+## Services
+
+- **Ongoing Care & IT Support**  
+	Ongoing support for your website, hosting, and the practical IT details around them.
+
+- **Projects**  
+	Scoped work when you need something built, improved, or straightened out.
 
 </section>
+
+<section class="u-flow">
+
+## Working with us
+
+We work primarily around Amsterdam‑West and the Jordaan, but we’re happy to work remotely too if it’s a great fit.  
+If you’d like to hear when we have space for a new client, send us a short note — we’ll reply within a day.
+
+[Send a short note →](mailto:hello@apleasantview.com)
+
+</section>
+
+<br>
+
+<span>*Local, simple, dependable.*</span>

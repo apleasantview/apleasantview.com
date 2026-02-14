@@ -66,6 +66,7 @@ h3 {
 p {
 	text-wrap: balance;
 	letter-spacing: var(--text-letterspacing-body);
+	max-inline-size: 75ch;
 }
 
 p,

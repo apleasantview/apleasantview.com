@@ -5,42 +5,56 @@ permalink: '/{{ lang }}/'
 language: nl
 translationKey: homepage
 layout: layouts/page.njk
+datae: 2026-02-13
 ---
 
-<section>
+<section class="u-flow">
 
-# Digitale services voor Amsterdam‑West & de Jordaan
+# Digitale diensten voor Amsterdam‑West & de Jordaan
 
-Een onafhankelijke digitale studio die bedrijven helpt hun online aanwezigheid te beheren en te verbeteren.  
-We bieden doorlopende support die simpel, persoonlijk en betrouwbaar is, zodat u zich kunt focussen op uw zaak.
+Een digitaal bureau dat bedrijven helpt hun online aanwezigheid te beheren en te verbeteren.  
+We bieden doorlopende web- en praktische IT-ondersteuning die simpel, persoonlijk en betrouwbaar is—zodat u zich kunt richten op uw bedrijf.
 
 We werken bewust met een klein aantal klanten tegelijk.  
-Een paar keer per jaar komt er weer ruimte vrij.
+Een paar keer per jaar komt er ruimte vrij voor nieuwe klanten.
 
-[Blijf op de hoogte →](mailto:hello@apleasantview.com)
+[Als eerste op de hoogte →](mailto:hello@apleasantview.com)
+
+</section>
+
+<section class="u-flow">
+
+## Uw lokale partner voor gestage digitale groei
+
+Bij `a pleasant view` helpen we kleine bedrijven met hun online aanwezigheid — van websites en hosting tot de praktische IT-details die alles draaiend houden.
+
+We focussen op heldere communicatie, betrouwbare ondersteuning en praktische verbeteringen, zodat u altijd weet bij wie u terechtkunt als er iets aandacht nodig heeft.
+
+Omdat we dichtbij zijn, kunnen we snel reageren en snappen we het ritme van lokaal werk.  
+Een snelle update, een domeinverlenging, een kleine fix — zonder gedoe.
+
+{# [Lees meer over onze aanpak →](/approach) #}
+
+
+## Diensten
+
+- **Doorlopende support & IT-ondersteuning**  
+  Doorlopende ondersteuning voor uw website, hosting en de praktische IT-details eromheen.
+
+- **Projecten**  
+  Afgebakend werk wanneer u iets wilt laten bouwen, verbeteren of weer rechtzetten.
 
 </section>
 
-<section>
+<section class="u-flow">
 
-## Uw lokale partner voor rustige, praktische digitale support
+## Werken met ons
 
-Bij `a pleasant view` ondersteunen we kleine ondernemers met de online basis — en de dagelijkse tech — die het werk vooruit helpt.
+We werken vooral in en rond Amsterdam‑West en de Jordaan, maar op afstand kan ook als het echt goed past.  
+Wilt u weten wanneer we ruimte hebben voor een nieuwe klant? Stuur ons een kort bericht — we reageren binnen een dag.
 
-**Online essentials**
-- domein & DNS en hosting (goed opgezet, netjes onderhouden)
-- privacy‑first analytics en online vindbaarheid
-- onderhoud van uw bedrijfsprofiel (zoals uw lokale vermelding)
-- kleine website-edits en fixes
-
-**Dagelijkse tech support**
-- laptops en basis-inrichting (incl. koopadvies en upgrades)
-- troubleshooting als iets niet werkt (wifi, printers, “het doet het niet meer”)
-- praktische oplossingen die niet dramatisch zijn, maar gewoon effectief
-
-We houden het simpel en betrouwbaar.  
-Dat betekent dat we niet de juiste match zijn voor e‑commerce, complexe webapps, of 24/7 support.
-
-*Lokaal, simpel, betrouwbaar.*
+[Stuur een kort bericht →](mailto:hello@apleasantview.com)
 
 </section>
+
+<span>*Lokaal, simpel, betrouwbaar.*</span>
