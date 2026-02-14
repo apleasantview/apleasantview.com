@@ -15,8 +15,7 @@ date: 2026-02-13
 A digital agency that helps businesses manage and improve their online presence.  
 We provide ongoing web and practical IT support that’s simple, personal, and dependable—so you can focus on your business.
 
-We work intentionally with a small number of clients at a time.  
-A few times per year, new client spaces open up.
+We work intentionally with a small number of clients at a time. A few times per year, new client spaces open up.
 
 [Be the first to know →](mailto:hello@apleasantview.com)
 
@@ -52,7 +51,7 @@ A quick update, a domain renewal, a small fix — handled without fuss.
 
 We work primarily around Amsterdam‑West and the Jordaan, but we’re happy to work remotely too if it’s a great fit.
 
-If you’d like to hear when we have space for a new client, send us a short note — we’ll reply within a day.
+Send us a short note if you’d like to hear when we have space for a new client — we’ll reply within a day.
 
 [Send a short note →](mailto:hello@apleasantview.com)
 

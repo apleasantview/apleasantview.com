@@ -29,6 +29,7 @@
 /* @import-glob "./components/*.css" layer(components); */
 
 /* 07. Utilities */
+@import "./utilities/u-text.css";
 @import "./utilities/u-flow.css";
 @import "./utilities/u-wrapper.css";
 @import "./utilities/u-glitch.css";
