@@ -50,7 +50,8 @@ A quick update, a domain renewal, a small fix — handled without fuss.
 
 ## Working with us
 
-We work primarily around Amsterdam‑West and the Jordaan, but we’re happy to work remotely too if it’s a great fit.  
+We work primarily around Amsterdam‑West and the Jordaan, but we’re happy to work remotely too if it’s a great fit.
+
 If you’d like to hear when we have space for a new client, send us a short note — we’ll reply within a day.
 
 [Send a short note →](mailto:hello@apleasantview.com)

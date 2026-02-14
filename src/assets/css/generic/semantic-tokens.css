@@ -48,6 +48,9 @@
   --text-letterspacing-body: var(--letter-spacing-body);
   --text-letterspacing-heading: var(--letter-spacing-heading);
 
+  --text-inlinesize-body: 75ch;
+  --text-inlinesize-heading: 60rem;
+
   /* Links */
   --link-underline-thickness: 0.05em;
   --link-underline-offset: 0.2em;
@@ -110,7 +113,7 @@
   --flow-space-headings: var(--space-flow-heading);
 
   /* Wrapper utilities */
-  --wrapper-max-width: 75rem;
+  --wrapper-max-width: 120rem;
   --wrapper-margin-inline: auto;
   --wrapper-padding-inline: var(--space-s-xl);
 

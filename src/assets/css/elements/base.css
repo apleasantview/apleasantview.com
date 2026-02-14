@@ -47,6 +47,7 @@ h6 {
 	letter-spacing: var(--text-letterspacing-heading);
 	font-weight: var(--text-weight-strong);
 	line-height: var(--text-lineheight-tight);
+	max-inline-size: var(--text-inlinesize-heading);
 }
 
 h1 {
@@ -64,9 +65,7 @@ h3 {
 /* Text + grouping context */
 
 p {
-	text-wrap: balance;
 	letter-spacing: var(--text-letterspacing-body);
-	max-inline-size: 75ch;
 }
 
 p,
@@ -79,6 +78,7 @@ table,
 figure,
 hr {
 	margin-block: var(--flow-space);
+	max-inline-size: var(--text-inlinesize-body);
 }
 
 small {
