@@ -44,11 +44,19 @@ While not a full IT helpdesk, it’s not “just web work” either. It’s the 
 
 ### At a glance
 
+<div class="c-pricing-table__inner">
+
+<div class="c-pricing-table__item">
+
 #### What you get
 
 - Your online presence stays steady in the background.
 - Less time figuring out who to ask, and more time running the business.
 - Clear expectations — and predictable costs.
+
+</div>
+
+<div class="c-pricing-table__item">
 
 #### How it works
 
@@ -57,12 +65,20 @@ While not a full IT helpdesk, it’s not “just web work” either. It’s the 
 - Web + practical IT support in one place, so you’re not juggling different people.
 - Foundations are kept in order when needed (hosting, domains, analytics, and search tools).
 
+</div>
+
+<div class="c-pricing-table__item">
+
 #### Terms
 
 - **€85/month (incl. VAT)**
 - **Up to 1 hour of support per month**
 - **Response within 24 hours** (response ≠ resolution; not 24/7)
 - Unused included time **expires monthly** (no carry-over)
+
+</div>
+
+<div>
 
 </section>
 

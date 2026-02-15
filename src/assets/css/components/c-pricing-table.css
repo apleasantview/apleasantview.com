@@ -6,33 +6,35 @@
 
 .c-pricing-table__inner {
 	display: grid;
-	gap: var(--space-cluster-card);
-	grid-template-columns: repeat(1, minmax(0, 1fr));
+	column-gap: var(--space-inset-xl);
+	row-gap: var(--space-stack-s);
+	grid-template-columns: repeat(auto-fit, minmax(min(320px, 100%), 1fr));
+	max-inline-size: fit-content;
 }
 
-.c-pricing-table__card {
-	padding: var(--space-s-m);
-	border: var(--border-width-default) solid var(--color-border-default);
+.c-pricing-table__item {
+	padding-block-end: var(--space-s);
+	padding-inline: var(--space-s);
 	border-radius: var(--border-radius-card);
 	height: auto;
 	background-color: var(--color-slate-200-alpha-08);
-	max-width: 45ch;
 }
 
-.c-pricing-table__card h3 {
+.c-pricing-table__item h3 {
 	margin: 0;
 }
 
-.c-pricing-table__card p {
-	text-wrap: initial;
+.c-pricing-table__item * + p {
+	margin-top: var(--space-m);
 }
 
-.c-pricing-table__card * + p {
-	margin-top: var(--space-m);
+.c-pricing-table__item ul {
+	padding: 0;
+	list-style-position: inside;
 }
 
 @media (min-width: 768px) {
 	.c-pricing-table__inner {
-		grid-template-columns: repeat(3, minmax(0, 1fr));
+		grid-template-columns: repeat(auto-fit, minmax(min(320px, 100%), 1fr));
 	}
 }
