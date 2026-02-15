@@ -44,22 +44,25 @@ While not a full IT helpdesk, it’s not “just web work” either. It’s the 
 
 ### At a glance
 
-#### Terms
-- **€85/month (incl. VAT)**
-- **Up to 1 hour of support per month**
-- **Response within 24 hours** (response ≠ resolution; not 24/7)
-- Unused included time **expires monthly** (no carry-over)
+#### What you get
+
+- Your online presence stays steady in the background.
+- Less time figuring out who to ask, and more time running the business.
+- Clear expectations — and predictable costs.
 
 #### How it works
+
 - One point of contact, with clear communication.
 - Small updates and fixes don’t linger.
 - Web + practical IT support in one place, so you’re not juggling different people.
 - Foundations are kept in order when needed (hosting, domains, analytics, and search tools).
 
-#### What you get
-- Your online presence stays steady in the background.
-- Less time figuring out who to ask, and more time running the business.
-- Clear expectations — and predictable costs.
+#### Terms
+
+- **€85/month (incl. VAT)**
+- **Up to 1 hour of support per month**
+- **Response within 24 hours** (response ≠ resolution; not 24/7)
+- Unused included time **expires monthly** (no carry-over)
 
 </section>
 
@@ -70,6 +73,7 @@ While not a full IT helpdesk, it’s not “just web work” either. It’s the 
 If you’d like to check if we have space and if it’s a fit, [send us a note →](mailto:hello@apleasantview.com).
 
 Include:
+
 - your website link
 - what you’d like help with first
 - what your site runs on (if you know)
