@@ -78,7 +78,7 @@ While not a full IT helpdesk, it’s not “just web work” either. It’s the 
 
 </div>
 
-<div>
+</div>
 
 </section>
 

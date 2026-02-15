@@ -8,20 +8,23 @@
 	display: grid;
 	column-gap: var(--space-inset-xl);
 	row-gap: var(--space-stack-m);
-	grid-template-columns: repeat(auto-fit, minmax(min(320px, 100%), 1fr));
-	max-inline-size: fit-content;
+	grid-template-columns: repeat(auto-fill, minmax(min(360px, 100%), 1fr));
 }
 
 .c-pricing-table__item {
 	padding-block-end: var(--space-s);
 	padding-inline: var(--space-s);
 	border-radius: var(--border-radius-card);
-	height: auto;
+	height: fit-content;
 	background-color: var(--color-slate-200-alpha-08);
 }
 
 .c-pricing-table__item--x {
 	grid-column: 1 / -1;
+}
+
+.c-pricing-table__item--x ul {
+	font-size: var(--text-size-secondary);
 }
 
 .c-pricing-table__item h3 {
@@ -36,10 +39,11 @@
 	padding: 0;
 	list-style-position: inside;
 	list-style-type: none;
+	font-size: var(--text-size-secondary);
 }
 
 @media (min-width: 768px) {
 	.c-pricing-table__inner {
-		grid-template-columns: repeat(auto-fit, minmax(min(320px, 100%), 1fr));
+		grid-template-columns: repeat(auto-fill, minmax(min(360px, 100%), 1fr));
 	}
 }
