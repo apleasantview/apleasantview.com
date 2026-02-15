@@ -67,7 +67,7 @@ While not a full IT helpdesk, it’s not “just web work” either. It’s the 
 
 </div>
 
-<div class="c-pricing-table__item">
+<div class="c-pricing-table__item--x">
 
 #### Terms
 
