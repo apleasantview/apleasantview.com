@@ -12,7 +12,8 @@ date: 2026-02-13
 
 # Digital Services for Amsterdam‑West & the Jordaan
 
-A digital agency that helps businesses manage and improve their online presence.  
+A digital agency that helps businesses manage and improve their online presence.
+
 We provide ongoing web and practical IT support that’s simple, personal, and dependable—so you can focus on your business.
 
 We work intentionally with a small number of clients at a time. A few times per year, new client spaces open up.

@@ -1,12 +1,12 @@
-/* @link https://utopia.fyi/type/calculator?c=330,18,1.2,1920,24,1.333,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|5|6,s-l|s-3xl&g=s,3xl,4xl,12 */
+/* @link https://utopia.fyi/type/calculator?c=360,18,1.2,1440,20,1.2,5,2,&s=0.75|0.5|0.25,1.5|2|3|4|6,s-l|s-xl|s-2xl&g=s,l,2xl,12 */
 
 :root {
-  --step--2: clamp(0.7813rem, 0.7682rem + 0.0633vw, 0.8442rem);
-  --step--1: clamp(0.9375rem, 0.8985rem + 0.189vw, 1.1253rem);
-  --step-0: clamp(1.125rem, 1.0472rem + 0.3774vw, 1.5rem);
-  --step-1: clamp(1.35rem, 1.2152rem + 0.6536vw, 1.9995rem);
-  --step-2: clamp(1.62rem, 1.403rem + 1.0519vw, 2.6653rem);
-  --step-3: clamp(1.944rem, 1.6101rem + 1.619vw, 3.5529rem);
-  --step-4: clamp(2.3328rem, 1.834rem + 2.4183vw, 4.736rem);
-  --step-5: clamp(2.7994rem, 2.0701rem + 3.5358vw, 6.3131rem);
+  --step--2: clamp(0.7813rem, 0.7523rem + 0.1286vw, 0.8681rem);
+  --step--1: clamp(0.9375rem, 0.9028rem + 0.1543vw, 1.0417rem);
+  --step-0: clamp(1.125rem, 1.0833rem + 0.1852vw, 1.25rem);
+  --step-1: clamp(1.35rem, 1.3rem + 0.2222vw, 1.5rem);
+  --step-2: clamp(1.62rem, 1.56rem + 0.2667vw, 1.8rem);
+  --step-3: clamp(1.944rem, 1.872rem + 0.32vw, 2.16rem);
+  --step-4: clamp(2.3328rem, 2.2464rem + 0.384vw, 2.592rem);
+  --step-5: clamp(2.7994rem, 2.6957rem + 0.4608vw, 3.1104rem);
 }

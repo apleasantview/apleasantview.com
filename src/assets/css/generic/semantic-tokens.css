@@ -35,7 +35,7 @@
   --text-size-muted: var(--step--2);
   --text-size-lede: var(--step-1);
   --text-size-title: var(--step-2);
-  --text-size-display: var(--step-3);
+  --text-size-display: var(--step-4);
 
   --text-lineheight-tight: var(--line-height-tight);
   --text-lineheight-default: var(--line-height-normal);
