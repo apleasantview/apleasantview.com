@@ -81,6 +81,7 @@
   --space-inset-m: var(--space-m);
   --space-inset-l: var(--space-l);
   --space-inset-xl: var(--space-xl);
+  --space-inset-2xl: var(--space-2xl);
 
   /* Horizontal spacing between inline items */
   --space-inline-tight: var(--space-2xs);

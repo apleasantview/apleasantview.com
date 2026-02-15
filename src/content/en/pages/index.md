@@ -32,7 +32,7 @@ We focus on clear communication, reliable support, and practical improvements, s
 Being nearby means we can respond quickly and understand the rhythm of local work.
 A quick update, a domain renewal, a small fix — handled without fuss.
 
-{# [Learn more about our approach →](/approach) #}
+[Learn more about our approach →](/approach/)
 
 
 ## Services
