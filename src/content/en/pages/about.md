@@ -1,5 +1,5 @@
 ---
-title: 'About'
+title: 'About us'
 description: 'A small digital agency in Amsterdam‑West providing ongoing web and practical IT support for small businesses.'
 permalink: /about/
 translationKey: about
@@ -9,7 +9,7 @@ date: 2026-02-16
 
 <section class="u-flow">
 
-# About
+# About us
 
 We’re a small digital agency based in Amsterdam‑West, supporting small businesses with their online presence — from websites and hosting to practical IT details around email, logins, and devices.
 

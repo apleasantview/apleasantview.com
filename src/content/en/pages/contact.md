@@ -28,4 +28,6 @@ Please include:
 
 We’ll reply within a day. If we can help, we’ll suggest a sensible next step and clarify anything that’s unclear before we begin.
 
+[Read more about us →]({{ "/about/" | locale_url }})
+
 </section>

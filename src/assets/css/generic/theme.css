@@ -14,6 +14,13 @@ html {
   --color-border-default: var(--color-border-default-light);
   --color-border-strong: var(--color-border-strong-light);
   --color-surface-hover: var(--color-surface-hover-light);
+
+  --distance-glitch-red-negative: -.5em;
+  --distance-glitch-red-positive: .5em;
+  --distance-glitch-green-negative: -.5em;
+  --distance-glitch-green-positive: .5em;
+  --distance-glitch-blue-negative: -.5em;
+  --distance-glitch-blue-positive: .5em;
 }
 
 :root[data-theme='light'] {
@@ -27,6 +34,13 @@ html {
   --color-border-default: var(--color-border-default-light);
   --color-border-strong: var(--color-border-strong-light);
   --color-surface-hover: var(--color-surface-hover-light);
+
+  --distance-glitch-red-negative: -.5em;
+  --distance-glitch-red-positive: .5em;
+  --distance-glitch-green-negative: -.5em;
+  --distance-glitch-green-positive: .5em;
+  --distance-glitch-blue-negative: -.5em;
+  --distance-glitch-blue-positive: .5em;
 }
 
 /* Dark theme mapping (system default + explicit) */
@@ -42,6 +56,13 @@ html {
     --color-border-default: var(--color-border-default-dark);
     --color-border-strong: var(--color-border-strong-dark);
     --color-surface-hover: var(--color-surface-hover-dark);
+
+    --distance-glitch-red-negative: -1em;
+    --distance-glitch-red-positive: 1em;
+    --distance-glitch-green-negative: -1em;
+    --distance-glitch-green-positive: 1em;
+    --distance-glitch-blue-negative: -1em;
+    --distance-glitch-blue-positive: 1em;
   }
 }
 
@@ -56,4 +77,11 @@ html {
   --color-border-default: var(--color-border-default-dark);
   --color-border-strong: var(--color-border-strong-dark);
   --color-surface-hover: var(--color-surface-hover-dark);
+
+  --distance-glitch-red-negative: -1em;
+  --distance-glitch-red-positive: 1em;
+  --distance-glitch-green-negative: -1em;
+  --distance-glitch-green-positive: 1em;
+  --distance-glitch-blue-negative: -1em;
+  --distance-glitch-blue-positive: 1em;
 }

@@ -9,7 +9,7 @@ date: 2026-02-16
 
 <section class="u-flow">
 
-# Local
+# Local first
 
 `a pleasant view` is based in Amsterdam‑West, working mainly across West and the Jordaan.
 

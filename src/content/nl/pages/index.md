@@ -2,7 +2,6 @@
 title: Digitale services voor Amsterdam‑West & de Jordaan
 description: Een onafhankelijke digitale studio in Amsterdam‑West die kleine ondernemers helpt met hun online basis en praktische digitale support.
 permalink: '/{{ lang }}/'
-language: nl
 translationKey: homepage
 layout: layouts/page.njk
 datae: 2026-02-13
@@ -12,13 +11,14 @@ datae: 2026-02-13
 
 # Digitale diensten voor Amsterdam‑West & de Jordaan
 
-Een digitaal bureau dat bedrijven helpt hun online aanwezigheid te beheren en te verbeteren.  
+Een digitaal bureau dat bedrijven helpt hun online aanwezigheid te beheren en te verbeteren.
+
 We bieden doorlopende web- en praktische IT-ondersteuning die simpel, persoonlijk en betrouwbaar is—zodat u zich kunt richten op uw bedrijf.
 
 We werken bewust met een klein aantal klanten tegelijk.  
 Een paar keer per jaar komt er ruimte vrij voor nieuwe klanten.
 
-[Als eerste op de hoogte →](mailto:hello@apleasantview.com)
+[Als eerste op de hoogte →]({{ "/contact/" | locale_url }})
 
 </section>
 
@@ -33,7 +33,7 @@ We focussen op heldere communicatie, betrouwbare ondersteuning en praktische ver
 Omdat we dichtbij zijn, kunnen we snel reageren en snappen we het ritme van lokaal werk.  
 Een snelle update, een domeinverlenging, een kleine fix — zonder gedoe.
 
-{# [Lees meer over onze aanpak →](/approach) #}
+[Lees meer over onze aanpak →]({{ "/approach/" | locale_url }})
 
 
 ## Diensten
@@ -53,7 +53,7 @@ Een snelle update, een domeinverlenging, een kleine fix — zonder gedoe.
 We werken vooral in en rond Amsterdam‑West en de Jordaan, maar op afstand kan ook als het echt goed past.  
 Wilt u weten wanneer we ruimte hebben voor een nieuwe klant? Stuur ons een kort bericht — we reageren binnen een dag.
 
-[Stuur een kort bericht →](mailto:hello@apleasantview.com)
+[Stuur een kort bericht →]({{ "/contact/" | locale_url }})
 
 </section>
 

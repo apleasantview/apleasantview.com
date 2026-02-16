@@ -88,10 +88,10 @@
     filter: none;
   }
   96% {
-    filter: drop-shadow(-16px 0 var(--color-glitch-red)) drop-shadow(-16px 0 var(--color-glitch-green)) drop-shadow(-16px 0 var(--color-glitch-blue));
+    filter: drop-shadow(var(--distance-glitch-red-negative) 0 var(--color-glitch-red)) drop-shadow(var(--distance-glitch-green-positive) 0 var(--color-glitch-green)) drop-shadow(var(--distance-glitch-blue-negative) 0 var(--color-glitch-blue)) blur(.15em);
   }
   97% {
-    filter: drop-shadow(16px 0 var(--color-glitch-red)) drop-shadow(16px 0 var(--color-glitch-green)) drop-shadow(16px 0 var(--color-glitch-blue));
+    filter: drop-shadow(var(--distance-glitch-red-positive) 0 var(--color-glitch-red)) drop-shadow(--distance-glitch-green-negative 0 var(--color-glitch-green)) drop-shadow(--distance-glitch-blue-positive 0 var(--color-glitch-blue)) blur(0);
   }
   98% {
     filter: none;
