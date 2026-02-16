@@ -11,7 +11,7 @@ date: 2026-02-16
 
 # Over ons
 
-We zijn een klein digitaal bureau in Amsterdam‑West. We ondersteunen kleine bedrijven met hun online aanwezigheid — van websites en hosting tot praktische IT‑details rond e‑mail, logins en apparaten.
+We zijn een klein digitaal bureau in Amsterdam‑West. We ondersteunen kleine bedrijven met hun online aanwezigheid: van websites en hosting tot de praktische IT‑details rond e‑mail, logins en apparaten.
 
 Onze focus is eenvoudig: duidelijke communicatie, praktische verbeteringen en grenzen die samenwerking werkbaar houden.
 
@@ -23,7 +23,7 @@ Onze focus is eenvoudig: duidelijke communicatie, praktische verbeteringen en gr
 
 Voor de meeste kleine bedrijven is digitaal werk geen aparte afdeling — het is een constante stroom van kleine taken die gewoon goed moeten gebeuren.
 
-Wij bestaan om die stabiele laag support te bieden, zodat uw website en dagelijkse digitale setup in goede staat blijven en kleine issues geen voortdurende ruis worden.
+Wij bestaan om die stabiele laag support te bieden, zodat uw website en dagelijkse digitale setup in goede staat blijven en kleine issues geen voortdurende ruis vormen.
 
 </section>
 
@@ -31,9 +31,9 @@ Wij bestaan om die stabiele laag support te bieden, zodat uw website en dagelijk
 
 ## Oprichter
 
-`a pleasant view` wordt gerund door Cristovao — Belg, Nederlandstalig, gevestigd in Amsterdam.
+`a pleasant view` wordt gerund door Cristovao Verstraeten — drietalige Belg, gevestigd in Amsterdam.
 
-Achter de studio zit meer dan veertien jaar ervaring in digitaal werk, vaak in langetermijnsupport: websites onderhouden, kleine fixes oppakken en systemen netjes genoeg houden zodat ondernemers kunnen focussen op hun werk.
+Achter de studio zit meer dan veertien jaar ervaring in digitaal werk, vaak in langetermijnsupport: websites onderhouden, kleine fixes oppakken en systemen netjes houden, zodat ondernemers zich kunnen focussen op hun werk.
 
 </section>
 
@@ -55,7 +55,7 @@ Achter de studio zit meer dan veertien jaar ervaring in digitaal werk, vaak in l
 
 We werken vooral rond Amsterdam‑West en de buurten rond de Jordaan. Support op afstand kan ook, als het goed aansluit en de communicatie helder blijft.
 
-[Lees hier meer over ons lokale filosofie →]({{ "/local/" | locale_url }})
+[Meer over hoe we lokaal werken →]({{ "/local/" | locale_url }})
 
 </section>
 

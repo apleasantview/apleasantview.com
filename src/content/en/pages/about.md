@@ -31,7 +31,7 @@ We exist to provide that steady layer of support, so your website and day-to-day
 
 ## Founder
 
-`a pleasant view` is run by Cristovao — Belgian, Dutch-speaking, based in Amsterdam.
+`a pleasant view` is run by Cristovao Verstraeten — Belgian, trilingual (Dutch, English and French), based in Amsterdam.
 
 There are over fourteen years of experience in digital work behind the studio, much of it in long-term support: maintaining websites, handling small fixes, and keeping systems tidy enough that business owners can stay focused on their work.
 

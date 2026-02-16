@@ -11,9 +11,9 @@ date: 2026-02-16
 
 # Lokaal eerst
 
-`a pleasant view` is gevestigd in Amsterdam‑West en werkt voornamelijk in West en rond de Jordaan.
+`a pleasant view` is gevestigd in Amsterdam‑West en werkt vooral in West en rond de Jordaan.
 
-In de buurt zijn houdt het praktisch. We begrijpen het ritme van lokaal werk, en we zitten dicht genoeg om snel te schakelen wanneer iets aandacht nodig heeft.
+Dichtbij zijn houdt het praktisch. We begrijpen het ritme van lokaal werk. Zo kunnen we snel schakelen wanneer iets aandacht nodig heeft.
 
 </section>
 
@@ -21,15 +21,15 @@ In de buurt zijn houdt het praktisch. We begrijpen het ritme van lokaal werk, en
 
 ## Waarom lokaal telt
 
-Lokaal is voor ons geen marketinghoek — het is een praktische.
+Lokaal is voor ons geen marketinghoek — het is praktisch.
 
-Het betekent dat we de snelheid en patronen van kleine bedrijven in de buurt goed kennen. Communicatie blijft direct, en kleine updates worden geen lange ping‑pong.
+Het betekent dat we de snelheid en patronen van kleine bedrijven in de buurt goed kennen. Communicatie blijft direct en kleine updates worden geen lange ping‑pong.
 
 En wanneer het helpt, kunnen we gewoon dichter bij het werk zijn.
 
 ### Op afstand, wanneer het goed aansluit
 
-Het meeste van ons werk is lokaal, maar support op afstand kan ook — zeker wanneer het werk duidelijk afgebakend is en communicatie helder blijft.
+Het meeste van ons werk gebeurt lokaal, maar support op afstand kan ook — zeker wanneer het werk duidelijk afgebakend is en de communicatie helder blijft.
 
 </section>
 
@@ -39,7 +39,7 @@ Het meeste van ons werk is lokaal, maar support op afstand kan ook — zeker wan
 
 We werken al meer dan veertien jaar in digitaal werk.
 
-Veel van dat werk gebeurt achter de schermen: websites consistent houden, kleine fixes oppakken en zorgen dat details niet in de weg staan van het runnen van een zaak.
+Veel werk gebeurt achter de schermen: websites consistent houden, kleine fixes oppakken en zorgen dat details het runnen van een zaak niet in de weg staan.
 
 Betrouwbaarheid is voor ons belangrijker dan groeicijfers.
 

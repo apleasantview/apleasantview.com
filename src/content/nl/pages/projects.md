@@ -11,9 +11,9 @@ date: 2026-02-16
 
 # Projecten
 
-Projecten zijn voor afgebakend werk: een nieuwe site, een rebuild of een specifieke verbetering die u goed wilt laten aanpakken — en netjes afgerond.
+Projecten zijn voor afgebakend werk: een nieuwe site, een rebuild of een specifieke verbetering die u zorgvuldig wilt laten uitvoeren — en netjes afgerond.
 
-We houden projectwerk rustig en voorspelbaar: heldere scope, duidelijke communicatie en een eenvoudige overdracht op het einde.
+We houden projectwerk rustig en voorspelbaar. Heldere scope, duidelijke communicatie en een eenvoudige overdracht op het einde.
 
 </section>
 
@@ -24,10 +24,10 @@ We houden projectwerk rustig en voorspelbaar: heldere scope, duidelijke communic
 Een project is een goede optie wanneer:
 
 - u een nieuwe website nodig hebt (of een rebuild)
-- uw huidige site een duidelijke verbetering nodig heeft, geen doorlopende support
+- uw huidige site duidelijke verbeteringen nodig heeft en geen doorlopende support
 - u een afgebakende scope wilt, een duidelijk einde en een nette overdracht
 
-Als u vooral doorlopend hulp nodig hebt om alles up‑to‑date te houden, dan past het supportplan mogelijk beter.
+Als u vooral doorlopend hulp nodig hebt om alles up‑to‑date te houden, past het supportplan vaak beter.
 
 </section>
 
@@ -41,7 +41,7 @@ De meeste projecten vallen in een paar duidelijke categorieën:
 - rebuilds die een bestaande site vereenvoudigen en moderniseren
 - praktische verbeteringen: structuur, copy‑opmaak, performance en de basis die het makkelijk maakt om te onderhouden
 
-Het doel is altijd hetzelfde: een site die simpel is, snel laadt en makkelijk is om te beheren.
+Het doel is altijd hetzelfde: een site die simpel is, snel laadt en makkelijk te beheren is.
 
 </section>
 
@@ -72,7 +72,9 @@ Op het einde krijgt u een nette overdracht: toegang, documentatie waar het helpt
 
 ## Na een project
 
-Als u wilt dat de site daarna goed opgevolgd blijft, kunnen we verdergaan met doorlopende support (web + praktische IT). Dat is vaak de eenvoudigste manier om te voorkomen dat kleine issues zich opstapelen.
+Als u wilt dat de site daarna goed opgevolgd blijft, kunnen we verdergaan met doorlopende support ([web + praktische IT]({{ "/approach/" | locale_url }})).
+
+Dat is vaak de eenvoudigste manier om te voorkomen dat kleine issues zich opstapelen.
 
 Als u dat niet wilt, is dat ook prima — het doel is hoe dan ook een schone afronding.
 
@@ -82,7 +84,7 @@ Als u dat niet wilt, is dat ook prima — het doel is hoe dan ook een schone afr
 
 ## Volgende stap
 
-Heeft u een project in gedachten? [Stuur ons een bericht →]({{ "/contact/" | locale_url }}).
+Heeft u een project in gedachten? [Stuur ons een kort bericht →]({{ "/contact/" | locale_url }}).
 
 Stuur bij voorkeur mee:
 

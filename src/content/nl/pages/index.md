@@ -11,9 +11,9 @@ datae: 2026-02-13
 
 # Digitale diensten voor Amsterdam‑West & de Jordaan
 
-Een digitaal bureau dat bedrijven helpt hun online aanwezigheid te beheren en te verbeteren.
+Een klein digitaal bureau dat bedrijven helpt hun online aanwezigheid te beheren en te versterken.
 
-We bieden doorlopende web- en praktische IT-ondersteuning die simpel, persoonlijk en betrouwbaar is—zodat u zich kunt richten op uw bedrijf.
+We bieden doorlopende web- en IT‑ondersteuning die simpel, persoonlijk en betrouwbaar is — zodat u zich op uw eigen werk kunt richten.
 
 We werken bewust met een klein aantal klanten tegelijk.  
 Een paar keer per jaar komt er ruimte vrij voor nieuwe klanten.
@@ -26,23 +26,24 @@ Een paar keer per jaar komt er ruimte vrij voor nieuwe klanten.
 
 ## Uw lokale partner voor gestage digitale groei
 
-Bij `a pleasant view` helpen we kleine bedrijven met hun online aanwezigheid — van websites en hosting tot de praktische IT-details die alles draaiend houden.
+Bij `a pleasant view` ondersteunen kleine bedrijven bij hun online aanwezigheid — van websites en hosting tot de praktische IT-zaken die alles draaiend houden.
 
-We focussen op heldere communicatie, betrouwbare ondersteuning en praktische verbeteringen, zodat u altijd weet bij wie u terechtkunt als er iets aandacht nodig heeft.
+Duidelijke communicatie, betrouwbare ondersteuning en praktische verbeteringen staan centraal.
+Zo weet u altijd bij wie u terechtkunt als iets aandacht nodig heeft.
 
-Omdat we dichtbij zijn, kunnen we snel reageren en snappen we het ritme van lokaal werk.  
-Een snelle update, een domeinverlenging, een kleine fix — zonder gedoe.
+Omdat we dichtbij zijn, kunnen we snel schakelen en begrijpen we het ritme van lokaal werk.  
+Een korte update, een domeinverlenging of een kleine fix — alles wordt eenvoudig en zonder gedoe geregeld.
 
 [Lees meer over onze aanpak →]({{ "/approach/" | locale_url }})
 
 
 ## Diensten
 
-- **Doorlopende support & IT-ondersteuning**  
-  Doorlopende ondersteuning voor uw website, hosting en de praktische IT-details eromheen.
+- **Doorlopende support (web + praktische IT)**  
+  Altijd ondersteuning voor uw website, hosting en de IT-zaken daaromheen.
 
 - **Projecten**  
-  Afgebakend werk wanneer u iets wilt laten bouwen, verbeteren of weer rechtzetten.
+  Afgebakend werk wanneer u iets wilt laten bouwen, verbeteren of weer op orde brengen.
 
 </section>
 
@@ -50,10 +51,12 @@ Een snelle update, een domeinverlenging, een kleine fix — zonder gedoe.
 
 ## Werken met ons
 
-We werken vooral in en rond Amsterdam‑West en de Jordaan, maar op afstand kan ook als het echt goed past.  
-Wilt u weten wanneer we ruimte hebben voor een nieuwe klant? Stuur ons een kort bericht — we reageren binnen een dag.
+We werken vooral in en rond Amsterdam‑West en de Jordaan, maar op afstand kan ook als het goed past.
 
-[Stuur een kort bericht →]({{ "/contact/" | locale_url }})
+Wilt u weten wanneer we ruimte hebben voor een nieuwe klant of project?  
+[Stuur een kort berichtje →]({{ "/contact/" | locale_url }})
+
+We reageren meestal binnen een dag.
 
 </section>
 
