@@ -1,8 +1,7 @@
 ---
 title: 'Our Approach to Website & IT Support for Small Businesses'
-description: 'How we keep your online presence steady: clear communication, practical improvements, transparent rules, and calm boundaries. Local-first in Amsterdam‑West & the Jordaan, remote if it’s a great fit.'
+description: 'How we keep your online presence steady: clear communication, practical improvements, transparent rules, and calm boundaries.'
 permalink: /approach/
-language: en
 translationKey: approach
 layout: layouts/page.njk
 date: 2026-02-14
@@ -86,13 +85,7 @@ While not a full IT helpdesk, it’s not “just web work” either. It’s the 
 
 ## Availability and fit
 
-If you’d like to check if we have space and if it’s a fit, [send us a note →](mailto:hello@apleasantview.com).
-
-Include:
-
-- your website link
-- what you’d like help with first
-- what your site runs on (if you know)
+If you’d like to check if we have space and if it’s a fit, [send us a note →]({{ "/contact/" | locale_url }}).
 
 We’ll reply within a day.
 

@@ -128,6 +128,7 @@ a {
 	border: var(--border-width-link-strong) solid transparent;
 	border-radius: 0.25rem;
 	transition: all 0.3s ease-out;
+	translate: calc(var(--border-width-link-strong) * -1) 0;
 }
 
 a:visited {
@@ -143,11 +144,13 @@ a:hover {
 :where(a, button, input, select, textarea, summary, [tabindex]:not([tabindex="-1"])):focus-visible {
 	outline: var(--focus-ring-width) solid var(--color-accent);
 	outline-offset: var(--focus-ring-offset);
+	background-color: var(--color-surface-hover);
 }
 
 /* Lists */
 
 ul, ol {
+	--flow-space: 0;
 	margin: 0;
 	padding-inline-start: 1.5em;
 }

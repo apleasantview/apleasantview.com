@@ -2,13 +2,12 @@
 <html lang="{{ lang | default(site.defaultLanguage) }}">
 <head>
 	<baseline-head></baseline-head>
-	{# hreflang/alternate links from collections.translations #}
-	{% set translations = collections.translations[translationKey] %}
-	{% set defaultLang = site.defaultLanguage %}
+	{# hreflang/alternate links from collections.translationsMap #}
+	{% set translations = collections.translationsMap[translationKey] %}
 	{% if translations %}
 		{% for language, item in translations %}
 			<link rel="alternate" hreflang="{{ item.lang }}" href="{{ item.url }}">
-			{% if item.isDefault %}<link rel="alternate" hreflang="x-default" href="{{ item.url }}">{% endif %}
+			{% if item.isDefaultLang %}<link rel="alternate" hreflang="x-default" href="{{ item.url }}">{% endif %}
 		{% endfor %}
 	{% endif %}
 	<script defer data-domain="apleasantview.com" src="https://plausible.io/js/script.js"></script>
