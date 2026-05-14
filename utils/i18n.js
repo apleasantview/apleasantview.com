@@ -1,7 +1,4 @@
-import { createRequire } from "node:module";
-
-const require = createRequire(import.meta.url);
-const strings = require("./i18n/strings.json");
+import strings from "../src/_data/i18n/strings.json" with { type: "json" };
 
 export default {
 	defaultLanguage: "en",

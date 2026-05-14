@@ -1,24 +1,6 @@
 <!DOCTYPE html>
 <html lang="{{ lang | default(site.defaultLanguage) }}">
-<head>
-	<baseline-head></baseline-head>
-	{# hreflang/alternate links from collections.translationsMap #}
-	{% set translations = collections.translationsMap[translationKey] %}
-	{% if translations %}
-		{% for language, item in translations %}
-			<link rel="alternate" hreflang="{{ item.lang }}" href="{{ item.url }}">
-			{% if item.isDefaultLang %}<link rel="alternate" hreflang="x-default" href="{{ item.url }}">{% endif %}
-		{% endfor %}
-	{% endif %}
-	<meta name="generator" content="{{ eleventy.generator }}">
-	<meta name="color-scheme" content="light dark">
-	<link rel="icon" type="image/png" href="/favicon/favicon-96x96.png" sizes="96x96" />
-	<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
-	<link rel="shortcut icon" href="/favicon.ico" />
-	<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-	<link rel="manifest" href="/site.webmanifest" />
-	<link rel="me" href="https://mastodon.social/@crisverstraeten">
-</head>
+<baseline-head></baseline-head>
 <body class="u-wrapper">
 	<div class="o-texture"></div>
 	<a href="#main" class="skip-link">Skip to main content</a>

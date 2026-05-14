@@ -2,15 +2,15 @@
 import "dotenv/config";
 
 import baseline, { config as baselineConfig } from "@apleasantview/eleventy-plugin-baseline";
-import i18n from "./src/_data/i18n.js";
+import settings from "./src/_data/settings.js";
+import i18n from "./utils/i18n.js";
 import { translateKey } from "./utils/translate.js";
 
 /** @param { import("@11ty/eleventy/src/UserConfig.js").default } eleventyConfig */
 export default function (eleventyConfig) {
-	eleventyConfig.addPlugin(baseline({
-		multilingual: true,
-		defaultLanguage: i18n.defaultLanguage,
-		languages: i18n.languages
+	eleventyConfig.addPlugin(baseline(settings, {
+		verbose: true,
+		multilingual: true
 	}));
 
 	eleventyConfig.addFilter("translate", function (key, params = {}) {
