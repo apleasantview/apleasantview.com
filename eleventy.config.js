@@ -7,8 +7,8 @@ import i18n from "./utils/i18n.js";
 import { translateKey } from "./utils/translate.js";
 
 /** @param { import("@11ty/eleventy/src/UserConfig.js").default } eleventyConfig */
-export default function (eleventyConfig) {
-	eleventyConfig.addPlugin(baseline(settings, {
+export default async function (eleventyConfig) {
+	await eleventyConfig.addPlugin(baseline(settings, {
 		verbose: true,
 		multilingual: true
 	}));
