@@ -6,3 +6,9 @@ temp/
 .env
 test.njk
 dist/
+
+# Claude Code
+.claude/
+CLAUDE.md
+CLAUDE.local.md
+CLAUDE.private.md
