@@ -6,7 +6,7 @@ export default {
 	organization: {
 		"@type": "LocalBusiness",
 		name: "a pleasant view",
-		legalName: null,                            // TODO: registered KvK name if different
+		legalName: null, // TODO: registered KvK name if different
 		url: "https://www.apleasantview.com/",
 		email: "hello@apleasantview.com",
 		telephone: null,
@@ -15,32 +15,32 @@ export default {
 			postalCode: null,
 			addressLocality: "Amsterdam",
 			addressRegion: "Noord-Holland",
-			addressCountry: "NL"
+			addressCountry: "NL",
 		},
-		geo: null,                                  // { latitude, longitude } or null
+		geo: null, // { latitude, longitude } or null
 		areaServed: ["Amsterdam-West", "Jordaan"],
-		taxID: "60532955",                          // KvK
+		taxID: "60532955", // KvK
 		vatID: null,
-		foundingDate: null,                         // "YYYY-MM-DD"
+		foundingDate: null, // "YYYY-MM-DD"
 		logo: {
 			url: "https://www.apleasantview.com/web-app-manifest-512x512.png",
 			width: 512,
-			height: 512
+			height: 512,
 		},
 		sameAs: [
-			"https://mastodon.social/@crisverstraeten"
-			// TODO: GitHub profile URL
-			// TODO: LinkedIn profile URL
-			// TODO: "https://www.eleventy-baseline.dev/"  (project reference)
+			"https://mastodon.social/@crisverstraeten",
+			"https://github.com/apleasantview",
+			"https://www.linkedin.com/company/apleasantview",
+			"https://www.eleventy-baseline.dev/",
 		],
 		knowsAbout: [
 			"Web design",
 			"Website maintenance",
 			"Eleventy",
 			"Static site hosting",
-			"Small-business IT support"
+			"Small-business IT support",
 		],
-		slogan: null                                // null = fall back to site.tagline per language
+		slogan: null, // null = fall back to site.tagline per language
 	},
 
 	person: {
@@ -53,17 +53,18 @@ export default {
 		image: null,
 		jobTitle: "Independent web and IT services",
 		sameAs: [
-			"https://mastodon.social/@crisverstraeten"
-			// TODO: GitHub profile URL
-			// TODO: LinkedIn profile URL
-		]
+			"https://mastodon.social/@crisverstraeten",
+			"https://github.com/cristovaov",
+			"https://www.linkedin.com/in/cristovaoverstraeten/",
+		],
 		// worksFor wired by the partial via @id reference
 	},
 
-	shareImage: {                                   // OG and Twitter card fallback
+	shareImage: {
+		// OG and Twitter card fallback
 		url: "https://www.apleasantview.com/og.jpg",
 		width: 1200,
 		height: 630,
-		alt: "a pleasant view, digital services for Amsterdam-West and the Jordaan"
-	}
+		alt: "a pleasant view, digital services for Amsterdam-West and the Jordaan",
+	},
 };
