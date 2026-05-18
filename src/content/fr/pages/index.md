@@ -1,7 +1,7 @@
 ---
 permalink: /fr/
-title: Abonnements pour sites web
-description: Abonnement mensuel pour toutes les tâches de votre site Web.
+title: Services digitaux pour Amsterdam‑West et le Jordaan
+description: Une activité à une personne à Amsterdam‑West — sites web, hébergement, et l'informatique pratique autour, pour une poignée de commerces locaux.
 translationKey: homepage
 layout: layouts/page.njk
 date: 2026-02-13
@@ -9,51 +9,60 @@ date: 2026-02-13
 
 <section class="u-flow">
 
-# Services digitaux pour Amsterdam‑West & le Jordaan
+# Services digitaux pour Amsterdam‑West et le Jordaan
 
-Une agence digitale indépendante qui aide les entreprises à gérer et à améliorer leur présence en ligne.
-Nous proposons un support continu pour le web et une assistance IT pratique, simple, personnelle et fiable — pour que vous puissiez vous concentrer sur votre activité.
+`a pleasant view`, c'est l'activité à une personne de Cristovao Verstraeten.
 
-Nous travaillons volontairement avec un nombre limité de clients à la fois.
-Quelques fois par an, une nouvelle place se libère.
+Sites web, hébergement, et l'informatique pratique autour — pour une poignée de commerces locaux. Je maintiens aussi [Eleventy Baseline](https://www.eleventy-baseline.dev/), la base sur laquelle tourne ce site.
 
-[Être tenu au courant →](mailto:hello@apleasantview.com)
+Je garde volontairement la liste de clients courte pour le travail local, et propose aussi du support aux équipes qui construisent avec Baseline.
+
+[Me contacter pour les disponibilités →]({{ "/contact/" | locale_url }})
 
 </section>
 
+<hr>
+
 <section class="u-flow">
 
-## Votre partenaire local pour une croissance digitale régulière
+## Être tout près, ça change quelque chose
 
-Chez `a pleasant view`, nous accompagnons les petites entreprises dans leur présence en ligne — du site web et de l’hébergement jusqu’aux petits détails IT qui font que tout reste bien en place.
+Une mise à jour rapide, un renouvellement de domaine, une imprimante qui fait des siennes — le genre de chose difficile à cadrer et facile à régler quand on peut passer.
 
-Nous misons sur une communication claire, un support fiable et des améliorations concrètes, pour que vous sachiez toujours vers qui vous tourner quand quelque chose demande un peu d’attention.
+C'est pour ça que je peux répondre au téléphone, retrouver votre setup de tête, et ne pas disparaître pendant des semaines.
 
-Le fait d’être tout près nous permet de répondre vite et de comprendre le rythme du travail local.
-Une mise à jour, un renouvellement de domaine, une petite correction — sans prise de tête.
+[En savoir plus sur ma façon de travailler →]({{ "/approach/" | locale_url }})
 
-{# [En savoir plus sur notre approche →](/approach) #}
+</section>
 
+<hr>
+
+<section class="u-flow">
 
 ## Services
 
-- **Support continu & assistance IT**
-	Un support continu pour votre site, l’hébergement et les petits détails IT autour.
+### Support continu (web + IT)
 
-- **Projets**
-	Du travail bien cadré quand vous avez besoin de construire, d’améliorer ou de remettre quelque chose d’équerre.
+Petites réparations, renouvellements, ce qui se présente.
+
+### Projets
+
+Du travail bien cadré quand vous voulez construire, améliorer ou remettre quelque chose d'aplomb.
 
 </section>
+
+<hr>
 
 <section class="u-flow">
 
-## Travailler avec nous
+## Travailler avec moi
 
-Nous travaillons principalement à Amsterdam‑West et dans le Jordaan, mais à distance c’est possible aussi si c’est un très bon fit.
-Si vous souhaitez savoir quand nous avons de la place pour un nouveau client, envoyez-nous un petit message — on vous répond dans la journée.
+Le travail se passe surtout ici dans le quartier. À distance, c'est possible aussi quand ça colle.
 
-[Envoyer un petit message →](mailto:hello@apleasantview.com)
+Je réponds à toutes les demandes dans la journée.
+
+[Envoyer un petit message →]({{ "/contact/" | locale_url }})
 
 </section>
 
-<span>*Local, simple, fiable.*</span>
+<span>_Au coin de la rue, quand vous avez besoin de moi._</span>
