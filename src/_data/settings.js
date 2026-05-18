@@ -4,7 +4,7 @@ const FAVICONS = [
 	{ rel: "icon", type: "image/png", href: "/favicon-96x96.png", sizes: "96x96"},
 	{ rel: "icon", type: "image/svg+xml", href: "/favicon.svg"},
 	{ rel: "shortcut icon", type: "image/svg+xml", href: "/favicon.ico"},
-	{ rel: "apple-touch-icon", type: "image/svg+xml", href: "/apple-touch-icon.svg", size: "180x180"}
+	{ rel: "apple-touch-icon", type: "image/png", href: "/apple-touch-icon.png", sizes: "180x180"}
 ]
 
 export default {

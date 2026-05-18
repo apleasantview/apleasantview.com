@@ -1,0 +1,18 @@
+---
+permalink: /llms.txt
+eleventyExcludeFromCollections: true
+---
+# {{ settings.title | safe }}
+
+> {{ settings.tagline | safe }}
+
+{% set siteBase = settings.url.slice(0, -1) -%}
+{% for langKey, langConfig in settings.languages %}
+## {{ langConfig.languageName | safe }}
+
+{% for url, node in (_navigator.nodes | dictsort) -%}
+{%- if node.lang === langKey -%}
+- [{{ node.title | safe }}]({{ siteBase }}{{ url }}): {{ node.description | safe }}
+{% endif -%}
+{%- endfor %}
+{% endfor %}
