@@ -1,6 +1,6 @@
 ---
-title: 'Our Approach to Website & IT Support for Small Businesses'
-description: 'How we keep your online presence steady: clear communication, practical improvements, transparent rules, and calm boundaries.'
+title: 'My approach to website and IT support for small businesses'
+description: 'How I keep your online presence steady: clear communication, practical improvements, transparent terms.'
 permalink: /approach/
 translationKey: approach
 layout: layouts/page.njk
@@ -9,13 +9,13 @@ date: 2026-02-14
 
 <section class="u-flow">
 
-# Our approach
+# My approach
 
-Digital support works best when it feels steady: clear communication, predictable next steps, and no unnecessary noise.
+Digital support works best when it stays steady — clear communication, predictable next steps, no unnecessary noise.
 
-At `a pleasant view`, we support small businesses with their online presence — from websites and hosting to the practical IT details around them. When something needs attention, you know who to turn to.
+At `a pleasant view` I help small businesses with their online presence — websites, hosting, and the practical IT around them. When something needs attention, you know who to turn to.
 
-Here’s how we work, what we support, and where we draw the line.
+Here's how I work, what I support, and where I draw the line.
 
 </section>
 
@@ -23,11 +23,11 @@ Here’s how we work, what we support, and where we draw the line.
 
 ## A simple way of working
 
-Most small businesses don’t need more tools — they need one steady place to ask for help.
+Most small businesses don't need more tools. They need one steady place to turn to.
 
-When you reach out, we keep it straightforward: we clarify what you need, handle the work, and keep you updated along the way. Clear communication matters more than speed-for-show.
+When you reach out, I keep it straightforward: we clarify what you need, I handle the work, and I keep you posted along the way. Clear matters more than fast.
 
-The goal is simple: your online presence stays in good shape, and small issues don’t turn into ongoing noise.
+That way your online presence stays in good shape, and small things don't become ongoing noise.
 
 </section>
 
@@ -35,11 +35,11 @@ The goal is simple: your online presence stays in good shape, and small issues d
 
 ## Ongoing support (web + practical IT)
 
-Support needs to be joined up: your website and hosting, plus the practical IT details around email, logins, DNS, and devices that keep everything connected.
+Support needs to join up: your website and hosting, plus the practical IT around them — email, logins, DNS, and the devices that keep everything connected.
 
-That might mean a website update or a hosting issue — but it can just as easily be help with a new laptop setup, browser problems, email that isn’t arriving, or 2FA and password managers.
+That might be a website update or a hosting issue. It could just as easily be setting up a new laptop, browser problems, email that isn't arriving, or 2FA and password managers.
 
-While not a full IT helpdesk, it’s not “just web work” either. It’s the overlap small businesses actually need — handled calmly.
+Not a full IT helpdesk, but not just web work either. Exactly the overlap small businesses tend to need — handled calmly.
 
 ### At a glance
 
@@ -50,7 +50,7 @@ While not a full IT helpdesk, it’s not “just web work” either. It’s the 
 #### What you get
 
 - Your online presence stays steady in the background.
-- Less time figuring out who to ask, and more time running the business.
+- Less time figuring out who to ask, more time running the business.
 - Clear expectations — and predictable costs.
 
 </div>
@@ -60,9 +60,8 @@ While not a full IT helpdesk, it’s not “just web work” either. It’s the 
 #### How it works
 
 - One point of contact, with clear communication.
-- Small updates and fixes don’t linger.
-- Web + practical IT support in one place, so you’re not juggling different people.
-- Foundations are kept in order when needed (hosting, domains, analytics, and search tools).
+- Small updates and fixes don't linger.
+- Where needed, I keep the basics in order: hosting, domains, analytics, search tools.
 
 </div>
 
@@ -83,10 +82,10 @@ While not a full IT helpdesk, it’s not “just web work” either. It’s the 
 
 <section class="u-flow">
 
-## Availability and fit
+## Availability
 
-If you’d like to check if we have space and if it’s a fit, [send us a note →]({{ "/contact/" | locale_url }}).
+Want to know if there's room? [Send a short note →]({{ "/contact/" | locale_url }}).
 
-We’ll reply within a day.
+I reply within a day.
 
 </section>

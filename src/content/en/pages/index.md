@@ -1,6 +1,6 @@
 ---
-title: 'Digital Services for Amsterdam West & the Jordaan'
-description: 'A small digital agency in Amsterdam West that helps small businesses manage and improve their online presence with personal and reliable support.'
+title: 'Digital services for Amsterdam‑West and the Jordaan'
+description: 'A one-person operation in Amsterdam‑West — websites, hosting, and the practical IT around them, for a handful of local businesses.'
 permalink: /
 translationKey: homepage
 layout: layouts/page.njk
@@ -9,55 +9,60 @@ date: 2026-02-13
 
 <section class="u-flow">
 
-# Digital Services for Amsterdam‑West & the Jordaan
+# Digital services for Amsterdam‑West and the Jordaan
 
-A digital agency that helps businesses manage and improve their online presence.
+`a pleasant view` is the one-person operation of Cristovao Verstraeten.
 
-We provide ongoing web and practical IT support that’s simple, personal, and dependable — so you can focus on your business.
+Websites, hosting, and the practical IT around them — for a handful of local businesses. I also maintain [Eleventy Baseline](https://www.eleventy-baseline.dev/), the foundation this site runs on.
 
-We work intentionally with a small number of clients at a time.  
-A few times per year, new client spaces open up.
+I keep the client list deliberately small for local work, and offer support to teams building on Baseline.
 
-[Be the first to know →]({{ "/contact/" | locale_url }})
+[Contact me for availability →]({{ "/contact/" | locale_url }})
 
 </section>
 
+<hr>
+
 <section class="u-flow">
 
-## Your local partner for steady digital growth
+## Being nearby makes a difference
 
-At `a pleasant view`, we support small businesses with their online presence — from websites and hosting to the practical IT details that keep things running.
+A quick update, a domain renewal, a printer acting up — the kind of work that's hard to scope and easy to handle when you can stop by.
 
-We focus on clear communication, reliable support, and practical improvements, so you always know who to turn to when something needs attention.
+That's why I can answer the phone, pull your setup from memory, and not disappear for weeks at a time.
 
-Being nearby means we can respond quickly and understand the rhythm of local work.
-A quick update, a domain renewal, a small fix — handled without fuss.
+[More about how I work →]({{ "/approach/" | locale_url }})
 
-[Learn more about our approach →]({{ "/approach/" | locale_url }})
+</section>
 
+<hr>
+
+<section class="u-flow">
 
 ## Services
 
-- **Ongoing support (web + practical IT)**  
-  Ongoing support for your website, hosting, and the practical IT details around them.
+### Ongoing support (web + IT)
 
-- **Projects**  
-  Scoped work when you need something built, improved, or straightened out.
+Small fixes, renewals, whatever comes up.
+
+### Projects
+
+Scoped work when you want something built, improved, or straightened out.
 
 </section>
 
+<hr>
+
 <section class="u-flow">
 
-## Working with us
+## Working with me
 
-We work primarily around Amsterdam‑West and the Jordaan, but we’re happy to work remotely too if it’s a great fit.
+The work happens mostly here in the neighbourhood. Remote is fine when it's a fit.
 
-Send us a short note if you’d like to hear when we have space for a new client — we’ll reply within a day.
+I reply to all enquiries within a day.
 
 [Send a short note →]({{ "/contact/" | locale_url }})
 
 </section>
 
-<br>
-
-<span>*Local, simple, dependable.*</span>
+<span>_Around the corner, when you need me._</span>

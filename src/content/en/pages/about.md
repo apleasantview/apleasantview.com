@@ -1,6 +1,6 @@
 ---
-title: 'About us'
-description: 'A small digital agency in Amsterdam‑West providing ongoing web and practical IT support for small businesses.'
+title: 'About me'
+description: 'A one-person operation in Amsterdam‑West. Ongoing web and practical IT support for a handful of local businesses.'
 permalink: /about/
 translationKey: about
 layout: layouts/page.njk
@@ -9,11 +9,11 @@ date: 2026-02-16
 
 <section class="u-flow">
 
-# About us
+# About me
 
-We’re a small digital agency based in Amsterdam‑West, supporting small businesses with their online presence — from websites and hosting to practical IT details around email, logins, and devices.
+`a pleasant view` is a one-person operation in Amsterdam‑West. I help small businesses with their online presence: websites, hosting, and the practical IT around them — email, logins, devices.
 
-Our focus is straightforward: clear communication, practical improvements, and boundaries that keep work manageable.
+Clear communication, small practical improvements, and boundaries that keep the work manageable.
 
 </section>
 
@@ -21,19 +21,19 @@ Our focus is straightforward: clear communication, practical improvements, and b
 
 ## Why `a pleasant view` exists
 
-For most small businesses, digital work is not a separate department — it’s a steady stream of small tasks that need to be handled well.
+For most small businesses, digital work isn't a separate department. It's a steady stream of small tasks that need to be handled well.
 
-We exist to provide that steady layer of support, so your website and day-to-day digital setup stay in good shape and small issues don’t build into ongoing noise.
+That's where I sit. So your website and day-to-day setup stay in good shape, and small things don't become ongoing noise.
 
 </section>
 
 <section class="u-flow">
 
-## Founder
+## Who I am
 
-`a pleasant view` is run by Cristovao Verstraeten — Belgian, trilingual (Dutch, English and French), based in Amsterdam.
+I'm Cristovao Verstraeten — Belgian, trilingual (Dutch, English, French), based in Amsterdam.
 
-There are over fourteen years of experience in digital work behind the studio, much of it in long-term support: maintaining websites, handling small fixes, and keeping systems tidy enough that business owners can stay focused on their work.
+Over fourteen years in digital work, much of it in long-term support: maintaining websites, handling small fixes, keeping systems tidy. Work that rarely shows and is meant to.
 
 </section>
 
@@ -51,9 +51,11 @@ There are over fourteen years of experience in digital work behind the studio, m
 
 <section class="u-flow">
 
-## Local-first, remote when it’s a great match
+## Local-first, remote when it fits
 
-We work primarily around Amsterdam‑West and the neighbourhoods around the Jordaan. Remote support can work too, if it’s a great match and communication stays straightforward.
+The work happens mostly around Amsterdam‑West and the Jordaan. Remote can work too, when it fits and communication stays clear.
+
+[More on how I work locally →]({{ "/local/" | locale_url }})
 
 </section>
 
@@ -61,6 +63,6 @@ We work primarily around Amsterdam‑West and the neighbourhoods around the Jord
 
 ## Next step
 
-If you’d like to check availability, [send us a note →]({{ "/contact/" | locale_url }}).
+Want to check availability? [Send a short note →]({{ "/contact/" | locale_url }}).
 
 </section>

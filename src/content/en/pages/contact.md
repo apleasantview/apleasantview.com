@@ -1,6 +1,6 @@
 ---
 title: 'Get in touch'
-description: 'Email us to check availability for ongoing web and practical IT support. Based in Amsterdam‑West and the Jordaan, with remote support if it’s a great match.'
+description: 'Email to check availability for ongoing web and practical IT support. Amsterdam‑West & the Jordaan; remote is fine when it fits.'
 permalink: /contact/
 translationKey: contact
 layout: layouts/page.njk
@@ -11,23 +11,21 @@ date: 2026-02-16
 
 # Get in touch
 
-We work with a small number of clients at a time. A few times per year, new client spaces open up.
+I keep the client list deliberately small. Want to know if there's room, or talk through an idea? Email [hello@apleasantview.com](mailto:hello@apleasantview.com).
 
-For availability, email us at [hello@apleasantview.com](mailto:hello@apleasantview.com).
-
-Most of our work is around Amsterdam‑West and the Jordaan, though remote can work too if it’s a great match.
+The work happens mostly around Amsterdam‑West and the Jordaan. Remote is fine when it fits.
 
 ## What to include
 
 Please include:
 - your website link
-- what you’d like help with first
+- what you'd like help with first
 - what your site runs on (if you know)
 
 ## What to expect
 
-We’ll reply within a day. If we can help, we’ll suggest a sensible next step and clarify anything that’s unclear before we begin.
+I reply within a day. If I can help, I'll suggest a next step and clarify anything unclear before we begin.
 
-[Read more about us →]({{ "/about/" | locale_url }})
+[Read more about `a pleasant view` →]({{ "/about/" | locale_url }})
 
 </section>
