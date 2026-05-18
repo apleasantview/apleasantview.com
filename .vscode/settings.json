@@ -1,0 +1,17 @@
+{
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+	"editor.formatOnSave": true,
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": "explicit"
+	},
+	"[nunjucks]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode"
+	},
+	"vitest.configSearchPatternExclude": "**/{node_modules,dist,temp}/**",
+	"files.watcherExclude": {
+		"**/temp/**": true
+	},
+	"search.exclude": {
+		"**/temp": true
+	}
+}
