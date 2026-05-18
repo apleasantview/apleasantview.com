@@ -31,39 +31,6 @@ footer {
 	font-size: var(--text-size-secondary);
 }
 
-section {
-	padding-block-start: var(--space-l);
-}
-
-/* Headings */
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	--flow-space: var(--flow-space-headings);
-	margin-block-start: 1em;
-	margin-block-end: 0.75em;
-	letter-spacing: var(--text-letterspacing-heading);
-	font-weight: var(--text-weight-strong);
-	line-height: var(--text-lineheight-tight);
-	max-inline-size: var(--text-inlinesize-heading);
-}
-
-h1 {
-	font-size: var(--text-size-display);
-}
-
-h2 {
-	font-size: var(--text-size-title);
-}
-
-h3 {
-	font-size: var(--text-size-lede);
-}
-
 /* Text + grouping context */
 
 p {
@@ -116,8 +83,12 @@ sup {
 	vertical-align: baseline;
 }
 
-sup { top: -0.5em; }
-sub { bottom: -0.25em; }
+sup {
+	top: -0.5em;
+}
+sub {
+	bottom: -0.25em;
+}
 
 /* Links */
 
@@ -141,7 +112,15 @@ a:hover {
 
 /* Focus */
 
-:where(a, button, input, select, textarea, summary, [tabindex]:not([tabindex="-1"])):focus-visible {
+:where(
+	a,
+	button,
+	input,
+	select,
+	textarea,
+	summary,
+	[tabindex]:not([tabindex="-1"])
+):focus-visible {
 	outline: var(--focus-ring-width) solid var(--color-accent);
 	outline-offset: var(--focus-ring-offset);
 	background-color: var(--color-surface-hover);
@@ -149,7 +128,8 @@ a:hover {
 
 /* Lists */
 
-ul, ol {
+ul,
+ol {
 	--flow-space: 0;
 	margin: 0;
 	padding-inline-start: 1.5em;
@@ -161,7 +141,8 @@ li {
 
 /* Description lists */
 
-dt, dd {
+dt,
+dd {
 	margin-inline: 0;
 	margin-block: 0.25em 0.75em;
 }
@@ -231,13 +212,6 @@ kbd {
 	background: var(--color-background-subtle);
 }
 
-/* Horizontal rule */
-
-hr {
-	border: 0;
-	border-top: 1px solid var(--color-border-default);
-}
-
 /* Media */
 
 figure {
@@ -298,12 +272,12 @@ details[open] summary {
 
 /* JS hooks */
 .js-stroke {
-  transform: translate3d(-100%, 0, 0);
-  visibility: hidden;
-  opacity: 0;
+	transform: translate3d(-100%, 0, 0);
+	visibility: hidden;
+	opacity: 0;
 }
 
 .js-fade {
-  visibility: hidden;
-  opacity: 0;
+	visibility: hidden;
+	opacity: 0;
 }

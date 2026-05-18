@@ -1,3 +1,8 @@
 .u-flow > * + * {
 	margin-block-start: var(--flow-space);
 }
+
+.u-flow > h1 + *,
+.u-flow > h2 + * {
+	margin-block-start: var(--flow-space-headings);
+}

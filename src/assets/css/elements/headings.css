@@ -1,0 +1,27 @@
+/* Headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	--flow-space: var(--flow-space-headings);
+	letter-spacing: var(--text-letterspacing-heading);
+	font-weight: var(--text-weight-strong);
+	line-height: var(--text-lineheight-tight);
+	max-inline-size: var(--text-inlinesize-heading);
+}
+
+h1 {
+	font-size: var(--text-size-display);
+	padding-block-end: var(--space-inset-s);
+}
+
+h2 {
+	font-size: var(--text-size-title);
+	padding-block-end: var(--space-inset-s);
+}
+
+h3 {
+	font-size: var(--text-size-lede);
+}

@@ -17,6 +17,7 @@
 
 /* 04. Base elements */
 @import "./elements/base.css";
+@import "./elements/hr.css";
 
 /* 05. Layouts and Objects */
 @import "./objects/o-svg.css";
