@@ -1,9 +1,8 @@
 ---
 title: 'Lokaal — Amsterdam‑West & de Jordaan'
 description: 'Lokaal‑eerst digitale support in Amsterdam‑West en rond de Jordaan. Praktische communicatie, snelle opvolging, jarenlange ervaring. Op afstand kan ook als het past.'
-permalink: '/{{ lang }}/lokaal/'
-translationKey: local
-layout: layouts/page.njk
+slug: 'lokaal'
+translationKey: 'local'
 date: 2026-02-16
 ---
 

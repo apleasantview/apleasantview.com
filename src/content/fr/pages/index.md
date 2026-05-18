@@ -1,9 +1,8 @@
 ---
-permalink: /fr/
-title: Services digitaux pour Amsterdam‑West et le Jordaan
-description: Une activité à une personne à Amsterdam‑West — sites web, hébergement, et l'informatique pratique autour, pour une poignée de commerces locaux.
-translationKey: homepage
-layout: layouts/page.njk
+permalink: '/fr/'
+title: 'Services digitaux pour Amsterdam‑West et le Jordaan'
+description: "Une activité à une personne à Amsterdam‑West — sites web, hébergement, et l'informatique pratique autour, pour une poignée de commerces locaux."
+translationKey: 'homepage'
 date: 2026-02-13
 ---
 

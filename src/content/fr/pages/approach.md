@@ -1,9 +1,8 @@
 ---
 title: 'Ma façon de travailler pour le support web et IT des petits commerces'
-description: "Comment je garde votre présence en ligne stable : communication claire, améliorations pratiques, conditions transparentes."
-permalink: /fr/approche/
-translationKey: approach
-layout: layouts/page.njk
+description: 'Comment je garde votre présence en ligne stable : communication claire, améliorations pratiques, conditions transparentes.'
+slug: 'approche'
+translationKey: 'approach'
 date: 2026-02-14
 ---
 

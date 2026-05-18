@@ -1,9 +1,8 @@
 ---
 title: 'À propos'
 description: 'Activité à une personne à Amsterdam‑West. Support continu web et informatique pratique pour une poignée de commerces locaux.'
-permalink: /fr/a-propos/
-translationKey: about
-layout: layouts/page.njk
+slug: 'a-propos'
+translationKey: 'about'
 date: 2026-02-16
 ---
 

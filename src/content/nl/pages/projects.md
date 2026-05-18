@@ -1,9 +1,8 @@
 ---
 title: 'Projecten'
 description: 'Afgebakende websiteprojecten voor kleine bedrijven: nieuwe sites, rebuilds en praktische verbeteringen. Heldere scope, rustige communicatie, een nette overdracht. Amsterdam‑West & de Jordaan; op afstand kan ook als het past.'
-permalink: '/{{ lang }}/projecten/'
-translationKey: projects
-layout: layouts/page.njk
+slug: 'projecten'
+translationKey: 'projects'
 date: 2026-02-16
 ---
 

@@ -1,9 +1,8 @@
 ---
 title: 'Digital services for Amsterdam‑West and the Jordaan'
 description: 'A one-person operation in Amsterdam‑West — websites, hosting, and the practical IT around them, for a handful of local businesses.'
-permalink: /
-translationKey: homepage
-layout: layouts/page.njk
+permalink: '/'
+translationKey: 'homepage'
 date: 2026-02-13
 ---
 

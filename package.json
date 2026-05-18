@@ -15,8 +15,7 @@
 		"build:eleventy": "cross-env ELEVENTY_ENV=production npx @11ty/eleventy",
 		"build": "npm-run-all clean build:*",
 		"dryrun": "npx @11ty/eleventy --dryrun",
-		"dryrun:prod": "cross-env ELEVENTY_ENV=production npx @11ty/eleventy --dryrun",
-		"dryrun:next": "npx @11ty/eleventy --config=eleventy.config.next.js --dryrun"
+		"dryrun:prod": "cross-env ELEVENTY_ENV=production npx @11ty/eleventy --dryrun"
 	},
 	"author": "Cristovao Verstraeten",
 	"license": "ISC",

@@ -1,9 +1,8 @@
 ---
 title: 'Local — Amsterdam‑West & the Jordaan'
 description: 'Local-first digital support in Amsterdam‑West and around the Jordaan. Practical communication, quick responses, long-term experience. Remote when it fits.'
-permalink: /local/
-translationKey: local
-layout: layouts/page.njk
+slug: 'local'
+translationKey: 'local'
 date: 2026-02-16
 ---
 

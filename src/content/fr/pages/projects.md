@@ -1,9 +1,8 @@
 ---
 title: 'Projets'
-description: "Projets de sites bien cadrés pour petits commerces : nouveaux sites, refontes, améliorations pratiques. Périmètre clair, communication posée, passation propre. Amsterdam‑West & le Jordaan ; à distance quand ça colle."
-permalink: /fr/projets/
-translationKey: projects
-layout: layouts/page.njk
+description: 'Projets de sites bien cadrés pour petits commerces : nouveaux sites, refontes, améliorations pratiques. Périmètre clair, communication posée, passation propre. Amsterdam‑West & le Jordaan ; à distance quand ça colle.'
+slug: 'projets'
+translationKey: 'projects'
 date: 2026-02-16
 ---
 

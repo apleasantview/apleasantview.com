@@ -1,9 +1,8 @@
 ---
 title: 'Projects'
 description: 'Scoped website projects for small businesses: new sites, rebuilds, practical improvements. Clear scope, calm communication, a clean handover. Amsterdam‑West & the Jordaan; remote when it fits.'
-permalink: /projects/
-translationKey: projects
-layout: layouts/page.njk
+slug: 'projects'
+translationKey: 'projects'
 date: 2026-02-16
 ---
 

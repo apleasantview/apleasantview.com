@@ -1,9 +1,8 @@
 ---
 title: 'Me contacter'
 description: 'Écrivez-moi pour vérifier les disponibilités pour du support web et IT continu. Amsterdam‑West & le Jordaan ; à distance possible quand ça colle.'
-permalink: /fr/contact/
-translationKey: contact
-layout: layouts/page.njk
+slug: 'contact'
+translationKey: 'contact'
 date: 2026-02-16
 ---
 

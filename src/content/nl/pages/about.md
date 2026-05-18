@@ -1,9 +1,8 @@
 ---
 title: 'Over mij'
 description: 'Eenmanszaak in Amsterdam‑West. Doorlopende web- en praktische IT-support voor een handvol lokale bedrijven.'
-permalink: '/{{ lang }}/over-ons/'
-translationKey: about
-layout: layouts/page.njk
+slug: 'over-ons'
+translationKey: 'about'
 date: 2026-02-16
 ---
 

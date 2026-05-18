@@ -1,9 +1,8 @@
 ---
 title: 'About me'
 description: 'A one-person operation in Amsterdam‑West. Ongoing web and practical IT support for a handful of local businesses.'
-permalink: /about/
-translationKey: about
-layout: layouts/page.njk
+slug: 'about'
+translationKey: 'about'
 date: 2026-02-16
 ---
 

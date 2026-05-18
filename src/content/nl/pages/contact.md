@@ -1,9 +1,8 @@
 ---
 title: 'Neem contact op'
 description: 'Mail om beschikbaarheid te checken voor doorlopende web- en praktische IT-support. Amsterdam‑West & de Jordaan; op afstand kan ook als het past.'
-permalink: '/{{ lang }}/contact/'
-translationKey: contact
-layout: layouts/page.njk
+slug: 'contact'
+translationKey: 'contact'
 date: 2026-02-16
 ---
 

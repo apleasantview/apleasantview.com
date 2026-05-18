@@ -1,9 +1,8 @@
 ---
-title: Digitale diensten voor Amsterdam‑West en de Jordaan
-description: Een kleine zaak in Amsterdam‑West die werkt met een handjevol lokale bedrijven tegelijk — websites, hosting, en de praktische IT eromheen.
-permalink: "/{{ lang }}/"
-translationKey: homepage
-layout: layouts/page.njk
+title: 'Digitale diensten voor Amsterdam‑West en de Jordaan'
+description: 'Een kleine zaak in Amsterdam‑West die werkt met een handjevol lokale bedrijven tegelijk — websites, hosting, en de praktische IT eromheen.'
+permalink: '/{{ lang }}/'
+translationKey: 'homepage'
 date: 2026-02-13
 ---
 

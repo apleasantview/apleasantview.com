@@ -1,9 +1,8 @@
 ---
 title: 'Get in touch'
 description: 'Email to check availability for ongoing web and practical IT support. Amsterdam‑West & the Jordaan; remote is fine when it fits.'
-permalink: /contact/
-translationKey: contact
-layout: layouts/page.njk
+slug: 'contact'
+translationKey: 'contact'
 date: 2026-02-16
 ---
 

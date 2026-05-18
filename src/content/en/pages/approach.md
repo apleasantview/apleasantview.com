@@ -1,9 +1,8 @@
 ---
 title: 'My approach to website and IT support for small businesses'
 description: 'How I keep your online presence steady: clear communication, practical improvements, transparent terms.'
-permalink: /approach/
-translationKey: approach
-layout: layouts/page.njk
+slug: 'approach'
+translationKey: 'approach'
 date: 2026-02-14
 ---
 

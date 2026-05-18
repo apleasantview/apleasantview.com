@@ -1,9 +1,8 @@
 ---
 title: 'Mijn aanpak voor website- en IT-support voor kleine bedrijven'
 description: 'Hoe ik uw online aanwezigheid stabiel houd: duidelijke communicatie, praktische verbeteringen, heldere afspraken.'
-permalink: '/{{ lang }}/aanpak/'
-translationKey: approach
-layout: layouts/page.njk
+slug: 'aanpak'
+translationKey: 'approach'
 date: 2026-02-16
 ---
 
