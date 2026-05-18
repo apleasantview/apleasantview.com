@@ -1,6 +1,6 @@
 ---
-title: 'Over ons'
-description: 'Een klein digitaal bureau in Amsterdam‑West met doorlopende web- en praktische IT-support voor kleine bedrijven.'
+title: 'Over mij'
+description: 'Eenmanszaak in Amsterdam‑West. Doorlopende web- en praktische IT-support voor een handvol lokale bedrijven.'
 permalink: '/{{ lang }}/over-ons/'
 translationKey: about
 layout: layouts/page.njk
@@ -9,11 +9,11 @@ date: 2026-02-16
 
 <section class="u-flow">
 
-# Over ons
+# Over mij
 
-We zijn een klein digitaal bureau in Amsterdam‑West. We ondersteunen kleine bedrijven met hun online aanwezigheid: van websites en hosting tot de praktische IT‑details rond e‑mail, logins en apparaten.
+`a pleasant view` is een eenmanszaak in Amsterdam‑West. Ik help kleine bedrijven met hun online aanwezigheid: websites, hosting, en de praktische IT eromheen — e‑mail, logins, apparaten.
 
-Onze focus is eenvoudig: duidelijke communicatie, praktische verbeteringen en grenzen die samenwerking werkbaar houden.
+Duidelijke communicatie, kleine praktische verbeteringen, en grenzen die de samenwerking werkbaar houden.
 
 </section>
 
@@ -21,19 +21,19 @@ Onze focus is eenvoudig: duidelijke communicatie, praktische verbeteringen en gr
 
 ## Waarom `a pleasant view` bestaat
 
-Voor de meeste kleine bedrijven is digitaal werk geen aparte afdeling — het is een constante stroom van kleine taken die gewoon goed moeten gebeuren.
+Voor de meeste kleine bedrijven is digitaal werk geen aparte afdeling. Het is een constante stroom van kleine taken die gewoon goed moeten gebeuren.
 
-Wij bestaan om die stabiele laag support te bieden, zodat uw website en dagelijkse digitale setup in goede staat blijven en kleine issues geen voortdurende ruis vormen.
+Daar zit ik. Zodat uw website en dagelijkse setup in goede staat blijven, en kleine dingen geen voortdurende ruis worden.
 
 </section>
 
 <section class="u-flow">
 
-## Oprichter
+## Wie ik ben
 
-`a pleasant view` wordt gerund door Cristovao Verstraeten — drietalige Belg, gevestigd in Amsterdam.
+Ik ben Cristovao Verstraeten — drietalige Belg, gevestigd in Amsterdam.
 
-Achter de studio zit meer dan veertien jaar ervaring in digitaal werk, vaak in langetermijnsupport: websites onderhouden, kleine fixes oppakken en systemen netjes houden, zodat ondernemers zich kunnen focussen op hun werk.
+Ruim veertien jaar in digitaal werk, vaak in langetermijnsupport: websites onderhouden, kleine fixes oppakken, systemen netjes houden. Werk dat zelden opvalt en daarom werkt.
 
 </section>
 
@@ -41,8 +41,8 @@ Achter de studio zit meer dan veertien jaar ervaring in digitaal werk, vaak in l
 
 ## Principes
 
-- **Helderheid** boven cleverness
-- **Langetermijnbetrouwbaarheid** boven eenmalige hype
+- **Helderheid** boven slimheid
+- **Langetermijnbetrouwbaarheid** boven hype
 - **Privacy‑bewuste defaults** waar het logisch is
 - **Kleine, praktische verbeteringen** die vooruit helpen
 - **Grenzen** die samenwerking eenvoudig houden
@@ -51,11 +51,11 @@ Achter de studio zit meer dan veertien jaar ervaring in digitaal werk, vaak in l
 
 <section class="u-flow">
 
-## Lokaal‑eerst, op afstand als het goed aansluit
+## Lokaal‑eerst, op afstand als het past
 
-We werken vooral rond Amsterdam‑West en de buurten rond de Jordaan. Support op afstand kan ook, als het goed aansluit en de communicatie helder blijft.
+Het werk speelt zich vooral af rond Amsterdam‑West en de Jordaan. Op afstand kan ook, als het past en de communicatie helder blijft.
 
-[Meer over hoe we lokaal werken →]({{ "/local/" | locale_url }})
+[Meer over hoe ik lokaal werk →]({{ "/local/" | locale_url }})
 
 </section>
 
@@ -63,6 +63,6 @@ We werken vooral rond Amsterdam‑West en de buurten rond de Jordaan. Support op
 
 ## Volgende stap
 
-Wilt u beschikbaarheid checken? [Stuur ons een bericht →]({{ "/contact/" | locale_url }}).
+Wilt u beschikbaarheid checken? [Stuur een kort berichtje →]({{ "/contact/" | locale_url }}).
 
 </section>

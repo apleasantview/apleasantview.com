@@ -1,6 +1,6 @@
 ---
 title: 'Neem contact op'
-description: 'Mail ons om beschikbaarheid te checken voor doorlopende web- en praktische IT-support. Amsterdam‑West & de Jordaan; op afstand kan ook als het goed aansluit.'
+description: 'Mail om beschikbaarheid te checken voor doorlopende web- en praktische IT-support. Amsterdam‑West & de Jordaan; op afstand kan ook als het past.'
 permalink: '/{{ lang }}/contact/'
 translationKey: contact
 layout: layouts/page.njk
@@ -11,11 +11,9 @@ date: 2026-02-16
 
 # Neem contact op
 
-We werken bewust met een klein aantal klanten tegelijk. Een paar keer per jaar komt er ruimte vrij voor nieuwe klanten.
+Ik houd het klantenbestand klein, met opzet. Wilt u weten of er ruimte is, of een idee bespreken? Mail naar [hello@apleasantview.com](mailto:hello@apleasantview.com).
 
-Wilt u weten of er ruimte is, of wilt u uw project bespreken? U kunt mailen naar [hello@apleasantview.com](mailto:hello@apleasantview.com).
-
-Het meeste werk gebeurt rond Amsterdam‑West en de Jordaan, maar support op afstand kan ook, wanneer het goed aansluit.
+Het werk speelt zich vooral af rond Amsterdam‑West en de Jordaan. Op afstand kan ook, als het past.
 
 ## Wat u kunt meesturen
 
@@ -26,8 +24,8 @@ Stuur bij voorkeur mee:
 
 ## Wat u kunt verwachten
 
-We reageren meestal binnen een dag. Als we kunnen helpen, stellen we een logische volgende stap voor en maken eventuele onduidelijkheden helder vóór we beginnen.
+Ik reageer binnen een dag. Als ik kan helpen, stel ik een volgende stap voor en maak ik onduidelijkheden helder voor we beginnen.
 
-[Lees meer over ons →]({{ "/about/" | locale_url }})
+[Lees meer over `a pleasant view` →]({{ "/about/" | locale_url }})
 
 </section>

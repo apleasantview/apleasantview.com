@@ -1,6 +1,6 @@
 ---
 title: 'Lokaal — Amsterdam‑West & de Jordaan'
-description: 'Lokaal‑eerst digitale support in Amsterdam‑West en rond de Jordaan. Praktische communicatie, snelle opvolging en jarenlange ervaring. Support op afstand kan ook als het goed aansluit.'
+description: 'Lokaal‑eerst digitale support in Amsterdam‑West en rond de Jordaan. Praktische communicatie, snelle opvolging, jarenlange ervaring. Op afstand kan ook als het past.'
 permalink: '/{{ lang }}/lokaal/'
 translationKey: local
 layout: layouts/page.njk
@@ -11,9 +11,9 @@ date: 2026-02-16
 
 # Lokaal eerst
 
-`a pleasant view` is gevestigd in Amsterdam‑West en werkt vooral in West en rond de Jordaan.
+`a pleasant view` zit in Amsterdam‑West en werkt vooral in West en rond de Jordaan.
 
-Dichtbij zijn houdt het praktisch. We begrijpen het ritme van lokaal werk. Zo kunnen we snel schakelen wanneer iets aandacht nodig heeft.
+Dichtbij zijn houdt het praktisch. Het ritme van lokaal werk ken ik. En als iets aandacht nodig heeft, kan ik snel schakelen.
 
 </section>
 
@@ -21,15 +21,15 @@ Dichtbij zijn houdt het praktisch. We begrijpen het ritme van lokaal werk. Zo ku
 
 ## Waarom lokaal telt
 
-Lokaal is voor ons geen marketinghoek — het is praktisch.
+Lokaal is geen marketinghoek — het is praktisch.
 
-Het betekent dat we de snelheid en patronen van kleine bedrijven in de buurt goed kennen. Communicatie blijft direct en kleine updates worden geen lange ping‑pong.
+Ik ken de snelheid en patronen van kleine bedrijven in de buurt. Communicatie blijft direct, en een kleine update wordt geen weeklange uitwisseling.
 
-En wanneer het helpt, kunnen we gewoon dichter bij het werk zijn.
+En als het helpt, kan ik gewoon dichter bij het werk zijn.
 
-### Op afstand, wanneer het goed aansluit
+### Op afstand, wanneer het past
 
-Het meeste van ons werk gebeurt lokaal, maar support op afstand kan ook — zeker wanneer het werk duidelijk afgebakend is en de communicatie helder blijft.
+Het meeste werk gebeurt lokaal, maar op afstand kan ook — zeker als het werk duidelijk afgebakend is en de communicatie helder blijft.
 
 </section>
 
@@ -37,11 +37,11 @@ Het meeste van ons werk gebeurt lokaal, maar support op afstand kan ook — zeke
 
 ## Ervaring
 
-We werken al meer dan veertien jaar in digitaal werk.
+Ruim veertien jaar in digitaal werk.
 
-Veel werk gebeurt achter de schermen: websites consistent houden, kleine fixes oppakken en zorgen dat details het runnen van een zaak niet in de weg staan.
+Veel ervan gebeurt achter de schermen: websites consistent houden, kleine fixes oppakken, zorgen dat details het runnen van een zaak niet in de weg staan.
 
-Betrouwbaarheid is voor ons belangrijker dan groeicijfers.
+Betrouwbaarheid telt voor mij zwaarder dan groeicijfers.
 
 </section>
 
@@ -49,8 +49,8 @@ Betrouwbaarheid is voor ons belangrijker dan groeicijfers.
 
 ## Volgende stap
 
-Wilt u beschikbaarheid checken? [Stuur ons een bericht →]({{ "/contact/" | locale_url }}).
+Wilt u beschikbaarheid checken? [Stuur een kort berichtje →]({{ "/contact/" | locale_url }}).
 
-We reageren binnen een dag.
+Ik reageer binnen een dag.
 
 </section>

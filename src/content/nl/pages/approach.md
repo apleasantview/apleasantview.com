@@ -1,6 +1,6 @@
 ---
-title: 'Onze aanpak voor website- en IT-support voor kleine bedrijven'
-description: 'Hoe we uw online aanwezigheid stabiel houden: duidelijke communicatie, praktische verbeteringen, heldere afspraken en rustige grenzen.'
+title: 'Mijn aanpak voor website- en IT-support voor kleine bedrijven'
+description: 'Hoe ik uw online aanwezigheid stabiel houd: duidelijke communicatie, praktische verbeteringen, heldere afspraken.'
 permalink: '/{{ lang }}/aanpak/'
 translationKey: approach
 layout: layouts/page.njk
@@ -9,13 +9,13 @@ date: 2026-02-16
 
 <section class="u-flow">
 
-# Onze aanpak
+# Mijn aanpak
 
-Digitale support werkt het best wanneer alles overzichtelijk en voorspelbaar verloopt. Duidelijke communicatie, helder vervolg en geen onnodige ruis helpen daarbij.
+Digitale support werkt het best als alles overzichtelijk en voorspelbaar verloopt. Duidelijke communicatie, helder vervolg, geen onnodige ruis.
 
-Bij `a pleasant view` ondersteunen we kleine bedrijven met hun online aanwezigheid — van websites en hosting tot de praktische IT‑details eromheen. Als er iets aandacht nodig heeft, weet u bij wie u terechtkunt.
+Bij `a pleasant view` ondersteun ik kleine bedrijven met hun online aanwezigheid — websites, hosting, en de praktische IT eromheen. Als er iets aandacht nodig heeft, weet u bij wie u terechtkunt.
 
-Hier leest u hoe we werken, wat we ondersteunen en waar we de grens trekken.
+Hier leest u hoe ik werk, wat ik ondersteun en waar de grens ligt.
 
 </section>
 
@@ -23,11 +23,11 @@ Hier leest u hoe we werken, wat we ondersteunen en waar we de grens trekken.
 
 ## Een eenvoudige manier van werken
 
-De meeste kleine bedrijven hebben niet meer tools nodig — wel één vaste plek waar u hulp kunt vragen.
+De meeste kleine bedrijven hebben niet meer tools nodig. Wel één vaste plek waar u terecht kunt.
 
-Als u contact opneemt, houden we het helder: we verduidelijken wat u nodig hebt, voeren het werk uit en houden u onderweg op de hoogte. Duidelijke communicatie is belangrijker dan snelheid‑voor‑de‑show.
+Als u contact opneemt, houd ik het helder: we verduidelijken wat u nodig hebt, ik voer het werk uit en houd u onderweg op de hoogte. Duidelijk gaat voor snel.
 
-Het doel is eenvoudig: uw online aanwezigheid blijft in goede staat en kleine issues veroorzaken geen voortdurende ruis.
+Zo blijft uw online aanwezigheid in goede staat, en worden kleine dingen geen voortdurende ruis.
 
 </section>
 
@@ -35,11 +35,11 @@ Het doel is eenvoudig: uw online aanwezigheid blijft in goede staat en kleine is
 
 ## Doorlopende support (web + praktische IT)
 
-Support moet op elkaar aansluiten: uw website en hosting, plus de praktische IT‑details rond e‑mail, logins, DNS en apparaten die alles verbonden houden.
+Support moet op elkaar aansluiten: uw website en hosting, plus de praktische IT eromheen — e‑mail, logins, DNS, en de apparaten die alles verbonden houden.
 
-Dat kan een website‑update of een hostingkwestie zijn. Maar ook hulp bij het instellen van een nieuwe laptop, browserproblemen, e‑mail die niet aankomt, of 2FA en wachtwoordmanagers.
+Dat kan een website-update zijn of een hostingkwestie. Maar ook een nieuwe laptop instellen, browserproblemen, e‑mail die niet aankomt, of 2FA en wachtwoordmanagers.
 
-Het is geen volledige IT‑helpdesk, maar ook niet “alleen webwerk”. Het is precies de overlap die kleine bedrijven in de praktijk nodig hebben — rustig afgehandeld.
+Geen volledige IT-helpdesk, maar ook niet alleen webwerk. Precies de overlap die kleine bedrijven in de praktijk nodig hebben — rustig afgehandeld.
 
 ### In het kort
 
@@ -61,7 +61,7 @@ Het is geen volledige IT‑helpdesk, maar ook niet “alleen webwerk”. Het is 
 
 - Eén aanspreekpunt, met duidelijke communicatie.
 - Kleine updates en fixes blijven niet liggen.
-- We houden waar nodig de basis op orde: hosting, domeinen, analytics en zoektools.
+- Waar nodig houd ik de basis op orde: hosting, domeinen, analytics en zoektools.
 
 </div>
 
@@ -84,8 +84,8 @@ Het is geen volledige IT‑helpdesk, maar ook niet “alleen webwerk”. Het is 
 
 ## Beschikbaarheid
 
-Wilt u weten of er ruimte is? [Stuur ons een bericht →]({{ "/contact/" | locale_url }}).
+Wilt u weten of er ruimte is? [Stuur een kort berichtje →]({{ "/contact/" | locale_url }}).
 
-We reageren binnen een dag.
+Ik reageer binnen een dag.
 
 </section>
