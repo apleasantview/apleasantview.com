@@ -6,4 +6,3 @@ temp/
 .env
 test.njk
 dist/
-meta/
