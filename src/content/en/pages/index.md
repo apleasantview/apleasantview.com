@@ -14,7 +14,7 @@ date: 2026-02-13
 
 Works in Dutch, English, or French. Practical for Amsterdam‑West where teams often mix languages.
 
-Websites, hosting, and the practical IT around them — for a handful of local businesses. I also maintain [Eleventy Baseline](https://www.eleventy-baseline.dev/), the foundation this site runs on.
+Websites, hosting, and the practical IT around them — for a handful of local businesses. I also maintain [Eleventy Baseline]({{ "/baseline/" | locale_url }}), the foundation this site runs on.
 
 I keep the client list deliberately small for local work, and offer support to teams building on Baseline.
 
