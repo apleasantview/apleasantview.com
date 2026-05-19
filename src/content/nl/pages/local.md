@@ -32,6 +32,13 @@ Het meeste werk gebeurt lokaal, maar op afstand kan ook — zeker als het werk d
 
 </section>
 
+{# TODO replace with real local example #}
+<section class="u-flow">
+
+Denk aan kleine zaken om de hoek: een winkel, een atelier, een eenmanszaak die online graag rustig blijft draaien.
+
+</section>
+
 <section class="u-flow">
 
 ## Ervaring

@@ -32,6 +32,13 @@ Most of the work is local, but remote can work too — especially when the work 
 
 </section>
 
+{# TODO replace with real local example #}
+<section class="u-flow">
+
+Think of small businesses around the corner: a shop, a studio, a sole proprietorship that wants its online side to stay calm.
+
+</section>
+
 <section class="u-flow">
 
 ## Experience

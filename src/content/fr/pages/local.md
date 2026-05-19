@@ -32,6 +32,13 @@ L'essentiel du travail se fait en local, mais à distance c'est possible aussi �
 
 </section>
 
+{# TODO replace with real local example #}
+<section class="u-flow">
+
+Pensez aux petites enseignes du quartier: une boutique, un atelier, une activité indépendante dont le côté en ligne doit rester tranquille.
+
+</section>
+
 <section class="u-flow">
 
 ## Expérience

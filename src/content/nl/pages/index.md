@@ -12,6 +12,8 @@ date: 2026-02-13
 
 `a pleasant view` is de eenmanszaak van Cristovao Verstraeten.
 
+Werkt in het Nederlands, Engels of Frans. Handig als uw klanten of leveranciers wel eens van taal wisselen.
+
 Websites, hosting, en de praktische IT eromheen — voor een handvol lokale bedrijven. Daarnaast onderhoud ik [Eleventy Baseline](https://www.eleventy-baseline.dev/), de basis waar deze site op draait.
 
 Ik hou het klantenbestand bewust klein voor lokaal werk, en bied ook ondersteuning voor teams die met Baseline bouwen.
