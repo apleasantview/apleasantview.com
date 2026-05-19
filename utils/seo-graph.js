@@ -5,7 +5,7 @@
 
 import slugify from "slugify";
 
-const LOCALE_REGION = {
+export const LOCALE_REGION = {
 	en: "en-US",
 	nl: "nl-NL",
 	fr: "fr-FR",
@@ -19,7 +19,7 @@ const LOCALE_OG = {
 };
 
 // Maps entry.type to schema.org WebPage subtype. Falls back to plain WebPage.
-const WEBPAGE_TYPE_BY_TYPE = {
+export const WEBPAGE_TYPE_BY_TYPE = {
 	about: "AboutPage",
 	contact: "ContactPage",
 	faq: "FAQPage",

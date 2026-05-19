@@ -1,0 +1,13 @@
+---
+permalink: /schemamap.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<schemamap xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+{%- set siteUrl = settings.url -%}
+{%- for type in ['service', 'neighborhood', 'faq', 'page', 'about', 'contact'] %}
+  <schema>
+    <loc>{{ siteUrl }}schema/{{ type }}.json</loc>
+  </schema>
+{%- endfor %}
+</schemamap>
