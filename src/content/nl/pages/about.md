@@ -2,6 +2,7 @@
 title: 'Over mij'
 description: 'Eenmanszaak in Amsterdam‑West. Doorlopende web- en praktische IT-support voor een handvol lokale bedrijven.'
 slug: 'over-ons'
+type: 'about'
 translationKey: 'about'
 date: 2026-02-16
 ---

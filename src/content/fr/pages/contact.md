@@ -2,6 +2,7 @@
 title: 'Me contacter'
 description: 'Écrivez-moi pour vérifier les disponibilités pour du support web et IT continu. Amsterdam‑West & le Jordaan ; à distance possible quand ça colle.'
 slug: 'contact'
+type: 'contact'
 translationKey: 'contact'
 date: 2026-02-16
 ---

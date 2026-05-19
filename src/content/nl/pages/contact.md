@@ -2,6 +2,7 @@
 title: 'Neem contact op'
 description: 'Mail om beschikbaarheid te checken voor doorlopende web- en praktische IT-support. Amsterdam‑West & de Jordaan; op afstand kan ook als het past.'
 slug: 'contact'
+type: 'contact'
 translationKey: 'contact'
 date: 2026-02-16
 ---

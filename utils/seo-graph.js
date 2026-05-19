@@ -18,7 +18,8 @@ const LOCALE_OG = {
 	fr: "fr_FR",
 };
 
-const WEBPAGE_TYPE_BY_KEY = {
+// Maps entry.type to schema.org WebPage subtype. Falls back to plain WebPage.
+const WEBPAGE_TYPE_BY_TYPE = {
 	about: "AboutPage",
 	contact: "ContactPage",
 	faq: "FAQPage",
@@ -242,7 +243,7 @@ function buildWebPageNode(ctx) {
 		description,
 		excerpt,
 		lang,
-		translationKey,
+		entryType,
 		datePublished,
 		dateModified,
 		siteUrl,
@@ -259,7 +260,7 @@ function buildWebPageNode(ctx) {
 	}
 
 	return dropNulls({
-		"@type": WEBPAGE_TYPE_BY_KEY[translationKey] || "WebPage",
+		"@type": WEBPAGE_TYPE_BY_TYPE[entryType] || "WebPage",
 		"@id": idFor(canonical, "webpage"),
 		url: canonical,
 		name: title,
@@ -311,8 +312,8 @@ export function buildSeoGraph(data) {
 	const excerpt = node?.excerpt;
 
 	const isHome = pageUrl === "/" || /^\/[a-z]{2}\/$/.test(pageUrl);
-	const isOrgPage = isHome || ["about", "contact"].includes(translationKey);
 	const entryType = data.type || node?.type;
+	const isOrgPage = isHome || ["about", "contact"].includes(entryType);
 	const isService = entryType === "service";
 	const neighborhoodSlug = entryType === "neighborhood" ? data.slug : null;
 
@@ -378,7 +379,7 @@ export function buildSeoGraph(data) {
 			description,
 			excerpt,
 			lang,
-			translationKey,
+			entryType,
 			datePublished,
 			dateModified,
 			siteUrl,

@@ -2,6 +2,7 @@
 title: 'À propos'
 description: 'Activité à une personne à Amsterdam‑West. Support continu web et informatique pratique pour une poignée de commerces locaux.'
 slug: 'a-propos'
+type: 'about'
 translationKey: 'about'
 date: 2026-02-16
 ---
