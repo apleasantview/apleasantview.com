@@ -14,6 +14,8 @@ Je garde volontairement la liste de clients courte. Envie de savoir s'il y a de 
 
 Le travail se passe surtout autour d'Amsterdam‑West et du Jordaan. À distance, c'est possible aussi quand ça colle.
 
+Une question rapide d'abord ? Consultez les [questions fréquentes]({{ "/faq/" | locale_url }}).
+
 ## Ce que vous pouvez joindre
 
 De préférence :

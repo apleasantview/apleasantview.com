@@ -8,20 +8,32 @@ import slugify from "slugify";
 const LOCALE_REGION = {
 	en: "en-US",
 	nl: "nl-NL",
-	fr: "fr-FR"
+	fr: "fr-FR",
 };
 
 // OG wants the underscored BCP-47 form, distinct from the hyphenated schema.org form.
 const LOCALE_OG = {
 	en: "en_US",
 	nl: "nl_NL",
-	fr: "fr_FR"
+	fr: "fr_FR",
 };
 
 const WEBPAGE_TYPE_BY_KEY = {
 	about: "AboutPage",
-	contact: "ContactPage"
+	contact: "ContactPage",
+	faq: "FAQPage",
 };
+
+// Strip markdown formatting for plain-text contexts (schema Answer.text, etc).
+function stripMarkdown(text) {
+	return String(text)
+		.replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")
+		.replace(/\*\*([^*]+)\*\*/g, "$1")
+		.replace(/\*([^*]+)\*/g, "$1")
+		.replace(/`([^`]+)`/g, "$1")
+		.replace(/\s+/g, " ")
+		.trim();
+}
 
 // Stable slug for Place @id refs. Matches the slugs used in neighborhood page URLs.
 function slugifyName(s) {
@@ -30,7 +42,9 @@ function slugifyName(s) {
 
 function dropNulls(value) {
 	if (Array.isArray(value)) {
-		const cleaned = value.map(dropNulls).filter((v) => v !== null && v !== undefined);
+		const cleaned = value
+			.map(dropNulls)
+			.filter((v) => v !== null && v !== undefined);
 		return cleaned.length ? cleaned : null;
 	}
 	if (value && typeof value === "object") {
@@ -67,7 +81,9 @@ function buildOrganizationNode(seo, siteUrl) {
 		address: o.address ? { "@type": "PostalAddress", ...o.address } : null,
 		geo: o.geo ? { "@type": "GeoCoordinates", ...o.geo } : null,
 		areaServed: o.areaServed?.length
-			? o.areaServed.map((a) => ({ "@id": idFor(siteUrl, `place-${slugifyName(a)}`) }))
+			? o.areaServed.map((a) => ({
+					"@id": idFor(siteUrl, `place-${slugifyName(a)}`),
+				}))
 			: null,
 		taxID: o.taxID,
 		vatID: o.vatID,
@@ -77,7 +93,7 @@ function buildOrganizationNode(seo, siteUrl) {
 		sameAs: o.sameAs,
 		knowsAbout: o.knowsAbout,
 		slogan: o.slogan,
-		founder: { "@id": idFor(siteUrl, "cristovao") }
+		founder: { "@id": idFor(siteUrl, "cristovao") },
 	});
 	return node;
 }
@@ -95,7 +111,7 @@ function buildPersonNode(seo, siteUrl) {
 		image: p.image,
 		jobTitle: p.jobTitle,
 		sameAs: p.sameAs,
-		worksFor: { "@id": idFor(siteUrl, "organization") }
+		worksFor: { "@id": idFor(siteUrl, "organization") },
 	});
 }
 
@@ -108,7 +124,7 @@ function buildLogoNode(seo, siteUrl) {
 		url: l.url,
 		width: l.width,
 		height: l.height,
-		caption: seo.organization.name
+		caption: seo.organization.name,
 	});
 }
 
@@ -121,7 +137,7 @@ function buildShareImageNode(seo, siteUrl) {
 		url: s.url,
 		width: s.width,
 		height: s.height,
-		caption: s.alt
+		caption: s.alt,
 	});
 }
 
@@ -129,13 +145,22 @@ function buildPlaceNode(name, siteUrl) {
 	return {
 		"@type": "Place",
 		"@id": idFor(siteUrl, `place-${slugifyName(name)}`),
-		name
+		name,
 	};
 }
 
-function buildServiceNode({ canonical, name, description, lang, siteUrl, areaServed }) {
+function buildServiceNode({
+	canonical,
+	name,
+	description,
+	lang,
+	siteUrl,
+	areaServed,
+}) {
 	const placeRefs = areaServed?.length
-		? areaServed.map((a) => ({ "@id": idFor(siteUrl, `place-${slugifyName(a)}`) }))
+		? areaServed.map((a) => ({
+				"@id": idFor(siteUrl, `place-${slugifyName(a)}`),
+			}))
 		: null;
 	return dropNulls({
 		"@type": "Service",
@@ -146,21 +171,20 @@ function buildServiceNode({ canonical, name, description, lang, siteUrl, areaSer
 		serviceType: name,
 		areaServed: placeRefs,
 		url: canonical,
-		inLanguage: LOCALE_REGION[lang] || lang
+		inLanguage: LOCALE_REGION[lang] || lang,
 	});
 }
 
 function buildWebSiteNode(siteUrl, siteName, languages, multilang) {
-	const inLanguage = multilang && languages
-		? Object.keys(languages)
-		: undefined;
+	const inLanguage =
+		multilang && languages ? Object.keys(languages) : undefined;
 	return dropNulls({
 		"@type": "WebSite",
 		"@id": idFor(siteUrl, "website"),
 		url: siteUrl,
 		name: siteName,
 		inLanguage,
-		publisher: { "@id": idFor(siteUrl, "organization") }
+		publisher: { "@id": idFor(siteUrl, "organization") },
 	});
 }
 
@@ -171,23 +195,30 @@ function buildBreadcrumbNode(pageUrl, segments, homeUrl) {
 			"@type": "ListItem",
 			position: 1,
 			name: "Home",
-			item: homeUrl
+			item: homeUrl,
 		},
 		...segments.map((seg, i) => ({
 			"@type": "ListItem",
 			position: i + 2,
 			name: seg,
-			...(i === segments.length - 1 ? {} : { item: `${homeUrl}${segments.slice(0, i + 1).join("/")}/` })
-		}))
+			...(i === segments.length - 1
+				? {}
+				: { item: `${homeUrl}${segments.slice(0, i + 1).join("/")}/` }),
+		})),
 	];
 	return {
 		"@type": "BreadcrumbList",
 		"@id": idFor(pageUrl, "breadcrumb"),
-		itemListElement: items
+		itemListElement: items,
 	};
 }
 
-function buildWorkTranslationRefs(navigatorNodes, translationKey, currentUrl, siteUrl) {
+function buildWorkTranslationRefs(
+	navigatorNodes,
+	translationKey,
+	currentUrl,
+	siteUrl,
+) {
 	if (!navigatorNodes || !translationKey) return null;
 	const refs = [];
 	for (const node of Object.values(navigatorNodes)) {
@@ -198,7 +229,7 @@ function buildWorkTranslationRefs(navigatorNodes, translationKey, currentUrl, si
 			"@type": "WebPage",
 			"@id": idFor(absoluteUrl, "webpage"),
 			url: absoluteUrl,
-			inLanguage: LOCALE_REGION[node.locale.lang] || node.locale.lang
+			inLanguage: LOCALE_REGION[node.locale.lang] || node.locale.lang,
 		});
 	}
 	return refs.length ? refs : null;
@@ -217,8 +248,7 @@ function buildWebPageNode(ctx) {
 		siteUrl,
 		isOrgPage,
 		neighborhoodSlug,
-		isService,
-		workTranslation
+		workTranslation,
 	} = ctx;
 
 	let about = null;
@@ -237,11 +267,11 @@ function buildWebPageNode(ctx) {
 		inLanguage: LOCALE_REGION[lang] || lang,
 		isPartOf: { "@id": idFor(siteUrl, "website") },
 		about,
-		mainEntity: isService ? { "@id": idFor(canonical, "service") } : null,
+		mainEntity: ctx.mainEntity || null,
 		primaryImageOfPage: { "@id": idFor(siteUrl, "shareimage") },
 		datePublished: toISO(datePublished),
 		dateModified: toISO(dateModified),
-		workTranslation
+		workTranslation,
 	});
 }
 
@@ -263,8 +293,15 @@ export function buildSeoGraph(data) {
 		return { "@context": "https://schema.org", "@graph": [] };
 	}
 
-	const lang = node?.locale?.lang || data.page?.locale?.lang || data.lang || settings.defaultLanguage;
-	const translationKey = node?.locale?.translationKey || data.page?.locale?.translationKey || data.translationKey;
+	const lang =
+		node?.locale?.lang ||
+		data.page?.locale?.lang ||
+		data.lang ||
+		settings.defaultLanguage;
+	const translationKey =
+		node?.locale?.translationKey ||
+		data.page?.locale?.translationKey ||
+		data.translationKey;
 
 	const siteUrl = settings.url;
 	const siteName = settings.languages?.[lang]?.title || settings.title;
@@ -283,7 +320,7 @@ export function buildSeoGraph(data) {
 		navigatorNodes,
 		translationKey,
 		pageUrl,
-		siteUrl
+		siteUrl,
 	);
 
 	const segments = node?.section || data.section || [];
@@ -291,20 +328,42 @@ export function buildSeoGraph(data) {
 
 	// Place nodes for every areaServed entry, referenced by @id from Organization,
 	// Service nodes, and neighborhood WebPage.about.
-	const placeNodes = (seo.organization?.areaServed || []).map((a) => buildPlaceNode(a, siteUrl));
+	const placeNodes = (seo.organization?.areaServed || []).map((a) =>
+		buildPlaceNode(a, siteUrl),
+	);
 
 	// Service node only on service pages. Name comes from the page H1 (canonical short form)
 	// with fallback to the page title.
 	const serviceNode = isService
 		? buildServiceNode({
-			canonical,
-			name: node?.headings?.[0]?.text || title,
-			description: description || excerpt,
-			lang,
-			siteUrl,
-			areaServed: seo.organization?.areaServed
-		})
+				canonical,
+				name: node?.headings?.[0]?.text || title,
+				description: description || excerpt,
+				lang,
+				siteUrl,
+				areaServed: seo.organization?.areaServed,
+			})
 		: null;
+
+	// WebPage.mainEntity: a ref to the Service node on service pages, or an array of
+	// Question entities on FAQ pages.
+	let mainEntity = null;
+	if (isService) {
+		mainEntity = { "@id": idFor(canonical, "service") };
+	} else if (
+		entryType === "faq" &&
+		Array.isArray(data.faqs) &&
+		data.faqs.length
+	) {
+		mainEntity = data.faqs.map((f) => ({
+			"@type": "Question",
+			name: stripMarkdown(f.question),
+			acceptedAnswer: {
+				"@type": "Answer",
+				text: stripMarkdown(f.answer),
+			},
+		}));
+	}
 
 	const graph = [
 		buildWebSiteNode(siteUrl, siteName, settings.languages, multilang),
@@ -325,22 +384,24 @@ export function buildSeoGraph(data) {
 			siteUrl,
 			isOrgPage,
 			neighborhoodSlug,
-			isService,
-			workTranslation
+			mainEntity,
+			workTranslation,
 		}),
 		serviceNode,
-		breadcrumb
+		breadcrumb,
 	].filter(Boolean);
 
 	// Attach the breadcrumb ref to the WebPage if present.
 	if (breadcrumb) {
-		const webPage = graph.find((n) => n["@type"] && String(n["@type"]).endsWith("Page"));
+		const webPage = graph.find(
+			(n) => n["@type"] && String(n["@type"]).endsWith("Page"),
+		);
 		if (webPage) webPage.breadcrumb = { "@id": breadcrumb["@id"] };
 	}
 
 	return {
 		"@context": "https://schema.org",
-		"@graph": graph
+		"@graph": graph,
 	};
 }
 
@@ -356,7 +417,11 @@ export function buildSeoMeta(data) {
 
 	if (!seo || !settings || !settings.url || !pageUrl) return [];
 
-	const lang = node?.locale?.lang || data.page?.locale?.lang || data.lang || settings.defaultLanguage;
+	const lang =
+		node?.locale?.lang ||
+		data.page?.locale?.lang ||
+		data.lang ||
+		settings.defaultLanguage;
 	const siteUrl = settings.url;
 	const siteName = settings.languages?.[lang]?.title || settings.title;
 	const canonical = `${siteUrl.replace(/\/+$/, "")}${pageUrl}`;
@@ -370,7 +435,7 @@ export function buildSeoMeta(data) {
 		{ property: "og:title", content: title },
 		{ property: "og:description", content: description },
 		{ property: "og:url", content: canonical },
-		{ property: "og:locale", content: LOCALE_OG[lang] || lang }
+		{ property: "og:locale", content: LOCALE_OG[lang] || lang },
 	];
 
 	if (shareImage) {
@@ -378,7 +443,7 @@ export function buildSeoMeta(data) {
 			{ property: "og:image", content: shareImage.url },
 			{ property: "og:image:width", content: String(shareImage.width) },
 			{ property: "og:image:height", content: String(shareImage.height) },
-			{ property: "og:image:alt", content: shareImage.alt }
+			{ property: "og:image:alt", content: shareImage.alt },
 		);
 	}
 

@@ -14,6 +14,8 @@ I keep the client list deliberately small. Want to know if there's room, or talk
 
 The work happens mostly around Amsterdam‑West and the Jordaan. Remote is fine when it fits.
 
+Have a quick question first? Check the [FAQ]({{ "/faq/" | locale_url }}).
+
 ## What to include
 
 Please include:
