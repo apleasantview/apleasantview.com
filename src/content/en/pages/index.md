@@ -42,11 +42,15 @@ That's why I can answer the phone, pull your setup from memory, and not disappea
 
 ## Services
 
-### Ongoing support (web + IT)
+### [Website maintenance]({{ "/services/website-maintenance/" | locale_url }})
 
-Small fixes, renewals, whatever comes up.
+Ongoing maintenance for your site. Part of the support plan.
 
-### Projects
+### [IT support]({{ "/services/it-support/" | locale_url }})
+
+Practical IT around it: email, logins, devices. Part of the same plan.
+
+### [Website projects]({{ "/services/website-projects/" | locale_url }})
 
 Scoped work when you want something built, improved, or straightened out.
 

@@ -42,11 +42,15 @@ C'est pour ça que je peux répondre au téléphone, retrouver votre setup de t�
 
 ## Services
 
-### Support continu (web + IT)
+### [Maintenance de site]({{ "/services/maintenance-site/" | locale_url }})
 
-Petites réparations, renouvellements, ce qui se présente.
+Maintenance continue pour votre site. Partie de l'abonnement de support.
 
-### Projets
+### [Support informatique]({{ "/services/support-informatique/" | locale_url }})
+
+L'IT pratique autour : e‑mail, identifiants, appareils. Partie du même abonnement.
+
+### [Projets web]({{ "/services/projets-web/" | locale_url }})
 
 Du travail bien cadré quand vous voulez construire, améliorer ou remettre quelque chose d'aplomb.
 

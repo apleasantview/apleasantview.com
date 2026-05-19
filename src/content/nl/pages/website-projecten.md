@@ -1,16 +1,17 @@
 ---
-title: 'Projecten'
-description: 'Afgebakende websiteprojecten voor kleine bedrijven: nieuwe sites, rebuilds en praktische verbeteringen. Heldere scope, rustige communicatie, een nette overdracht. Amsterdam‑West & de Jordaan; op afstand kan ook als het past.'
-slug: 'projecten'
+title: 'Website-projecten voor kleine bedrijven in Amsterdam-West'
+description: 'Afgebakende websiteprojecten voor kleine bedrijven in Amsterdam-West: nieuwe sites, rebuilds, praktische verbeteringen. Heldere scope, rustige communicatie, een nette overdracht.'
+slug: 'website-projecten'
+permalink: '/nl/diensten/website-projecten/'
 translationKey: 'projects'
 date: 2026-02-16
 ---
 
 <section class="u-flow">
 
-# Projecten
+# Website-projecten
 
-Projecten zijn voor afgebakend werk: een nieuwe site, een rebuild, of een specifieke verbetering die u zorgvuldig wilt laten uitvoeren — en netjes afgerond.
+Projecten zijn voor afgebakend werk: een nieuwe site, een rebuild, of een specifieke verbetering die u zorgvuldig wilt laten uitvoeren en netjes afgerond.
 
 Ik houd projectwerk rustig en voorspelbaar. Heldere scope, duidelijke communicatie, en een eenvoudige overdracht op het einde.
 
@@ -26,7 +27,7 @@ Een project past wanneer:
 - uw huidige site duidelijke verbeteringen nodig heeft en geen doorlopende support
 - u een afgebakende scope wilt, een duidelijk einde en een nette overdracht
 
-Heeft u vooral doorlopend hulp nodig om alles up‑to‑date te houden, dan past het supportplan vaak beter.
+Heeft u vooral doorlopend hulp nodig om alles up‑to‑date te houden, dan past het [supportplan]({{ "/diensten/website-onderhoud/" | locale_url }}) vaak beter.
 
 </section>
 
@@ -41,6 +42,10 @@ De meeste projecten vallen in een paar duidelijke categorieën:
 - praktische verbeteringen: structuur, copy-opmaak, performance, en de basis die het onderhoudbaar houdt
 
 Het doel: een site die simpel is, snel laadt en makkelijk te beheren is.
+
+### Soms ook aanpalend werk
+
+Naast websites pak ik af en toe aanpalend werk op: kleine automatiseringen, content-migraties, of een specifiek vraagstuk rond de website-omgeving. Schrijf het in een kort bericht en ik laat weten of het past.
 
 </section>
 
@@ -71,11 +76,11 @@ Op het einde krijgt u een nette overdracht: toegang, documentatie waar het helpt
 
 ## Na een project
 
-Wilt u dat de site daarna goed opgevolgd blijft, dan kunnen we verder met doorlopende support ([web + praktische IT]({{ "/approach/" | locale_url }})).
+Wilt u dat de site daarna goed opgevolgd blijft, dan kunnen we verder met doorlopende support: [website-onderhoud]({{ "/diensten/website-onderhoud/" | locale_url }}) en [IT-support]({{ "/diensten/it-support/" | locale_url }}) samen in één abonnement.
 
 Vaak de eenvoudigste manier om te voorkomen dat kleine dingen zich opstapelen.
 
-Wilt u dat niet, ook prima — het doel is hoe dan ook een schone afronding.
+Wilt u dat niet, ook prima. Het doel is hoe dan ook een schone afronding.
 
 </section>
 

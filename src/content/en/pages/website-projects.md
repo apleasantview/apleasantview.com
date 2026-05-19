@@ -1,16 +1,17 @@
 ---
-title: 'Projects'
-description: 'Scoped website projects for small businesses: new sites, rebuilds, practical improvements. Clear scope, calm communication, a clean handover. Amsterdam‑West & the Jordaan; remote when it fits.'
-slug: 'projects'
+title: 'Website projects for small businesses in Amsterdam-West'
+description: 'Scoped website projects for small businesses in Amsterdam-West: new sites, rebuilds, practical improvements. Clear scope, calm communication, a clean handover.'
+slug: 'website-projects'
+permalink: '/services/website-projects/'
 translationKey: 'projects'
 date: 2026-02-16
 ---
 
 <section class="u-flow">
 
-# Projects
+# Website projects
 
-Projects are for scoped work: a new site, a rebuild, or a specific improvement you want handled properly — and finished cleanly.
+Projects are for scoped work: a new site, a rebuild, or a specific improvement you want handled properly and finished cleanly.
 
 I keep project work calm and predictable. Clear scope, clear communication, and a simple handover at the end.
 
@@ -26,7 +27,7 @@ A project fits when:
 - your current site needs a clear improvement, not ongoing support
 - you want a defined scope, a clear end, and a clean handover
 
-If you mainly need ongoing help keeping things up to date, the support plan is often a better match.
+If you mainly need ongoing help keeping things up to date, the [support plan]({{ "/services/website-maintenance/" | locale_url }}) is often a better match.
 
 </section>
 
@@ -41,6 +42,10 @@ Most projects fall into a few clear categories:
 - practical improvements: structure, copy layout, performance, and the basics that keep things maintainable
 
 The goal: a site that's simple, quick to load, and easy to look after.
+
+### Sometimes adjacent work too
+
+Alongside websites I occasionally take on adjacent work: small automations, content migrations, or a specific question around the website environment. Mention it in a short note and I'll let you know if it fits.
 
 </section>
 
@@ -71,11 +76,11 @@ At the end, you get a clean handover: access, documentation where it helps, and 
 
 ## After a project
 
-If you'd like the site to stay looked after, we can continue with ongoing support ([web + practical IT]({{ "/approach/" | locale_url }})).
+If you'd like the site to stay looked after, we can continue with ongoing support: [website maintenance]({{ "/services/website-maintenance/" | locale_url }}) and [IT support]({{ "/services/it-support/" | locale_url }}) together in one plan.
 
 Often the easiest way to keep small things from piling up.
 
-If not, that's fine too — the goal is a clean finish either way.
+If not, that's fine too. The goal is a clean finish either way.
 
 </section>
 

@@ -42,11 +42,15 @@ Daarom kan ik de telefoon opnemen, uw setup uit mijn hoofd weer halen, en niet w
 
 ## Diensten
 
-### Doorlopende support (web + IT)
+### [Website-onderhoud]({{ "/diensten/website-onderhoud/" | locale_url }})
 
-Kleine fixes, verlengingen, wat er ook opduikt.
+Doorlopend onderhoud voor uw site. Onderdeel van het support-abonnement.
 
-### Projecten
+### [IT-support]({{ "/diensten/it-support/" | locale_url }})
+
+Praktische IT eromheen: e‑mail, logins, apparaten. Onderdeel van hetzelfde abonnement.
+
+### [Website-projecten]({{ "/diensten/website-projecten/" | locale_url }})
 
 Afgebakend werk wanneer u iets wilt laten bouwen, verbeteren of weer op orde brengen.
 
