@@ -1,5 +1,5 @@
 ---
-title: 'Lokaal — Amsterdam‑West & de Jordaan'
+title: 'Lokaal: Amsterdam‑West & de Jordaan'
 description: 'Lokaal‑eerst digitale support in Amsterdam‑West en rond de Jordaan. Praktische communicatie, snelle opvolging, jarenlange ervaring. Op afstand kan ook als het past.'
 slug: 'lokaal'
 translationKey: 'local'
@@ -20,7 +20,7 @@ Dichtbij zijn houdt het praktisch. Het ritme van lokaal werk ken ik. En als iets
 
 ## Waarom lokaal telt
 
-Lokaal is geen marketinghoek — het is praktisch.
+Lokaal is geen marketinghoek. Het is praktisch.
 
 Ik ken de snelheid en patronen van kleine bedrijven in de buurt. Communicatie blijft direct, en een kleine update wordt geen weeklange uitwisseling.
 
@@ -28,7 +28,7 @@ En als het helpt, kan ik gewoon dichter bij het werk zijn.
 
 ### Op afstand, wanneer het past
 
-Het meeste werk gebeurt lokaal, maar op afstand kan ook — zeker als het werk duidelijk afgebakend is en de communicatie helder blijft.
+Het meeste werk gebeurt lokaal, maar op afstand kan ook, zeker als het werk duidelijk afgebakend is en de communicatie helder blijft.
 
 </section>
 

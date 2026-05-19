@@ -11,7 +11,7 @@ date: 2026-02-16
 
 # Over mij
 
-`a pleasant view` is een eenmanszaak in Amsterdam‑West. Ik help kleine bedrijven met hun online aanwezigheid: websites, hosting, en de praktische IT eromheen — e‑mail, logins, apparaten.
+`a pleasant view` is een eenmanszaak in Amsterdam‑West. Ik help kleine bedrijven met hun online aanwezigheid: websites, hosting, en de praktische IT eromheen. E‑mail, logins, apparaten.
 
 Duidelijke communicatie, kleine praktische verbeteringen, en grenzen die de samenwerking werkbaar houden.
 
@@ -31,7 +31,7 @@ Daar zit ik. Zodat uw website en dagelijkse setup in goede staat blijven, en kle
 
 ## Wie ik ben
 
-Ik ben Cristovao Verstraeten — drietalige Belg, gevestigd in Amsterdam.
+Ik ben Cristovao Verstraeten, drietalige Belg, gevestigd in Amsterdam.
 
 Ruim veertien jaar in digitaal werk, vaak in langetermijnsupport: websites onderhouden, kleine fixes oppakken, systemen netjes houden. Werk dat zelden opvalt en daarom werkt.
 

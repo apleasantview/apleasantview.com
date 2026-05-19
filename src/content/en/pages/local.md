@@ -1,5 +1,5 @@
 ---
-title: 'Local — Amsterdam‑West & the Jordaan'
+title: 'Local: Amsterdam‑West & the Jordaan'
 description: 'Local-first digital support in Amsterdam‑West and around the Jordaan. Practical communication, quick responses, long-term experience. Remote when it fits.'
 slug: 'local'
 translationKey: 'local'
@@ -20,7 +20,7 @@ Being nearby keeps things practical. I know the rhythm of local work. And when s
 
 ## Why local matters
 
-Local isn't a marketing angle — it's a practical one.
+Local isn't a marketing angle. It's a practical one.
 
 I know the pace and patterns of small businesses nearby. Communication stays direct, and a small update doesn't turn into a week-long exchange.
 
@@ -28,7 +28,7 @@ And when it helps, I can simply be closer to the work.
 
 ### Remote, when it fits
 
-Most of the work is local, but remote can work too — especially when the work is well-defined and communication stays clear.
+Most of the work is local, but remote can work too, especially when the work is well-defined and communication stays clear.
 
 </section>
 

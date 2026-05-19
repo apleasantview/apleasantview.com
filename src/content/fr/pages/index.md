@@ -1,7 +1,7 @@
 ---
 permalink: "/fr/"
 title: "Services digitaux pour Amsterdam‑West et le Jordaan"
-description: "Une activité à une personne à Amsterdam‑West — sites web, hébergement, et l'informatique pratique autour, pour une poignée de commerces locaux."
+description: "Une activité à une personne à Amsterdam‑West : sites web, hébergement, et l'informatique pratique autour, pour une poignée de commerces locaux."
 translationKey: "homepage"
 date: 2026-02-13
 ---
@@ -14,7 +14,7 @@ date: 2026-02-13
 
 Travaille en néerlandais, anglais ou français. Pratique pour Amsterdam‑West où les équipes mélangent souvent les langues.
 
-Sites web, hébergement, et l'informatique pratique autour — pour une poignée de commerces locaux. Je maintiens aussi [Eleventy Baseline]({{ "/eleventy-baseline/" | locale_url }}), la base sur laquelle tourne ce site.
+Sites web, hébergement, et l'informatique pratique autour, pour une poignée de commerces locaux. Je maintiens aussi [Eleventy Baseline]({{ "/eleventy-baseline/" | locale_url }}), la base sur laquelle tourne ce site.
 
 Je garde volontairement la liste de clients courte pour le travail local, et propose aussi du support aux équipes qui construisent avec Baseline.
 
@@ -28,7 +28,7 @@ Je garde volontairement la liste de clients courte pour le travail local, et pro
 
 ## Être tout près, ça change quelque chose
 
-Une mise à jour rapide, un renouvellement de domaine, une imprimante qui fait des siennes — le genre de chose difficile à cadrer et facile à régler quand on peut passer.
+Une mise à jour rapide, un renouvellement de domaine, une imprimante qui fait des siennes. Le genre de chose difficile à cadrer et facile à régler quand on peut passer.
 
 C'est pour ça que je peux répondre au téléphone, retrouver votre setup de tête, et ne pas disparaître pendant des semaines.
 

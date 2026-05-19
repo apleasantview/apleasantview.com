@@ -12,7 +12,7 @@ date: 2026-02-16
 
 Digitale support werkt het best als alles overzichtelijk en voorspelbaar verloopt. Duidelijke communicatie, helder vervolg, geen onnodige ruis.
 
-Bij `a pleasant view` ondersteun ik kleine bedrijven met hun online aanwezigheid — websites, hosting, en de praktische IT eromheen. Als er iets aandacht nodig heeft, weet u bij wie u terechtkunt.
+Bij `a pleasant view` ondersteun ik kleine bedrijven met hun online aanwezigheid: websites, hosting, en de praktische IT eromheen. Als er iets aandacht nodig heeft, weet u bij wie u terechtkunt.
 
 Hier leest u hoe ik werk, wat ik ondersteun en waar de grens ligt.
 
@@ -34,11 +34,11 @@ Zo blijft uw online aanwezigheid in goede staat, en worden kleine dingen geen vo
 
 ## Doorlopende support (web + praktische IT)
 
-Support moet op elkaar aansluiten: uw website en hosting, plus de praktische IT eromheen — e‑mail, logins, DNS, en de apparaten die alles verbonden houden.
+Support moet op elkaar aansluiten: uw website en hosting, plus de praktische IT eromheen. E‑mail, logins, DNS, en de apparaten die alles verbonden houden.
 
 Dat kan een website-update zijn of een hostingkwestie. Maar ook een nieuwe laptop instellen, browserproblemen, e‑mail die niet aankomt, of 2FA en wachtwoordmanagers.
 
-Geen volledige IT-helpdesk, maar ook niet alleen webwerk. Precies de overlap die kleine bedrijven in de praktijk nodig hebben — rustig afgehandeld.
+Geen volledige IT-helpdesk, maar ook niet alleen webwerk. Precies de overlap die kleine bedrijven in de praktijk nodig hebben. Rustig afgehandeld.
 
 ### In het kort
 
@@ -50,7 +50,7 @@ Geen volledige IT-helpdesk, maar ook niet alleen webwerk. Precies de overlap die
 
 - Uw online aanwezigheid blijft op de achtergrond stabiel.
 - Minder tijd kwijt aan uitzoeken wie u moet aanspreken, meer tijd voor uw zaak.
-- Duidelijke verwachtingen — en voorspelbare kosten.
+- Duidelijke verwachtingen en voorspelbare kosten.
 
 </div>
 

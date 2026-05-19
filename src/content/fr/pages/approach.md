@@ -12,7 +12,7 @@ date: 2026-02-14
 
 Le support digital marche le mieux quand tout reste lisible et prévisible. Communication claire, suite logique, pas de bruit inutile.
 
-Chez `a pleasant view`, j'accompagne les petits commerces avec leur présence en ligne — sites web, hébergement, et l'informatique pratique autour. Quand quelque chose a besoin d'attention, vous savez à qui vous adresser.
+Chez `a pleasant view`, j'accompagne les petits commerces avec leur présence en ligne : sites web, hébergement, et l'informatique pratique autour. Quand quelque chose a besoin d'attention, vous savez à qui vous adresser.
 
 Voici comment je travaille, ce que je couvre, et où je trace la limite.
 
@@ -34,11 +34,11 @@ Comme ça, votre présence en ligne reste en bon état, et les petites choses ne
 
 ## Support continu (web + IT pratique)
 
-Le support doit former un tout : votre site et l'hébergement, plus l'informatique pratique autour — e‑mail, identifiants, DNS, et les appareils qui gardent tout connecté.
+Le support doit former un tout : votre site et l'hébergement, plus l'informatique pratique autour. E‑mail, identifiants, DNS, et les appareils qui gardent tout connecté.
 
 Ça peut être une mise à jour du site ou une question d'hébergement. Mais aussi installer un nouveau portable, des soucis de navigateur, un e‑mail qui n'arrive pas, ou la 2FA et les gestionnaires de mots de passe.
 
-Pas un helpdesk IT complet, mais pas non plus seulement du web. Exactement le chevauchement dont les petits commerces ont besoin en pratique — réglé calmement.
+Pas un helpdesk IT complet, mais pas non plus seulement du web. Exactement le chevauchement dont les petits commerces ont besoin en pratique. Réglé calmement.
 
 ### En bref
 
@@ -50,7 +50,7 @@ Pas un helpdesk IT complet, mais pas non plus seulement du web. Exactement le ch
 
 - Votre présence en ligne reste stable en arrière-plan.
 - Moins de temps perdu à chercher à qui parler, plus de temps pour votre commerce.
-- Des attentes claires — et des coûts prévisibles.
+- Des attentes claires et des coûts prévisibles.
 
 </div>
 

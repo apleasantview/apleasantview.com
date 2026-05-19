@@ -11,7 +11,7 @@ date: 2026-02-16
 
 # About me
 
-`a pleasant view` is a one-person operation in Amsterdam‑West. I help small businesses with their online presence: websites, hosting, and the practical IT around them — email, logins, devices.
+`a pleasant view` is a one-person operation in Amsterdam‑West. I help small businesses with their online presence: websites, hosting, and the practical IT around them. Email, logins, devices.
 
 Clear communication, small practical improvements, and boundaries that keep the work manageable.
 
@@ -31,7 +31,7 @@ That's where I sit. So your website and day-to-day setup stay in good shape, and
 
 ## Who I am
 
-I'm Cristovao Verstraeten — Belgian, trilingual (Dutch, English, French), based in Amsterdam.
+I'm Cristovao Verstraeten. Belgian, trilingual (Dutch, English, French), based in Amsterdam.
 
 Over fourteen years in digital work, much of it in long-term support: maintaining websites, handling small fixes, keeping systems tidy. Work that rarely shows and is meant to.
 

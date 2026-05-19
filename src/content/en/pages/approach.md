@@ -10,9 +10,9 @@ date: 2026-02-14
 
 # My approach
 
-Digital support works best when it stays steady — clear communication, predictable next steps, no unnecessary noise.
+Digital support works best when it stays steady: clear communication, predictable next steps, no unnecessary noise.
 
-At `a pleasant view` I help small businesses with their online presence — websites, hosting, and the practical IT around them. When something needs attention, you know who to turn to.
+At `a pleasant view` I help small businesses with their online presence: websites, hosting, and the practical IT around them. When something needs attention, you know who to turn to.
 
 Here's how I work, what I support, and where I draw the line.
 
@@ -34,11 +34,11 @@ That way your online presence stays in good shape, and small things don't become
 
 ## Ongoing support (web + practical IT)
 
-Support needs to join up: your website and hosting, plus the practical IT around them — email, logins, DNS, and the devices that keep everything connected.
+Support needs to join up: your website and hosting, plus the practical IT around them. Email, logins, DNS, and the devices that keep everything connected.
 
 That might be a website update or a hosting issue. It could just as easily be setting up a new laptop, browser problems, email that isn't arriving, or 2FA and password managers.
 
-Not a full IT helpdesk, but not just web work either. Exactly the overlap small businesses tend to need — handled calmly.
+Not a full IT helpdesk, but not just web work either. Exactly the overlap small businesses tend to need. Handled calmly.
 
 ### At a glance
 
@@ -50,7 +50,7 @@ Not a full IT helpdesk, but not just web work either. Exactly the overlap small 
 
 - Your online presence stays steady in the background.
 - Less time figuring out who to ask, more time running the business.
-- Clear expectations — and predictable costs.
+- Clear expectations and predictable costs.
 
 </div>
 

@@ -1,6 +1,6 @@
 ---
 title: "Digital services for Amsterdam‑West and the Jordaan"
-description: "A one-person operation in Amsterdam‑West — websites, hosting, and the practical IT around them, for a handful of local businesses."
+description: "A one-person operation in Amsterdam‑West: websites, hosting, and the practical IT around them, for a handful of local businesses."
 permalink: "/"
 translationKey: "homepage"
 date: 2026-02-13
@@ -14,7 +14,7 @@ date: 2026-02-13
 
 Works in Dutch, English, or French. Practical for Amsterdam‑West where teams often mix languages.
 
-Websites, hosting, and the practical IT around them — for a handful of local businesses. I also maintain [Eleventy Baseline]({{ "/eleventy-baseline/" | locale_url }}), the foundation this site runs on.
+Websites, hosting, and the practical IT around them, for a handful of local businesses. I also maintain [Eleventy Baseline]({{ "/eleventy-baseline/" | locale_url }}), the foundation this site runs on.
 
 I keep the client list deliberately small for local work, and offer support to teams building on Baseline.
 
@@ -28,7 +28,7 @@ I keep the client list deliberately small for local work, and offer support to t
 
 ## Being nearby makes a difference
 
-A quick update, a domain renewal, a printer acting up — the kind of work that's hard to scope and easy to handle when you can stop by.
+A quick update, a domain renewal, a printer acting up. The kind of work that's hard to scope and easy to handle when you can stop by.
 
 That's why I can answer the phone, pull your setup from memory, and not disappear for weeks at a time.
 
