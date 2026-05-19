@@ -32,6 +32,20 @@ L'essentiel du travail se fait en local, mais à distance c'est possible aussi �
 
 </section>
 
+<section class="u-flow">
+
+## Dans quel quartier ?
+
+La zone couverte comprend tout [Amsterdam-West]({{ "/amsterdam-west/" | locale_url }}) et le Jordaan. Cliquez sur votre quartier pour plus de détails :
+
+- [Jordaan]({{ "/jordaan/" | locale_url }})
+- [Oud-West]({{ "/oud-west/" | locale_url }})
+- [De Baarsjes]({{ "/de-baarsjes/" | locale_url }})
+- [Westerpark]({{ "/westerpark/" | locale_url }})
+- [Bos en Lommer]({{ "/bos-en-lommer/" | locale_url }})
+
+</section>
+
 {# TODO replace with real local example #}
 <section class="u-flow">
 

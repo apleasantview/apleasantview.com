@@ -32,6 +32,20 @@ Most of the work is local, but remote can work too — especially when the work 
 
 </section>
 
+<section class="u-flow">
+
+## Which neighborhood?
+
+The service area covers all of [Amsterdam-West]({{ "/amsterdam-west/" | locale_url }}) and the Jordaan. Pick your neighborhood for more:
+
+- [Jordaan]({{ "/jordaan/" | locale_url }})
+- [Oud-West]({{ "/oud-west/" | locale_url }})
+- [De Baarsjes]({{ "/de-baarsjes/" | locale_url }})
+- [Westerpark]({{ "/westerpark/" | locale_url }})
+- [Bos en Lommer]({{ "/bos-en-lommer/" | locale_url }})
+
+</section>
+
 {# TODO replace with real local example #}
 <section class="u-flow">
 

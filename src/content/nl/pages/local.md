@@ -32,6 +32,20 @@ Het meeste werk gebeurt lokaal, maar op afstand kan ook — zeker als het werk d
 
 </section>
 
+<section class="u-flow">
+
+## In welke buurt?
+
+Het werkgebied beslaat heel [Amsterdam-West]({{ "/amsterdam-west/" | locale_url }}) en de Jordaan. Klik op uw buurt voor meer:
+
+- [Jordaan]({{ "/jordaan/" | locale_url }})
+- [Oud-West]({{ "/oud-west/" | locale_url }})
+- [De Baarsjes]({{ "/de-baarsjes/" | locale_url }})
+- [Westerpark]({{ "/westerpark/" | locale_url }})
+- [Bos en Lommer]({{ "/bos-en-lommer/" | locale_url }})
+
+</section>
+
 {# TODO replace with real local example #}
 <section class="u-flow">
 

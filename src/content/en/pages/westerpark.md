@@ -1,0 +1,46 @@
+---
+title: 'Website and IT support in Westerpark for small businesses'
+description: 'Local website and IT support in Westerpark. Ongoing maintenance, small projects, and practical IT for small businesses in Spaarndammerbuurt, Staatsliedenbuurt and around the Westergasfabriek.'
+slug: 'westerpark'
+permalink: '/westerpark/'
+translationKey: 'neighborhood-westerpark'
+date: 2026-05-19
+---
+
+<section class="u-flow">
+
+# In Westerpark
+
+`a pleasant view` works mostly in West and the Jordaan. In Westerpark that means the Spaarndammerbuurt, Staatsliedenbuurt, and the streets around the Westergasfabriek. Most of the work happens right around the corner, and that helps: you can call, I can stop by, and small things stay small.
+
+</section>
+
+<section class="u-flow">
+
+## What I do nearby
+
+Ongoing support for your website and the practical IT around it, or a scoped project when you want to set something new up.
+
+- [Website maintenance]({{ "/services/website-maintenance/" | locale_url }}): your site keeps running, without pulling at your attention
+- [IT support]({{ "/services/it-support/" | locale_url }}): email, logins, devices, the practical things
+- [Website projects]({{ "/services/website-projects/" | locale_url }}): scoped work, a new site or a focused improvement
+
+</section>
+
+<section class="u-flow">
+
+## Why Westerpark makes sense
+
+Westerpark is quieter than the Jordaan, but just as varied in small businesses. A mix of older Amsterdam neighborhoods and the more creative corner around the Westergasfabriek. The kind of work that fits here: steady maintenance, a quick reply when something hiccups, a person who knows the neighborhood rather than a ticketing system.
+
+</section>
+
+<section class="u-flow">
+
+## Next step
+
+Want to check availability? [Send a short note →]({{ "/contact/" | locale_url }}).
+
+I reply within a day.
+
+</section>
