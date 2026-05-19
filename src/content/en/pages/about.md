@@ -1,6 +1,6 @@
 ---
 title: 'About me'
-description: 'A one-person operation in Amsterdam‑West. Ongoing web and practical IT support for a handful of local businesses.'
+description: 'Cristovao Verstraeten runs `a pleasant view` from Amsterdam-West. Steady support for small local businesses, and maintainer of Eleventy Baseline.'
 slug: 'about'
 type: 'about'
 translationKey: 'about'
@@ -11,58 +11,51 @@ date: 2026-02-16
 
 # About me
 
-`a pleasant view` is a one-person operation in Amsterdam‑West. I help small businesses with their online presence: websites, hosting, and the practical IT around them. Email, logins, devices.
+I'm Cristovao Verstraeten. I run `a pleasant view` from Amsterdam-West.
 
-Clear communication, small practical improvements, and boundaries that keep the work manageable.
+I grew up in Brussels, French at home, Flemish school from kindergarten on. English came later, from music and Flemish TV. Thirteen years in Amsterdam now. I live with my wife, our daughter, and Gadget my cat. The Brussels accent is the one thing I really miss from Belgium.
 
-</section>
-
-<section class="u-flow">
-
-## Why `a pleasant view` exists
-
-For most small businesses, digital work isn't a separate department. It's a steady stream of small tasks that need to be handled well.
-
-That's where I sit. So your website and day-to-day setup stay in good shape, and small things don't become ongoing noise.
+For clients in this part of the city, that linguistic mix is practical. Most of the work happens in Dutch. Some happens in English because the business is expat-run or because the supplier is on the other side of the language line. French shows up rarely, but I can switch when it does.
 
 </section>
 
 <section class="u-flow">
 
-## Who I am
+## What I do here
 
-I'm Cristovao Verstraeten. Belgian, trilingual (Dutch, English, French), based in Amsterdam.
+I keep websites running for small businesses around Amsterdam-West and the Jordaan. The work is mostly the steady stuff: email that needs fixing, a domain that needs renewing, a small content update, a printer that suddenly refuses to connect. A new site every now and then, or a rebuild. Most weeks it's the daily texture of keeping a small business's online side calm.
 
-Over fourteen years in digital work, much of it in long-term support: maintaining websites, handling small fixes, keeping systems tidy. Work that rarely shows and is meant to.
-
-</section>
-
-{# TODO replace with real local example #}
-<section class="u-flow">
-
-Think of small businesses around the corner: a shop, a studio, a sole proprietorship that wants its online side to stay calm.
+`a pleasant view` started eleven years ago as a blog documenting modern art exhibits in Brussels. It turned into website work when I started building the blog itself, and into a business when I moved to Amsterdam. I came to web work sideways. The websites stuck.
 
 </section>
 
 <section class="u-flow">
 
-## Principles
+## How I work
 
-- **Clarity** over cleverness
-- **Long-term reliability** over one-off excitement
-- **Privacy-conscious defaults** where it makes sense
-- **Small, practical improvements** that keep things moving
-- **Boundaries** that keep collaboration straightforward
+I keep the client list small on purpose. The kind of support I do well needs attention I can actually give, and the work suits me better as a steady local practice than as scale. Twelve regulars is roughly what fits.
+
+Most of the work happens locally. I can answer the phone, drop by when something needs an eye, and not disappear for weeks at a stretch. Remote can work when the work is well-defined and communication stays clear, but local is the default and the preference.
 
 </section>
 
 <section class="u-flow">
 
-## Local-first, remote when it fits
+## The Baseline side
 
-The work happens mostly around Amsterdam‑West and the Jordaan. Remote can work too, when it fits and communication stays clear.
+When the local work is steady, the side gig is [Eleventy Baseline]({{ "/eleventy-baseline/" | locale_url }}). It's an open-source plugin I started six months ago to give myself the foundation I kept wishing I had. Building it in public was the natural shape of the project. Other developers and small agencies can use it; some of them hire me directly for the deeper work.
 
-[More on how I work locally →]({{ "/local/" | locale_url }})
+It's a side gig in the way a musician has gigs. The local client work is the steady part; Baseline is the work I do because I want to. They feed each other.
+
+</section>
+
+<section class="u-flow">
+
+## Where I draw the line
+
+I'm not a full IT helpdesk. I don't do 24/7 monitoring or large infrastructure projects. I prefer to say no early when something isn't a fit, rather than say yes and disappoint later.
+
+When something is in scope, I work calmly and tell you what I'm doing. That covers most of it.
 
 </section>
 
@@ -70,6 +63,6 @@ The work happens mostly around Amsterdam‑West and the Jordaan. Remote can work
 
 ## Next step
 
-Want to check availability? [Send a short note →]({{ "/contact/" | locale_url }}).
+If any of the above fits what you're looking for, [send a short note →]({{ "/contact/" | locale_url }}).
 
 </section>

@@ -1,6 +1,6 @@
 ---
 title: 'À propos'
-description: 'Activité à une personne à Amsterdam‑West. Support continu web et informatique pratique pour une poignée de commerces locaux.'
+description: "Cristovao Verstraeten dirige `a pleasant view` depuis Amsterdam-West. Support digital régulier pour les petits commerces locaux, et mainteneur d'Eleventy Baseline."
 slug: 'a-propos'
 type: 'about'
 translationKey: 'about'
@@ -11,58 +11,51 @@ date: 2026-02-16
 
 # À propos
 
-`a pleasant view` est une activité à une personne à Amsterdam‑West. J'aide les petits commerces avec leur présence en ligne : sites web, hébergement, et l'informatique pratique autour. E‑mail, identifiants, appareils.
+Je suis Cristovao Verstraeten. Je dirige `a pleasant view` depuis Amsterdam-West.
 
-Communication claire, petites améliorations pratiques, et des limites qui gardent la collaboration tenable.
+J'ai grandi à Bruxelles, français à la maison, école flamande dès la maternelle. L'anglais est venu plus tard, par la musique et la télé flamande. Treize ans à Amsterdam maintenant. Je vis ici avec ma femme, notre fille, et Gadget mon chat. L'accent bruxellois est la seule chose qui me manque vraiment de Belgique.
 
-</section>
-
-<section class="u-flow">
-
-## Pourquoi `a pleasant view` existe
-
-Pour la plupart des petits commerces, le numérique n'est pas un département à part. C'est un flux constant de petites tâches qui demandent juste à être bien faites.
-
-C'est là que je me situe. Pour que votre site et votre installation quotidienne restent en bon état, et que les petites choses ne deviennent pas un bruit de fond permanent.
+Pour les clients de ce coin de la ville, ce mélange linguistique est pratique. La plupart du travail se fait en néerlandais. Une partie se fait en anglais parce que l'activité est tenue par des expats, ou parce que le fournisseur est de l'autre côté de la ligne linguistique. Le français apparaît rarement, mais je peux passer d'une langue à l'autre quand il le faut.
 
 </section>
 
 <section class="u-flow">
 
-## Qui je suis
+## Ce que je fais ici
 
-Je suis Cristovao Verstraeten. Belge, trilingue (néerlandais, français, anglais), basé à Amsterdam.
+Je garde des sites web en marche pour des petits commerces autour d'Amsterdam-West et du Jordaan. Le travail, c'est surtout les choses régulières : un e-mail qui ne part pas, un nom de domaine à renouveler, une petite mise à jour de contenu, une imprimante qui refuse soudain de se connecter. Un nouveau site de temps en temps, ou une refonte. La plupart des semaines, c'est la texture quotidienne qui consiste à garder calme le côté en ligne d'un petit commerce.
 
-Plus de quatorze ans dans le numérique, souvent en support à long terme : entretenir des sites, prendre en charge les petites corrections, garder les systèmes propres. Du travail qui se remarque rarement, et c'est justement pour ça qu'il marche.
-
-</section>
-
-{# TODO replace with real local example #}
-<section class="u-flow">
-
-Pensez aux petites enseignes du quartier: une boutique, un atelier, une activité indépendante dont le côté en ligne doit rester tranquille.
+`a pleasant view` a commencé il y a onze ans comme un blog qui documentait les expos d'art moderne à Bruxelles. C'est devenu du travail de site quand j'ai commencé à construire le blog moi-même, et une activité quand j'ai déménagé à Amsterdam. Je suis venu au web par la bande. Les sites web sont restés.
 
 </section>
 
 <section class="u-flow">
 
-## Principes
+## Comment je travaille
 
-- **Clarté** plutôt que sophistication
-- **Fiabilité à long terme** plutôt que hype
-- **Réglages respectueux de la vie privée** quand ça a du sens
-- **Petites améliorations pratiques** qui font avancer
-- **Limites** qui gardent la collaboration simple
+Je garde la liste de clients courte volontairement. Le type de support que je fais bien demande de l'attention que je peux réellement donner, et le travail me convient mieux comme pratique locale stable qu'à l'échelle. Une douzaine d'habitués, c'est à peu près ce qui me convient.
+
+L'essentiel du travail se fait localement. Je peux répondre au téléphone, passer quand quelque chose a besoin d'un œil, et ne pas disparaître pendant des semaines. À distance, ça peut marcher aussi quand le travail est bien cadré et que la communication reste claire, mais le local est la valeur par défaut et la préférence.
 
 </section>
 
 <section class="u-flow">
 
-## Local d'abord, à distance quand ça colle
+## Le côté Baseline
 
-Le travail se passe surtout autour d'Amsterdam‑West et du Jordaan. À distance, c'est possible aussi quand ça colle et que la communication reste claire.
+Quand le travail local est stable, l'activité parallèle est [Eleventy Baseline]({{ "/eleventy-baseline/" | locale_url }}). C'est un plugin open-source que j'ai commencé il y a six mois, pour me donner la fondation que je souhaitais avoir. Le construire en public était la forme naturelle du projet. D'autres développeurs et petites agences peuvent l'utiliser ; certains m'engagent directement pour le travail plus poussé.
 
-[Comment je travaille en local →]({{ "/local/" | locale_url }})
+C'est une activité parallèle comme un musicien a des gigs. Le travail client local est la partie stable ; Baseline est le travail que je fais parce que je le veux. L'un nourrit l'autre.
+
+</section>
+
+<section class="u-flow">
+
+## Où je trace la limite
+
+Je ne suis pas un helpdesk IT complet. Je ne fais pas de monitoring 24/7 ni de grands projets d'infrastructure. Je préfère dire non tôt quand quelque chose ne colle pas, plutôt que dire oui et décevoir plus tard.
+
+Quand quelque chose entre dans le cadre, je travaille calmement et je vous dis ce que je fais. Ça couvre l'essentiel.
 
 </section>
 
@@ -70,6 +63,6 @@ Le travail se passe surtout autour d'Amsterdam‑West et du Jordaan. À distance
 
 ## Étape suivante
 
-Envie de vérifier les disponibilités ? [Envoyer un petit message →]({{ "/contact/" | locale_url }}).
+Si quelque chose là-dedans correspond à ce que vous cherchez, [envoyez un petit message →]({{ "/contact/" | locale_url }}).
 
 </section>
