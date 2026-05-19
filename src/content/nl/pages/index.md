@@ -1,8 +1,8 @@
 ---
-title: 'Digitale diensten voor Amsterdam‑West en de Jordaan'
-description: 'Een kleine zaak in Amsterdam‑West die werkt met een handjevol lokale bedrijven tegelijk — websites, hosting, en de praktische IT eromheen.'
-permalink: '/{{ lang }}/'
-translationKey: 'homepage'
+title: "Digitale diensten voor Amsterdam‑West en de Jordaan"
+description: "Een kleine zaak in Amsterdam‑West die werkt met een handjevol lokale bedrijven tegelijk — websites, hosting, en de praktische IT eromheen."
+permalink: "/{{ lang }}/"
+translationKey: "homepage"
 date: 2026-02-13
 ---
 
@@ -14,7 +14,7 @@ date: 2026-02-13
 
 Werkt in het Nederlands, Engels of Frans. Handig als uw klanten of leveranciers wel eens van taal wisselen.
 
-Websites, hosting, en de praktische IT eromheen — voor een handvol lokale bedrijven. Daarnaast onderhoud ik [Eleventy Baseline]({{ "/baseline/" | locale_url }}), de basis waar deze site op draait.
+Websites, hosting, en de praktische IT eromheen — voor een handvol lokale bedrijven. Daarnaast onderhoud ik [Eleventy Baseline]({{ "/eleventy-baseline/" | locale_url }}), de basis waar deze site op draait.
 
 Ik hou het klantenbestand bewust klein voor lokaal werk, en bied ook ondersteuning voor teams die met Baseline bouwen.
 

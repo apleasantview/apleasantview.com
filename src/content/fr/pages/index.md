@@ -1,8 +1,8 @@
 ---
-permalink: '/fr/'
-title: 'Services digitaux pour Amsterdam‑West et le Jordaan'
+permalink: "/fr/"
+title: "Services digitaux pour Amsterdam‑West et le Jordaan"
 description: "Une activité à une personne à Amsterdam‑West — sites web, hébergement, et l'informatique pratique autour, pour une poignée de commerces locaux."
-translationKey: 'homepage'
+translationKey: "homepage"
 date: 2026-02-13
 ---
 
@@ -14,7 +14,7 @@ date: 2026-02-13
 
 Travaille en néerlandais, anglais ou français. Pratique pour Amsterdam‑West où les équipes mélangent souvent les langues.
 
-Sites web, hébergement, et l'informatique pratique autour — pour une poignée de commerces locaux. Je maintiens aussi [Eleventy Baseline]({{ "/baseline/" | locale_url }}), la base sur laquelle tourne ce site.
+Sites web, hébergement, et l'informatique pratique autour — pour une poignée de commerces locaux. Je maintiens aussi [Eleventy Baseline]({{ "/eleventy-baseline/" | locale_url }}), la base sur laquelle tourne ce site.
 
 Je garde volontairement la liste de clients courte pour le travail local, et propose aussi du support aux équipes qui construisent avec Baseline.
 
