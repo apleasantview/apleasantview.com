@@ -2,6 +2,7 @@
 title: 'IT support for small businesses in Amsterdam-West'
 description: 'Practical IT support for small businesses in Amsterdam-West: email, logins, devices. Part of the support plan (€85/mo).'
 slug: 'it-support'
+type: 'service'
 permalink: '/services/it-support/'
 translationKey: 'service-it-support'
 date: 2026-05-19

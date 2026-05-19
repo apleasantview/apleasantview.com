@@ -2,6 +2,7 @@
 title: 'Support web et informatique à Westerpark pour petits commerces'
 description: 'Support web et informatique local à Westerpark. Maintenance continue, petits projets et IT pratique pour les petits commerces dans la Spaarndammerbuurt, Staatsliedenbuurt et autour de la Westergasfabriek.'
 slug: 'westerpark'
+type: 'neighborhood'
 permalink: '/fr/westerpark/'
 translationKey: 'neighborhood-westerpark'
 date: 2026-05-19

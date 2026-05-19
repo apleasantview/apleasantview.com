@@ -2,6 +2,7 @@
 title: 'Website- en IT-support in Bos en Lommer voor kleine bedrijven'
 description: 'Lokaal website- en IT-support in Bos en Lommer. Doorlopend onderhoud, kleine projecten en praktische IT voor kleine bedrijven rond Erasmuspark en Bos en Lommerplein.'
 slug: 'bos-en-lommer'
+type: 'neighborhood'
 permalink: '/nl/bos-en-lommer/'
 translationKey: 'neighborhood-bos-en-lommer'
 date: 2026-05-19

@@ -2,6 +2,7 @@
 title: 'Website- en IT-support in Oud-West voor kleine bedrijven'
 description: 'Lokaal website- en IT-support in Oud-West. Doorlopend onderhoud, kleine projecten en praktische IT voor kleine bedrijven in de Helmersbuurt, Kinkerbuurt en eromheen.'
 slug: 'oud-west'
+type: 'neighborhood'
 permalink: '/nl/oud-west/'
 translationKey: 'neighborhood-oud-west'
 date: 2026-05-19

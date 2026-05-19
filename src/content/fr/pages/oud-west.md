@@ -2,6 +2,7 @@
 title: 'Support web et informatique à Oud-West pour petits commerces'
 description: 'Support web et informatique local à Oud-West. Maintenance continue, petits projets et IT pratique pour les petits commerces dans la Helmersbuurt, Kinkerbuurt et autour.'
 slug: 'oud-west'
+type: 'neighborhood'
 permalink: '/fr/oud-west/'
 translationKey: 'neighborhood-oud-west'
 date: 2026-05-19

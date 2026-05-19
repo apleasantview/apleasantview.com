@@ -2,6 +2,7 @@
 title: 'IT-support voor kleine bedrijven in Amsterdam-West'
 description: 'Praktische IT-support voor kleine bedrijven in Amsterdam-West: e-mail, logins, apparaten. Onderdeel van het support-abonnement (€85/mnd).'
 slug: 'it-support'
+type: 'service'
 permalink: '/nl/diensten/it-support/'
 translationKey: 'service-it-support'
 date: 2026-05-19

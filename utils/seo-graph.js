@@ -3,6 +3,8 @@
 // Consumers feed buildSeoGraph result to head.script[{ type, content }]
 // and buildSeoMeta result to head.meta[].
 
+import slugify from "slugify";
+
 const LOCALE_REGION = {
 	en: "en-US",
 	nl: "nl-NL",
@@ -20,6 +22,11 @@ const WEBPAGE_TYPE_BY_KEY = {
 	about: "AboutPage",
 	contact: "ContactPage"
 };
+
+// Stable slug for Place @id refs. Matches the slugs used in neighborhood page URLs.
+function slugifyName(s) {
+	return slugify(String(s), { lower: true, strict: true });
+}
 
 function dropNulls(value) {
 	if (Array.isArray(value)) {
@@ -59,7 +66,9 @@ function buildOrganizationNode(seo, siteUrl) {
 		telephone: o.telephone,
 		address: o.address ? { "@type": "PostalAddress", ...o.address } : null,
 		geo: o.geo ? { "@type": "GeoCoordinates", ...o.geo } : null,
-		areaServed: o.areaServed,
+		areaServed: o.areaServed?.length
+			? o.areaServed.map((a) => ({ "@id": idFor(siteUrl, `place-${slugifyName(a)}`) }))
+			: null,
 		taxID: o.taxID,
 		vatID: o.vatID,
 		foundingDate: o.foundingDate,
@@ -113,6 +122,31 @@ function buildShareImageNode(seo, siteUrl) {
 		width: s.width,
 		height: s.height,
 		caption: s.alt
+	});
+}
+
+function buildPlaceNode(name, siteUrl) {
+	return {
+		"@type": "Place",
+		"@id": idFor(siteUrl, `place-${slugifyName(name)}`),
+		name
+	};
+}
+
+function buildServiceNode({ canonical, name, description, lang, siteUrl, areaServed }) {
+	const placeRefs = areaServed?.length
+		? areaServed.map((a) => ({ "@id": idFor(siteUrl, `place-${slugifyName(a)}`) }))
+		: null;
+	return dropNulls({
+		"@type": "Service",
+		"@id": idFor(canonical, "service"),
+		name,
+		description,
+		provider: { "@id": idFor(siteUrl, "organization") },
+		serviceType: name,
+		areaServed: placeRefs,
+		url: canonical,
+		inLanguage: LOCALE_REGION[lang] || lang
 	});
 }
 
@@ -182,8 +216,17 @@ function buildWebPageNode(ctx) {
 		dateModified,
 		siteUrl,
 		isOrgPage,
+		neighborhoodSlug,
+		isService,
 		workTranslation
 	} = ctx;
+
+	let about = null;
+	if (neighborhoodSlug) {
+		about = { "@id": idFor(siteUrl, `place-${neighborhoodSlug}`) };
+	} else if (isOrgPage) {
+		about = { "@id": idFor(siteUrl, "organization") };
+	}
 
 	return dropNulls({
 		"@type": WEBPAGE_TYPE_BY_KEY[translationKey] || "WebPage",
@@ -193,7 +236,8 @@ function buildWebPageNode(ctx) {
 		description: description || excerpt || null,
 		inLanguage: LOCALE_REGION[lang] || lang,
 		isPartOf: { "@id": idFor(siteUrl, "website") },
-		about: isOrgPage ? { "@id": idFor(siteUrl, "organization") } : null,
+		about,
+		mainEntity: isService ? { "@id": idFor(canonical, "service") } : null,
 		primaryImageOfPage: { "@id": idFor(siteUrl, "shareimage") },
 		datePublished: toISO(datePublished),
 		dateModified: toISO(dateModified),
@@ -231,6 +275,9 @@ export function buildSeoGraph(data) {
 
 	const isHome = pageUrl === "/" || /^\/[a-z]{2}\/$/.test(pageUrl);
 	const isOrgPage = isHome || ["about", "contact"].includes(translationKey);
+	const entryType = data.type || node?.type;
+	const isService = entryType === "service";
+	const neighborhoodSlug = entryType === "neighborhood" ? data.slug : null;
 
 	const workTranslation = buildWorkTranslationRefs(
 		navigatorNodes,
@@ -242,12 +289,30 @@ export function buildSeoGraph(data) {
 	const segments = node?.section || data.section || [];
 	const breadcrumb = buildBreadcrumbNode(canonical, segments, siteUrl);
 
+	// Place nodes for every areaServed entry, referenced by @id from Organization,
+	// Service nodes, and neighborhood WebPage.about.
+	const placeNodes = (seo.organization?.areaServed || []).map((a) => buildPlaceNode(a, siteUrl));
+
+	// Service node only on service pages. Name comes from the page H1 (canonical short form)
+	// with fallback to the page title.
+	const serviceNode = isService
+		? buildServiceNode({
+			canonical,
+			name: node?.headings?.[0]?.text || title,
+			description: description || excerpt,
+			lang,
+			siteUrl,
+			areaServed: seo.organization?.areaServed
+		})
+		: null;
+
 	const graph = [
 		buildWebSiteNode(siteUrl, siteName, settings.languages, multilang),
 		buildOrganizationNode(seo, siteUrl),
 		buildPersonNode(seo, siteUrl),
 		buildLogoNode(seo, siteUrl),
 		buildShareImageNode(seo, siteUrl),
+		...placeNodes,
 		buildWebPageNode({
 			canonical,
 			title,
@@ -259,8 +324,11 @@ export function buildSeoGraph(data) {
 			dateModified,
 			siteUrl,
 			isOrgPage,
+			neighborhoodSlug,
+			isService,
 			workTranslation
 		}),
+		serviceNode,
 		breadcrumb
 	].filter(Boolean);
 

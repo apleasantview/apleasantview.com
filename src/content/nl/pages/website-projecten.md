@@ -2,6 +2,7 @@
 title: 'Website-projecten voor kleine bedrijven in Amsterdam-West'
 description: 'Afgebakende websiteprojecten voor kleine bedrijven in Amsterdam-West: nieuwe sites, rebuilds, praktische verbeteringen. Heldere scope, rustige communicatie, een nette overdracht.'
 slug: 'website-projecten'
+type: 'service'
 permalink: '/nl/diensten/website-projecten/'
 translationKey: 'projects'
 date: 2026-02-16

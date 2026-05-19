@@ -2,6 +2,7 @@
 title: 'Website maintenance for small businesses in Amsterdam-West'
 description: 'Ongoing maintenance for your website and hosting in Amsterdam-West. Part of the support plan (€85/mo) alongside practical IT.'
 slug: 'website-maintenance'
+type: 'service'
 permalink: '/services/website-maintenance/'
 translationKey: 'service-maintenance'
 date: 2026-05-19

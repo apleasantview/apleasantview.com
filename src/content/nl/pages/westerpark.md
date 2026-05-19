@@ -2,6 +2,7 @@
 title: 'Website- en IT-support in Westerpark voor kleine bedrijven'
 description: 'Lokaal website- en IT-support in Westerpark. Doorlopend onderhoud, kleine projecten en praktische IT voor kleine bedrijven in de Spaarndammerbuurt, Staatsliedenbuurt en rond de Westergasfabriek.'
 slug: 'westerpark'
+type: 'neighborhood'
 permalink: '/nl/westerpark/'
 translationKey: 'neighborhood-westerpark'
 date: 2026-05-19

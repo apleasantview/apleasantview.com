@@ -18,7 +18,7 @@ export default {
 			addressCountry: "NL",
 		},
 		geo: null, // { latitude, longitude } or null
-		areaServed: ["Amsterdam-West", "Jordaan"],
+		areaServed: ["Amsterdam-West", "Jordaan", "Oud-West", "De Baarsjes", "Westerpark", "Bos en Lommer"],
 		taxID: "60532955", // KvK
 		vatID: null,
 		foundingDate: null, // "YYYY-MM-DD"

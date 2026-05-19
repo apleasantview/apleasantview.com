@@ -2,6 +2,7 @@
 title: 'Support web et informatique à De Baarsjes pour petits commerces'
 description: 'Support web et informatique local à De Baarsjes. Maintenance continue, petits projets et IT pratique pour les petits commerces autour de Mercatorplein, Hoofdweg et environs.'
 slug: 'de-baarsjes'
+type: 'neighborhood'
 permalink: '/fr/de-baarsjes/'
 translationKey: 'neighborhood-de-baarsjes'
 date: 2026-05-19

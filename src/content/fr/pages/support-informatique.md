@@ -2,6 +2,7 @@
 title: "Support informatique pour petits commerces à Amsterdam-West"
 description: "Support informatique pratique pour petits commerces à Amsterdam-West : e-mail, identifiants, appareils. Partie de l'abonnement de support (85€/mois)."
 slug: 'support-informatique'
+type: 'service'
 permalink: '/fr/services/support-informatique/'
 translationKey: 'service-it-support'
 date: 2026-05-19
