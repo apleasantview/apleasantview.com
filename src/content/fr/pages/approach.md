@@ -1,5 +1,5 @@
 ---
-title: 'Ma façon de travailler pour le support web et IT des petits commerces'
+title: 'Mon approche du support web et informatique'
 description: 'Comment je garde votre présence en ligne stable : communication claire, améliorations pratiques, conditions transparentes.'
 slug: 'approche'
 translationKey: 'approach'

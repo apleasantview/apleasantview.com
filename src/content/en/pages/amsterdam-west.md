@@ -1,5 +1,5 @@
 ---
-title: 'Website and IT support in Amsterdam-West for small businesses'
+title: 'Website and IT support in Amsterdam-West'
 description: 'Local website and IT support in Amsterdam-West: Jordaan, Oud-West, De Baarsjes, Westerpark and Bos en Lommer. Ongoing maintenance, small projects, and practical IT.'
 slug: 'amsterdam-west'
 type: 'neighborhood'

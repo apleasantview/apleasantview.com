@@ -1,5 +1,5 @@
 ---
-title: 'My approach to website and IT support for small businesses'
+title: 'My approach to website and IT support'
 description: 'How I keep your online presence steady: clear communication, practical improvements, transparent terms.'
 slug: 'approach'
 translationKey: 'approach'

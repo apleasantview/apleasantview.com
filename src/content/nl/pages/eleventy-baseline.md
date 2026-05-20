@@ -1,5 +1,5 @@
 ---
-title: 'Eleventy Baseline: commerciële ondersteuning van de maker'
+title: 'Eleventy Baseline: commerciële ondersteuning'
 description: 'Eleventy Baseline is de open-source plugin achter deze site. Commerciële ondersteuning voor teams die ermee bouwen: migraties, custom modules, setup, consulting.'
 slug: 'eleventy-baseline'
 permalink: '/nl/eleventy-baseline/'

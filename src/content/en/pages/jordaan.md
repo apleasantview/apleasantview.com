@@ -1,5 +1,5 @@
 ---
-title: 'Website and IT support in the Jordaan for small businesses'
+title: 'Website and IT support in the Jordaan'
 description: 'Local website and IT support in the Jordaan. Ongoing maintenance, small projects, and practical IT for small businesses around the corner.'
 slug: 'jordaan'
 type: 'neighborhood'

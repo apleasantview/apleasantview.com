@@ -1,5 +1,5 @@
 ---
-title: 'Support web et informatique à Bos en Lommer pour petits commerces'
+title: 'Support web et informatique à Bos en Lommer'
 description: 'Support web et informatique local à Bos en Lommer. Maintenance continue, petits projets et IT pratique pour les petits commerces autour de Erasmuspark et Bos en Lommerplein.'
 slug: 'bos-en-lommer'
 type: 'neighborhood'

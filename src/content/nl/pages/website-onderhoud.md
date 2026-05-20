@@ -1,5 +1,5 @@
 ---
-title: 'Website-onderhoud voor kleine bedrijven in Amsterdam-West'
+title: 'Website-onderhoud in Amsterdam-West'
 description: 'Doorlopend onderhoud voor uw website en hosting in Amsterdam-West. Onderdeel van het support-abonnement (€85/mnd), samen met praktische IT.'
 slug: 'website-onderhoud'
 type: 'service'

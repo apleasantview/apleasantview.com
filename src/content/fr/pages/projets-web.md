@@ -1,5 +1,5 @@
 ---
-title: "Projets web pour petits commerces à Amsterdam-West"
+title: "Projets web à Amsterdam-West"
 description: "Projets web bien cadrés pour petits commerces à Amsterdam-West : nouveaux sites, refontes, améliorations pratiques. Périmètre clair, communication posée, passation propre."
 slug: 'projets-web'
 type: 'service'

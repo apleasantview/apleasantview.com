@@ -1,5 +1,5 @@
 ---
-title: 'Mijn aanpak voor website- en IT-support voor kleine bedrijven'
+title: 'Mijn aanpak voor website- en IT-support'
 description: 'Hoe ik uw online aanwezigheid stabiel houd: duidelijke communicatie, praktische verbeteringen, heldere afspraken.'
 slug: 'aanpak'
 translationKey: 'approach'

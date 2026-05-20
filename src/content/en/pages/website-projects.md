@@ -1,5 +1,5 @@
 ---
-title: 'Website projects for small businesses in Amsterdam-West'
+title: 'Website projects in Amsterdam-West'
 description: 'Scoped website projects for small businesses in Amsterdam-West: new sites, rebuilds, practical improvements. Clear scope, calm communication, a clean handover.'
 slug: 'website-projects'
 type: 'service'

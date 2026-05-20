@@ -1,5 +1,5 @@
 ---
-title: 'Website and IT support in De Baarsjes for small businesses'
+title: 'Website and IT support in De Baarsjes'
 description: 'Local website and IT support in De Baarsjes. Ongoing maintenance, small projects, and practical IT for small businesses around Mercatorplein, Hoofdweg and nearby.'
 slug: 'de-baarsjes'
 type: 'neighborhood'

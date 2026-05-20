@@ -1,5 +1,5 @@
 ---
-title: 'Support web et informatique dans le Jordaan pour petits commerces'
+title: 'Support web et informatique dans le Jordaan'
 description: 'Support web et informatique local dans le Jordaan. Maintenance continue, petits projets et IT pratique pour les petits commerces du quartier.'
 slug: 'jordaan'
 type: 'neighborhood'

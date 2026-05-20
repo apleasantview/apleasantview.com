@@ -1,5 +1,5 @@
 ---
-title: 'Frequently asked questions about website and IT support'
+title: 'Frequently asked questions'
 description: 'Answers to common questions about ongoing website maintenance, IT support, and small projects in Amsterdam-West and the Jordaan.'
 slug: 'faq'
 type: 'faq'

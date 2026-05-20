@@ -1,5 +1,5 @@
 ---
-title: 'Veelgestelde vragen over website-onderhoud en IT-support'
+title: 'Veelgestelde vragen'
 description: 'Antwoorden op vaakgestelde vragen over doorlopend website-onderhoud, IT-support en kleine projecten in Amsterdam-West en de Jordaan.'
 slug: 'veelgestelde-vragen'
 type: 'faq'

@@ -1,5 +1,5 @@
 ---
-title: 'Maintenance de site pour petits commerces à Amsterdam-West'
+title: 'Maintenance de site à Amsterdam-West'
 description: "Maintenance continue pour votre site et hébergement à Amsterdam-West. Partie de l'abonnement de support (85€/mois), avec l'IT pratique."
 slug: 'maintenance-site'
 type: 'service'

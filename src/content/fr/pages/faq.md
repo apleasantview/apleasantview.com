@@ -1,5 +1,5 @@
 ---
-title: 'Questions fréquentes sur le support web et informatique'
+title: 'Questions fréquentes'
 description: "Réponses aux questions courantes sur la maintenance web continue, le support informatique et les petits projets à Amsterdam-West et dans le Jordaan."
 slug: 'faq'
 type: 'faq'
