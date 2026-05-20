@@ -1,6 +1,12 @@
 import fs from 'fs';
 import { buildSeoGraph, buildSeoMeta } from '../../utils/seo-graph.js';
 
+const mdAlternates = (data) => ({
+	rel: 'alternate',
+	type: 'text/markdown',
+	href: `${data.page.url}index.md`
+});
+
 export default {
 	permalink: function (data) {
 		if (data.page.inputPath.includes('11tydata.js')) return false;
@@ -29,7 +35,9 @@ export default {
 				}
 			],
 			// OG + Twitter meta. Same data sources as the graph so they cannot drift.
-			meta: (data) => buildSeoMeta(data)
+			meta: (data) => buildSeoMeta(data),
+			// Add markdown alternates for site pages.
+			link: (data) => [mdAlternates(data)]
 		}
 	}
 };
