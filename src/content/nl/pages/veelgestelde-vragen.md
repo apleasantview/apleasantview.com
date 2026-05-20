@@ -1,11 +1,11 @@
 ---
 title: 'Veelgestelde vragen'
-description: 'Antwoorden op vaakgestelde vragen over doorlopend website-onderhoud, IT-support en kleine projecten in Amsterdam-West en de Jordaan.'
 slug: 'veelgestelde-vragen'
+description: 'Antwoorden op vaakgestelde vragen over doorlopend website-onderhoud, IT-support en kleine projecten in Amsterdam-West en de Jordaan.'
+date: 2026-05-19
 type: 'faq'
 permalink: '/nl/veelgestelde-vragen/'
 translationKey: 'faq'
-date: 2026-05-19
 faqs:
   - question: 'Neemt u nieuwe klanten aan?'
     answer: >
@@ -51,6 +51,6 @@ Kort antwoord op vragen die vaak terugkomen voor wie aan een doorlopende support
 
 ## Iets anders?
 
-Staat uw vraag er niet bij? [[contact|Stuur een kort berichtje →]] en ik antwoord binnen een dag.
+Staat uw vraag er niet bij? [[contact:nl|Stuur een kort berichtje →]] en ik antwoord binnen een dag.
 
 </section>

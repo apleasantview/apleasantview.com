@@ -1,11 +1,11 @@
 ---
 title: 'Frequently asked questions'
-description: 'Answers to common questions about ongoing website maintenance, IT support, and small projects in Amsterdam-West and the Jordaan.'
 slug: 'faq'
+description: 'Answers to common questions about ongoing website maintenance, IT support, and small projects in Amsterdam-West and the Jordaan.'
+date: 2026-05-19
 type: 'faq'
 permalink: '/faq/'
 translationKey: 'faq'
-date: 2026-05-19
 faqs:
   - question: 'Are you taking new clients?'
     answer: >

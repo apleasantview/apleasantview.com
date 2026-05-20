@@ -1,9 +1,10 @@
 ---
-permalink: '/fr/'
 title: 'Services digitaux pour Amsterdam‑West et le Jordaan'
+slug: 'home'
 description: "Une activité à une personne à Amsterdam‑West : sites web, hébergement, et l'informatique pratique autour, pour une poignée de commerces locaux."
-translationKey: 'homepage'
 date: 2026-02-13
+permalink: '/fr/'
+translationKey: 'homepage'
 ---
 
 <section class="u-flow">
@@ -14,11 +15,11 @@ date: 2026-02-13
 
 Travaille en néerlandais, anglais ou français. Pratique pour Amsterdam‑West où les équipes mélangent souvent les langues.
 
-Sites web, hébergement, et l'informatique pratique autour, pour une poignée de commerces locaux. Je maintiens aussi [[eleventy-baseline|Eleventy Baseline]], la base sur laquelle tourne ce site.
+Sites web, hébergement, et l'informatique pratique autour, pour une poignée de commerces locaux. Je maintiens aussi [[eleventy-baseline:fr|Eleventy Baseline]], la base sur laquelle tourne ce site.
 
 Je garde volontairement la liste de clients courte pour le travail local, et propose aussi du support aux équipes qui construisent avec Baseline.
 
-[[contact|Me contacter pour les disponibilités →]]
+[[contact:fr|Me contacter pour les disponibilités →]]
 
 </section>
 
@@ -32,7 +33,7 @@ Une mise à jour rapide, un renouvellement de domaine, une imprimante qui fait d
 
 C'est pour ça que je peux répondre au téléphone, retrouver votre setup de tête, et ne pas disparaître pendant des semaines.
 
-[[approach|En savoir plus sur ma façon de travailler →]]
+[[approach:fr|En savoir plus sur ma façon de travailler →]]
 
 </section>
 
@@ -42,15 +43,15 @@ C'est pour ça que je peux répondre au téléphone, retrouver votre setup de t�
 
 ## Services
 
-### [[website-maintenance|Maintenance de site]]
+### [[website-maintenance:fr|Maintenance de site]]
 
 Maintenance continue pour votre site. Partie de l'abonnement de support.
 
-### [[it-support|Support informatique]]
+### [[it-support:fr|Support informatique]]
 
 L'IT pratique autour : e‑mail, identifiants, appareils. Partie du même abonnement.
 
-### [[website-projects|Projets web]]
+### [[website-projects:fr|Projets web]]
 
 Du travail bien cadré quand vous voulez construire, améliorer ou remettre quelque chose d'aplomb.
 
@@ -66,7 +67,7 @@ Le travail se passe surtout ici dans le quartier. À distance, c'est possible au
 
 Je réponds à toutes les demandes dans la journée.
 
-[[contact|Envoyer un petit message →]]
+[[contact:fr|Envoyer un petit message →]]
 
 </section>
 

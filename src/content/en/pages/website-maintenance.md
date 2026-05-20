@@ -1,11 +1,11 @@
 ---
 title: 'Website maintenance in Amsterdam-West'
-description: 'Ongoing maintenance for your website and hosting in Amsterdam-West. Part of the support plan (€85/mo) alongside practical IT.'
 slug: 'website-maintenance'
+description: 'Ongoing maintenance for your website and hosting in Amsterdam-West. Part of the support plan (€85/mo) alongside practical IT.'
+date: 2026-05-19
 type: 'service'
 permalink: '/services/website-maintenance/'
 translationKey: 'service-maintenance'
-date: 2026-05-19
 ---
 
 <section class="u-flow">

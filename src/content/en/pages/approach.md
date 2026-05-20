@@ -1,9 +1,9 @@
 ---
 title: 'My approach to website and IT support'
-description: 'How I keep your online presence steady: clear communication, practical improvements, transparent terms.'
 slug: 'approach'
-translationKey: 'approach'
+description: 'How I keep your online presence steady: clear communication, practical improvements, transparent terms.'
 date: 2026-02-14
+translationKey: 'approach'
 ---
 
 <section class="u-flow">

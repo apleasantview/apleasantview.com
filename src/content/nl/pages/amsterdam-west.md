@@ -1,11 +1,11 @@
 ---
 title: 'Website- en IT-support in Amsterdam-West'
-description: 'Lokaal website- en IT-support in Amsterdam-West: Jordaan, Oud-West, De Baarsjes, Westerpark en Bos en Lommer. Doorlopend onderhoud, kleine projecten en praktische IT.'
 slug: 'amsterdam-west'
+description: 'Lokaal website- en IT-support in Amsterdam-West: Jordaan, Oud-West, De Baarsjes, Westerpark en Bos en Lommer. Doorlopend onderhoud, kleine projecten en praktische IT.'
+date: 2026-05-19
 type: 'neighborhood'
 permalink: '/nl/amsterdam-west/'
 translationKey: 'neighborhood-amsterdam-west'
-date: 2026-05-19
 ---
 
 <section class="u-flow">
@@ -22,9 +22,9 @@ date: 2026-05-19
 
 Doorlopende support voor uw website en de praktische IT eromheen, of een afgebakend project als u iets nieuws wilt opzetten.
 
-- [[website-maintenance|Website-onderhoud]]: uw site blijft lopen, zonder uw aandacht te trekken
-- [[it-support|IT-support]]: e‑mail, logins, apparaten, de praktische dingen
-- [[website-projects|Website-projecten]]: afgebakend werk, een nieuwe site of een gerichte verbetering
+- [[website-maintenance:nl|Website-onderhoud]]: uw site blijft lopen, zonder uw aandacht te trekken
+- [[it-support:nl|IT-support]]: e‑mail, logins, apparaten, de praktische dingen
+- [[website-projects:nl|Website-projecten]]: afgebakend werk, een nieuwe site of een gerichte verbetering
 
 </section>
 
@@ -32,13 +32,13 @@ Doorlopende support voor uw website en de praktische IT eromheen, of een afgebak
 
 ## In welke buurt zit u?
 
-- [[jordaan|In de Jordaan]]: historische straten, dichte concentratie kleine zaken
-- [[oud-west|In Oud-West]]: Helmersbuurt, Kinkerbuurt, rond het Vondelpark
-- [[de-baarsjes|In De Baarsjes]]: rond Mercatorplein en Hoofdweg
-- [[westerpark|In Westerpark]]: Spaarndammerbuurt, Staatsliedenbuurt, rond de Westergasfabriek
-- [[bos-en-lommer|In Bos en Lommer]]: rond Erasmuspark en Bos en Lommerplein
+- [[jordaan:nl|In de Jordaan]]: historische straten, dichte concentratie kleine zaken
+- [[oud-west:nl|In Oud-West]]: Helmersbuurt, Kinkerbuurt, rond het Vondelpark
+- [[de-baarsjes:nl|In De Baarsjes]]: rond Mercatorplein en Hoofdweg
+- [[westerpark:nl|In Westerpark]]: Spaarndammerbuurt, Staatsliedenbuurt, rond de Westergasfabriek
+- [[bos-en-lommer:nl|In Bos en Lommer]]: rond Erasmuspark en Bos en Lommerplein
 
-Zit uw zaak in een andere buurt in West? [[contact|Stuur een kort berichtje →]] en we kijken of het past.
+Zit uw zaak in een andere buurt in Amsterdam? [[contact:nl|Stuur een kort berichtje →]] en we kijken of het past.
 
 </section>
 
@@ -46,7 +46,7 @@ Zit uw zaak in een andere buurt in West? [[contact|Stuur een kort berichtje →]
 
 ## Volgende stap
 
-Wilt u beschikbaarheid checken? [[contact|Stuur een kort berichtje →]].
+Wilt u beschikbaarheid checken? [[contact:nl|Stuur een kort berichtje →]].
 
 Ik reageer binnen een dag.
 

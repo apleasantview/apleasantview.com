@@ -1,9 +1,9 @@
 ---
 title: 'Lokaal: Amsterdam‑West & de Jordaan'
-description: 'Lokaal‑eerst digitale support in Amsterdam‑West en rond de Jordaan. Praktische communicatie, snelle opvolging, jarenlange ervaring. Op afstand kan ook als het past.'
 slug: 'lokaal'
-translationKey: 'local'
+description: 'Lokaal‑eerst digitale support in Amsterdam‑West en rond de Jordaan. Praktische communicatie, snelle opvolging, jarenlange ervaring. Op afstand kan ook als het past.'
 date: 2026-02-16
+translationKey: 'local'
 ---
 
 <section class="u-flow">
@@ -36,13 +36,13 @@ Het meeste werk gebeurt lokaal, maar op afstand kan ook, zeker als het werk duid
 
 ## In welke buurt?
 
-Het werkgebied beslaat heel [[amsterdam-west|Amsterdam-West]] en de Jordaan. Klik op uw buurt voor meer:
+Het werkgebied beslaat heel [[amsterdam-west:nl|Amsterdam-West]] en de Jordaan. Klik op uw buurt voor meer:
 
-- [[jordaan|Jordaan]]
-- [[oud-west|Oud-West]]
-- [[de-baarsjes|De Baarsjes]]
-- [[westerpark|Westerpark]]
-- [[bos-en-lommer|Bos en Lommer]]
+- [[jordaan:nl|Jordaan]]
+- [[oud-west:nl|Oud-West]]
+- [[de-baarsjes:nl|De Baarsjes]]
+- [[westerpark:nl|Westerpark]]
+- [[bos-en-lommer:nl|Bos en Lommer]]
 
 </section>
 
@@ -70,7 +70,7 @@ Betrouwbaarheid telt voor mij zwaarder dan groeicijfers.
 
 ## Volgende stap
 
-Wilt u beschikbaarheid checken? [[contact|Stuur een kort berichtje →]].
+Wilt u beschikbaarheid checken? [[contact:nl|Stuur een kort berichtje →]].
 
 Ik reageer binnen een dag.
 

@@ -1,11 +1,11 @@
 ---
 title: 'Questions fréquentes'
-description: 'Réponses aux questions courantes sur la maintenance web continue, le support informatique et les petits projets à Amsterdam-West et dans le Jordaan.'
 slug: 'faq'
+description: 'Réponses aux questions courantes sur la maintenance web continue, le support informatique et les petits projets à Amsterdam-West et dans le Jordaan.'
+date: 2026-05-19
 type: 'faq'
 permalink: '/fr/faq/'
 translationKey: 'faq'
-date: 2026-05-19
 faqs:
   - question: 'Acceptez-vous de nouveaux clients ?'
     answer: >
@@ -51,6 +51,6 @@ Réponses courtes aux questions qui reviennent souvent quand on envisage un acco
 
 ## Autre chose ?
 
-Votre question n'est pas listée ? [[contact|Envoyer un petit message →]] et je réponds dans la journée.
+Votre question n'est pas listée ? [[contact:fr|Envoyer un petit message →]] et je réponds dans la journée.
 
 </section>

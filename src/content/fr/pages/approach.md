@@ -1,9 +1,9 @@
 ---
 title: 'Mon approche du support web et informatique'
-description: 'Comment je garde votre présence en ligne stable : communication claire, améliorations pratiques, conditions transparentes.'
 slug: 'approche'
-translationKey: 'approach'
+description: 'Comment je garde votre présence en ligne stable : communication claire, améliorations pratiques, conditions transparentes.'
 date: 2026-02-14
+translationKey: 'approach'
 ---
 
 <section class="u-flow">
@@ -83,7 +83,7 @@ Pas un helpdesk IT complet, mais pas non plus seulement du web. Exactement le ch
 
 ## Disponibilité
 
-Envie de savoir s'il y a de la place ? [[contact|Envoyer un petit message →]].
+Envie de savoir s'il y a de la place ? [[contact:fr|Envoyer un petit message →]].
 
 Je réponds dans la journée.
 

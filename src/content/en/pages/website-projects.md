@@ -1,11 +1,11 @@
 ---
 title: 'Website projects in Amsterdam-West'
-description: 'Scoped website projects for small businesses in Amsterdam-West: new sites, rebuilds, practical improvements. Clear scope, calm communication, a clean handover.'
 slug: 'website-projects'
+description: 'Scoped website projects for small businesses in Amsterdam-West: new sites, rebuilds, practical improvements. Clear scope, calm communication, a clean handover.'
+date: 2026-02-16
 type: 'service'
 permalink: '/services/website-projects/'
 translationKey: 'projects'
-date: 2026-02-16
 ---
 
 <section class="u-flow">

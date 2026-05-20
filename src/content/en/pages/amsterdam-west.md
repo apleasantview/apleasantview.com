@@ -1,11 +1,11 @@
 ---
 title: 'Website and IT support in Amsterdam-West'
-description: 'Local website and IT support in Amsterdam-West: Jordaan, Oud-West, De Baarsjes, Westerpark and Bos en Lommer. Ongoing maintenance, small projects, and practical IT.'
 slug: 'amsterdam-west'
+description: 'Local website and IT support in Amsterdam-West: Jordaan, Oud-West, De Baarsjes, Westerpark and Bos en Lommer. Ongoing maintenance, small projects, and practical IT.'
+date: 2026-05-19
 type: 'neighborhood'
 permalink: '/amsterdam-west/'
 translationKey: 'neighborhood-amsterdam-west'
-date: 2026-05-19
 ---
 
 <section class="u-flow">
@@ -32,13 +32,13 @@ Ongoing support for your website and the practical IT around it, or a scoped pro
 
 ## Which neighborhood are you in?
 
-- [[jordaan|In the Jordaan]]: historic streets, dense concentration of small businesses
+- [[jordaan:nl||In the Jordaan]]: historic streets, dense concentration of small businesses
 - [[oud-west|In Oud-West]]: Helmersbuurt, Kinkerbuurt, around the Vondelpark
 - [[de-baarsjes|In De Baarsjes]]: around Mercatorplein and Hoofdweg
 - [[westerpark|In Westerpark]]: Spaarndammerbuurt, Staatsliedenbuurt, around the Westergasfabriek
 - [[bos-en-lommer|In Bos en Lommer]]: around Erasmuspark and Bos en Lommerplein
 
-Is your business in another part of West? [[contact|Send a short note →]] and we'll see if it fits.
+Is your business in another part of Amsterdam? [[contact|Send a short note →]] and we'll see if it fits.
 
 </section>
 

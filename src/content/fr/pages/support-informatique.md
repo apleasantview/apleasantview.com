@@ -1,11 +1,11 @@
 ---
 title: 'Support informatique à Amsterdam-West'
-description: "Support informatique pratique pour petits commerces à Amsterdam-West : e-mail, identifiants, appareils. Partie de l'abonnement de support (85€/mois)."
 slug: 'support-informatique'
+description: "Support informatique pratique pour petits commerces à Amsterdam-West : e-mail, identifiants, appareils. Partie de l'abonnement de support (85€/mois)."
+date: 2026-05-19
 type: 'service'
 permalink: '/fr/services/support-informatique/'
 translationKey: 'service-it-support'
-date: 2026-05-19
 ---
 
 <section class="u-flow">
@@ -37,7 +37,7 @@ Pensé pour l'IT pratique qui apparaît dans la journée de travail normale. Pou
 
 ## Partie de l'abonnement de support
 
-Le support informatique est l'autre côté du même abonnement qui couvre aussi la [[website-maintenance|maintenance de site]]. Un seul point de contact pour votre site et pour l'IT pratique autour, sans chercher une nouvelle personne pour chaque petite chose.
+Le support informatique est l'autre côté du même abonnement qui couvre aussi la [[website-maintenance:fr|maintenance de site]]. Un seul point de contact pour votre site et pour l'IT pratique autour, sans chercher une nouvelle personne pour chaque petite chose.
 
 ### Conditions
 
@@ -52,7 +52,7 @@ Le support informatique est l'autre côté du même abonnement qui couvre aussi 
 
 ## Étape suivante
 
-Envie de vérifier les disponibilités ? [[contact|Envoyer un petit message →]].
+Envie de vérifier les disponibilités ? [[contact:fr|Envoyer un petit message →]].
 
 Je réponds dans la journée.
 

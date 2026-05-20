@@ -1,11 +1,11 @@
 ---
 title: 'Support web et informatique à Amsterdam-West'
-description: 'Support web et informatique local à Amsterdam-West : Jordaan, Oud-West, De Baarsjes, Westerpark et Bos en Lommer. Maintenance continue, petits projets et IT pratique.'
 slug: 'amsterdam-west'
+description: 'Support web et informatique local à Amsterdam-West : Jordaan, Oud-West, De Baarsjes, Westerpark et Bos en Lommer. Maintenance continue, petits projets et IT pratique.'
+date: 2026-05-19
 type: 'neighborhood'
 permalink: '/fr/amsterdam-west/'
 translationKey: 'neighborhood-amsterdam-west'
-date: 2026-05-19
 ---
 
 <section class="u-flow">
@@ -22,9 +22,9 @@ date: 2026-05-19
 
 Support continu pour votre site et pour l'IT pratique autour, ou un projet bien cadré quand vous voulez mettre quelque chose de nouveau en place.
 
-- [[website-maintenance|Maintenance de site]] : votre site continue de tourner, sans accrocher votre attention
-- [[it-support|Support informatique]] : e‑mail, identifiants, appareils, les choses pratiques
-- [[website-projects|Projets web]] : du travail cadré, un nouveau site ou une amélioration ciblée
+- [[website-maintenance:fr|Maintenance de site]] : votre site continue de tourner, sans accrocher votre attention
+- [[it-support:fr|Support informatique]] : e‑mail, identifiants, appareils, les choses pratiques
+- [[website-projects:fr|Projets web]] : du travail cadré, un nouveau site ou une amélioration ciblée
 
 </section>
 
@@ -32,13 +32,13 @@ Support continu pour votre site et pour l'IT pratique autour, ou un projet bien 
 
 ## Dans quel quartier êtes-vous ?
 
-- [[jordaan|Dans le Jordaan]] : rues historiques, forte concentration de petits commerces
-- [[oud-west|À Oud-West]] : Helmersbuurt, Kinkerbuurt, autour du Vondelpark
-- [[de-baarsjes|À De Baarsjes]] : autour de Mercatorplein et Hoofdweg
-- [[westerpark|À Westerpark]] : Spaarndammerbuurt, Staatsliedenbuurt, autour de la Westergasfabriek
-- [[bos-en-lommer|À Bos en Lommer]] : autour d'Erasmuspark et de Bos en Lommerplein
+- [[jordaan:fr|Dans le Jordaan]] : rues historiques, forte concentration de petits commerces
+- [[oud-west:fr|À Oud-West]] : Helmersbuurt, Kinkerbuurt, autour du Vondelpark
+- [[de-baarsjes:fr|À De Baarsjes]] : autour de Mercatorplein et Hoofdweg
+- [[westerpark:fr|À Westerpark]] : Spaarndammerbuurt, Staatsliedenbuurt, autour de la Westergasfabriek
+- [[bos-en-lommer:fr|À Bos en Lommer]] : autour d'Erasmuspark et de Bos en Lommerplein
 
-Votre activité se trouve dans une autre partie de l'Ouest ? [[contact|Envoyer un petit message →]] et on verra si ça colle.
+Votre activité se trouve dans une autre partie d'Amsterdam ? [[contact:fr|Envoyer un petit message →]] et on verra si ça colle.
 
 </section>
 
@@ -46,7 +46,7 @@ Votre activité se trouve dans une autre partie de l'Ouest ? [[contact|Envoyer u
 
 ## Étape suivante
 
-Envie de vérifier les disponibilités ? [[contact|Envoyer un petit message →]].
+Envie de vérifier les disponibilités ? [[contact:fr|Envoyer un petit message →]].
 
 Je réponds dans la journée.
 

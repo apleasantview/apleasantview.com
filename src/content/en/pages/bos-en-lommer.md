@@ -1,11 +1,11 @@
 ---
 title: 'Website and IT support in Bos en Lommer'
-description: 'Local website and IT support in Bos en Lommer. Ongoing maintenance, small projects, and practical IT for small businesses around Erasmuspark and Bos en Lommerplein.'
 slug: 'bos-en-lommer'
+description: 'Local website and IT support in Bos en Lommer. Ongoing maintenance, small projects, and practical IT for small businesses around Erasmuspark and Bos en Lommerplein.'
+date: 2026-05-19
 type: 'neighborhood'
 permalink: '/bos-en-lommer/'
 translationKey: 'neighborhood-bos-en-lommer'
-date: 2026-05-19
 ---
 
 <section class="u-flow">

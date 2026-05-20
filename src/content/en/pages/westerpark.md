@@ -1,11 +1,11 @@
 ---
 title: 'Website and IT support in Westerpark'
-description: 'Local website and IT support in Westerpark. Ongoing maintenance, small projects, and practical IT for small businesses in Spaarndammerbuurt, Staatsliedenbuurt and around the Westergasfabriek.'
 slug: 'westerpark'
+description: 'Local website and IT support in Westerpark. Ongoing maintenance, small projects, and practical IT for small businesses in Spaarndammerbuurt, Staatsliedenbuurt and around the Westergasfabriek.'
+date: 2026-05-19
 type: 'neighborhood'
 permalink: '/westerpark/'
 translationKey: 'neighborhood-westerpark'
-date: 2026-05-19
 ---
 
 <section class="u-flow">

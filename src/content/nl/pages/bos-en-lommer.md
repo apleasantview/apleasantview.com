@@ -1,11 +1,11 @@
 ---
 title: 'Website- en IT-support in Bos en Lommer'
-description: 'Lokaal website- en IT-support in Bos en Lommer. Doorlopend onderhoud, kleine projecten en praktische IT voor kleine bedrijven rond Erasmuspark en Bos en Lommerplein.'
 slug: 'bos-en-lommer'
+description: 'Lokaal website- en IT-support in Bos en Lommer. Doorlopend onderhoud, kleine projecten en praktische IT voor kleine bedrijven rond Erasmuspark en Bos en Lommerplein.'
+date: 2026-05-19
 type: 'neighborhood'
 permalink: '/nl/bos-en-lommer/'
 translationKey: 'neighborhood-bos-en-lommer'
-date: 2026-05-19
 ---
 
 <section class="u-flow">
@@ -22,9 +22,9 @@ date: 2026-05-19
 
 Doorlopende support voor uw website en de praktische IT eromheen, of een afgebakend project als u iets nieuws wilt opzetten.
 
-- [[website-maintenance|Website-onderhoud]]: uw site blijft lopen, zonder uw aandacht te trekken
-- [[it-support|IT-support]]: e‑mail, logins, apparaten, de praktische dingen
-- [[website-projects|Website-projecten]]: afgebakend werk, een nieuwe site of een gerichte verbetering
+- [[website-maintenance:nl|Website-onderhoud]]: uw site blijft lopen, zonder uw aandacht te trekken
+- [[it-support:nl|IT-support]]: e‑mail, logins, apparaten, de praktische dingen
+- [[website-projects:nl|Website-projecten]]: afgebakend werk, een nieuwe site of een gerichte verbetering
 
 </section>
 
@@ -40,7 +40,7 @@ Bos en Lommer is de afgelopen jaren snel veranderd: meer kleine ondernemers, mee
 
 ## Volgende stap
 
-Wilt u beschikbaarheid checken? [[contact|Stuur een kort berichtje →]].
+Wilt u beschikbaarheid checken? [[contact:nl|Stuur een kort berichtje →]].
 
 Ik reageer binnen een dag.
 

@@ -1,11 +1,11 @@
 ---
 title: 'Projets web à Amsterdam-West'
-description: 'Projets web bien cadrés pour petits commerces à Amsterdam-West : nouveaux sites, refontes, améliorations pratiques. Périmètre clair, communication posée, passation propre.'
 slug: 'projets-web'
+description: 'Projets web bien cadrés pour petits commerces à Amsterdam-West : nouveaux sites, refontes, améliorations pratiques. Périmètre clair, communication posée, passation propre.'
+date: 2026-02-16
 type: 'service'
 permalink: '/fr/services/projets-web/'
 translationKey: 'projects'
-date: 2026-02-16
 ---
 
 <section class="u-flow">
@@ -28,7 +28,7 @@ Un projet convient quand :
 - votre site actuel a besoin d'une amélioration nette, pas d'un support continu
 - vous voulez un périmètre défini, une fin claire et une passation propre
 
-Si vous avez surtout besoin d'une aide continue pour garder tout à jour, l'[[website-maintenance|abonnement de support]] est souvent un meilleur choix.
+Si vous avez surtout besoin d'une aide continue pour garder tout à jour, l'[[website-maintenance:fr|abonnement de support]] est souvent un meilleur choix.
 
 </section>
 
@@ -77,7 +77,7 @@ Les projets restent cadrés. Si quelque chose de nouveau apparaît, je vous le s
 
 ## Après un projet
 
-Si vous voulez que le site reste suivi, on peut continuer avec un support continu : [[website-maintenance|maintenance de site]] et [[it-support|support informatique]] ensemble dans un seul abonnement.
+Si vous voulez que le site reste suivi, on peut continuer avec un support continu : [[website-maintenance:fr|maintenance de site]] et [[it-support:fr|support informatique]] ensemble dans un seul abonnement.
 
 Souvent la manière la plus simple d'éviter que les petites choses ne s'accumulent.
 
@@ -89,7 +89,7 @@ Si vous ne le souhaitez pas, c'est très bien aussi. L'objectif est de toute fa�
 
 ## Étape suivante
 
-Vous avez un projet en tête ? [[contact|Envoyer un petit message →]].
+Vous avez un projet en tête ? [[contact:fr|Envoyer un petit message →]].
 
 Joignez de préférence :
 

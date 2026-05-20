@@ -1,9 +1,10 @@
 ---
 title: 'Digital services for Amsterdam‑West and the Jordaan'
+slug: 'home'
 description: 'A one-person operation in Amsterdam‑West: websites, hosting, and the practical IT around them, for a handful of local businesses.'
+date: 2026-02-13
 permalink: '/'
 translationKey: 'homepage'
-date: 2026-02-13
 ---
 
 <section class="u-flow">

@@ -1,9 +1,10 @@
 ---
 title: 'Digitale diensten voor Amsterdam‑West en de Jordaan'
+slug: 'home'
 description: 'Een kleine zaak in Amsterdam‑West die werkt met een handjevol lokale bedrijven tegelijk: websites, hosting, en de praktische IT eromheen.'
+date: 2026-02-13
 permalink: '/{{ lang }}/'
 translationKey: 'homepage'
-date: 2026-02-13
 ---
 
 <section class="u-flow">
@@ -14,11 +15,11 @@ date: 2026-02-13
 
 Werkt in het Nederlands, Engels of Frans. Handig als uw klanten of leveranciers wel eens van taal wisselen.
 
-Websites, hosting, en de praktische IT eromheen voor een handvol lokale bedrijven. Daarnaast onderhoud ik [[eleventy-baseline|Eleventy Baseline]], de basis waar deze site op draait.
+Websites, hosting, en de praktische IT eromheen voor een handvol lokale bedrijven. Daarnaast onderhoud ik [[eleventy-baseline:nl|Eleventy Baseline]], de basis waar deze site op draait.
 
 Ik hou het klantenbestand bewust klein voor lokaal werk, en bied ook ondersteuning voor teams die met Baseline bouwen.
 
-[[contact|Neem contact op voor beschikbaarheid →]]
+[[contact:nl|Neem contact op voor beschikbaarheid →]]
 
 </section>
 
@@ -32,7 +33,7 @@ Een korte update, een domeinverlenging, een printer die het niet doet. Het soort
 
 Daarom kan ik de telefoon opnemen, uw setup uit mijn hoofd weer halen, en niet wekenlang onbereikbaar zijn.
 
-[[approach|Meer over hoe ik werk →]]
+[[approach:nl|Meer over hoe ik werk →]]
 
 </section>
 
@@ -42,15 +43,15 @@ Daarom kan ik de telefoon opnemen, uw setup uit mijn hoofd weer halen, en niet w
 
 ## Diensten
 
-### [[website-maintenance|Website-onderhoud]]
+### [[website-maintenance:nl|Website-onderhoud]]
 
 Doorlopend onderhoud voor uw site. Onderdeel van het support-abonnement.
 
-### [[it-support|IT-support]]
+### [[it-support:nl|IT-support]]
 
 Praktische IT eromheen: e‑mail, logins, apparaten. Onderdeel van hetzelfde abonnement.
 
-### [[website-projects|Website-projecten]]
+### [[website-projects:nl|Website-projecten]]
 
 Afgebakend werk wanneer u iets wilt laten bouwen, verbeteren of weer op orde brengen.
 
@@ -66,7 +67,7 @@ Het werk gebeurt vooral hier bij mij in de buurt. Op afstand kan ook, als het pa
 
 Ik reageer op alle vragen binnen een dag.
 
-[[contact|Stuur een kort berichtje →]]
+[[contact:nl|Stuur een kort berichtje →]]
 
 </section>
 

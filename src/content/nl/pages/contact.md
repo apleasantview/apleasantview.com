@@ -1,10 +1,10 @@
 ---
 title: 'Neem contact op'
-description: 'Mail om beschikbaarheid te checken voor doorlopende web- en praktische IT-support. Amsterdam‑West & de Jordaan; op afstand kan ook als het past.'
 slug: 'contact'
+description: 'Mail om beschikbaarheid te checken voor doorlopende web- en praktische IT-support. Amsterdam‑West & de Jordaan; op afstand kan ook als het past.'
+date: 2026-02-16
 type: 'contact'
 translationKey: 'contact'
-date: 2026-02-16
 ---
 
 <section class="u-flow">
@@ -15,7 +15,7 @@ Ik houd het klantenbestand klein, met opzet. Wilt u weten of er ruimte is, of ee
 
 Het werk speelt zich vooral af rond Amsterdam‑West en de Jordaan. Op afstand kan ook, als het past.
 
-Heeft u eerst een korte vraag? Bekijk de [[faq|veelgestelde vragen]].
+Heeft u eerst een korte vraag? Bekijk de [[faq:nl|veelgestelde vragen]].
 
 ## Wat u kunt meesturen
 
@@ -29,6 +29,6 @@ Stuur bij voorkeur mee:
 
 Ik reageer binnen een dag. Als ik kan helpen, stel ik een volgende stap voor en maak ik onduidelijkheden helder voor we beginnen.
 
-[[about|Lees meer over `a pleasant view` →]]
+[[about:nl|Lees meer over `a pleasant view` →]]
 
 </section>

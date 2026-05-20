@@ -1,10 +1,10 @@
 ---
 title: 'About me'
-description: 'Cristovao Verstraeten runs `a pleasant view` from Amsterdam-West. Steady support for small local businesses, and maintainer of Eleventy Baseline.'
 slug: 'about'
+description: 'Cristovao Verstraeten runs `a pleasant view` from Amsterdam-West. Steady support for small local businesses, and maintainer of Eleventy Baseline.'
+date: 2026-02-16
 type: 'about'
 translationKey: 'about'
-date: 2026-02-16
 ---
 
 <section class="u-flow">

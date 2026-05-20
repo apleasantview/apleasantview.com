@@ -1,11 +1,11 @@
 ---
 title: 'IT-support in Amsterdam-West'
-description: 'Praktische IT-support voor kleine bedrijven in Amsterdam-West: e-mail, logins, apparaten. Onderdeel van het support-abonnement (€85/mnd).'
 slug: 'it-support'
+description: 'Praktische IT-support voor kleine bedrijven in Amsterdam-West: e-mail, logins, apparaten. Onderdeel van het support-abonnement (€85/mnd).'
+date: 2026-05-19
 type: 'service'
 permalink: '/nl/diensten/it-support/'
 translationKey: 'service-it-support'
-date: 2026-05-19
 ---
 
 <section class="u-flow">
@@ -37,7 +37,7 @@ Bedoeld voor de praktische IT die met de gewone werkdag te maken heeft. Voor gro
 
 ## Onderdeel van het support-abonnement
 
-IT-support is de andere kant van hetzelfde abonnement dat ook [[website-maintenance|website-onderhoud]] dekt. Eén aanspreekpunt voor uw website én voor de praktische IT eromheen, zonder voor elk klein dingetje een nieuwe partij te zoeken.
+IT-support is de andere kant van hetzelfde abonnement dat ook [[website-maintenance:nl|website-onderhoud]] dekt. Eén aanspreekpunt voor uw website én voor de praktische IT eromheen, zonder voor elk klein dingetje een nieuwe partij te zoeken.
 
 ### Voorwaarden
 
@@ -52,7 +52,7 @@ IT-support is de andere kant van hetzelfde abonnement dat ook [[website-maintena
 
 ## Volgende stap
 
-Wilt u beschikbaarheid checken? [[contact|Stuur een kort berichtje →]].
+Wilt u beschikbaarheid checken? [[contact:nl|Stuur een kort berichtje →]].
 
 Ik reageer binnen een dag.
 

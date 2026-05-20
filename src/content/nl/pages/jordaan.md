@@ -1,11 +1,11 @@
 ---
 title: 'Website- en IT-support in de Jordaan'
-description: 'Lokaal website- en IT-support in de Jordaan. Doorlopend onderhoud, kleine projecten en praktische IT voor kleine bedrijven om de hoek.'
 slug: 'jordaan'
+description: 'Lokaal website- en IT-support in de Jordaan. Doorlopend onderhoud, kleine projecten en praktische IT voor kleine bedrijven om de hoek.'
+date: 2026-05-19
 type: 'neighborhood'
 permalink: '/nl/jordaan/'
 translationKey: 'neighborhood-jordaan'
-date: 2026-05-19
 ---
 
 <section class="u-flow">
@@ -22,9 +22,9 @@ date: 2026-05-19
 
 Doorlopende support voor uw website en de praktische IT eromheen, of een afgebakend project als u iets nieuws wilt opzetten.
 
-- [[website-maintenance|Website-onderhoud]]: uw site blijft lopen, zonder uw aandacht te trekken
-- [[it-support|IT-support]]: e‑mail, logins, apparaten, de praktische dingen
-- [[website-projects|Website-projecten]]: afgebakend werk, een nieuwe site of een gerichte verbetering
+- [[website-maintenance:nl|Website-onderhoud]]: uw site blijft lopen, zonder uw aandacht te trekken
+- [[it-support:nl|IT-support]]: e‑mail, logins, apparaten, de praktische dingen
+- [[website-projects:nl|Website-projecten]]: afgebakend werk, een nieuwe site of een gerichte verbetering
 
 </section>
 
@@ -40,7 +40,7 @@ Smalle straten, kleine zaken, vaak één persoon die overal voor staat. Een kort
 
 ## Volgende stap
 
-Wilt u beschikbaarheid checken? [[contact|Stuur een kort berichtje →]].
+Wilt u beschikbaarheid checken? [[contact:nl|Stuur een kort berichtje →]].
 
 Ik reageer binnen een dag.
 

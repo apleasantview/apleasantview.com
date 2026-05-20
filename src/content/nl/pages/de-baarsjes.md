@@ -22,9 +22,9 @@ date: 2026-05-19
 
 Doorlopende support voor uw website en de praktische IT eromheen, of een afgebakend project als u iets nieuws wilt opzetten.
 
-- [[website-maintenance|Website-onderhoud]]: uw site blijft lopen, zonder uw aandacht te trekken
-- [[it-support|IT-support]]: e‑mail, logins, apparaten, de praktische dingen
-- [[website-projects|Website-projecten]]: afgebakend werk, een nieuwe site of een gerichte verbetering
+- [[website-maintenance:nl|Website-onderhoud]]: uw site blijft lopen, zonder uw aandacht te trekken
+- [[it-support:nl|IT-support]]: e‑mail, logins, apparaten, de praktische dingen
+- [[website-projects:nl|Website-projecten]]: afgebakend werk, een nieuwe site of een gerichte verbetering
 
 </section>
 
@@ -40,7 +40,7 @@ De Baarsjes is in tien jaar fors veranderd. Veel nieuwe horeca, kleine winkels e
 
 ## Volgende stap
 
-Wilt u beschikbaarheid checken? [[contact|Stuur een kort berichtje →]].
+Wilt u beschikbaarheid checken? [[contact:nl|Stuur een kort berichtje →]].
 
 Ik reageer binnen een dag.
 

@@ -1,10 +1,10 @@
 ---
 title: 'Eleventy Baseline: commercial support'
-description: 'Eleventy Baseline is the open-source plugin behind this site. Commercial support for teams using it: migrations, custom modules, setup, consulting.'
 slug: 'eleventy-baseline'
+description: 'Eleventy Baseline is the open-source plugin behind this site. Commercial support for teams using it: migrations, custom modules, setup, consulting.'
+date: 2026-05-19
 permalink: '/eleventy-baseline/'
 translationKey: 'eleventy-baseline'
-date: 2026-05-19
 ---
 
 <section class="u-flow">

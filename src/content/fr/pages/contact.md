@@ -1,10 +1,10 @@
 ---
 title: 'Me contacter'
-description: 'Écrivez-moi pour vérifier les disponibilités pour du support web et IT continu. Amsterdam‑West & le Jordaan ; à distance possible quand ça colle.'
 slug: 'contact'
+description: 'Écrivez-moi pour vérifier les disponibilités pour du support web et IT continu. Amsterdam‑West & le Jordaan ; à distance possible quand ça colle.'
+date: 2026-02-16
 type: 'contact'
 translationKey: 'contact'
-date: 2026-02-16
 ---
 
 <section class="u-flow">
@@ -15,7 +15,7 @@ Je garde volontairement la liste de clients courte. Envie de savoir s'il y a de 
 
 Le travail se passe surtout autour d'Amsterdam‑West et du Jordaan. À distance, c'est possible aussi quand ça colle.
 
-Une question rapide d'abord ? Consultez les [[faq|questions fréquentes]].
+Une question rapide d'abord ? Consultez les [[faq:fr|questions fréquentes]].
 
 ## Ce que vous pouvez joindre
 
@@ -29,6 +29,6 @@ De préférence :
 
 Je réponds dans la journée. Si je peux aider, je propose une étape suivante et je clarifie ce qui ne l'est pas avant de commencer.
 
-[[about|En savoir plus sur `a pleasant view` →]]
+[[about:fr|En savoir plus sur `a pleasant view` →]]
 
 </section>

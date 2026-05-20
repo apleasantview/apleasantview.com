@@ -1,11 +1,11 @@
 ---
 title: 'Website-onderhoud in Amsterdam-West'
-description: 'Doorlopend onderhoud voor uw website en hosting in Amsterdam-West. Onderdeel van het support-abonnement (€85/mnd), samen met praktische IT.'
 slug: 'website-onderhoud'
+description: 'Doorlopend onderhoud voor uw website en hosting in Amsterdam-West. Onderdeel van het support-abonnement (€85/mnd), samen met praktische IT.'
+date: 2026-05-19
 type: 'service'
 permalink: '/nl/diensten/website-onderhoud/'
 translationKey: 'service-maintenance'
-date: 2026-05-19
 ---
 
 <section class="u-flow">
@@ -29,7 +29,7 @@ Met doorlopend onderhoud blijft uw site in goede staat: updates, kleine aanpassi
 - Kleine reparaties en bug-fixes
 - Backups en herstel als het nodig is
 
-Bedoeld voor kleine sites die rustig moeten blijven draaien. Voor grotere ingrepen kijken we naar [[website-projects|website-projecten]].
+Bedoeld voor kleine sites die rustig moeten blijven draaien. Voor grotere ingrepen kijken we naar [[website-projects:nl|website-projecten]].
 
 </section>
 
@@ -37,7 +37,7 @@ Bedoeld voor kleine sites die rustig moeten blijven draaien. Voor grotere ingrep
 
 ## Onderdeel van het support-abonnement
 
-Website-onderhoud is een kant van hetzelfde abonnement dat ook [[it-support|IT-support]] dekt. Eén aanspreekpunt voor uw website én voor de praktische IT eromheen: e‑mail, logins, apparaten. Zonder voor elk klein dingetje een nieuwe partij te zoeken.
+Website-onderhoud is een kant van hetzelfde abonnement dat ook [[it-support:nl|IT-support]] dekt. Eén aanspreekpunt voor uw website én voor de praktische IT eromheen: e‑mail, logins, apparaten. Zonder voor elk klein dingetje een nieuwe partij te zoeken.
 
 ### Voorwaarden
 
@@ -52,7 +52,7 @@ Website-onderhoud is een kant van hetzelfde abonnement dat ook [[it-support|IT-s
 
 ## Volgende stap
 
-Wilt u beschikbaarheid checken? [[contact|Stuur een kort berichtje →]].
+Wilt u beschikbaarheid checken? [[contact:nl|Stuur een kort berichtje →]].
 
 Ik reageer binnen een dag.
 

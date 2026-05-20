@@ -1,9 +1,9 @@
 ---
 title: 'Local : Amsterdam‑West & le Jordaan'
-description: "Support digital local d'abord, à Amsterdam‑West et autour du Jordaan. Communication pratique, suivi rapide, des années d'expérience. À distance quand ça colle."
 slug: 'local'
-translationKey: 'local'
+description: "Support digital local d'abord, à Amsterdam‑West et autour du Jordaan. Communication pratique, suivi rapide, des années d'expérience. À distance quand ça colle."
 date: 2026-02-16
+translationKey: 'local'
 ---
 
 <section class="u-flow">
@@ -36,13 +36,13 @@ L'essentiel du travail se fait en local, mais à distance c'est possible aussi, 
 
 ## Dans quel quartier ?
 
-La zone couverte comprend tout [[amsterdam-west|Amsterdam-West]] et le Jordaan. Cliquez sur votre quartier pour plus de détails :
+La zone couverte comprend tout [[amsterdam-west:fr|Amsterdam-West]] et le Jordaan. Cliquez sur votre quartier pour plus de détails :
 
-- [[jordaan|Jordaan]]
-- [[oud-west|Oud-West]]
-- [[de-baarsjes|De Baarsjes]]
-- [[westerpark|Westerpark]]
-- [[bos-en-lommer|Bos en Lommer]]
+- [[jordaan:fr|Jordaan]]
+- [[oud-west:fr|Oud-West]]
+- [[de-baarsjes:fr|De Baarsjes]]
+- [[westerpark:fr|Westerpark]]
+- [[bos-en-lommer:fr|Bos en Lommer]]
 
 </section>
 
@@ -70,7 +70,7 @@ La fiabilité compte plus, pour moi, que les chiffres de croissance.
 
 ## Étape suivante
 
-Envie de vérifier les disponibilités ? [[contact|Envoyer un petit message →]].
+Envie de vérifier les disponibilités ? [[contact:fr|Envoyer un petit message →]].
 
 Je réponds dans la journée.
 

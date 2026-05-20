@@ -1,10 +1,10 @@
 ---
 title: 'Eleventy Baseline : support commercial'
-description: "Eleventy Baseline est le plugin open-source derrière ce site. Support commercial pour les équipes qui l'utilisent : migrations, modules sur mesure, setup, consulting."
 slug: 'eleventy-baseline'
+description: "Eleventy Baseline est le plugin open-source derrière ce site. Support commercial pour les équipes qui l'utilisent : migrations, modules sur mesure, setup, consulting."
+date: 2026-05-19
 permalink: '/fr/eleventy-baseline/'
 translationKey: 'eleventy-baseline'
-date: 2026-05-19
 ---
 
 <section class="u-flow">
@@ -54,6 +54,6 @@ Je suis Cristovao Verstraeten. Je travaille sur Baseline depuis le début 2026, 
 
 ## Étape suivante
 
-Pour un site sur Baseline pour votre activité, ou un support commercial pour une équipe déjà sur Baseline : [[contact|envoyez un petit message →]].
+Pour un site sur Baseline pour votre activité, ou un support commercial pour une équipe déjà sur Baseline : [[contact:fr|envoyez un petit message →]].
 
 </section>

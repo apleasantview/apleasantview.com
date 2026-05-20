@@ -1,11 +1,11 @@
 ---
 title: 'Support web et informatique à Oud-West'
-description: 'Support web et informatique local à Oud-West. Maintenance continue, petits projets et IT pratique pour les petits commerces dans la Helmersbuurt, Kinkerbuurt et autour.'
 slug: 'oud-west'
+description: 'Support web et informatique local à Oud-West. Maintenance continue, petits projets et IT pratique pour les petits commerces dans la Helmersbuurt, Kinkerbuurt et autour.'
+date: 2026-05-19
 type: 'neighborhood'
 permalink: '/fr/oud-west/'
 translationKey: 'neighborhood-oud-west'
-date: 2026-05-19
 ---
 
 <section class="u-flow">
@@ -22,9 +22,9 @@ date: 2026-05-19
 
 Support continu pour votre site et pour l'IT pratique autour, ou un projet bien cadré quand vous voulez mettre quelque chose de nouveau en place.
 
-- [[website-maintenance|Maintenance de site]] : votre site continue de tourner, sans accrocher votre attention
-- [[it-support|Support informatique]] : e‑mail, identifiants, appareils, les choses pratiques
-- [[website-projects|Projets web]] : du travail cadré, un nouveau site ou une amélioration ciblée
+- [[website-maintenance:fr|Maintenance de site]] : votre site continue de tourner, sans accrocher votre attention
+- [[it-support:fr|Support informatique]] : e‑mail, identifiants, appareils, les choses pratiques
+- [[website-projects:fr|Projets web]] : du travail cadré, un nouveau site ou une amélioration ciblée
 
 </section>
 
@@ -40,7 +40,7 @@ Oud-West est dense et varié : petits cafés, ateliers, boutiques, un mélange d
 
 ## Étape suivante
 
-Envie de vérifier les disponibilités ? [[contact|Envoyer un petit message →]].
+Envie de vérifier les disponibilités ? [[contact:fr|Envoyer un petit message →]].
 
 Je réponds dans la journée.
 

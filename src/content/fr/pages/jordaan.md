@@ -1,11 +1,11 @@
 ---
 title: 'Support web et informatique dans le Jordaan'
-description: 'Support web et informatique local dans le Jordaan. Maintenance continue, petits projets et IT pratique pour les petits commerces du quartier.'
 slug: 'jordaan'
+description: 'Support web et informatique local dans le Jordaan. Maintenance continue, petits projets et IT pratique pour les petits commerces du quartier.'
+date: 2026-05-19
 type: 'neighborhood'
 permalink: '/fr/jordaan/'
 translationKey: 'neighborhood-jordaan'
-date: 2026-05-19
 ---
 
 <section class="u-flow">
@@ -22,9 +22,9 @@ date: 2026-05-19
 
 Support continu pour votre site et pour l'IT pratique autour, ou un projet bien cadré quand vous voulez mettre quelque chose de nouveau en place.
 
-- [[website-maintenance|Maintenance de site]] : votre site continue de tourner, sans accrocher votre attention
-- [[it-support|Support informatique]] : e‑mail, identifiants, appareils, les choses pratiques
-- [[website-projects|Projets web]] : du travail cadré, un nouveau site ou une amélioration ciblée
+- [[website-maintenance:fr|Maintenance de site]] : votre site continue de tourner, sans accrocher votre attention
+- [[it-support:fr|Support informatique]] : e‑mail, identifiants, appareils, les choses pratiques
+- [[website-projects:fr|Projets web]] : du travail cadré, un nouveau site ou une amélioration ciblée
 
 </section>
 
@@ -40,7 +40,7 @@ Rues étroites, petits commerces, souvent une seule personne qui gère tout. Une
 
 ## Étape suivante
 
-Envie de vérifier les disponibilités ? [[contact|Envoyer un petit message →]].
+Envie de vérifier les disponibilités ? [[contact:fr|Envoyer un petit message →]].
 
 Je réponds dans la journée.
 

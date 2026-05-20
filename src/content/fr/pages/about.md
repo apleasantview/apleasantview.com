@@ -1,10 +1,10 @@
 ---
 title: 'À propos'
-description: "Cristovao Verstraeten dirige `a pleasant view` depuis Amsterdam-West. Support digital régulier pour les petits commerces locaux, et mainteneur d'Eleventy Baseline."
 slug: 'a-propos'
+date: 2026-02-16
+description: "Cristovao Verstraeten dirige `a pleasant view` depuis Amsterdam-West. Support digital régulier pour les petits commerces locaux, et mainteneur d'Eleventy Baseline."
 type: 'about'
 translationKey: 'about'
-date: 2026-02-16
 ---
 
 <section class="u-flow">
@@ -43,7 +43,7 @@ L'essentiel du travail se fait localement. Je peux répondre au téléphone, pas
 
 ## Le côté Baseline
 
-Quand le travail local est stable, l'activité parallèle est [[eleventy-baseline|Eleventy Baseline]]. C'est un plugin open-source que j'ai commencé il y a six mois, pour me donner la fondation que je souhaitais avoir. Le construire en public était la forme naturelle du projet. D'autres développeurs et petites agences peuvent l'utiliser ; certains m'engagent directement pour le travail plus poussé.
+Quand le travail local est stable, l'activité parallèle est [[eleventy-baseline:fr|Eleventy Baseline]]. C'est un plugin open-source que j'ai commencé il y a six mois, pour me donner la fondation que je souhaitais avoir. Le construire en public était la forme naturelle du projet. D'autres développeurs et petites agences peuvent l'utiliser ; certains m'engagent directement pour le travail plus poussé.
 
 C'est une activité parallèle comme un musicien a des gigs. Le travail client local est la partie stable ; Baseline est le travail que je fais parce que je le veux. L'un nourrit l'autre.
 
@@ -63,6 +63,6 @@ Quand quelque chose entre dans le cadre, je travaille calmement et je vous dis c
 
 ## Étape suivante
 
-Si quelque chose là-dedans correspond à ce que vous cherchez, [[contact|envoyez un petit message →]].
+Si quelque chose là-dedans correspond à ce que vous cherchez, [[contact:fr|envoyez un petit message →]].
 
 </section>

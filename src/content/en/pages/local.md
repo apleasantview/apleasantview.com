@@ -1,9 +1,9 @@
 ---
 title: 'Local: Amsterdam‑West & the Jordaan'
-description: 'Local-first digital support in Amsterdam‑West and around the Jordaan. Practical communication, quick responses, long-term experience. Remote when it fits.'
 slug: 'local'
-translationKey: 'local'
+description: 'Local-first digital support in Amsterdam‑West and around the Jordaan. Practical communication, quick responses, long-term experience. Remote when it fits.'
 date: 2026-02-16
+translationKey: 'local'
 ---
 
 <section class="u-flow">
@@ -38,7 +38,7 @@ Most of the work is local, but remote can work too, especially when the work is 
 
 The service area covers all of [[amsterdam-west|Amsterdam-West]] and the Jordaan. Pick your neighborhood for more:
 
-- [[jordaan|Jordaan]]
+- [[jordaan:nl|Jordaan]]
 - [[oud-west|Oud-West]]
 - [[de-baarsjes|De Baarsjes]]
 - [[westerpark|Westerpark]]

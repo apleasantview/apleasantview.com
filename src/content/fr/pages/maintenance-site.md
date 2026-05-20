@@ -1,11 +1,11 @@
 ---
 title: 'Maintenance de site à Amsterdam-West'
-description: "Maintenance continue pour votre site et hébergement à Amsterdam-West. Partie de l'abonnement de support (85€/mois), avec l'IT pratique."
 slug: 'maintenance-site'
+description: "Maintenance continue pour votre site et hébergement à Amsterdam-West. Partie de l'abonnement de support (85€/mois), avec l'IT pratique."
+date: 2026-05-19
 type: 'service'
 permalink: '/fr/services/maintenance-site/'
 translationKey: 'service-maintenance'
-date: 2026-05-19
 ---
 
 <section class="u-flow">
@@ -29,7 +29,7 @@ Avec une maintenance continue votre site reste en bon état : mises à jour, pet
 - Petites réparations et corrections de bugs
 - Sauvegardes et restauration si nécessaire
 
-Pensé pour les petits sites qui doivent juste continuer à tourner tranquillement. Pour des travaux plus importants, voir [[website-projects|projets web]].
+Pensé pour les petits sites qui doivent juste continuer à tourner tranquillement. Pour des travaux plus importants, voir [[website-projects:fr|projets web]].
 
 </section>
 
@@ -37,7 +37,7 @@ Pensé pour les petits sites qui doivent juste continuer à tourner tranquilleme
 
 ## Partie de l'abonnement de support
 
-La maintenance de site est un côté du même abonnement qui couvre aussi le [[it-support|support informatique]]. Un seul point de contact pour votre site et pour l'IT pratique autour : e‑mail, identifiants, appareils. Sans chercher une nouvelle personne pour chaque petite chose.
+La maintenance de site est un côté du même abonnement qui couvre aussi le [[it-support:fr|support informatique]]. Un seul point de contact pour votre site et pour l'IT pratique autour : e‑mail, identifiants, appareils. Sans chercher une nouvelle personne pour chaque petite chose.
 
 ### Conditions
 
@@ -52,7 +52,7 @@ La maintenance de site est un côté du même abonnement qui couvre aussi le [[i
 
 ## Étape suivante
 
-Envie de vérifier les disponibilités ? [[contact|Envoyer un petit message →]].
+Envie de vérifier les disponibilités ? [[contact:fr|Envoyer un petit message →]].
 
 Je réponds dans la journée.
 

@@ -1,10 +1,10 @@
 ---
 title: 'Eleventy Baseline: commerciële ondersteuning'
-description: 'Eleventy Baseline is de open-source plugin achter deze site. Commerciële ondersteuning voor teams die ermee bouwen: migraties, custom modules, setup, consulting.'
 slug: 'eleventy-baseline'
+description: 'Eleventy Baseline is de open-source plugin achter deze site. Commerciële ondersteuning voor teams die ermee bouwen: migraties, custom modules, setup, consulting.'
+date: 2026-05-19
 permalink: '/nl/eleventy-baseline/'
 translationKey: 'eleventy-baseline'
-date: 2026-05-19
 ---
 
 <section class="u-flow">
@@ -34,7 +34,7 @@ Mail [hello@apleasantview.com](mailto:hello@apleasantview.com) en we bespreken w
 
 ## Over Baseline
 
-Komt u hier ergens anders vandaan en vraagt u zich af wat dit is: Baseline is een plugin voor [Eleventy](https://www.11ty.dev/), een static site generator. Hij bundelt de onderdelen die een site van een klein bedrijf meestal nodig heeft (head-metadata, meertalige ondersteuning, een interne content graph, een sitemap-module) tot één fundament, zodat u geen twaalf losse plugins aan elkaar hoeft te lijmen.
+Komt u hier ergens anders vandaan en vraagt u zich af wat dit is: Baseline is een plugin voor [Eleventy](https://www.11ty.dev/), een static site generator. Het bundelt de onderdelen die een site van een klein bedrijf meestal nodig heeft (metadata, meertalige ondersteuning, een interne content graph, een sitemap-module) tot één fundament, zodat u geen twaalf losse plugins aan elkaar hoeft te lijmen.
 
 Deze site is een werkende Baseline-build. Wat u hier ziet, is wat de plugin nu kan.
 
@@ -54,6 +54,6 @@ Ik ben Cristovao Verstraeten. Ik werk sinds begin 2026 aan Baseline, voortbouwen
 
 ## Volgende stap
 
-Voor een Baseline-site voor uw bedrijf, of commerciële ondersteuning voor een team dat al met Baseline werkt: [[contact|stuur een kort berichtje →]].
+Voor een Baseline-site voor uw bedrijf, of commerciële ondersteuning voor een team dat al met Baseline werkt: [[contact:nl|stuur een kort berichtje →]].
 
 </section>

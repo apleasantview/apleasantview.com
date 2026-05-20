@@ -1,9 +1,9 @@
 ---
 title: 'Mijn aanpak voor website- en IT-support'
-description: 'Hoe ik uw online aanwezigheid stabiel houd: duidelijke communicatie, praktische verbeteringen, heldere afspraken.'
 slug: 'aanpak'
-translationKey: 'approach'
+description: 'Hoe ik uw online aanwezigheid stabiel houd: duidelijke communicatie, praktische verbeteringen, heldere afspraken.'
 date: 2026-02-16
+translationKey: 'approach'
 ---
 
 <section class="u-flow">
@@ -83,7 +83,7 @@ Geen volledige IT-helpdesk, maar ook niet alleen webwerk. Precies de overlap die
 
 ## Beschikbaarheid
 
-Wilt u weten of er ruimte is? [[contact|Stuur een kort berichtje →]].
+Wilt u weten of er ruimte is? [[contact:nl|Stuur een kort berichtje →]].
 
 Ik reageer binnen een dag.
 
