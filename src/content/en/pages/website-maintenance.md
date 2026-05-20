@@ -29,7 +29,7 @@ With ongoing maintenance your site stays in good shape: updates, small adjustmen
 - Small repairs and bug fixes
 - Backups and recovery when needed
 
-Intended for small sites that should just keep running quietly. For larger work, see [website projects]({{ "/services/website-projects/" | locale_url }}).
+Intended for small sites that should just keep running quietly. For larger work, see [[website-projects|website projects]].
 
 </section>
 
@@ -37,7 +37,7 @@ Intended for small sites that should just keep running quietly. For larger work,
 
 ## Part of the support plan
 
-Website maintenance is one side of the same plan that also covers [IT support]({{ "/services/it-support/" | locale_url }}). One point of contact for your website and for the practical IT around it: email, logins, devices. Without finding a new party for every small thing.
+Website maintenance is one side of the same plan that also covers [[it-support|IT support]]. One point of contact for your website and for the practical IT around it: email, logins, devices. Without finding a new party for every small thing.
 
 ### Terms
 
@@ -52,7 +52,7 @@ Website maintenance is one side of the same plan that also covers [IT support]({
 
 ## Next step
 
-Want to check availability? [Send a short note →]({{ "/contact/" | locale_url }}).
+Want to check availability? [[contact|Send a short note →]].
 
 I reply within a day.
 

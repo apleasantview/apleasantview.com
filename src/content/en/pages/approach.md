@@ -83,7 +83,7 @@ Not a full IT helpdesk, but not just web work either. Exactly the overlap small 
 
 ## Availability
 
-Want to know if there's room? [Send a short note →]({{ "/contact/" | locale_url }}).
+Want to know if there's room? [[contact|Send a short note →]].
 
 I reply within a day.
 

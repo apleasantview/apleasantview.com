@@ -43,7 +43,7 @@ Het meeste werk gebeurt lokaal. Ik kan de telefoon opnemen, langskomen als iets 
 
 ## De Baseline-kant
 
-Als het lokale werk stabiel loopt, is de side gig [Eleventy Baseline]({{ "/eleventy-baseline/" | locale_url }}). Het is een open-source plugin die ik zes maanden geleden begon, om mezelf het fundament te geven dat ik steeds wenste. In het openbaar bouwen was de natuurlijke vorm van het project. Andere ontwikkelaars en kleine bureaus kunnen het gebruiken; sommigen huren mij direct in voor het diepere werk.
+Als het lokale werk stabiel loopt, is de side gig [[eleventy-baseline|Eleventy Baseline]]. Het is een open-source plugin die ik zes maanden geleden begon, om mezelf het fundament te geven dat ik steeds wenste. In het openbaar bouwen was de natuurlijke vorm van het project. Andere ontwikkelaars en kleine bureaus kunnen het gebruiken; sommigen huren mij direct in voor het diepere werk.
 
 Het is een side gig zoals een muzikant gigs heeft. Het lokale klantenwerk is het stabiele deel; Baseline is het werk dat ik doe omdat ik het wil. Ze voeden elkaar.
 
@@ -63,6 +63,6 @@ Wat wel past, doe ik rustig en ik vertel u wat ik aan het doen ben. Dat dekt het
 
 ## Volgende stap
 
-Past iets hiervan bij wat u zoekt? [Stuur een kort berichtje →]({{ "/contact/" | locale_url }}).
+Past iets hiervan bij wat u zoekt? [[contact|Stuur een kort berichtje →]].
 
 </section>

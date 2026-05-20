@@ -15,7 +15,7 @@ I keep the client list deliberately small. Want to know if there's room, or talk
 
 The work happens mostly around Amsterdam‑West and the Jordaan. Remote is fine when it fits.
 
-Have a quick question first? Check the [FAQ]({{ "/faq/" | locale_url }}).
+Have a quick question first? Check the [[faq|FAQ]].
 
 ## What to include
 
@@ -28,6 +28,6 @@ Please include:
 
 I reply within a day. If I can help, I'll suggest a next step and clarify anything unclear before we begin.
 
-[Read more about `a pleasant view` →]({{ "/about/" | locale_url }})
+[[about|Read more about `a pleasant view` →]]
 
 </section>

@@ -29,7 +29,7 @@ Avec une maintenance continue votre site reste en bon état : mises à jour, pet
 - Petites réparations et corrections de bugs
 - Sauvegardes et restauration si nécessaire
 
-Pensé pour les petits sites qui doivent juste continuer à tourner tranquillement. Pour des travaux plus importants, voir [projets web]({{ "/services/projets-web/" | locale_url }}).
+Pensé pour les petits sites qui doivent juste continuer à tourner tranquillement. Pour des travaux plus importants, voir [[website-projects|projets web]].
 
 </section>
 
@@ -37,7 +37,7 @@ Pensé pour les petits sites qui doivent juste continuer à tourner tranquilleme
 
 ## Partie de l'abonnement de support
 
-La maintenance de site est un côté du même abonnement qui couvre aussi le [support informatique]({{ "/services/support-informatique/" | locale_url }}). Un seul point de contact pour votre site et pour l'IT pratique autour : e‑mail, identifiants, appareils. Sans chercher une nouvelle personne pour chaque petite chose.
+La maintenance de site est un côté du même abonnement qui couvre aussi le [[it-support|support informatique]]. Un seul point de contact pour votre site et pour l'IT pratique autour : e‑mail, identifiants, appareils. Sans chercher une nouvelle personne pour chaque petite chose.
 
 ### Conditions
 
@@ -52,7 +52,7 @@ La maintenance de site est un côté du même abonnement qui couvre aussi le [su
 
 ## Étape suivante
 
-Envie de vérifier les disponibilités ? [Envoyer un petit message →]({{ "/contact/" | locale_url }}).
+Envie de vérifier les disponibilités ? [[contact|Envoyer un petit message →]].
 
 Je réponds dans la journée.
 

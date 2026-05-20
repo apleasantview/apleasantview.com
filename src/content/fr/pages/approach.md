@@ -83,7 +83,7 @@ Pas un helpdesk IT complet, mais pas non plus seulement du web. Exactement le ch
 
 ## Disponibilité
 
-Envie de savoir s'il y a de la place ? [Envoyer un petit message →]({{ "/contact/" | locale_url }}).
+Envie de savoir s'il y a de la place ? [[contact|Envoyer un petit message →]].
 
 Je réponds dans la journée.
 

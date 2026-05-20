@@ -83,7 +83,7 @@ Geen volledige IT-helpdesk, maar ook niet alleen webwerk. Precies de overlap die
 
 ## Beschikbaarheid
 
-Wilt u weten of er ruimte is? [Stuur een kort berichtje →]({{ "/contact/" | locale_url }}).
+Wilt u weten of er ruimte is? [[contact|Stuur een kort berichtje →]].
 
 Ik reageer binnen een dag.
 

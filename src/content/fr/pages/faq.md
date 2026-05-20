@@ -50,6 +50,6 @@ Réponses courtes aux questions qui reviennent souvent quand on envisage un acco
 
 ## Autre chose ?
 
-Votre question n'est pas listée ? [Envoyer un petit message →]({{ "/contact/" | locale_url }}) et je réponds dans la journée.
+Votre question n'est pas listée ? [[contact|Envoyer un petit message →]] et je réponds dans la journée.
 
 </section>

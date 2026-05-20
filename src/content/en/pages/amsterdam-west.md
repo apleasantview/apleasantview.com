@@ -22,9 +22,9 @@ date: 2026-05-19
 
 Ongoing support for your website and the practical IT around it, or a scoped project when you want to set something new up.
 
-- [Website maintenance]({{ "/services/website-maintenance/" | locale_url }}): your site keeps running, without pulling at your attention
-- [IT support]({{ "/services/it-support/" | locale_url }}): email, logins, devices, the practical things
-- [Website projects]({{ "/services/website-projects/" | locale_url }}): scoped work, a new site or a focused improvement
+- [[website-maintenance|Website maintenance]]: your site keeps running, without pulling at your attention
+- [[it-support|IT support]]: email, logins, devices, the practical things
+- [[website-projects|Website projects]]: scoped work, a new site or a focused improvement
 
 </section>
 
@@ -32,13 +32,13 @@ Ongoing support for your website and the practical IT around it, or a scoped pro
 
 ## Which neighborhood are you in?
 
-- [In the Jordaan]({{ "/jordaan/" | locale_url }}): historic streets, dense concentration of small businesses
-- [In Oud-West]({{ "/oud-west/" | locale_url }}): Helmersbuurt, Kinkerbuurt, around the Vondelpark
-- [In De Baarsjes]({{ "/de-baarsjes/" | locale_url }}): around Mercatorplein and Hoofdweg
-- [In Westerpark]({{ "/westerpark/" | locale_url }}): Spaarndammerbuurt, Staatsliedenbuurt, around the Westergasfabriek
-- [In Bos en Lommer]({{ "/bos-en-lommer/" | locale_url }}): around Erasmuspark and Bos en Lommerplein
+- [[jordaan|In the Jordaan]]: historic streets, dense concentration of small businesses
+- [[oud-west|In Oud-West]]: Helmersbuurt, Kinkerbuurt, around the Vondelpark
+- [[de-baarsjes|In De Baarsjes]]: around Mercatorplein and Hoofdweg
+- [[westerpark|In Westerpark]]: Spaarndammerbuurt, Staatsliedenbuurt, around the Westergasfabriek
+- [[bos-en-lommer|In Bos en Lommer]]: around Erasmuspark and Bos en Lommerplein
 
-Is your business in another part of West? [Send a short note →]({{ "/contact/" | locale_url }}) and we'll see if it fits.
+Is your business in another part of West? [[contact|Send a short note →]] and we'll see if it fits.
 
 </section>
 
@@ -46,7 +46,7 @@ Is your business in another part of West? [Send a short note →]({{ "/contact/"
 
 ## Next step
 
-Want to check availability? [Send a short note →]({{ "/contact/" | locale_url }}).
+Want to check availability? [[contact|Send a short note →]].
 
 I reply within a day.
 

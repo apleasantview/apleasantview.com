@@ -37,7 +37,7 @@ Bedoeld voor de praktische IT die met de gewone werkdag te maken heeft. Voor gro
 
 ## Onderdeel van het support-abonnement
 
-IT-support is de andere kant van hetzelfde abonnement dat ook [website-onderhoud]({{ "/diensten/website-onderhoud/" | locale_url }}) dekt. Eén aanspreekpunt voor uw website én voor de praktische IT eromheen, zonder voor elk klein dingetje een nieuwe partij te zoeken.
+IT-support is de andere kant van hetzelfde abonnement dat ook [[website-maintenance|website-onderhoud]] dekt. Eén aanspreekpunt voor uw website én voor de praktische IT eromheen, zonder voor elk klein dingetje een nieuwe partij te zoeken.
 
 ### Voorwaarden
 
@@ -52,7 +52,7 @@ IT-support is de andere kant van hetzelfde abonnement dat ook [website-onderhoud
 
 ## Volgende stap
 
-Wilt u beschikbaarheid checken? [Stuur een kort berichtje →]({{ "/contact/" | locale_url }}).
+Wilt u beschikbaarheid checken? [[contact|Stuur een kort berichtje →]].
 
 Ik reageer binnen een dag.
 

@@ -37,7 +37,7 @@ Intended for the practical IT that comes up in the normal working day. For large
 
 ## Part of the support plan
 
-IT support is the other side of the same plan that also covers [website maintenance]({{ "/services/website-maintenance/" | locale_url }}). One point of contact for your website and for the practical IT around it, without finding a new party for every small thing.
+IT support is the other side of the same plan that also covers [[website-maintenance|website maintenance]]. One point of contact for your website and for the practical IT around it, without finding a new party for every small thing.
 
 ### Terms
 
@@ -52,7 +52,7 @@ IT support is the other side of the same plan that also covers [website maintena
 
 ## Next step
 
-Want to check availability? [Send a short note →]({{ "/contact/" | locale_url }}).
+Want to check availability? [[contact|Send a short note →]].
 
 I reply within a day.
 

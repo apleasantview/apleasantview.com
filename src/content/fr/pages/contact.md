@@ -15,7 +15,7 @@ Je garde volontairement la liste de clients courte. Envie de savoir s'il y a de 
 
 Le travail se passe surtout autour d'Amsterdam‑West et du Jordaan. À distance, c'est possible aussi quand ça colle.
 
-Une question rapide d'abord ? Consultez les [questions fréquentes]({{ "/faq/" | locale_url }}).
+Une question rapide d'abord ? Consultez les [[faq|questions fréquentes]].
 
 ## Ce que vous pouvez joindre
 
@@ -28,6 +28,6 @@ De préférence :
 
 Je réponds dans la journée. Si je peux aider, je propose une étape suivante et je clarifie ce qui ne l'est pas avant de commencer.
 
-[En savoir plus sur `a pleasant view` →]({{ "/about/" | locale_url }})
+[[about|En savoir plus sur `a pleasant view` →]]
 
 </section>

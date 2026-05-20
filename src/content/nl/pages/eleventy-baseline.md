@@ -54,6 +54,6 @@ Ik ben Cristovao Verstraeten. Ik werk sinds begin 2026 aan Baseline, voortbouwen
 
 ## Volgende stap
 
-Voor een Baseline-site voor uw bedrijf, of commerciële ondersteuning voor een team dat al met Baseline werkt: [stuur een kort berichtje →]({{ "/contact/" | locale_url }}).
+Voor een Baseline-site voor uw bedrijf, of commerciële ondersteuning voor een team dat al met Baseline werkt: [[contact|stuur een kort berichtje →]].
 
 </section>

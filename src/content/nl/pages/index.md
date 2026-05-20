@@ -14,11 +14,11 @@ date: 2026-02-13
 
 Werkt in het Nederlands, Engels of Frans. Handig als uw klanten of leveranciers wel eens van taal wisselen.
 
-Websites, hosting, en de praktische IT eromheen voor een handvol lokale bedrijven. Daarnaast onderhoud ik [Eleventy Baseline]({{ "/eleventy-baseline/" | locale_url }}), de basis waar deze site op draait.
+Websites, hosting, en de praktische IT eromheen voor een handvol lokale bedrijven. Daarnaast onderhoud ik [[eleventy-baseline|Eleventy Baseline]], de basis waar deze site op draait.
 
 Ik hou het klantenbestand bewust klein voor lokaal werk, en bied ook ondersteuning voor teams die met Baseline bouwen.
 
-[Neem contact op voor beschikbaarheid →]({{ "/contact/" | locale_url }})
+[[contact|Neem contact op voor beschikbaarheid →]]
 
 </section>
 
@@ -32,7 +32,7 @@ Een korte update, een domeinverlenging, een printer die het niet doet. Het soort
 
 Daarom kan ik de telefoon opnemen, uw setup uit mijn hoofd weer halen, en niet wekenlang onbereikbaar zijn.
 
-[Meer over hoe ik werk →]({{ "/approach/" | locale_url }})
+[[approach|Meer over hoe ik werk →]]
 
 </section>
 
@@ -42,15 +42,15 @@ Daarom kan ik de telefoon opnemen, uw setup uit mijn hoofd weer halen, en niet w
 
 ## Diensten
 
-### [Website-onderhoud]({{ "/diensten/website-onderhoud/" | locale_url }})
+### [[website-maintenance|Website-onderhoud]]
 
 Doorlopend onderhoud voor uw site. Onderdeel van het support-abonnement.
 
-### [IT-support]({{ "/diensten/it-support/" | locale_url }})
+### [[it-support|IT-support]]
 
 Praktische IT eromheen: e‑mail, logins, apparaten. Onderdeel van hetzelfde abonnement.
 
-### [Website-projecten]({{ "/diensten/website-projecten/" | locale_url }})
+### [[website-projects|Website-projecten]]
 
 Afgebakend werk wanneer u iets wilt laten bouwen, verbeteren of weer op orde brengen.
 
@@ -66,7 +66,7 @@ Het werk gebeurt vooral hier bij mij in de buurt. Op afstand kan ook, als het pa
 
 Ik reageer op alle vragen binnen een dag.
 
-[Stuur een kort berichtje →]({{ "/contact/" | locale_url }})
+[[contact|Stuur een kort berichtje →]]
 
 </section>
 

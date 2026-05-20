@@ -22,9 +22,9 @@ date: 2026-05-19
 
 Ongoing support for your website and the practical IT around it, or a scoped project when you want to set something new up.
 
-- [Website maintenance]({{ "/services/website-maintenance/" | locale_url }}): your site keeps running, without pulling at your attention
-- [IT support]({{ "/services/it-support/" | locale_url }}): email, logins, devices, the practical things
-- [Website projects]({{ "/services/website-projects/" | locale_url }}): scoped work, a new site or a focused improvement
+- [[website-maintenance|Website maintenance]]: your site keeps running, without pulling at your attention
+- [[it-support|IT support]]: email, logins, devices, the practical things
+- [[website-projects|Website projects]]: scoped work, a new site or a focused improvement
 
 </section>
 
@@ -40,7 +40,7 @@ Oud-West is dense and varied: small cafés, studios, boutiques, a mix of Dutch b
 
 ## Next step
 
-Want to check availability? [Send a short note →]({{ "/contact/" | locale_url }}).
+Want to check availability? [[contact|Send a short note →]].
 
 I reply within a day.
 

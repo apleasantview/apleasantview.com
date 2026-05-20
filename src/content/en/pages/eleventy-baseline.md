@@ -54,6 +54,6 @@ I'm Cristovao Verstraeten. I have been working on Baseline since the beginning o
 
 ## Next step
 
-For a Baseline-built site for your business, or commercial support for a team already on Baseline: [send a short note →]({{ "/contact/" | locale_url }}).
+For a Baseline-built site for your business, or commercial support for a team already on Baseline: [[contact|send a short note →]].
 
 </section>

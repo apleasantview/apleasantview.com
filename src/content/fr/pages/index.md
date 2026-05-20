@@ -14,11 +14,11 @@ date: 2026-02-13
 
 Travaille en néerlandais, anglais ou français. Pratique pour Amsterdam‑West où les équipes mélangent souvent les langues.
 
-Sites web, hébergement, et l'informatique pratique autour, pour une poignée de commerces locaux. Je maintiens aussi [Eleventy Baseline]({{ "/eleventy-baseline/" | locale_url }}), la base sur laquelle tourne ce site.
+Sites web, hébergement, et l'informatique pratique autour, pour une poignée de commerces locaux. Je maintiens aussi [[eleventy-baseline|Eleventy Baseline]], la base sur laquelle tourne ce site.
 
 Je garde volontairement la liste de clients courte pour le travail local, et propose aussi du support aux équipes qui construisent avec Baseline.
 
-[Me contacter pour les disponibilités →]({{ "/contact/" | locale_url }})
+[[contact|Me contacter pour les disponibilités →]]
 
 </section>
 
@@ -32,7 +32,7 @@ Une mise à jour rapide, un renouvellement de domaine, une imprimante qui fait d
 
 C'est pour ça que je peux répondre au téléphone, retrouver votre setup de tête, et ne pas disparaître pendant des semaines.
 
-[En savoir plus sur ma façon de travailler →]({{ "/approach/" | locale_url }})
+[[approach|En savoir plus sur ma façon de travailler →]]
 
 </section>
 
@@ -42,15 +42,15 @@ C'est pour ça que je peux répondre au téléphone, retrouver votre setup de t�
 
 ## Services
 
-### [Maintenance de site]({{ "/services/maintenance-site/" | locale_url }})
+### [[website-maintenance|Maintenance de site]]
 
 Maintenance continue pour votre site. Partie de l'abonnement de support.
 
-### [Support informatique]({{ "/services/support-informatique/" | locale_url }})
+### [[it-support|Support informatique]]
 
 L'IT pratique autour : e‑mail, identifiants, appareils. Partie du même abonnement.
 
-### [Projets web]({{ "/services/projets-web/" | locale_url }})
+### [[website-projects|Projets web]]
 
 Du travail bien cadré quand vous voulez construire, améliorer ou remettre quelque chose d'aplomb.
 
@@ -66,7 +66,7 @@ Le travail se passe surtout ici dans le quartier. À distance, c'est possible au
 
 Je réponds à toutes les demandes dans la journée.
 
-[Envoyer un petit message →]({{ "/contact/" | locale_url }})
+[[contact|Envoyer un petit message →]]
 
 </section>
 

@@ -36,13 +36,13 @@ Het meeste werk gebeurt lokaal, maar op afstand kan ook, zeker als het werk duid
 
 ## In welke buurt?
 
-Het werkgebied beslaat heel [Amsterdam-West]({{ "/amsterdam-west/" | locale_url }}) en de Jordaan. Klik op uw buurt voor meer:
+Het werkgebied beslaat heel [[amsterdam-west|Amsterdam-West]] en de Jordaan. Klik op uw buurt voor meer:
 
-- [Jordaan]({{ "/jordaan/" | locale_url }})
-- [Oud-West]({{ "/oud-west/" | locale_url }})
-- [De Baarsjes]({{ "/de-baarsjes/" | locale_url }})
-- [Westerpark]({{ "/westerpark/" | locale_url }})
-- [Bos en Lommer]({{ "/bos-en-lommer/" | locale_url }})
+- [[jordaan|Jordaan]]
+- [[oud-west|Oud-West]]
+- [[de-baarsjes|De Baarsjes]]
+- [[westerpark|Westerpark]]
+- [[bos-en-lommer|Bos en Lommer]]
 
 </section>
 
@@ -69,7 +69,7 @@ Betrouwbaarheid telt voor mij zwaarder dan groeicijfers.
 
 ## Volgende stap
 
-Wilt u beschikbaarheid checken? [Stuur een kort berichtje →]({{ "/contact/" | locale_url }}).
+Wilt u beschikbaarheid checken? [[contact|Stuur een kort berichtje →]].
 
 Ik reageer binnen een dag.
 

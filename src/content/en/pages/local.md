@@ -36,13 +36,13 @@ Most of the work is local, but remote can work too, especially when the work is 
 
 ## Which neighborhood?
 
-The service area covers all of [Amsterdam-West]({{ "/amsterdam-west/" | locale_url }}) and the Jordaan. Pick your neighborhood for more:
+The service area covers all of [[amsterdam-west|Amsterdam-West]] and the Jordaan. Pick your neighborhood for more:
 
-- [Jordaan]({{ "/jordaan/" | locale_url }})
-- [Oud-West]({{ "/oud-west/" | locale_url }})
-- [De Baarsjes]({{ "/de-baarsjes/" | locale_url }})
-- [Westerpark]({{ "/westerpark/" | locale_url }})
-- [Bos en Lommer]({{ "/bos-en-lommer/" | locale_url }})
+- [[jordaan|Jordaan]]
+- [[oud-west|Oud-West]]
+- [[de-baarsjes|De Baarsjes]]
+- [[westerpark|Westerpark]]
+- [[bos-en-lommer|Bos en Lommer]]
 
 </section>
 
@@ -69,7 +69,7 @@ Reliability counts more, for me, than growth metrics.
 
 ## Next step
 
-Want to check availability? [Send a short note →]({{ "/contact/" | locale_url }}).
+Want to check availability? [[contact|Send a short note →]].
 
 I reply within a day.
 

@@ -28,7 +28,7 @@ A project fits when:
 - your current site needs a clear improvement, not ongoing support
 - you want a defined scope, a clear end, and a clean handover
 
-If you mainly need ongoing help keeping things up to date, the [support plan]({{ "/services/website-maintenance/" | locale_url }}) is often a better match.
+If you mainly need ongoing help keeping things up to date, the [[website-maintenance|support plan]] is often a better match.
 
 </section>
 
@@ -77,7 +77,7 @@ At the end, you get a clean handover: access, documentation where it helps, and 
 
 ## After a project
 
-If you'd like the site to stay looked after, we can continue with ongoing support: [website maintenance]({{ "/services/website-maintenance/" | locale_url }}) and [IT support]({{ "/services/it-support/" | locale_url }}) together in one plan.
+If you'd like the site to stay looked after, we can continue with ongoing support: [[website-maintenance|website maintenance]] and [[it-support|IT support]] together in one plan.
 
 Often the easiest way to keep small things from piling up.
 
@@ -89,7 +89,7 @@ If not, that's fine too. The goal is a clean finish either way.
 
 ## Next step
 
-Have a project in mind? [Send a short note →]({{ "/contact/" | locale_url }}).
+Have a project in mind? [[contact|Send a short note →]].
 
 Please include:
 

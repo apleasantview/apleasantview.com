@@ -22,9 +22,9 @@ date: 2026-05-19
 
 Doorlopende support voor uw website en de praktische IT eromheen, of een afgebakend project als u iets nieuws wilt opzetten.
 
-- [Website-onderhoud]({{ "/diensten/website-onderhoud/" | locale_url }}): uw site blijft lopen, zonder uw aandacht te trekken
-- [IT-support]({{ "/diensten/it-support/" | locale_url }}): e‑mail, logins, apparaten, de praktische dingen
-- [Website-projecten]({{ "/diensten/website-projecten/" | locale_url }}): afgebakend werk, een nieuwe site of een gerichte verbetering
+- [[website-maintenance|Website-onderhoud]]: uw site blijft lopen, zonder uw aandacht te trekken
+- [[it-support|IT-support]]: e‑mail, logins, apparaten, de praktische dingen
+- [[website-projects|Website-projecten]]: afgebakend werk, een nieuwe site of een gerichte verbetering
 
 </section>
 
@@ -32,13 +32,13 @@ Doorlopende support voor uw website en de praktische IT eromheen, of een afgebak
 
 ## In welke buurt zit u?
 
-- [In de Jordaan]({{ "/jordaan/" | locale_url }}): historische straten, dichte concentratie kleine zaken
-- [In Oud-West]({{ "/oud-west/" | locale_url }}): Helmersbuurt, Kinkerbuurt, rond het Vondelpark
-- [In De Baarsjes]({{ "/de-baarsjes/" | locale_url }}): rond Mercatorplein en Hoofdweg
-- [In Westerpark]({{ "/westerpark/" | locale_url }}): Spaarndammerbuurt, Staatsliedenbuurt, rond de Westergasfabriek
-- [In Bos en Lommer]({{ "/bos-en-lommer/" | locale_url }}): rond Erasmuspark en Bos en Lommerplein
+- [[jordaan|In de Jordaan]]: historische straten, dichte concentratie kleine zaken
+- [[oud-west|In Oud-West]]: Helmersbuurt, Kinkerbuurt, rond het Vondelpark
+- [[de-baarsjes|In De Baarsjes]]: rond Mercatorplein en Hoofdweg
+- [[westerpark|In Westerpark]]: Spaarndammerbuurt, Staatsliedenbuurt, rond de Westergasfabriek
+- [[bos-en-lommer|In Bos en Lommer]]: rond Erasmuspark en Bos en Lommerplein
 
-Zit uw zaak in een andere buurt in West? [Stuur een kort berichtje →]({{ "/contact/" | locale_url }}) en we kijken of het past.
+Zit uw zaak in een andere buurt in West? [[contact|Stuur een kort berichtje →]] en we kijken of het past.
 
 </section>
 
@@ -46,7 +46,7 @@ Zit uw zaak in een andere buurt in West? [Stuur een kort berichtje →]({{ "/con
 
 ## Volgende stap
 
-Wilt u beschikbaarheid checken? [Stuur een kort berichtje →]({{ "/contact/" | locale_url }}).
+Wilt u beschikbaarheid checken? [[contact|Stuur een kort berichtje →]].
 
 Ik reageer binnen een dag.
 

@@ -22,9 +22,9 @@ date: 2026-05-19
 
 Support continu pour votre site et pour l'IT pratique autour, ou un projet bien cadré quand vous voulez mettre quelque chose de nouveau en place.
 
-- [Maintenance de site]({{ "/services/maintenance-site/" | locale_url }}) : votre site continue de tourner, sans accrocher votre attention
-- [Support informatique]({{ "/services/support-informatique/" | locale_url }}) : e‑mail, identifiants, appareils, les choses pratiques
-- [Projets web]({{ "/services/projets-web/" | locale_url }}) : du travail cadré, un nouveau site ou une amélioration ciblée
+- [[website-maintenance|Maintenance de site]] : votre site continue de tourner, sans accrocher votre attention
+- [[it-support|Support informatique]] : e‑mail, identifiants, appareils, les choses pratiques
+- [[website-projects|Projets web]] : du travail cadré, un nouveau site ou une amélioration ciblée
 
 </section>
 
@@ -32,13 +32,13 @@ Support continu pour votre site et pour l'IT pratique autour, ou un projet bien 
 
 ## Dans quel quartier êtes-vous ?
 
-- [Dans le Jordaan]({{ "/jordaan/" | locale_url }}) : rues historiques, forte concentration de petits commerces
-- [À Oud-West]({{ "/oud-west/" | locale_url }}) : Helmersbuurt, Kinkerbuurt, autour du Vondelpark
-- [À De Baarsjes]({{ "/de-baarsjes/" | locale_url }}) : autour de Mercatorplein et Hoofdweg
-- [À Westerpark]({{ "/westerpark/" | locale_url }}) : Spaarndammerbuurt, Staatsliedenbuurt, autour de la Westergasfabriek
-- [À Bos en Lommer]({{ "/bos-en-lommer/" | locale_url }}) : autour d'Erasmuspark et de Bos en Lommerplein
+- [[jordaan|Dans le Jordaan]] : rues historiques, forte concentration de petits commerces
+- [[oud-west|À Oud-West]] : Helmersbuurt, Kinkerbuurt, autour du Vondelpark
+- [[de-baarsjes|À De Baarsjes]] : autour de Mercatorplein et Hoofdweg
+- [[westerpark|À Westerpark]] : Spaarndammerbuurt, Staatsliedenbuurt, autour de la Westergasfabriek
+- [[bos-en-lommer|À Bos en Lommer]] : autour d'Erasmuspark et de Bos en Lommerplein
 
-Votre activité se trouve dans une autre partie de l'Ouest ? [Envoyer un petit message →]({{ "/contact/" | locale_url }}) et on verra si ça colle.
+Votre activité se trouve dans une autre partie de l'Ouest ? [[contact|Envoyer un petit message →]] et on verra si ça colle.
 
 </section>
 
@@ -46,7 +46,7 @@ Votre activité se trouve dans une autre partie de l'Ouest ? [Envoyer un petit m
 
 ## Étape suivante
 
-Envie de vérifier les disponibilités ? [Envoyer un petit message →]({{ "/contact/" | locale_url }}).
+Envie de vérifier les disponibilités ? [[contact|Envoyer un petit message →]].
 
 Je réponds dans la journée.
 

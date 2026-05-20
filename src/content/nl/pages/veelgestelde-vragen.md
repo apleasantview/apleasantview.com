@@ -50,6 +50,6 @@ Kort antwoord op vragen die vaak terugkomen voor wie aan een doorlopende support
 
 ## Iets anders?
 
-Staat uw vraag er niet bij? [Stuur een kort berichtje →]({{ "/contact/" | locale_url }}) en ik antwoord binnen een dag.
+Staat uw vraag er niet bij? [[contact|Stuur een kort berichtje →]] en ik antwoord binnen een dag.
 
 </section>

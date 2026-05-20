@@ -37,7 +37,7 @@ Pensé pour l'IT pratique qui apparaît dans la journée de travail normale. Pou
 
 ## Partie de l'abonnement de support
 
-Le support informatique est l'autre côté du même abonnement qui couvre aussi la [maintenance de site]({{ "/services/maintenance-site/" | locale_url }}). Un seul point de contact pour votre site et pour l'IT pratique autour, sans chercher une nouvelle personne pour chaque petite chose.
+Le support informatique est l'autre côté du même abonnement qui couvre aussi la [[website-maintenance|maintenance de site]]. Un seul point de contact pour votre site et pour l'IT pratique autour, sans chercher une nouvelle personne pour chaque petite chose.
 
 ### Conditions
 
@@ -52,7 +52,7 @@ Le support informatique est l'autre côté du même abonnement qui couvre aussi 
 
 ## Étape suivante
 
-Envie de vérifier les disponibilités ? [Envoyer un petit message →]({{ "/contact/" | locale_url }}).
+Envie de vérifier les disponibilités ? [[contact|Envoyer un petit message →]].
 
 Je réponds dans la journée.
 

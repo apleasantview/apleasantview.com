@@ -43,7 +43,7 @@ Most of the work happens locally. I can answer the phone, drop by when something
 
 ## The Baseline side
 
-When the local work is steady, the side gig is [Eleventy Baseline]({{ "/eleventy-baseline/" | locale_url }}). It's an open-source plugin I started six months ago to give myself the foundation I kept wishing I had. Building it in public was the natural shape of the project. Other developers and small agencies can use it; some of them hire me directly for the deeper work.
+When the local work is steady, the side gig is [[eleventy-baseline|Eleventy Baseline]]. It's an open-source plugin I started six months ago to give myself the foundation I kept wishing I had. Building it in public was the natural shape of the project. Other developers and small agencies can use it; some of them hire me directly for the deeper work.
 
 It's a side gig in the way a musician has gigs. The local client work is the steady part; Baseline is the work I do because I want to. They feed each other.
 
@@ -63,6 +63,6 @@ When something is in scope, I work calmly and tell you what I'm doing. That cove
 
 ## Next step
 
-If any of the above fits what you're looking for, [send a short note →]({{ "/contact/" | locale_url }}).
+If any of the above fits what you're looking for, [[contact|send a short note →]].
 
 </section>

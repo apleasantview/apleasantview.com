@@ -28,7 +28,7 @@ Een project past wanneer:
 - uw huidige site duidelijke verbeteringen nodig heeft en geen doorlopende support
 - u een afgebakende scope wilt, een duidelijk einde en een nette overdracht
 
-Heeft u vooral doorlopend hulp nodig om alles up‑to‑date te houden, dan past het [supportplan]({{ "/diensten/website-onderhoud/" | locale_url }}) vaak beter.
+Heeft u vooral doorlopend hulp nodig om alles up‑to‑date te houden, dan past het [[website-maintenance|supportplan]] vaak beter.
 
 </section>
 
@@ -77,7 +77,7 @@ Op het einde krijgt u een nette overdracht: toegang, documentatie waar het helpt
 
 ## Na een project
 
-Wilt u dat de site daarna goed opgevolgd blijft, dan kunnen we verder met doorlopende support: [website-onderhoud]({{ "/diensten/website-onderhoud/" | locale_url }}) en [IT-support]({{ "/diensten/it-support/" | locale_url }}) samen in één abonnement.
+Wilt u dat de site daarna goed opgevolgd blijft, dan kunnen we verder met doorlopende support: [[website-maintenance|website-onderhoud]] en [[it-support|IT-support]] samen in één abonnement.
 
 Vaak de eenvoudigste manier om te voorkomen dat kleine dingen zich opstapelen.
 
@@ -89,7 +89,7 @@ Wilt u dat niet, ook prima. Het doel is hoe dan ook een schone afronding.
 
 ## Volgende stap
 
-Heeft u een project in gedachten? [Stuur een kort berichtje →]({{ "/contact/" | locale_url }}).
+Heeft u een project in gedachten? [[contact|Stuur een kort berichtje →]].
 
 Stuur bij voorkeur mee:
 

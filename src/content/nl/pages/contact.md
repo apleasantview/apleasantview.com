@@ -15,7 +15,7 @@ Ik houd het klantenbestand klein, met opzet. Wilt u weten of er ruimte is, of ee
 
 Het werk speelt zich vooral af rond Amsterdam‑West en de Jordaan. Op afstand kan ook, als het past.
 
-Heeft u eerst een korte vraag? Bekijk de [veelgestelde vragen]({{ "/veelgestelde-vragen/" | locale_url }}).
+Heeft u eerst een korte vraag? Bekijk de [[faq|veelgestelde vragen]].
 
 ## Wat u kunt meesturen
 
@@ -28,6 +28,6 @@ Stuur bij voorkeur mee:
 
 Ik reageer binnen een dag. Als ik kan helpen, stel ik een volgende stap voor en maak ik onduidelijkheden helder voor we beginnen.
 
-[Lees meer over `a pleasant view` →]({{ "/about/" | locale_url }})
+[[about|Lees meer over `a pleasant view` →]]
 
 </section>

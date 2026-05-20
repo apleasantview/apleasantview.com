@@ -22,9 +22,9 @@ date: 2026-05-19
 
 Doorlopende support voor uw website en de praktische IT eromheen, of een afgebakend project als u iets nieuws wilt opzetten.
 
-- [Website-onderhoud]({{ "/diensten/website-onderhoud/" | locale_url }}): uw site blijft lopen, zonder uw aandacht te trekken
-- [IT-support]({{ "/diensten/it-support/" | locale_url }}): e‑mail, logins, apparaten, de praktische dingen
-- [Website-projecten]({{ "/diensten/website-projecten/" | locale_url }}): afgebakend werk, een nieuwe site of een gerichte verbetering
+- [[website-maintenance|Website-onderhoud]]: uw site blijft lopen, zonder uw aandacht te trekken
+- [[it-support|IT-support]]: e‑mail, logins, apparaten, de praktische dingen
+- [[website-projects|Website-projecten]]: afgebakend werk, een nieuwe site of een gerichte verbetering
 
 </section>
 
@@ -40,7 +40,7 @@ Westerpark is rustiger dan de Jordaan, maar even gevarieerd in kleine zaken. Een
 
 ## Volgende stap
 
-Wilt u beschikbaarheid checken? [Stuur een kort berichtje →]({{ "/contact/" | locale_url }}).
+Wilt u beschikbaarheid checken? [[contact|Stuur een kort berichtje →]].
 
 Ik reageer binnen een dag.
 

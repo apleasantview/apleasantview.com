@@ -14,11 +14,11 @@ date: 2026-02-13
 
 Works in Dutch, English, or French. Practical for Amsterdam‑West where teams often mix languages.
 
-Websites, hosting, and the practical IT around them, for a handful of local businesses. I also maintain [Eleventy Baseline]({{ "/eleventy-baseline/" | locale_url }}), the foundation this site runs on.
+Websites, hosting, and the practical IT around them, for a handful of local businesses. I also maintain [[eleventy-baseline|Eleventy Baseline]], the foundation this site runs on.
 
 I keep the client list deliberately small for local work, and offer support to teams building on Baseline.
 
-[Contact me for availability →]({{ "/contact/" | locale_url }})
+[[contact|Contact me for availability →]]
 
 </section>
 
@@ -32,7 +32,7 @@ A quick update, a domain renewal, a printer acting up. The kind of work that's h
 
 That's why I can answer the phone, pull your setup from memory, and not disappear for weeks at a time.
 
-[More about how I work →]({{ "/approach/" | locale_url }})
+[[approach|More about how I work →]]
 
 </section>
 
@@ -42,15 +42,15 @@ That's why I can answer the phone, pull your setup from memory, and not disappea
 
 ## Services
 
-### [Website maintenance]({{ "/services/website-maintenance/" | locale_url }})
+### [[website-maintenance|Website maintenance]]
 
 Ongoing maintenance for your site. Part of the support plan.
 
-### [IT support]({{ "/services/it-support/" | locale_url }})
+### [[it-support|IT support]]
 
 Practical IT around it: email, logins, devices. Part of the same plan.
 
-### [Website projects]({{ "/services/website-projects/" | locale_url }})
+### [[website-projects|Website projects]]
 
 Scoped work when you want something built, improved, or straightened out.
 
@@ -66,7 +66,7 @@ The work happens mostly here in the neighbourhood. Remote is fine when it's a fi
 
 I reply to all enquiries within a day.
 
-[Send a short note →]({{ "/contact/" | locale_url }})
+[[contact|Send a short note →]]
 
 </section>
 

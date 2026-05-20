@@ -22,9 +22,9 @@ date: 2026-05-19
 
 Support continu pour votre site et pour l'IT pratique autour, ou un projet bien cadré quand vous voulez mettre quelque chose de nouveau en place.
 
-- [Maintenance de site]({{ "/services/maintenance-site/" | locale_url }}) : votre site continue de tourner, sans accrocher votre attention
-- [Support informatique]({{ "/services/support-informatique/" | locale_url }}) : e‑mail, identifiants, appareils, les choses pratiques
-- [Projets web]({{ "/services/projets-web/" | locale_url }}) : du travail cadré, un nouveau site ou une amélioration ciblée
+- [[website-maintenance|Maintenance de site]] : votre site continue de tourner, sans accrocher votre attention
+- [[it-support|Support informatique]] : e‑mail, identifiants, appareils, les choses pratiques
+- [[website-projects|Projets web]] : du travail cadré, un nouveau site ou une amélioration ciblée
 
 </section>
 
@@ -40,7 +40,7 @@ Bos en Lommer a vite changé ces dernières années : plus de petits entrepreneu
 
 ## Étape suivante
 
-Envie de vérifier les disponibilités ? [Envoyer un petit message →]({{ "/contact/" | locale_url }}).
+Envie de vérifier les disponibilités ? [[contact|Envoyer un petit message →]].
 
 Je réponds dans la journée.
 
