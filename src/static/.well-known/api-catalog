@@ -1,0 +1,46 @@
+{
+	"linkset": [
+		{
+			"anchor": "https://www.apleasantview.com/schema/page.json",
+			"service-doc": [{ "href": "https://www.apleasantview.com/schemamap.xml" }],
+			"type": [{ "href": "https://schema.org/WebPage" }]
+		},
+		{
+			"anchor": "https://www.apleasantview.com/schema/service.json",
+			"service-doc": [{ "href": "https://www.apleasantview.com/schemamap.xml" }],
+			"type": [{ "href": "https://schema.org/WebPage" }]
+		},
+		{
+			"anchor": "https://www.apleasantview.com/schema/neighborhood.json",
+			"service-doc": [{ "href": "https://www.apleasantview.com/schemamap.xml" }],
+			"type": [{ "href": "https://schema.org/WebPage" }]
+		},
+		{
+			"anchor": "https://www.apleasantview.com/schema/about.json",
+			"service-doc": [{ "href": "https://www.apleasantview.com/schemamap.xml" }],
+			"type": [{ "href": "https://schema.org/AboutPage" }]
+		},
+		{
+			"anchor": "https://www.apleasantview.com/schema/contact.json",
+			"service-doc": [{ "href": "https://www.apleasantview.com/schemamap.xml" }],
+			"type": [{ "href": "https://schema.org/ContactPage" }]
+		},
+		{
+			"anchor": "https://www.apleasantview.com/schema/faq.json",
+			"service-doc": [{ "href": "https://www.apleasantview.com/schemamap.xml" }],
+			"type": [{ "href": "https://schema.org/FAQPage" }]
+		},
+		{
+			"anchor": "https://www.apleasantview.com/schemamap.xml",
+			"service-doc": [{ "href": "https://www.sitemaps.org/protocol.html" }]
+		},
+		{
+			"anchor": "https://www.apleasantview.com/sitemap.xml",
+			"type": [{ "href": "https://www.sitemaps.org/schemas/sitemap/0.9" }]
+		},
+		{
+			"anchor": "https://www.apleasantview.com/llms.txt",
+			"type": [{ "href": "https://llmstxt.org/" }]
+		}
+	]
+}

@@ -12,6 +12,12 @@ publish = "dist"
     Referrer-Policy            = "strict-origin-when-cross-origin"
     Permissions-Policy         = "autoplay=(), camera=(), geolocation=(), gyroscope=(), magnetometer=(), microphone=(), payment=(), publickey-credentials-get=()"
 
+[[headers]]
+  for = "/.well-known/api-catalog"
+  [headers.values]
+    Content-Type   = "application/linkset+json"
+    Cache-Control  = "public, max-age=300"
+
 [[redirects]]
   from   = "/en"
   to     = "/"
