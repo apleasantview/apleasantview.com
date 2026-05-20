@@ -15,7 +15,11 @@
 		"build:eleventy": "cross-env ELEVENTY_ENV=production npx @11ty/eleventy",
 		"build": "npm-run-all clean build:*",
 		"dryrun": "npx @11ty/eleventy --dryrun",
-		"dryrun:prod": "cross-env ELEVENTY_ENV=production npx @11ty/eleventy --dryrun"
+		"dryrun:prod": "cross-env ELEVENTY_ENV=production npx @11ty/eleventy --dryrun",
+		"lint": "eslint . --ext=js,jsx,ts,tsx",
+		"lint:fix": "eslint . --ext=js,jsx,ts,tsx --fix",
+		"format": "prettier . \"!.cache/**/*\" --check",
+		"format:fix": "prettier . \"!.cache/**/*\" --write"
 	},
 	"author": "Cristovao Verstraeten",
 	"license": "ISC",
@@ -40,6 +44,9 @@
 	"devDependencies": {
 		"@eslint/js": "^10.0.1",
 		"eslint": "^10.2.1",
-		"globals": "^17.5.0"
+		"globals": "^17.5.0",
+		"prettier": "^3.8.3",
+		"prettier-plugin-jinja-template": "^2.2.0",
+		"sharp": "^0.34.5"
 	}
 }
