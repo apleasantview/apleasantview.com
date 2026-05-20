@@ -112,15 +112,7 @@ a:hover {
 
 /* Focus */
 
-:where(
-	a,
-	button,
-	input,
-	select,
-	textarea,
-	summary,
-	[tabindex]:not([tabindex="-1"])
-):focus-visible {
+:where(a, button, input, select, textarea, summary, [tabindex]:not([tabindex='-1'])):focus-visible {
 	outline: var(--focus-ring-width) solid var(--color-accent);
 	outline-offset: var(--focus-ring-offset);
 	background-color: var(--color-surface-hover);

@@ -47,6 +47,7 @@ La zone couverte comprend tout [[amsterdam-west|Amsterdam-West]] et le Jordaan. 
 </section>
 
 {# TODO replace with real local example #}
+
 <section class="u-flow">
 
 Pensez aux petites enseignes du quartier: une boutique, un atelier, une activité indépendante dont le côté en ligne doit rester tranquille.

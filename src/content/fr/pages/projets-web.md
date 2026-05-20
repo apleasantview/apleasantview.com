@@ -1,6 +1,6 @@
 ---
-title: "Projets web à Amsterdam-West"
-description: "Projets web bien cadrés pour petits commerces à Amsterdam-West : nouveaux sites, refontes, améliorations pratiques. Périmètre clair, communication posée, passation propre."
+title: 'Projets web à Amsterdam-West'
+description: 'Projets web bien cadrés pour petits commerces à Amsterdam-West : nouveaux sites, refontes, améliorations pratiques. Périmètre clair, communication posée, passation propre.'
 slug: 'projets-web'
 type: 'service'
 permalink: '/fr/services/projets-web/'
@@ -54,10 +54,10 @@ L'objectif : un site simple, rapide à charger et facile à entretenir.
 
 ## Comment se passent les projets
 
-1) Vous envoyez un petit message avec ce que vous visez.
-2) Nous clarifions le périmètre et convenons de l'étape suivante.
-3) Je construis, et je partage l'avancement au fur et à mesure.
-4) Vous relisez, j'ajuste, et on clôture avec une passation propre.
+1. Vous envoyez un petit message avec ce que vous visez.
+2. Nous clarifions le périmètre et convenons de l'étape suivante.
+3. Je construis, et je partage l'avancement au fur et à mesure.
+4. Vous relisez, j'ajuste, et on clôture avec une passation propre.
 
 Pas de grand processus. Juste des décisions claires, une communication posée, et du travail correctement terminé.
 

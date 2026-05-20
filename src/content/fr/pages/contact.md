@@ -20,6 +20,7 @@ Une question rapide d'abord ? Consultez les [[faq|questions fréquentes]].
 ## Ce que vous pouvez joindre
 
 De préférence :
+
 - le lien de votre site
 - ce pour quoi vous voulez de l'aide en premier
 - sur quoi tourne votre site (si vous le savez)

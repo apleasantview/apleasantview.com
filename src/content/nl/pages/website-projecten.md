@@ -54,10 +54,10 @@ Naast websites pak ik af en toe aanpalend werk op: kleine automatiseringen, cont
 
 ## Hoe projecten werken
 
-1) U stuurt een kort bericht met wat u wilt bereiken.
-2) We verduidelijken de scope en spreken de volgende stap af.
-3) Ik bouw, en deel onderweg voortgang.
-4) U reviewt, ik werk bij, en we ronden af met een nette overdracht.
+1. U stuurt een kort bericht met wat u wilt bereiken.
+2. We verduidelijken de scope en spreken de volgende stap af.
+3. Ik bouw, en deel onderweg voortgang.
+4. U reviewt, ik werk bij, en we ronden af met een nette overdracht.
 
 Geen groot proces. Gewoon heldere keuzes, rustige communicatie, en werk dat goed wordt afgewerkt.
 

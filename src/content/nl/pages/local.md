@@ -47,6 +47,7 @@ Het werkgebied beslaat heel [[amsterdam-west|Amsterdam-West]] en de Jordaan. Kli
 </section>
 
 {# TODO replace with real local example #}
+
 <section class="u-flow">
 
 Denk aan kleine zaken om de hoek: een winkel, een atelier, een eenmanszaak die online graag rustig blijft draaien.

@@ -1,41 +1,41 @@
 /* 01. Settings */
-@import "./settings/colors.css";
-@import "./settings/typography.css";
-@import "./settings/spacing.css";
-@import "./settings/borders.css";
-@import "./settings/fluid-typography.css";
-@import "./settings/fluid-spacing.css";
+@import './settings/colors.css';
+@import './settings/typography.css';
+@import './settings/spacing.css';
+@import './settings/borders.css';
+@import './settings/fluid-typography.css';
+@import './settings/fluid-spacing.css';
 
 /* 02. Tools */
 
 /* 03. Generic */
-@import "./generic/semantic-tokens.css";
-@import "./generic/theme.css";
-@import "./generic/modern-reset.css" layer(reset);
-@import "./generic/skip-link.css";
-@import "./generic/sr-only.css";
+@import './generic/semantic-tokens.css';
+@import './generic/theme.css';
+@import './generic/modern-reset.css' layer(reset);
+@import './generic/skip-link.css';
+@import './generic/sr-only.css';
 
 /* 04. Base elements */
-@import "./elements/base.css";
-@import "./elements/hr.css";
+@import './elements/base.css';
+@import './elements/hr.css';
 
 /* 05. Layouts and Objects */
-@import "./objects/o-svg.css";
-@import "./objects/o-texture.css";
+@import './objects/o-svg.css';
+@import './objects/o-texture.css';
 
 /* 06. Components */
-@import "./components/c-language-switcher.css";
-@import "./components/c-logo.css";
-@import "./components/c-pricing-table.css";
+@import './components/c-language-switcher.css';
+@import './components/c-logo.css';
+@import './components/c-pricing-table.css';
 /* @import-glob "./components/*.css" layer(components); */
 
 /* 07. Utilities */
-@import "./utilities/u-text.css";
-@import "./utilities/u-flow.css";
-@import "./utilities/u-wrapper.css";
-@import "./utilities/u-glitch.css";
-@import "./utilities/lenis.css";
-@import "./utilities/mouse-follower.css";
+@import './utilities/u-text.css';
+@import './utilities/u-flow.css';
+@import './utilities/u-wrapper.css';
+@import './utilities/u-glitch.css';
+@import './utilities/lenis.css';
+@import './utilities/mouse-follower.css';
 
 /* CSS is organised followng ITCSS and BEMIT naming conventions, see:
 @link: https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/

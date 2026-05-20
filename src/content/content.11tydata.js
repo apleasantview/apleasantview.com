@@ -1,5 +1,5 @@
-import fs from "fs";
-import { buildSeoGraph, buildSeoMeta } from "../../utils/seo-graph.js";
+import fs from 'fs';
+import { buildSeoGraph, buildSeoMeta } from '../../utils/seo-graph.js';
 
 export default {
 	permalink: function (data) {
@@ -24,7 +24,7 @@ export default {
 			// buildSeoGraph reads _navigator.nodes for page identity + translation siblings.
 			script: (data) => [
 				{
-					type: "application/ld+json",
+					type: 'application/ld+json',
 					content: JSON.stringify(buildSeoGraph(data))
 				}
 			],
@@ -32,4 +32,4 @@ export default {
 			meta: (data) => buildSeoMeta(data)
 		}
 	}
-}
+};

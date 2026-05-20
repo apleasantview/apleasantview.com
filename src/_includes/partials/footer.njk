@@ -2,14 +2,12 @@
 	<div>
 		{% set faqEntry = collections.translationsMap.faq[page.locale.lang] %}
 		{% if faqEntry %}
-		<a href="{{ faqEntry.url }}">{{ "faq" | translate }}</a>
-		<br>
-		<span><strong>{{ "services" | translate }}</strong></span>
-		<br>
+			<a href="{{ faqEntry.url }}">{{ "faq" | translate }}</a>
+			<br />
+			<span><strong>{{ "services" | translate }}</strong></span>
+			<br />
 		{% endif %}
-		<small>
-			&copy; a pleasant view - 2026 | {{ "KvK" | translate }}: 60532955
-		</small>
-		<br>
+		<small> &copy; a pleasant view - 2026 | {{ "KvK" | translate }}: 60532955 </small>
+		<br />
 	</div>
-	</footer>
+</footer>

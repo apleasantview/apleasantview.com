@@ -1,6 +1,6 @@
 ---
 title: 'Questions fréquentes'
-description: "Réponses aux questions courantes sur la maintenance web continue, le support informatique et les petits projets à Amsterdam-West et dans le Jordaan."
+description: 'Réponses aux questions courantes sur la maintenance web continue, le support informatique et les petits projets à Amsterdam-West et dans le Jordaan.'
 slug: 'faq'
 type: 'faq'
 permalink: '/fr/faq/'
@@ -38,6 +38,7 @@ Réponses courtes aux questions qui reviennent souvent quand on envisage un acco
 <section class="u-flow">
 
 {% for faq in faqs %}
+
 ## {{ faq.question }}
 
 {{ faq.answer | safe }}

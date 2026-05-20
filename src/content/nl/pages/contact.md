@@ -20,6 +20,7 @@ Heeft u eerst een korte vraag? Bekijk de [[faq|veelgestelde vragen]].
 ## Wat u kunt meesturen
 
 Stuur bij voorkeur mee:
+
 - uw website-link
 - waar u als eerste hulp bij nodig hebt
 - waarop uw site draait (als u dat weet)

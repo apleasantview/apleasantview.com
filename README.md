@@ -1,2 +1,1 @@
-
-*In the beginning there was nothing...*
+_In the beginning there was nothing..._

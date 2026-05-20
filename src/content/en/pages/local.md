@@ -47,6 +47,7 @@ The service area covers all of [[amsterdam-west|Amsterdam-West]] and the Jordaan
 </section>
 
 {# TODO replace with real local example #}
+
 <section class="u-flow">
 
 Think of small businesses around the corner: a shop, a studio, a sole proprietorship that wants its online side to stay calm.

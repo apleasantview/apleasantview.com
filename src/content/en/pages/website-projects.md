@@ -54,10 +54,10 @@ Alongside websites I occasionally take on adjacent work: small automations, cont
 
 ## How projects work
 
-1) You send a short note with what you're aiming for.
-2) We clarify scope and agree the next step.
-3) I build, and share progress as I go.
-4) You review, I adjust, and we close with a clean handover.
+1. You send a short note with what you're aiming for.
+2. We clarify scope and agree the next step.
+3. I build, and share progress as I go.
+4. You review, I adjust, and we close with a clean handover.
 
 No big process. Just clear decisions, calm communication, and work that's finished properly.
 

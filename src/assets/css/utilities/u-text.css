@@ -1,29 +1,29 @@
 /* Text size utilities (semantic tokens) */
 
 .u-text-body {
-  font-size: var(--text-size-body);
+	font-size: var(--text-size-body);
 }
 
 .u-text-secondary {
-  font-size: var(--text-size-secondary);
+	font-size: var(--text-size-secondary);
 }
 
 .u-text-muted {
-  font-size: var(--text-size-muted);
+	font-size: var(--text-size-muted);
 }
 
 .u-text-lede {
-  font-size: var(--text-size-lede);
+	font-size: var(--text-size-lede);
 }
 
 .u-text-title {
-  font-size: var(--text-size-title);
+	font-size: var(--text-size-title);
 }
 
 .u-text-display {
-  font-size: var(--text-size-display);
+	font-size: var(--text-size-display);
 }
 
 .u-text-cursor {
-  font-size: var(--text-size-cursor);
+	font-size: var(--text-size-cursor);
 }

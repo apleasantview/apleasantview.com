@@ -1,11 +1,13 @@
 <div class="c-language-switcher">
 	<div class="c-language-switcher__inner">
 		{% for item, value in settings.languages %}
-		{% set switcherooUrl = page | i18nTranslationIn(collections.translations, item) %}
-		{% set switcherooLang = value.languageName %}
-		{% if switcherooUrl %}
-			<a lang="{{ item }}" hreflang="{{ item }}" href="{{ switcherooUrl.page.url }}" class="c-language-switcher__item">{{ switcherooLang }}</a>
-		{% endif %}
+			{% set switcherooUrl = page | i18nTranslationIn(collections.translations, item) %}
+			{% set switcherooLang = value.languageName %}
+			{% if switcherooUrl %}
+				<a lang="{{ item }}" hreflang="{{ item }}" href="{{ switcherooUrl.page.url }}" class="c-language-switcher__item"
+					>{{ switcherooLang }}</a
+				>
+			{% endif %}
 		{% endfor %}
 	</div>
 </div>

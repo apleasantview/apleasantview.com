@@ -3,36 +3,36 @@
 // Consumers feed buildSeoGraph result to head.script[{ type, content }]
 // and buildSeoMeta result to head.meta[].
 
-import slugify from "slugify";
+import slugify from 'slugify';
 
 export const LOCALE_REGION = {
-	en: "en-US",
-	nl: "nl-NL",
-	fr: "fr-FR",
+	en: 'en-US',
+	nl: 'nl-NL',
+	fr: 'fr-FR'
 };
 
 // OG wants the underscored BCP-47 form, distinct from the hyphenated schema.org form.
 const LOCALE_OG = {
-	en: "en_US",
-	nl: "nl_NL",
-	fr: "fr_FR",
+	en: 'en_US',
+	nl: 'nl_NL',
+	fr: 'fr_FR'
 };
 
 // Maps entry.type to schema.org WebPage subtype. Falls back to plain WebPage.
 export const WEBPAGE_TYPE_BY_TYPE = {
-	about: "AboutPage",
-	contact: "ContactPage",
-	faq: "FAQPage",
+	about: 'AboutPage',
+	contact: 'ContactPage',
+	faq: 'FAQPage'
 };
 
 // Strip markdown formatting for plain-text contexts (schema Answer.text, etc).
 function stripMarkdown(text) {
 	return String(text)
-		.replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")
-		.replace(/\*\*([^*]+)\*\*/g, "$1")
-		.replace(/\*([^*]+)\*/g, "$1")
-		.replace(/`([^`]+)`/g, "$1")
-		.replace(/\s+/g, " ")
+		.replace(/\[([^\]]+)\]\([^)]+\)/g, '$1')
+		.replace(/\*\*([^*]+)\*\*/g, '$1')
+		.replace(/\*([^*]+)\*/g, '$1')
+		.replace(/`([^`]+)`/g, '$1')
+		.replace(/\s+/g, ' ')
 		.trim();
 }
 
@@ -43,12 +43,10 @@ function slugifyName(s) {
 
 function dropNulls(value) {
 	if (Array.isArray(value)) {
-		const cleaned = value
-			.map(dropNulls)
-			.filter((v) => v !== null && v !== undefined);
+		const cleaned = value.map(dropNulls).filter((v) => v !== null && v !== undefined);
 		return cleaned.length ? cleaned : null;
 	}
-	if (value && typeof value === "object") {
+	if (value && typeof value === 'object') {
 		const out = {};
 		for (const [k, v] of Object.entries(value)) {
 			const cleaned = dropNulls(v);
@@ -66,35 +64,35 @@ function toISO(ms) {
 }
 
 function idFor(url, fragment) {
-	return `${url.replace(/\/+$/, "/")}${fragment ? `#${fragment}` : ""}`;
+	return `${url.replace(/\/+$/, '/')}${fragment ? `#${fragment}` : ''}`;
 }
 
 function buildOrganizationNode(seo, siteUrl) {
 	const o = seo.organization;
 	const node = dropNulls({
-		"@type": o["@type"],
-		"@id": idFor(siteUrl, "organization"),
+		'@type': o['@type'],
+		'@id': idFor(siteUrl, 'organization'),
 		name: o.name,
 		legalName: o.legalName,
 		url: o.url,
 		email: o.email,
 		telephone: o.telephone,
-		address: o.address ? { "@type": "PostalAddress", ...o.address } : null,
-		geo: o.geo ? { "@type": "GeoCoordinates", ...o.geo } : null,
+		address: o.address ? { '@type': 'PostalAddress', ...o.address } : null,
+		geo: o.geo ? { '@type': 'GeoCoordinates', ...o.geo } : null,
 		areaServed: o.areaServed?.length
 			? o.areaServed.map((a) => ({
-					"@id": idFor(siteUrl, `place-${slugifyName(a)}`),
+					'@id': idFor(siteUrl, `place-${slugifyName(a)}`)
 				}))
 			: null,
 		taxID: o.taxID,
 		vatID: o.vatID,
 		foundingDate: o.foundingDate,
-		logo: o.logo ? { "@id": idFor(siteUrl, "logo") } : null,
-		image: o.logo ? { "@id": idFor(siteUrl, "logo") } : null,
+		logo: o.logo ? { '@id': idFor(siteUrl, 'logo') } : null,
+		image: o.logo ? { '@id': idFor(siteUrl, 'logo') } : null,
 		sameAs: o.sameAs,
 		knowsAbout: o.knowsAbout,
 		slogan: o.slogan,
-		founder: { "@id": idFor(siteUrl, "cristovao") },
+		founder: { '@id': idFor(siteUrl, 'cristovao') }
 	});
 	return node;
 }
@@ -102,8 +100,8 @@ function buildOrganizationNode(seo, siteUrl) {
 function buildPersonNode(seo, siteUrl) {
 	const p = seo.person;
 	return dropNulls({
-		"@type": p["@type"],
-		"@id": idFor(siteUrl, "cristovao"),
+		'@type': p['@type'],
+		'@id': idFor(siteUrl, 'cristovao'),
 		name: p.name,
 		givenName: p.givenName,
 		familyName: p.familyName,
@@ -112,7 +110,7 @@ function buildPersonNode(seo, siteUrl) {
 		image: p.image,
 		jobTitle: p.jobTitle,
 		sameAs: p.sameAs,
-		worksFor: { "@id": idFor(siteUrl, "organization") },
+		worksFor: { '@id': idFor(siteUrl, 'organization') }
 	});
 }
 
@@ -120,12 +118,12 @@ function buildLogoNode(seo, siteUrl) {
 	if (!seo.organization.logo) return null;
 	const l = seo.organization.logo;
 	return dropNulls({
-		"@type": "ImageObject",
-		"@id": idFor(siteUrl, "logo"),
+		'@type': 'ImageObject',
+		'@id': idFor(siteUrl, 'logo'),
 		url: l.url,
 		width: l.width,
 		height: l.height,
-		caption: seo.organization.name,
+		caption: seo.organization.name
 	});
 }
 
@@ -133,59 +131,51 @@ function buildShareImageNode(seo, siteUrl) {
 	if (!seo.shareImage) return null;
 	const s = seo.shareImage;
 	return dropNulls({
-		"@type": "ImageObject",
-		"@id": idFor(siteUrl, "shareimage"),
+		'@type': 'ImageObject',
+		'@id': idFor(siteUrl, 'shareimage'),
 		url: s.url,
 		width: s.width,
 		height: s.height,
-		caption: s.alt,
+		caption: s.alt
 	});
 }
 
 function buildPlaceNode(name, siteUrl) {
 	return {
-		"@type": "Place",
-		"@id": idFor(siteUrl, `place-${slugifyName(name)}`),
-		name,
+		'@type': 'Place',
+		'@id': idFor(siteUrl, `place-${slugifyName(name)}`),
+		name
 	};
 }
 
-function buildServiceNode({
-	canonical,
-	name,
-	description,
-	lang,
-	siteUrl,
-	areaServed,
-}) {
+function buildServiceNode({ canonical, name, description, lang, siteUrl, areaServed }) {
 	const placeRefs = areaServed?.length
 		? areaServed.map((a) => ({
-				"@id": idFor(siteUrl, `place-${slugifyName(a)}`),
+				'@id': idFor(siteUrl, `place-${slugifyName(a)}`)
 			}))
 		: null;
 	return dropNulls({
-		"@type": "Service",
-		"@id": idFor(canonical, "service"),
+		'@type': 'Service',
+		'@id': idFor(canonical, 'service'),
 		name,
 		description,
-		provider: { "@id": idFor(siteUrl, "organization") },
+		provider: { '@id': idFor(siteUrl, 'organization') },
 		serviceType: name,
 		areaServed: placeRefs,
 		url: canonical,
-		inLanguage: LOCALE_REGION[lang] || lang,
+		inLanguage: LOCALE_REGION[lang] || lang
 	});
 }
 
 function buildWebSiteNode(siteUrl, siteName, languages, multilang) {
-	const inLanguage =
-		multilang && languages ? Object.keys(languages) : undefined;
+	const inLanguage = multilang && languages ? Object.keys(languages) : undefined;
 	return dropNulls({
-		"@type": "WebSite",
-		"@id": idFor(siteUrl, "website"),
+		'@type': 'WebSite',
+		'@id': idFor(siteUrl, 'website'),
 		url: siteUrl,
 		name: siteName,
 		inLanguage,
-		publisher: { "@id": idFor(siteUrl, "organization") },
+		publisher: { '@id': idFor(siteUrl, 'organization') }
 	});
 }
 
@@ -193,44 +183,37 @@ function buildBreadcrumbNode(pageUrl, segments, homeUrl) {
 	if (!segments || segments.length < 1) return null;
 	const items = [
 		{
-			"@type": "ListItem",
+			'@type': 'ListItem',
 			position: 1,
-			name: "Home",
-			item: homeUrl,
+			name: 'Home',
+			item: homeUrl
 		},
 		...segments.map((seg, i) => ({
-			"@type": "ListItem",
+			'@type': 'ListItem',
 			position: i + 2,
 			name: seg,
-			...(i === segments.length - 1
-				? {}
-				: { item: `${homeUrl}${segments.slice(0, i + 1).join("/")}/` }),
-		})),
+			...(i === segments.length - 1 ? {} : { item: `${homeUrl}${segments.slice(0, i + 1).join('/')}/` })
+		}))
 	];
 	return {
-		"@type": "BreadcrumbList",
-		"@id": idFor(pageUrl, "breadcrumb"),
-		itemListElement: items,
+		'@type': 'BreadcrumbList',
+		'@id': idFor(pageUrl, 'breadcrumb'),
+		itemListElement: items
 	};
 }
 
-function buildWorkTranslationRefs(
-	navigatorNodes,
-	translationKey,
-	currentUrl,
-	siteUrl,
-) {
+function buildWorkTranslationRefs(navigatorNodes, translationKey, currentUrl, siteUrl) {
 	if (!navigatorNodes || !translationKey) return null;
 	const refs = [];
 	for (const node of Object.values(navigatorNodes)) {
 		if (node.locale?.translationKey !== translationKey) continue;
 		if (node.url === currentUrl) continue;
-		const absoluteUrl = `${siteUrl.replace(/\/+$/, "")}${node.url}`;
+		const absoluteUrl = `${siteUrl.replace(/\/+$/, '')}${node.url}`;
 		refs.push({
-			"@type": "WebPage",
-			"@id": idFor(absoluteUrl, "webpage"),
+			'@type': 'WebPage',
+			'@id': idFor(absoluteUrl, 'webpage'),
 			url: absoluteUrl,
-			inLanguage: LOCALE_REGION[node.locale.lang] || node.locale.lang,
+			inLanguage: LOCALE_REGION[node.locale.lang] || node.locale.lang
 		});
 	}
 	return refs.length ? refs : null;
@@ -249,30 +232,30 @@ function buildWebPageNode(ctx) {
 		siteUrl,
 		isOrgPage,
 		neighborhoodSlug,
-		workTranslation,
+		workTranslation
 	} = ctx;
 
 	let about = null;
 	if (neighborhoodSlug) {
-		about = { "@id": idFor(siteUrl, `place-${neighborhoodSlug}`) };
+		about = { '@id': idFor(siteUrl, `place-${neighborhoodSlug}`) };
 	} else if (isOrgPage) {
-		about = { "@id": idFor(siteUrl, "organization") };
+		about = { '@id': idFor(siteUrl, 'organization') };
 	}
 
 	return dropNulls({
-		"@type": WEBPAGE_TYPE_BY_TYPE[entryType] || "WebPage",
-		"@id": idFor(canonical, "webpage"),
+		'@type': WEBPAGE_TYPE_BY_TYPE[entryType] || 'WebPage',
+		'@id': idFor(canonical, 'webpage'),
 		url: canonical,
 		name: title,
 		description: description || excerpt || null,
 		inLanguage: LOCALE_REGION[lang] || lang,
-		isPartOf: { "@id": idFor(siteUrl, "website") },
+		isPartOf: { '@id': idFor(siteUrl, 'website') },
 		about,
 		mainEntity: ctx.mainEntity || null,
-		primaryImageOfPage: { "@id": idFor(siteUrl, "shareimage") },
+		primaryImageOfPage: { '@id': idFor(siteUrl, 'shareimage') },
 		datePublished: toISO(datePublished),
 		dateModified: toISO(dateModified),
-		workTranslation,
+		workTranslation
 	});
 }
 
@@ -291,47 +274,33 @@ export function buildSeoGraph(data) {
 
 	// Eleventy runs this with a dep-discovery proxy where siblings may be undefined.
 	if (!seo || !settings || !settings.url || !pageUrl) {
-		return { "@context": "https://schema.org", "@graph": [] };
+		return { '@context': 'https://schema.org', '@graph': [] };
 	}
 
-	const lang =
-		node?.locale?.lang ||
-		data.page?.locale?.lang ||
-		data.lang ||
-		settings.defaultLanguage;
-	const translationKey =
-		node?.locale?.translationKey ||
-		data.page?.locale?.translationKey ||
-		data.translationKey;
+	const lang = node?.locale?.lang || data.page?.locale?.lang || data.lang || settings.defaultLanguage;
+	const translationKey = node?.locale?.translationKey || data.page?.locale?.translationKey || data.translationKey;
 
 	const siteUrl = settings.url;
 	const siteName = settings.languages?.[lang]?.title || settings.title;
-	const canonical = `${siteUrl.replace(/\/+$/, "")}${pageUrl}`;
+	const canonical = `${siteUrl.replace(/\/+$/, '')}${pageUrl}`;
 	const title = node?.title || data.title;
 	const description = node?.description || data.description;
 	const excerpt = node?.excerpt;
 
-	const isHome = pageUrl === "/" || /^\/[a-z]{2}\/$/.test(pageUrl);
+	const isHome = pageUrl === '/' || /^\/[a-z]{2}\/$/.test(pageUrl);
 	const entryType = data.type || node?.type;
-	const isOrgPage = isHome || ["about", "contact"].includes(entryType);
-	const isService = entryType === "service";
-	const neighborhoodSlug = entryType === "neighborhood" ? data.slug : null;
+	const isOrgPage = isHome || ['about', 'contact'].includes(entryType);
+	const isService = entryType === 'service';
+	const neighborhoodSlug = entryType === 'neighborhood' ? data.slug : null;
 
-	const workTranslation = buildWorkTranslationRefs(
-		navigatorNodes,
-		translationKey,
-		pageUrl,
-		siteUrl,
-	);
+	const workTranslation = buildWorkTranslationRefs(navigatorNodes, translationKey, pageUrl, siteUrl);
 
 	const segments = node?.section || data.section || [];
 	const breadcrumb = buildBreadcrumbNode(canonical, segments, siteUrl);
 
 	// Place nodes for every areaServed entry, referenced by @id from Organization,
 	// Service nodes, and neighborhood WebPage.about.
-	const placeNodes = (seo.organization?.areaServed || []).map((a) =>
-		buildPlaceNode(a, siteUrl),
-	);
+	const placeNodes = (seo.organization?.areaServed || []).map((a) => buildPlaceNode(a, siteUrl));
 
 	// Service node only on service pages. Name comes from the page H1 (canonical short form)
 	// with fallback to the page title.
@@ -342,7 +311,7 @@ export function buildSeoGraph(data) {
 				description: description || excerpt,
 				lang,
 				siteUrl,
-				areaServed: seo.organization?.areaServed,
+				areaServed: seo.organization?.areaServed
 			})
 		: null;
 
@@ -350,19 +319,15 @@ export function buildSeoGraph(data) {
 	// Question entities on FAQ pages.
 	let mainEntity = null;
 	if (isService) {
-		mainEntity = { "@id": idFor(canonical, "service") };
-	} else if (
-		entryType === "faq" &&
-		Array.isArray(data.faqs) &&
-		data.faqs.length
-	) {
+		mainEntity = { '@id': idFor(canonical, 'service') };
+	} else if (entryType === 'faq' && Array.isArray(data.faqs) && data.faqs.length) {
 		mainEntity = data.faqs.map((f) => ({
-			"@type": "Question",
+			'@type': 'Question',
 			name: stripMarkdown(f.question),
 			acceptedAnswer: {
-				"@type": "Answer",
-				text: stripMarkdown(f.answer),
-			},
+				'@type': 'Answer',
+				text: stripMarkdown(f.answer)
+			}
 		}));
 	}
 
@@ -386,23 +351,21 @@ export function buildSeoGraph(data) {
 			isOrgPage,
 			neighborhoodSlug,
 			mainEntity,
-			workTranslation,
+			workTranslation
 		}),
 		serviceNode,
-		breadcrumb,
+		breadcrumb
 	].filter(Boolean);
 
 	// Attach the breadcrumb ref to the WebPage if present.
 	if (breadcrumb) {
-		const webPage = graph.find(
-			(n) => n["@type"] && String(n["@type"]).endsWith("Page"),
-		);
-		if (webPage) webPage.breadcrumb = { "@id": breadcrumb["@id"] };
+		const webPage = graph.find((n) => n['@type'] && String(n['@type']).endsWith('Page'));
+		if (webPage) webPage.breadcrumb = { '@id': breadcrumb['@id'] };
 	}
 
 	return {
-		"@context": "https://schema.org",
-		"@graph": graph,
+		'@context': 'https://schema.org',
+		'@graph': graph
 	};
 }
 
@@ -418,37 +381,33 @@ export function buildSeoMeta(data) {
 
 	if (!seo || !settings || !settings.url || !pageUrl) return [];
 
-	const lang =
-		node?.locale?.lang ||
-		data.page?.locale?.lang ||
-		data.lang ||
-		settings.defaultLanguage;
+	const lang = node?.locale?.lang || data.page?.locale?.lang || data.lang || settings.defaultLanguage;
 	const siteUrl = settings.url;
 	const siteName = settings.languages?.[lang]?.title || settings.title;
-	const canonical = `${siteUrl.replace(/\/+$/, "")}${pageUrl}`;
+	const canonical = `${siteUrl.replace(/\/+$/, '')}${pageUrl}`;
 	const title = node?.title || data.title;
 	const description = node?.description || data.description || node?.excerpt;
 	const shareImage = seo.shareImage;
 
 	const entries = [
-		{ property: "og:site_name", content: siteName },
-		{ property: "og:type", content: "website" },
-		{ property: "og:title", content: title },
-		{ property: "og:description", content: description },
-		{ property: "og:url", content: canonical },
-		{ property: "og:locale", content: LOCALE_OG[lang] || lang },
+		{ property: 'og:site_name', content: siteName },
+		{ property: 'og:type', content: 'website' },
+		{ property: 'og:title', content: title },
+		{ property: 'og:description', content: description },
+		{ property: 'og:url', content: canonical },
+		{ property: 'og:locale', content: LOCALE_OG[lang] || lang }
 	];
 
 	if (shareImage) {
 		entries.push(
-			{ property: "og:image", content: shareImage.url },
-			{ property: "og:image:width", content: String(shareImage.width) },
-			{ property: "og:image:height", content: String(shareImage.height) },
-			{ property: "og:image:alt", content: shareImage.alt },
+			{ property: 'og:image', content: shareImage.url },
+			{ property: 'og:image:width', content: String(shareImage.width) },
+			{ property: 'og:image:height', content: String(shareImage.height) },
+			{ property: 'og:image:alt', content: shareImage.alt }
 		);
 	}
 
-	entries.push({ name: "twitter:card", content: "summary_large_image" });
+	entries.push({ name: 'twitter:card', content: 'summary_large_image' });
 
 	return entries.filter((e) => e.content !== null && e.content !== undefined);
 }

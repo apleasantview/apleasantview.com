@@ -1,7 +1,7 @@
 function resolvePath(obj, path) {
 	if (!obj || !path) return undefined;
 	const debugMissing = process?.env?.DEBUG_I18N;
-	return path.split(".").reduce((acc, part) => {
+	return path.split('.').reduce((acc, part) => {
 		if (acc === undefined || acc === null) {
 			if (debugMissing) {
 				console.warn(`Missing translation key: ${path}`);
@@ -30,24 +30,16 @@ function getPluralRules(lang) {
 	return pluralRulesCache.get(lang);
 }
 
-function translateKey(
-	key,
-	{
-		strings = {},
-		lang,
-		fallback,
-		params = {}
-	} = {}
-) {
-	if (!key) return "";
+function translateKey(key, { strings = {}, lang, fallback, params = {} } = {}) {
+	if (!key) return '';
 
 	let value = resolvePath(strings[lang], key);
 
 	// Pluralization support
-	if (value && typeof value === "object" && params.count != null) {
+	if (value && typeof value === 'object' && params.count != null) {
 		// Use Intl.PluralRules
 		const pluralRules = getPluralRules(lang);
-		const form = pluralRules ? pluralRules.select(params.count) : "other";
+		const form = pluralRules ? pluralRules.select(params.count) : 'other';
 		value = value[form] || value.other;
 	}
 
@@ -55,16 +47,16 @@ function translateKey(
 	if (value === undefined) {
 		let fallbackValue = resolvePath(strings[fallback], key);
 		// Pluralization for fallback
-		if (fallbackValue && typeof fallbackValue === "object" && params.count != null) {
+		if (fallbackValue && typeof fallbackValue === 'object' && params.count != null) {
 			const pluralRules = getPluralRules(fallback);
-			const form = pluralRules ? pluralRules.select(params.count) : "other";
+			const form = pluralRules ? pluralRules.select(params.count) : 'other';
 			fallbackValue = fallbackValue[form] || fallbackValue.other;
 		}
 		value = fallbackValue ?? key;
 	}
 
 	// Interpolation
-	if (typeof value === "string") {
+	if (typeof value === 'string') {
 		value = interpolate(value, params);
 	}
 
