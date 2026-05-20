@@ -1,5 +1,5 @@
-import fs from 'fs';
 import { buildSeoGraph, buildSeoMeta } from '../../utils/seo-graph.js';
+import { gitModified } from '../../utils/git-date.js';
 
 const mdAlternates = (data) => ({
 	rel: 'alternate',
@@ -18,12 +18,12 @@ export default {
 		page: {
 			// Publish date from front matter (Eleventy parses `date:` to a Date).
 			datePublished: (data) => data.date,
-			// Modified date from front matter override, else file mtime.
-			dateModified: (data) => {
-				if (data.dateModified) return data.dateModified;
-				const stats = fs.statSync(data.page.inputPath);
-				return stats.mtimeMs;
-			}
+			// Modified date: front-matter override, else last-commit date for this file.
+			// Single source feeds JSON-LD and sitemap so they cannot drift.
+			dateModified: (data) => data.dateModified || gitModified(data.page.inputPath)
+		},
+		sitemap: {
+			lastmod: (data) => data.dateModified || gitModified(data.page.inputPath)
 		},
 		head: {
 			// JSON-LD graph emitted into <head> via Baseline's head.script merge.
