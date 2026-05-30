@@ -21,6 +21,7 @@ header {
 }
 
 .header__group {
+	--flow-space: var(--flow-space-2xs);
 	width: 100%;
 }
 
