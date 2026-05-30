@@ -21,8 +21,10 @@
 	--space-static-32: 2rem; /* 32px */
 
 	/* Flow spacing defaults */
-	--space-flow-paragraph: 1em;
-	--space-flow-heading: 1.2em;
+	--space-flow-s: 1em;
+	--space-flow-m: 1.25em;
+	--space-flow-l: 1.5em;
+	--space-flow-xl: 1.75em;
 
 	/* Contextual offsets */
 	--space-inline-nudge: -0.125em;

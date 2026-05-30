@@ -3,13 +3,11 @@
 	/* Color roles (theme-split) */
 	--color-background-default-light: var(--color-slate-50);
 	--color-background-default-dark: var(--color-slate-950);
-
 	--color-background-subtle-light: var(--color-gray-50);
 	--color-background-subtle-dark: var(--color-gray-900);
 
 	--color-text-primary-light: var(--color-slate-800);
 	--color-text-primary-dark: var(--color-slate-50);
-
 	--color-text-muted-light: var(--color-gray-600);
 	--color-text-muted-dark: var(--color-gray-300);
 
@@ -18,7 +16,6 @@
 
 	--color-border-default-light: var(--color-slate-800);
 	--color-border-default-dark: var(--color-slate-50);
-
 	--color-border-strong-light: var(--color-gray-800);
 	--color-border-strong-dark: var(--color-gray-100);
 
@@ -31,6 +28,7 @@
 	--font-family-code: var(--font-family-mono);
 
 	--text-size-body: var(--step-0);
+	--text-size-code: var(--step--1);
 	--text-size-secondary: var(--step--1);
 	--text-size-muted: var(--step--2);
 	--text-size-lede: var(--step-1);
@@ -110,8 +108,10 @@
 	--space-outline-offset: var(--space-static-32);
 
 	/* Flow */
-	--flow-space: var(--space-flow-paragraph);
-	--flow-space-headings: var(--space-flow-heading);
+	--flow-space-s: var(--space-flow-s);
+	--flow-space-m: var(--space-flow-m);
+	--flow-space-l: var(--space-flow-l);
+	--flow-space-xl: var(--space-flow-xl);
 
 	/* Wrapper utilities */
 	--wrapper-max-width: 105rem;

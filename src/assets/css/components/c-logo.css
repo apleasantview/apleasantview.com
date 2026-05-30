@@ -2,7 +2,12 @@
 	max-width: fit-content;
 }
 
-.c-logo__link {
+a.c-logo__link {
 	display: block;
 	color: var(--color-text-primary);
+	border: none;
+}
+
+a.c-logo__link:hover {
+	background: none;
 }

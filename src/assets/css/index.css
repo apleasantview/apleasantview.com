@@ -7,19 +7,22 @@
 @import './settings/fluid-spacing.css';
 
 /* 02. Tools */
+@import './tools/document.css';
+@import './tools/theme.css';
 
 /* 03. Generic */
-@import './generic/semantic-tokens.css';
-@import './generic/theme.css';
 @import './generic/modern-reset.css' layer(reset);
 @import './generic/skip-link.css';
 @import './generic/sr-only.css';
 
 /* 04. Base elements */
 @import './elements/base.css';
+@import './elements/a.css';
 @import './elements/hr.css';
+@import './elements/code.css';
 
 /* 05. Layouts and Objects */
+@import './layouts/l-document.css';
 @import './objects/o-svg.css';
 @import './objects/o-texture.css';
 
