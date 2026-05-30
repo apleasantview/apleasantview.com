@@ -22,16 +22,11 @@ header {
 
 .header__group {
 	--flow-space: var(--flow-space-2xs);
-	width: 100%;
 }
 
 main {
 	padding-block: var(--space-inset-s);
 	flex: 1;
-}
-
-.main__group {
-	width: 100%;
 }
 
 footer {
@@ -41,7 +36,6 @@ footer {
 
 .footer__group {
 	--flow-space: var(--flow-space-2xs);
-	width: 100%;
 	font-size: var(--text-size-secondary);
 }
 
