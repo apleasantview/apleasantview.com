@@ -15,19 +15,19 @@ export default {
 	noindex: false,
 
 	languages: {
-		en: {
-			contentDir: 'content/en/',
-			languageCode: 'en',
-			languageName: 'English',
-			title: 'a pleasant view',
-			tagline: 'Digital Services for Amsterdam West & the Jordaan'
-		},
 		nl: {
 			contentDir: 'content/nl/',
 			languageCode: 'nl',
 			languageName: 'Nederlands',
 			title: 'a pleasant view',
 			tagline: 'Webdesign en ontwikkeling abonnementen.'
+		},
+		en: {
+			contentDir: 'content/en/',
+			languageCode: 'en',
+			languageName: 'English',
+			title: 'a pleasant view',
+			tagline: 'Digital Services for Amsterdam West & the Jordaan'
 		},
 		fr: {
 			contentDir: 'content/fr/',
