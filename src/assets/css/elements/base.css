@@ -36,7 +36,7 @@ main {
 
 footer {
 	margin-top: auto;
-	padding-block: var(--space-inset-s);
+	padding-block: var(--space-inset-xs);
 }
 
 .footer__group {
