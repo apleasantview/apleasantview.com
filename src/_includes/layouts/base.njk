@@ -1,21 +1,23 @@
 <!DOCTYPE html>
 <html lang="{{ lang | default(site.defaultLanguage) }}">
 	<baseline-head></baseline-head>
-	<body class="u-wrapper">
+	<body>
 		<div class="o-texture"></div>
 		<a href="#main" class="skip-link">Skip to main content</a>
 		{% include "partials/header.njk" %}
 		<main id="main" tabindex="-1">
-			{% block content %}
-				<h1>a pleasant view</h1>
-				<p>No content found.</p>
-				<p>Site languages:</p>
-				<ul>
-					<li><a href="/en/">English</a></li>
-					<li><a href="/nl/">Nederlands</a></li>
-					<li><a href="/fr/">Français</a></li>
-				</ul>
-			{% endblock %}
+			<div class="main__group l-document u-wrapper">
+				{% block content %}
+					<h1>a pleasant view</h1>
+					<p>No content found.</p>
+					<p>Site languages:</p>
+					<ul>
+						<li><a href="/en/">English</a></li>
+						<li><a href="/nl/">Nederlands</a></li>
+						<li><a href="/fr/">Français</a></li>
+					</ul>
+				{% endblock %}
+			</div>
 		</main>
 		{% include "partials/footer.njk" %}
 	</body>

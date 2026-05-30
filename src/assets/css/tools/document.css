@@ -108,6 +108,8 @@
 	--space-outline-offset: var(--space-static-32);
 
 	/* Flow */
+	--flow-space-2xs: var(--space-flow-2xs);
+	--flow-space-xs: var(--space-flow-xs);
 	--flow-space-s: var(--space-flow-s);
 	--flow-space-m: var(--space-flow-m);
 	--flow-space-l: var(--space-flow-l);

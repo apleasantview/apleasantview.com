@@ -21,27 +21,35 @@ header {
 }
 
 .header__group {
-	margin-top: var(--space-s);
+	width: 100%;
 }
 
 main {
+	padding-block: var(--space-inset-s);
 	flex: 1;
+}
+
+.main__group {
+	width: 100%;
 }
 
 footer {
 	margin-top: auto;
-	padding-block-start: var(--space-inset-2xl);
-	padding-block-end: var(--space-inset-2xs);
+	padding-block: var(--space-inset-s);
+}
+
+.footer__group {
+	--flow-space: var(--flow-space-2xs);
+	width: 100%;
 	font-size: var(--text-size-secondary);
 }
 
 /* Text + grouping context */
-
 p {
 	letter-spacing: var(--text-letterspacing-body);
+	max-inline-size: var(--text-inlinesize-body);
 }
 
-p,
 ul,
 ol,
 dl,
