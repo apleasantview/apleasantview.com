@@ -11,8 +11,10 @@ export default {
 	permalink: function (data) {
 		if (data.page.inputPath.includes('11tydata.js')) return false;
 		const slug = data.slug ? this.slugify(data.slug) : data.page.fileSlug;
-		const prefix = data.lang === 'en' ? '' : `/${data.lang}`;
-		return `${prefix}/${slug}/`;
+		const isDefaultLang = !data.lang || data.lang === data.settings?.defaultLanguage;
+		const prefix = isDefaultLang ? '' : `/${data.lang}`;
+		const sections = (data.section ?? []).map((s) => this.slugify(s));
+		return `${prefix}/${[...sections, slug].join('/')}/`;
 	},
 	eleventyComputed: {
 		page: {

@@ -1,0 +1,13 @@
+.c-site-nav {
+	display: flex;
+	gap: var(--space-s);
+	flex-wrap: wrap;
+	align-items: flex-start;
+	padding-block: var(--space-inset-3xs);
+}
+
+.c-site-nav a {
+	margin-top: 0;
+	border: 1px solid transparent;
+	font-size: var(--text-size-body);
+}

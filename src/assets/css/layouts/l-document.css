@@ -1,3 +1,4 @@
 .l-document {
 	max-inline-size: var(--text-inlinesize-body);
+	margin-block-start: var(--space-s);
 }

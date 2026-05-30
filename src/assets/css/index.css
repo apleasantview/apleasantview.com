@@ -28,6 +28,7 @@
 
 /* 06. Components */
 @import './components/c-language-switcher.css';
+@import './components/c-site-nav.css';
 @import './components/c-logo.css';
 @import './components/c-pricing-table.css';
 /* @import-glob "./components/*.css" layer(components); */

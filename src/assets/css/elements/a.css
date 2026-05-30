@@ -4,7 +4,6 @@ a {
 	/* text-decoration-thickness: var(--link-underline-thickness); */
 	/* text-underline-offset: var(--link-underline-offset); */
 	border-bottom: var(--link-underline-thickness) solid currentColor;
-	border-radius: 4px;
 	transition: all 0.3s ease-out;
 	translate: calc(var(--border-width-link-strong) * -1) 0;
 	padding-inline: 0.15em;
@@ -17,4 +16,5 @@ a:visited {
 a:hover {
 	background-color: var(--color-surface-hover);
 	border-bottom-color: transparent;
+	border-radius: 4px;
 }

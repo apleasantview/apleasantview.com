@@ -20,6 +20,10 @@ header {
 	padding-block: var(--space-inset-s);
 }
 
+.header__group {
+	margin-top: var(--space-s);
+}
+
 main {
 	flex: 1;
 }
