@@ -16,6 +16,8 @@ translationKey: 'neighborhood-westerpark'
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## Wat ik doe in de buurt
@@ -28,6 +30,8 @@ Doorlopende support voor uw website en de praktische IT eromheen, of een afgebak
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## Waarom in Westerpark logisch is
@@ -35,6 +39,8 @@ Doorlopende support voor uw website en de praktische IT eromheen, of een afgebak
 Westerpark is rustiger dan de Jordaan, maar even gevarieerd in kleine zaken. Een mix van oudere Amsterdamse buurten en de meer creatieve hoek rond de Westergasfabriek. Werk dat hier hoort: stabiel onderhoud, een snelle reactie als iets hapert, een persoon die de buurt kent in plaats van een ticketsysteem.
 
 </section>
+
+---
 
 <section class="u-flow">
 

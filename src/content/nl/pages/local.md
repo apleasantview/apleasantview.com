@@ -16,6 +16,8 @@ Dichtbij zijn houdt het praktisch. Het ritme van lokaal werk ken ik. En als iets
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## Waarom lokaal telt
@@ -31,6 +33,8 @@ En als het helpt, kan ik gewoon dichter bij het werk zijn.
 Het meeste werk gebeurt lokaal, maar op afstand kan ook, zeker als het werk duidelijk afgebakend is en de communicatie helder blijft.
 
 </section>
+
+---
 
 <section class="u-flow">
 
@@ -54,6 +58,8 @@ Denk aan kleine zaken om de hoek: een winkel, een atelier, een eenmanszaak die o
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## Ervaring
@@ -65,6 +71,8 @@ Veel ervan gebeurt achter de schermen: websites consistent houden, kleine fixes 
 Betrouwbaarheid telt voor mij zwaarder dan groeicijfers.
 
 </section>
+
+---
 
 <section class="u-flow">
 

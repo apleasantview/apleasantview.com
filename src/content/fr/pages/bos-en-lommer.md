@@ -16,6 +16,8 @@ translationKey: 'neighborhood-bos-en-lommer'
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## Ce que je fais dans le quartier
@@ -28,6 +30,8 @@ Support continu pour votre site et pour l'IT pratique autour, ou un projet bien 
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## Pourquoi Bos en Lommer a du sens
@@ -35,6 +39,8 @@ Support continu pour votre site et pour l'IT pratique autour, ou un projet bien 
 Bos en Lommer a vite changé ces dernières années : plus de petits entrepreneurs, plus de lieux créatifs, des locaux plus abordables qu'à Oud-West ou dans le Jordaan. Beaucoup de commerces ici démarrent petits et grandissent progressivement. Le support digital fait partie de cette croissance, mais pas comme quelque chose qui devrait prendre beaucoup de place dans votre journée. Travailler tout près me permet de répondre rapidement, et de passer quand ça aide.
 
 </section>
+
+---
 
 <section class="u-flow">
 

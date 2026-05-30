@@ -19,6 +19,8 @@ For clients in this part of the city, that linguistic mix is practical. Most of 
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## What I do here
@@ -28,6 +30,8 @@ I keep websites running for small businesses around Amsterdam-West and the Jorda
 `a pleasant view` started eleven years ago as a blog documenting modern art exhibits in Brussels. It turned into website work when I started building the blog itself, and into a business when I moved to Amsterdam. I came to web work sideways. The websites stuck.
 
 </section>
+
+---
 
 <section class="u-flow">
 
@@ -39,6 +43,8 @@ Most of the work happens locally. I can answer the phone, drop by when something
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## The Baseline side
@@ -49,6 +55,8 @@ It's a side gig in the way a musician has gigs. The local client work is the ste
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## Where I draw the line
@@ -58,6 +66,8 @@ I'm not a full IT helpdesk. I don't do 24/7 monitoring or large infrastructure p
 When something is in scope, I work calmly and tell you what I'm doing. That covers most of it.
 
 </section>
+
+---
 
 <section class="u-flow">
 

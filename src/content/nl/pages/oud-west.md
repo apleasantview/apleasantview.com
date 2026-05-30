@@ -16,6 +16,8 @@ translationKey: 'neighborhood-oud-west'
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## Wat ik doe in de buurt
@@ -28,6 +30,8 @@ Doorlopende support voor uw website en de praktische IT eromheen, of een afgebak
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## Waarom in Oud-West logisch is
@@ -35,6 +39,8 @@ Doorlopende support voor uw website en de praktische IT eromheen, of een afgebak
 Oud-West is dicht en gevarieerd: kleine cafés, ateliers, boetieks, een mix van Nederlandse zaken die er al jaren zitten en nieuwere expat-georiënteerde plekken. Wat ze gemeen hebben: weinig zin in uitgebreid offerteoverleg, veel waarde aan iemand die snel kan reageren en bij hoeft te komen wanneer dat helpt.
 
 </section>
+
+---
 
 <section class="u-flow">
 

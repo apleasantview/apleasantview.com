@@ -18,6 +18,8 @@ Practical IT support is for the things that sit around your website and business
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## What it covers
@@ -33,6 +35,8 @@ Intended for the practical IT that comes up in the normal working day. For large
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## Part of the support plan
@@ -47,6 +51,8 @@ IT support is the other side of the same plan that also covers [[website-mainten
 - Unused included time **expires monthly** (no carry-over)
 
 </section>
+
+---
 
 <section class="u-flow">
 

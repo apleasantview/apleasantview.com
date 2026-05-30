@@ -16,6 +16,8 @@ translationKey: 'local'
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## Pourquoi le local compte
@@ -31,6 +33,8 @@ Et quand ça aide, je peux simplement être plus proche du travail.
 L'essentiel du travail se fait en local, mais à distance c'est possible aussi, surtout quand le travail est bien cadré et que la communication reste claire.
 
 </section>
+
+---
 
 <section class="u-flow">
 
@@ -54,6 +58,8 @@ Pensez aux petites enseignes du quartier: une boutique, un atelier, une activit�
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## Expérience
@@ -65,6 +71,8 @@ Beaucoup se passe en coulisses : garder les sites cohérents, prendre en charge 
 La fiabilité compte plus, pour moi, que les chiffres de croissance.
 
 </section>
+
+---
 
 <section class="u-flow">
 

@@ -16,6 +16,8 @@ translationKey: 'neighborhood-westerpark'
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## Ce que je fais dans le quartier
@@ -28,6 +30,8 @@ Support continu pour votre site et pour l'IT pratique autour, ou un projet bien 
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## Pourquoi Westerpark a du sens
@@ -35,6 +39,8 @@ Support continu pour votre site et pour l'IT pratique autour, ou un projet bien 
 Westerpark est plus calme que le Jordaan, mais tout aussi varié en petits commerces. Un mélange de vieux quartiers amstellodamois et du coin plus créatif autour de la Westergasfabriek. Le genre de travail qui colle ici : une maintenance stable, une réponse rapide quand quelque chose accroche, une personne qui connaît le quartier plutôt qu'un système de tickets.
 
 </section>
+
+---
 
 <section class="u-flow">
 

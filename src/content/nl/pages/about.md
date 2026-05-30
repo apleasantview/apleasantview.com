@@ -19,6 +19,8 @@ Voor klanten in deze buurt is die talenmix praktisch. Het meeste werk gebeurt in
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## Wat ik hier doe
@@ -28,6 +30,8 @@ Ik houd websites draaiend voor kleine bedrijven in Amsterdam-West en de Jordaan.
 `a pleasant view` is elf jaar geleden begonnen als blog over moderne kunstexpos in Brussel. Het werd websitewerk toen ik de blog zelf ging bouwen, en een echte zaak toen ik naar Amsterdam verhuisde. Ik kwam via een omweg in het webwerk terecht. De websites zijn gebleven.
 
 </section>
+
+---
 
 <section class="u-flow">
 
@@ -39,6 +43,8 @@ Het meeste werk gebeurt lokaal. Ik kan de telefoon opnemen, langskomen als iets 
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## De Baseline-kant
@@ -49,6 +55,8 @@ Het is een side gig zoals een muzikant gigs heeft. Het lokale klantenwerk is het
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## Waar de grens ligt
@@ -58,6 +66,8 @@ Ik ben geen volledige IT-helpdesk. Ik doe geen 24/7 monitoring of grote infrastr
 Wat wel past, doe ik rustig en ik vertel u wat ik aan het doen ben. Dat dekt het meeste.
 
 </section>
+
+---
 
 <section class="u-flow">
 

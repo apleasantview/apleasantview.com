@@ -23,7 +23,7 @@ I keep the client list deliberately small for local work, and offer support to t
 
 </section>
 
-<hr>
+---
 
 <section class="u-flow">
 
@@ -37,7 +37,7 @@ That's why I can answer the phone, pull your setup from memory, and not disappea
 
 </section>
 
-<hr>
+---
 
 <section class="u-flow">
 
@@ -57,7 +57,7 @@ Scoped work when you want something built, improved, or straightened out.
 
 </section>
 
-<hr>
+---
 
 <section class="u-flow">
 

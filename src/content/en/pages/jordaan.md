@@ -16,6 +16,8 @@ translationKey: 'neighborhood-jordaan'
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## What I do nearby
@@ -28,6 +30,8 @@ Ongoing support for your website and the practical IT around it, or a scoped pro
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## Why the Jordaan makes sense
@@ -35,6 +39,8 @@ Ongoing support for your website and the practical IT around it, or a scoped pro
 Narrow streets, small businesses, often one person who runs the whole thing. A short question easily becomes a long exchange when the other side isn't nearby. Working close keeps me quick to respond, and able to stop by when that helps.
 
 </section>
+
+---
 
 <section class="u-flow">
 

@@ -16,6 +16,8 @@ translationKey: 'neighborhood-oud-west'
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## What I do nearby
@@ -28,6 +30,8 @@ Ongoing support for your website and the practical IT around it, or a scoped pro
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## Why Oud-West makes sense
@@ -35,6 +39,8 @@ Ongoing support for your website and the practical IT around it, or a scoped pro
 Oud-West is dense and varied: small cafés, studios, boutiques, a mix of Dutch businesses that have been here for years and newer expat-oriented places. What they share: little patience for long quoting processes, plenty of value placed on someone who can respond quickly and stop by when that helps.
 
 </section>
+
+---
 
 <section class="u-flow">
 

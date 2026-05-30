@@ -18,6 +18,8 @@ Je garde le travail de projet calme et prévisible. Périmètre clair, communica
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## Quand un projet a du sens
@@ -31,6 +33,8 @@ Un projet convient quand :
 Si vous avez surtout besoin d'une aide continue pour garder tout à jour, l'[[website-maintenance:fr|abonnement de support]] est souvent un meilleur choix.
 
 </section>
+
+---
 
 <section class="u-flow">
 
@@ -50,6 +54,8 @@ L'objectif : un site simple, rapide à charger et facile à entretenir.
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## Comment se passent les projets
@@ -63,6 +69,8 @@ Pas de grand processus. Juste des décisions claires, une communication posée, 
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## À quoi vous attendre
@@ -72,6 +80,8 @@ Les projets restent cadrés. Si quelque chose de nouveau apparaît, je vous le s
 À la fin, vous recevez une passation propre : accès, documentation là où c'est utile, et un site que vous pouvez réellement maintenir.
 
 </section>
+
+---
 
 <section class="u-flow">
 
@@ -84,6 +94,8 @@ Souvent la manière la plus simple d'éviter que les petites choses ne s'accumul
 Si vous ne le souhaitez pas, c'est très bien aussi. L'objectif est de toute façon une fin propre.
 
 </section>
+
+---
 
 <section class="u-flow">
 

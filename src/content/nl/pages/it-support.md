@@ -18,6 +18,8 @@ Praktische IT-support gaat over de dingen die rond uw website en bedrijf zitten:
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## Wat erbij hoort
@@ -33,6 +35,8 @@ Bedoeld voor de praktische IT die met de gewone werkdag te maken heeft. Voor gro
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## Onderdeel van het support-abonnement
@@ -47,6 +51,8 @@ IT-support is de andere kant van hetzelfde abonnement dat ook [[website-maintena
 - Ongebruikte tijd **vervalt maandelijks** (geen carry-over)
 
 </section>
+
+---
 
 <section class="u-flow">
 

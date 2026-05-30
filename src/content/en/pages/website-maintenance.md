@@ -18,6 +18,8 @@ With ongoing maintenance your site stays in good shape: updates, small adjustmen
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## What it covers
@@ -33,6 +35,8 @@ Intended for small sites that should just keep running quietly. For larger work,
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## Part of the support plan
@@ -47,6 +51,8 @@ Website maintenance is one side of the same plan that also covers [[it-support|I
 - Unused included time **expires monthly** (no carry-over)
 
 </section>
+
+---
 
 <section class="u-flow">
 

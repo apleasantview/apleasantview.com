@@ -16,6 +16,8 @@ translationKey: 'neighborhood-jordaan'
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## Wat ik doe in de buurt
@@ -28,6 +30,8 @@ Doorlopende support voor uw website en de praktische IT eromheen, of een afgebak
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## Waarom in de Jordaan logisch is
@@ -35,6 +39,8 @@ Doorlopende support voor uw website en de praktische IT eromheen, of een afgebak
 Smalle straten, kleine zaken, vaak één persoon die overal voor staat. Een korte vraag wordt makkelijk een lange uitwisseling als de andere kant niet om de hoek zit. Door dichtbij te werken kan ik snel reageren, en als het nodig is gewoon even langskomen.
 
 </section>
+
+---
 
 <section class="u-flow">
 

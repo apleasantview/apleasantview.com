@@ -35,6 +35,8 @@ Kort antwoord op vragen die vaak terugkomen voor wie aan een doorlopende support
 
 </section>
 
+---
+
 <section class="u-flow">
 
 {% for faq in faqs %}
@@ -46,6 +48,8 @@ Kort antwoord op vragen die vaak terugkomen voor wie aan een doorlopende support
 {% endfor %}
 
 </section>
+
+---
 
 <section class="u-flow">
 

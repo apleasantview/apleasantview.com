@@ -35,6 +35,8 @@ Réponses courtes aux questions qui reviennent souvent quand on envisage un acco
 
 </section>
 
+---
+
 <section class="u-flow">
 
 {% for faq in faqs %}
@@ -46,6 +48,8 @@ Réponses courtes aux questions qui reviennent souvent quand on envisage un acco
 {% endfor %}
 
 </section>
+
+---
 
 <section class="u-flow">
 

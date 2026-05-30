@@ -18,6 +18,8 @@ Here's how I work, what I support, and where I draw the line.
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## A simple way of working
@@ -29,6 +31,8 @@ When you reach out, I keep it straightforward: we clarify what you need, I handl
 That way your online presence stays in good shape, and small things don't become ongoing noise.
 
 </section>
+
+---
 
 <section class="u-flow">
 
@@ -78,6 +82,8 @@ Not a full IT helpdesk, but not just web work either. Exactly the overlap small 
 </div>
 
 </section>
+
+---
 
 <section class="u-flow">
 

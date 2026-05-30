@@ -15,6 +15,8 @@ Eleventy Baseline is the open-source plugin under this site. I maintain it; I al
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## For teams using Baseline
@@ -30,6 +32,8 @@ Email [hello@apleasantview.com](mailto:hello@apleasantview.com) and we can talk 
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## About Baseline
@@ -42,6 +46,8 @@ For the project itself, including documentation and the full feature reference: 
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## Who maintains it
@@ -49,6 +55,8 @@ For the project itself, including documentation and the full feature reference: 
 I'm Cristovao Verstraeten. I have been working on Baseline since the beginning of 2026, growing it from earlier work around assets, sitemaps, and multilingual handling. It is the foundation I use for my own work, which is why I build it in public.
 
 </section>
+
+---
 
 <section class="u-flow">
 

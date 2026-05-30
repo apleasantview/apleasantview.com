@@ -16,6 +16,8 @@ translationKey: 'neighborhood-amsterdam-west'
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## Ce que je fais dans le quartier
@@ -27,6 +29,8 @@ Support continu pour votre site et pour l'IT pratique autour, ou un projet bien 
 - [[website-projects:fr|Projets web]] : du travail cadré, un nouveau site ou une amélioration ciblée
 
 </section>
+
+---
 
 <section class="u-flow">
 
@@ -41,6 +45,8 @@ Support continu pour votre site et pour l'IT pratique autour, ou un projet bien 
 Votre activité se trouve dans une autre partie d'Amsterdam ? [[contact:fr|Envoyer un petit message →]] et on verra si ça colle.
 
 </section>
+
+---
 
 <section class="u-flow">
 

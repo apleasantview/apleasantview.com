@@ -18,6 +18,8 @@ I keep project work calm and predictable. Clear scope, clear communication, and 
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## When a project makes sense
@@ -31,6 +33,8 @@ A project fits when:
 If you mainly need ongoing help keeping things up to date, the [[website-maintenance|support plan]] is often a better match.
 
 </section>
+
+---
 
 <section class="u-flow">
 
@@ -50,6 +54,8 @@ Alongside websites I occasionally take on adjacent work: small automations, cont
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## How projects work
@@ -63,6 +69,8 @@ No big process. Just clear decisions, calm communication, and work that's finish
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## What to expect
@@ -72,6 +80,8 @@ Projects stay scoped. If something new comes up, I'll call it out and we'll agre
 At the end, you get a clean handover: access, documentation where it helps, and a site you can actually maintain.
 
 </section>
+
+---
 
 <section class="u-flow">
 
@@ -84,6 +94,8 @@ Often the easiest way to keep small things from piling up.
 If not, that's fine too. The goal is a clean finish either way.
 
 </section>
+
+---
 
 <section class="u-flow">
 

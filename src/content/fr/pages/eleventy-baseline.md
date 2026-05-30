@@ -15,6 +15,8 @@ Eleventy Baseline est le plugin open-source derrière ce site. Je le maintiens, 
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## Pour les équipes qui utilisent Baseline
@@ -30,6 +32,8 @@ Si votre équipe travaille déjà avec Baseline, ou l'envisage, je peux aider di
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## À propos de Baseline
@@ -42,6 +46,8 @@ Pour le projet lui-même, y compris la documentation et la référence complète
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## Qui le maintient
@@ -49,6 +55,8 @@ Pour le projet lui-même, y compris la documentation et la référence complète
 Je suis Cristovao Verstraeten. Je travaille sur Baseline depuis le début 2026, en m'appuyant sur des travaux antérieurs autour des assets, des sitemaps et de la gestion multilingue. C'est la fondation que j'utilise pour mon propre travail, et c'est pour ça que je la développe en public.
 
 </section>
+
+---
 
 <section class="u-flow">
 

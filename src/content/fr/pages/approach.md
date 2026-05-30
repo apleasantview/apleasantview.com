@@ -18,6 +18,8 @@ Voici comment je travaille, ce que je couvre, et où je trace la limite.
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## Une manière simple de travailler
@@ -29,6 +31,8 @@ Quand vous me contactez, je garde ça clair : on précise ce qu'il vous faut, je
 Comme ça, votre présence en ligne reste en bon état, et les petites choses ne deviennent pas un bruit de fond permanent.
 
 </section>
+
+---
 
 <section class="u-flow">
 
@@ -78,6 +82,8 @@ Pas un helpdesk IT complet, mais pas non plus seulement du web. Exactement le ch
 </div>
 
 </section>
+
+---
 
 <section class="u-flow">
 

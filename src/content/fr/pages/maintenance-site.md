@@ -18,6 +18,8 @@ Avec une maintenance continue votre site reste en bon état : mises à jour, pet
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## Ce qui est inclus
@@ -33,6 +35,8 @@ Pensé pour les petits sites qui doivent juste continuer à tourner tranquilleme
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## Partie de l'abonnement de support
@@ -47,6 +51,8 @@ La maintenance de site est un côté du même abonnement qui couvre aussi le [[i
 - Le temps inclus non utilisé **expire chaque mois** (pas de report)
 
 </section>
+
+---
 
 <section class="u-flow">
 

@@ -16,6 +16,8 @@ translationKey: 'neighborhood-amsterdam-west'
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## Wat ik doe in de buurt
@@ -27,6 +29,8 @@ Doorlopende support voor uw website en de praktische IT eromheen, of een afgebak
 - [[website-projects:nl|Website-projecten]]: afgebakend werk, een nieuwe site of een gerichte verbetering
 
 </section>
+
+---
 
 <section class="u-flow">
 
@@ -41,6 +45,8 @@ Doorlopende support voor uw website en de praktische IT eromheen, of een afgebak
 Zit uw zaak in een andere buurt in Amsterdam? [[contact:nl|Stuur een kort berichtje →]] en we kijken of het past.
 
 </section>
+
+---
 
 <section class="u-flow">
 

@@ -18,6 +18,8 @@ Ik houd projectwerk rustig en voorspelbaar. Heldere scope, duidelijke communicat
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## Wanneer een project logisch is
@@ -31,6 +33,8 @@ Een project past wanneer:
 Heeft u vooral doorlopend hulp nodig om alles up‑to‑date te houden, dan past het [[website-maintenance:nl|supportplan]] vaak beter.
 
 </section>
+
+---
 
 <section class="u-flow">
 
@@ -50,6 +54,8 @@ Naast websites pak ik af en toe aanpalend werk op: kleine automatiseringen, cont
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## Hoe projecten werken
@@ -63,6 +69,8 @@ Geen groot proces. Gewoon heldere keuzes, rustige communicatie, en werk dat goed
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## Wat u kunt verwachten
@@ -72,6 +80,8 @@ Projecten blijven afgebakend. Duikt er iets nieuws op, dan benoem ik dat en spre
 Op het einde krijgt u een nette overdracht: toegang, documentatie waar het helpt, en een site die u ook echt kunt onderhouden.
 
 </section>
+
+---
 
 <section class="u-flow">
 
@@ -84,6 +94,8 @@ Vaak de eenvoudigste manier om te voorkomen dat kleine dingen zich opstapelen.
 Wilt u dat niet, ook prima. Het doel is hoe dan ook een schone afronding.
 
 </section>
+
+---
 
 <section class="u-flow">
 

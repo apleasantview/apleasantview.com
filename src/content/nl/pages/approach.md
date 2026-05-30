@@ -18,6 +18,8 @@ Hier leest u hoe ik werk, wat ik ondersteun en waar de grens ligt.
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## Een eenvoudige manier van werken
@@ -29,6 +31,8 @@ Als u contact opneemt, houd ik het helder: we verduidelijken wat u nodig hebt, i
 Zo blijft uw online aanwezigheid in goede staat, en worden kleine dingen geen voortdurende ruis.
 
 </section>
+
+---
 
 <section class="u-flow">
 
@@ -78,6 +82,8 @@ Geen volledige IT-helpdesk, maar ook niet alleen webwerk. Precies de overlap die
 </div>
 
 </section>
+
+---
 
 <section class="u-flow">
 

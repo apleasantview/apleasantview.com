@@ -16,6 +16,8 @@ date: 2026-05-19
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## Wat ik doe in de buurt
@@ -28,6 +30,8 @@ Doorlopende support voor uw website en de praktische IT eromheen, of een afgebak
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## Waarom in De Baarsjes logisch is
@@ -35,6 +39,8 @@ Doorlopende support voor uw website en de praktische IT eromheen, of een afgebak
 De Baarsjes is in tien jaar fors veranderd. Veel nieuwe horeca, kleine winkels en creatieve onderneminkjes naast de zaken die er al langer zitten. Voor de meeste daarvan is digitale support een ding dat erbij hoort, niet een specialiteit waar iemand uren over wil doen. Door dichtbij te werken kan ik snel schakelen, en als het nodig is gewoon even langskomen.
 
 </section>
+
+---
 
 <section class="u-flow">
 

@@ -16,6 +16,8 @@ translationKey: 'neighborhood-jordaan'
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## Ce que je fais dans le quartier
@@ -28,6 +30,8 @@ Support continu pour votre site et pour l'IT pratique autour, ou un projet bien 
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## Pourquoi le Jordaan a du sens
@@ -35,6 +39,8 @@ Support continu pour votre site et pour l'IT pratique autour, ou un projet bien 
 Rues étroites, petits commerces, souvent une seule personne qui gère tout. Une question rapide devient vite un échange long quand l'autre côté n'est pas à proximité. Travailler tout près me permet de répondre rapidement, et de passer quand ça aide.
 
 </section>
+
+---
 
 <section class="u-flow">
 

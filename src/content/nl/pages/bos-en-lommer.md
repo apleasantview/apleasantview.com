@@ -16,6 +16,8 @@ translationKey: 'neighborhood-bos-en-lommer'
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## Wat ik doe in de buurt
@@ -28,6 +30,8 @@ Doorlopende support voor uw website en de praktische IT eromheen, of een afgebak
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## Waarom in Bos en Lommer logisch is
@@ -35,6 +39,8 @@ Doorlopende support voor uw website en de praktische IT eromheen, of een afgebak
 Bos en Lommer is de afgelopen jaren snel veranderd: meer kleine ondernemers, meer creatieve plekken, betaalbaardere ruimtes dan in Oud-West of de Jordaan. Veel zaken hier starten klein en groeien geleidelijk. Digitale support hoort bij dat groeien, maar niet als iets dat veel ruimte mag innemen in uw werkdag. Door dichtbij te werken kan ik snel reageren, en als het nodig is gewoon even langskomen.
 
 </section>
+
+---
 
 <section class="u-flow">
 

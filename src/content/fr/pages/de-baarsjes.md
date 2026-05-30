@@ -16,6 +16,8 @@ translationKey: 'neighborhood-de-baarsjes'
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## Ce que je fais dans le quartier
@@ -28,6 +30,8 @@ Support continu pour votre site et pour l'IT pratique autour, ou un projet bien 
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## Pourquoi De Baarsjes a du sens
@@ -35,6 +39,8 @@ Support continu pour votre site et pour l'IT pratique autour, ou un projet bien 
 De Baarsjes a beaucoup changé en dix ans. Beaucoup de nouvelles adresses culinaires, de petites boutiques et de petites initiatives créatives à côté des commerces installés depuis plus longtemps. Pour la plupart, le support digital est quelque chose qui doit fonctionner, pas une spécialité sur laquelle quelqu'un veut passer des heures. Travailler tout près me permet de répondre rapidement, et de passer quand ça aide.
 
 </section>
+
+---
 
 <section class="u-flow">
 

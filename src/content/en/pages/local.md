@@ -16,6 +16,8 @@ Being nearby keeps things practical. I know the rhythm of local work. And when s
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## Why local matters
@@ -32,6 +34,8 @@ Most of the work is local, but remote can work too, especially when the work is 
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## Which neighborhood?
@@ -46,6 +50,8 @@ The service area covers all of [[amsterdam-west|Amsterdam-West]] and the Jordaan
 
 </section>
 
+---
+
 {# TODO replace with real local example #}
 
 <section class="u-flow">
@@ -53,6 +59,8 @@ The service area covers all of [[amsterdam-west|Amsterdam-West]] and the Jordaan
 Think of small businesses around the corner: a shop, a studio, a sole proprietorship that wants its online side to stay calm.
 
 </section>
+
+---
 
 <section class="u-flow">
 
@@ -65,6 +73,8 @@ A lot of it happens behind the scenes: keeping websites consistent, handling sma
 Reliability counts more, for me, than growth metrics.
 
 </section>
+
+---
 
 <section class="u-flow">
 

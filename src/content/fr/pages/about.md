@@ -19,6 +19,8 @@ Pour les clients de ce coin de la ville, ce mélange linguistique est pratique. 
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## Ce que je fais ici
@@ -28,6 +30,8 @@ Je garde des sites web en marche pour des petits commerces autour d'Amsterdam-We
 `a pleasant view` a commencé il y a onze ans comme un blog qui documentait les expos d'art moderne à Bruxelles. C'est devenu du travail de site quand j'ai commencé à construire le blog moi-même, et une activité quand j'ai déménagé à Amsterdam. Je suis venu au web par la bande. Les sites web sont restés.
 
 </section>
+
+---
 
 <section class="u-flow">
 
@@ -39,6 +43,8 @@ L'essentiel du travail se fait localement. Je peux répondre au téléphone, pas
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## Le côté Baseline
@@ -49,6 +55,8 @@ C'est une activité parallèle comme un musicien a des gigs. Le travail client l
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## Où je trace la limite
@@ -58,6 +66,8 @@ Je ne suis pas un helpdesk IT complet. Je ne fais pas de monitoring 24/7 ni de g
 Quand quelque chose entre dans le cadre, je travaille calmement et je vous dis ce que je fais. Ça couvre l'essentiel.
 
 </section>
+
+---
 
 <section class="u-flow">
 

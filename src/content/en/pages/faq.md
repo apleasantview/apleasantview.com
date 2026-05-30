@@ -35,6 +35,8 @@ Short answers to questions that come up often when people are considering an ong
 
 </section>
 
+---
+
 <section class="u-flow">
 
 {% for faq in faqs %}
@@ -46,6 +48,8 @@ Short answers to questions that come up often when people are considering an ong
 {% endfor %}
 
 </section>
+
+---
 
 <section class="u-flow">
 

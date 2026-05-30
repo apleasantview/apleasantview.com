@@ -18,6 +18,8 @@ Met doorlopend onderhoud blijft uw site in goede staat: updates, kleine aanpassi
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## Wat erbij hoort
@@ -33,6 +35,8 @@ Bedoeld voor kleine sites die rustig moeten blijven draaien. Voor grotere ingrep
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## Onderdeel van het support-abonnement
@@ -47,6 +51,8 @@ Website-onderhoud is een kant van hetzelfde abonnement dat ook [[it-support:nl|I
 - Ongebruikte tijd **vervalt maandelijks** (geen carry-over)
 
 </section>
+
+---
 
 <section class="u-flow">
 

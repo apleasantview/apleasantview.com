@@ -16,6 +16,8 @@ translationKey: 'neighborhood-de-baarsjes'
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## What I do nearby
@@ -28,6 +30,8 @@ Ongoing support for your website and the practical IT around it, or a scoped pro
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## Why De Baarsjes makes sense
@@ -35,6 +39,8 @@ Ongoing support for your website and the practical IT around it, or a scoped pro
 De Baarsjes has changed a lot in ten years. Plenty of new food spots, small shops, and creative one-person ventures alongside the businesses that have been here longer. For most of them, digital support is something that has to be there, not a specialty anyone wants to spend hours on. Working close keeps me quick to respond, and able to stop by when that helps.
 
 </section>
+
+---
 
 <section class="u-flow">
 

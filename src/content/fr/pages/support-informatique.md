@@ -18,6 +18,8 @@ Le support informatique pratique concerne ce qui tourne autour de votre site et 
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## Ce qui est inclus
@@ -33,6 +35,8 @@ Pensé pour l'IT pratique qui apparaît dans la journée de travail normale. Pou
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## Partie de l'abonnement de support
@@ -47,6 +51,8 @@ Le support informatique est l'autre côté du même abonnement qui couvre aussi 
 - Le temps inclus non utilisé **expire chaque mois** (pas de report)
 
 </section>
+
+---
 
 <section class="u-flow">
 

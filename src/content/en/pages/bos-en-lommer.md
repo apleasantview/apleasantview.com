@@ -16,6 +16,8 @@ translationKey: 'neighborhood-bos-en-lommer'
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## What I do nearby
@@ -28,6 +30,8 @@ Ongoing support for your website and the practical IT around it, or a scoped pro
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## Why Bos en Lommer makes sense
@@ -35,6 +39,8 @@ Ongoing support for your website and the practical IT around it, or a scoped pro
 Bos en Lommer has changed quickly in recent years: more small entrepreneurs, more creative spaces, more affordable rooms than in Oud-West or the Jordaan. Many of the businesses here start small and grow gradually. Digital support belongs to that growing, but not as something that should take up much room in your workday. Working close keeps me quick to respond, and able to stop by when that helps.
 
 </section>
+
+---
 
 <section class="u-flow">
 

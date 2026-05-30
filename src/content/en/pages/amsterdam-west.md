@@ -16,6 +16,8 @@ translationKey: 'neighborhood-amsterdam-west'
 
 </section>
 
+---
+
 <section class="u-flow">
 
 ## What I do nearby
@@ -27,6 +29,8 @@ Ongoing support for your website and the practical IT around it, or a scoped pro
 - [[website-projects|Website projects]]: scoped work, a new site or a focused improvement
 
 </section>
+
+---
 
 <section class="u-flow">
 
@@ -41,6 +45,8 @@ Ongoing support for your website and the practical IT around it, or a scoped pro
 Is your business in another part of Amsterdam? [[contact|Send a short note →]] and we'll see if it fits.
 
 </section>
+
+---
 
 <section class="u-flow">
 
