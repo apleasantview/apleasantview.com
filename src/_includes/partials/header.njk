@@ -16,15 +16,7 @@
 		</div>
 		<div class="header__group">
 			{% include "partials/language-switcher.njk" %}
-			<nav class="c-site-nav">
-				{% for item in navigation[lang].main %}
-					{% for node, entry in _navigator.nodes %}
-					{% if entry.slug === item.slug and entry.lang === lang %}
-						<a href="{{ entry.url }}">{{ item.label }}</a>
-					{% endif %}
-					{% endfor %}
-				{% endfor %}
-			</nav>
+			{% include "components/c-site-nav.njk" %}
 		</div>
 	</div>
 </header>

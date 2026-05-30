@@ -8,32 +8,11 @@ export default {
 			{ slug: 'contact', label: 'Contact' }
 		],
 
-		footer: {
-			company: [
-				{ slug: 'about', label: 'About me' },
-				{ slug: 'contact', label: 'Contact' }
-			],
-
-			services: [{ slug: 'services', label: 'Services' }],
-
-			local: [
-				{ slug: 'amsterdam-west', label: 'Amsterdam West' },
-				{ slug: 'jordaan', label: 'Jordaan' },
-				{ slug: 'oud-west', label: 'Oud West' },
-				{ slug: 'de-baarsjes', label: 'De Baarsjes' },
-				{ slug: 'bos-en-lommer', label: 'Bos en Lommer' },
-				{ slug: 'westerpark', label: 'Westerpark' }
-			]
-		}
-	},
-
-	fr: {
-		main: [
-			{ slug: 'home', label: 'Accueil' },
-			{ slug: 'services', label: 'Services' },
-			{ slug: 'approche', label: 'Approche' },
-			{ slug: 'a-propos', label: 'À propos' },
-			{ slug: 'contact', label: 'Contact' }
+		footer: [
+			{ slug: 'about', label: 'About me' },
+			{ slug: 'contact', label: 'Contact' },
+			{ slug: 'faq', label: 'FAQ' },
+			{ slug: 'local', label: 'Local service' }
 		]
 	},
 
@@ -44,6 +23,30 @@ export default {
 			{ slug: 'aanpak', label: 'Aanpak' },
 			{ slug: 'over-mij', label: 'Over mij' },
 			{ slug: 'contact', label: 'Contact' }
+		],
+
+		footer: [
+			{ slug: 'lokaal', label: 'Lokale dienst' },
+			{ slug: 'over-mij', label: 'Over mij' },
+			{ slug: 'contact', label: 'Contact' },
+			{ slug: 'veelgestelde-vragen', label: 'Veelgestelde vragen' }
+		]
+	},
+
+	fr: {
+		main: [
+			{ slug: 'home', label: 'Accueil' },
+			{ slug: 'services', label: 'Services' },
+			{ slug: 'approche', label: 'Approche' },
+			{ slug: 'a-propos', label: 'À propos' },
+			{ slug: 'contact', label: 'Contact' }
+		],
+
+		footer: [
+			{ slug: 'local', label: 'Service local' },
+			{ slug: 'a-propos', label: 'À propos' },
+			{ slug: 'contact', label: 'Contact' },
+			{ slug: 'faq', label: 'FAQ' }
 		]
 	}
 };

@@ -1,15 +1,7 @@
 <footer>
-	<div class="footer__group u-flow u-wrapper">
-		<div class="c-footer-nav">
-			{% set faqEntry = collections.translationsMap.faq[page.locale.lang] %}
-			{% set localEntry = collections.translationsMap.local[page.locale.lang] %}
-			{% if localEntry %}
-				<a href="{{ localEntry.url }}">{{ localEntry.title }}</a>
-				|
-				<a href="{{ faqEntry.url }}">{{ "faq" | translate }}</a>
-			{% endif %}
-		</div>
-		<div class="footer__group">
+	<div class="footer__group u-wrapper">
+		{% include "components/c-footer-nav.njk" %}
+		<div class="footer__credits">
 			<span><strong>{{ "services" | translate }}</strong></span>
 			<br />
 			<small> &copy; a pleasant view - 2026 | {{ "KvK" | translate }}: 60532955 </small>

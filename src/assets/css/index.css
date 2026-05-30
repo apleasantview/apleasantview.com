@@ -17,7 +17,9 @@
 
 /* 04. Base elements */
 @import './elements/base.css';
+@import './elements/p.css';
 @import './elements/a.css';
+@import './elements/lists.css';
 @import './elements/hr.css';
 @import './elements/code.css';
 

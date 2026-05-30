@@ -1,0 +1,4 @@
+p {
+	letter-spacing: var(--text-letterspacing-body);
+	max-inline-size: var(--text-inlinesize-body);
+}

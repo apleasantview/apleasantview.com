@@ -5,7 +5,6 @@ a {
 	/* text-underline-offset: var(--link-underline-offset); */
 	border-bottom: var(--link-underline-thickness) solid currentColor;
 	transition: all 0.3s ease-out;
-	translate: calc(var(--border-width-link-strong) * -1) 0;
 	padding-inline: 0.15em;
 }
 
