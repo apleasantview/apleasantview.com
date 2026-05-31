@@ -15,6 +15,10 @@ h1 {
 	font-weight: var(--text-weight-medium);
 }
 
+h1 + * {
+	--flow-space: var(--flow-space-xl);
+}
+
 h2 {
 	font-size: var(--text-size-title);
 	font-weight: var(--text-weight-medium);

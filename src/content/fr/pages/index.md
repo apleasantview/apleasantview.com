@@ -71,4 +71,6 @@ Je réponds à toutes les demandes dans la journée.
 
 </section>
 
+---
+
 <span>_Au coin de la rue, quand vous avez besoin de moi._</span>

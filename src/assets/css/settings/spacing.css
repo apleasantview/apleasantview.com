@@ -27,6 +27,9 @@
 	--space-flow-m: 1.25em;
 	--space-flow-l: 1.5em;
 	--space-flow-xl: 1.75em;
+	--space-flow-2xl: 2em;
+	--space-flow-3xl: 3em;
+	--space-flow-4xl: 4em;
 
 	/* Contextual offsets */
 	--space-inline-nudge: -0.125em;

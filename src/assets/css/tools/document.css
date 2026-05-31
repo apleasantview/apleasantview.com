@@ -117,6 +117,9 @@
 	--flow-space-m: var(--space-flow-m);
 	--flow-space-l: var(--space-flow-l);
 	--flow-space-xl: var(--space-flow-xl);
+	--flow-space-2xl: var(--space-flow-2xl);
+	--flow-space-3xl: var(--space-flow-3xl);
+	--flow-space-4xl: var(--space-flow-4xl);
 
 	/* Wrapper utilities */
 	--wrapper-max-width: 105rem;
