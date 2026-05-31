@@ -9,10 +9,10 @@ export default {
 		],
 
 		footer: [
-			{ slug: 'about', label: 'About me' },
-			{ slug: 'contact', label: 'Contact' },
+			{ slug: 'local', label: 'Local service' },
 			{ slug: 'faq', label: 'FAQ' },
-			{ slug: 'local', label: 'Local service' }
+			{ slug: 'contact', label: 'Contact' },
+			{ slug: 'about', label: 'About' }
 		]
 	},
 
@@ -27,9 +27,9 @@ export default {
 
 		footer: [
 			{ slug: 'lokaal', label: 'Lokale dienst' },
-			{ slug: 'over-mij', label: 'Over mij' },
+			{ slug: 'veelgestelde-vragen', label: 'Veelgestelde vragen' },
 			{ slug: 'contact', label: 'Contact' },
-			{ slug: 'veelgestelde-vragen', label: 'Veelgestelde vragen' }
+			{ slug: 'over-mij', label: 'Over' }
 		]
 	},
 
@@ -44,9 +44,9 @@ export default {
 
 		footer: [
 			{ slug: 'local', label: 'Service local' },
-			{ slug: 'a-propos', label: 'À propos' },
+			{ slug: 'faq', label: 'FAQ' },
 			{ slug: 'contact', label: 'Contact' },
-			{ slug: 'faq', label: 'FAQ' }
+			{ slug: 'a-propos', label: 'À propos' }
 		]
 	}
 };
