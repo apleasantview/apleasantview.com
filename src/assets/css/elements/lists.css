@@ -1,10 +1,9 @@
 ul,
 ol {
-	margin-block: var(--flow-space);
-	max-inline-size: var(--text-inlinesize-body);
+	margin-block-end: var(--flow-space-m);
 	padding-inline-start: 1.5em;
 }
 
 li {
-	margin-block: 0.25em;
+	margin-block-end: 0.25em;
 }

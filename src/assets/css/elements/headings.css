@@ -5,23 +5,21 @@ h3,
 h4,
 h5,
 h6 {
-	--flow-space: var(--flow-space-headings);
-	letter-spacing: var(--text-letterspacing-heading);
-	font-weight: var(--text-weight-strong);
-	line-height: var(--text-lineheight-tight);
-	max-inline-size: var(--text-inlinesize-heading);
+	--flow-space: var(--flow-space-m);
+	letter-spacing: 0.02em;
 }
 
 h1 {
-	font-size: var(--text-size-display);
-	padding-block-end: var(--space-inset-s);
+	font-size: var(--text-size-title);
+	font-weight: var(--text-weight-semibold);
 }
 
 h2 {
-	font-size: var(--text-size-title);
-	padding-block-end: var(--space-inset-s);
+	font-size: var(--text-size-body);
+	font-weight: var(--text-weight-semibold);
 }
 
 h3 {
-	font-size: var(--text-size-lede);
+	font-size: var(--text-size-body);
+	font-weight: var(--text-weight-medium);
 }

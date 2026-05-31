@@ -1,5 +1,4 @@
 /* Base element defaults */
-
 html {
 	position: relative;
 }
@@ -45,6 +44,14 @@ footer {
 	margin-block-start: var(--space-2xs);
 }
 
+em {
+	font-style: italic;
+}
+
+strong {
+	font-weight: var(--text-weight-semibold);
+}
+
 /* Text + grouping context */
 dl,
 blockquote,
@@ -59,14 +66,6 @@ hr {
 small {
 	font-size: var(--text-size-muted);
 	color: var(--color-text-muted);
-}
-
-strong {
-	font-weight: var(--text-weight-heavy);
-}
-
-em {
-	font-style: italic;
 }
 
 mark {
@@ -113,7 +112,7 @@ dd {
 }
 
 dt {
-	font-weight: var(--text-weight-heavy);
+	font-weight: var(--text-weight-semibold);
 }
 
 dd + dt {

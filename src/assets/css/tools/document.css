@@ -39,12 +39,15 @@
 	--text-lineheight-default: var(--line-height-normal);
 	--text-lineheight-loose: var(--line-height-loose);
 
-	--text-weight-regular: var(--font-weight-normal);
-	--text-weight-strong: var(--font-weight-semibold);
-	--text-weight-heavy: var(--font-weight-bold);
+	--text-weight-light: var(--font-weight-light);
+	--text-weight-normal: var(--font-weight-normal);
+	--text-weight-medium: var(--font-weight-medium);
+	--text-weight-semibold: var(--font-weight-semibold);
+	--text-weight-bold: var(--font-weight-bold);
 
 	--text-letterspacing-body: var(--letter-spacing-body);
-	--text-letterspacing-heading: var(--letter-spacing-heading);
+	--text-letterspacing-heading-tight: var(--letter-spacing-heading-tight);
+	--text-letterspacing-heading-loose: var(--letter-spacing-heading-loose);
 
 	--text-inlinesize-body: 75ch;
 	--text-inlinesize-heading: fit-content;

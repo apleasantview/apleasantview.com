@@ -37,5 +37,6 @@
 
 	/* Letter spacing */
 	--letter-spacing-body: 0.015em;
-	--letter-spacing-heading: 0.02em;
+	--letter-spacing-heading-tight: -0.02em;
+	--letter-spacing-heading-loose: 0.08em;
 }
