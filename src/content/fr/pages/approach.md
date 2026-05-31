@@ -83,8 +83,6 @@ Pas un helpdesk IT complet, mais pas non plus seulement du web. Exactement le ch
 
 </section>
 
----
-
 <section class="u-flow">
 
 ## Disponibilité

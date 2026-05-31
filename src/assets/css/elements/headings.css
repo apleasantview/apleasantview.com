@@ -6,17 +6,18 @@ h4,
 h5,
 h6 {
 	--flow-space: var(--flow-space-m);
+	line-height: var(--text-lineheight-tight);
 	letter-spacing: 0.02em;
 }
 
 h1 {
-	font-size: var(--text-size-title);
-	font-weight: var(--text-weight-semibold);
+	font-size: var(--text-size-display);
+	font-weight: var(--text-weight-medium);
 }
 
 h2 {
-	font-size: var(--text-size-body);
-	font-weight: var(--text-weight-semibold);
+	font-size: var(--text-size-title);
+	font-weight: var(--text-weight-medium);
 }
 
 h3 {

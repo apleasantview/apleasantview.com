@@ -83,8 +83,6 @@ Geen volledige IT-helpdesk, maar ook niet alleen webwerk. Precies de overlap die
 
 </section>
 
----
-
 <section class="u-flow">
 
 ## Beschikbaarheid

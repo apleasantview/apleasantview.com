@@ -83,8 +83,6 @@ Not a full IT helpdesk, but not just web work either. Exactly the overlap small 
 
 </section>
 
----
-
 <section class="u-flow">
 
 ## Availability
