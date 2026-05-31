@@ -46,7 +46,7 @@ Westerpark est plus calme que le Jordaan, mais tout aussi varié en petits comme
 
 ## Étape suivante
 
-Envie de vérifier les disponibilités ? [[contact:fr|Envoyer un petit message →]].
+Envie de vérifier les disponibilités ? [[contact:fr|Envoyer un petit message]].
 
 Je réponds dans la journée.
 

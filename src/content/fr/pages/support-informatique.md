@@ -58,7 +58,7 @@ Le support informatique est l'autre côté du même abonnement qui couvre aussi 
 
 ## Étape suivante
 
-Envie de vérifier les disponibilités ? [[contact:fr|Envoyer un petit message →]].
+Envie de vérifier les disponibilités ? [[contact:fr|Envoyer un petit message]].
 
 Je réponds dans la journée.
 

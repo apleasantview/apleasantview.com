@@ -46,7 +46,7 @@ Westerpark is rustiger dan de Jordaan, maar even gevarieerd in kleine zaken. Een
 
 ## Volgende stap
 
-Wilt u beschikbaarheid checken? [[contact:nl|Stuur een kort berichtje →]].
+Wilt u beschikbaarheid checken? [[contact:nl|Stuur een kort berichtje]].
 
 Ik reageer binnen een dag.
 

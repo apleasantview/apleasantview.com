@@ -46,7 +46,7 @@ Narrow streets, small businesses, often one person who runs the whole thing. A s
 
 ## Next step
 
-Want to check availability? [[contact|Send a short note →]].
+Want to check availability? [[contact|Send a short note]].
 
 I reply within a day.
 

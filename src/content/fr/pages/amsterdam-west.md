@@ -42,7 +42,7 @@ Support continu pour votre site et pour l'IT pratique autour, ou un projet bien 
 - [[westerpark:fr|À Westerpark]] : Spaarndammerbuurt, Staatsliedenbuurt, autour de la Westergasfabriek
 - [[bos-en-lommer:fr|À Bos en Lommer]] : autour d'Erasmuspark et de Bos en Lommerplein
 
-Votre activité se trouve dans une autre partie d'Amsterdam ? [[contact:fr|Envoyer un petit message →]] et on verra si ça colle.
+Votre activité se trouve dans une autre partie d'Amsterdam ? [[contact:fr|Envoyer un petit message]] et on verra si ça colle.
 
 </section>
 
@@ -52,7 +52,7 @@ Votre activité se trouve dans une autre partie d'Amsterdam ? [[contact:fr|Envoy
 
 ## Étape suivante
 
-Envie de vérifier les disponibilités ? [[contact:fr|Envoyer un petit message →]].
+Envie de vérifier les disponibilités ? [[contact:fr|Envoyer un petit message]].
 
 Je réponds dans la journée.
 

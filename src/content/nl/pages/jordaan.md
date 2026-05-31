@@ -46,7 +46,7 @@ Smalle straten, kleine zaken, vaak één persoon die overal voor staat. Een kort
 
 ## Volgende stap
 
-Wilt u beschikbaarheid checken? [[contact:nl|Stuur een kort berichtje →]].
+Wilt u beschikbaarheid checken? [[contact:nl|Stuur een kort berichtje]].
 
 Ik reageer binnen een dag.
 

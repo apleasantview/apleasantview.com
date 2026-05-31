@@ -58,7 +58,7 @@ Website maintenance is one side of the same plan that also covers [[it-support|I
 
 ## Next step
 
-Want to check availability? [[contact|Send a short note →]].
+Want to check availability? [[contact|Send a short note]].
 
 I reply within a day.
 

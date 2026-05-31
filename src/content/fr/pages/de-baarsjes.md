@@ -46,7 +46,7 @@ De Baarsjes a beaucoup changé en dix ans. Beaucoup de nouvelles adresses culina
 
 ## Étape suivante
 
-Envie de vérifier les disponibilités ? [[contact:fr|Envoyer un petit message →]].
+Envie de vérifier les disponibilités ? [[contact:fr|Envoyer un petit message]].
 
 Je réponds dans la journée.
 

@@ -87,7 +87,7 @@ Not a full IT helpdesk, but not just web work either. Exactly the overlap small 
 
 ## Availability
 
-Want to know if there's room? [[contact|Send a short note →]].
+Want to know if there's room? [[contact|Send a short note]].
 
 I reply within a day.
 

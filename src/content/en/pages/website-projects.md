@@ -101,7 +101,7 @@ If not, that's fine too. The goal is a clean finish either way.
 
 ## Next step
 
-Have a project in mind? [[contact|Send a short note →]].
+Have a project in mind? [[contact|Send a short note]].
 
 Please include:
 

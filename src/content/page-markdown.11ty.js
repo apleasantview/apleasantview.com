@@ -41,7 +41,7 @@ function toYaml(value) {
 	}
 
 	if (typeof value === 'string') {
-		// Multiline strings → block scalar
+		// Multiline strings   block scalar
 		if (value.includes('\n')) {
 			return `|-\n${value
 				.split('\n')

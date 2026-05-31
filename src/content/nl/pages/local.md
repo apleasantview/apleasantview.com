@@ -78,7 +78,7 @@ Betrouwbaarheid telt voor mij zwaarder dan groeicijfers.
 
 ## Volgende stap
 
-Wilt u beschikbaarheid checken? [[contact:nl|Stuur een kort berichtje →]].
+Wilt u beschikbaarheid checken? [[contact:nl|Stuur een kort berichtje]].
 
 Ik reageer binnen een dag.
 

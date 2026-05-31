@@ -73,7 +73,7 @@ When something is in scope, I work calmly and tell you what I'm doing. That cove
 
 ## Next step
 
-If any of the above fits what you're looking for, [[contact|send a short note →]].
+If any of the above fits what you're looking for, [[contact|send a short note]].
 
 </section>
 

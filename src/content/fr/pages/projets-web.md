@@ -101,7 +101,7 @@ Si vous ne le souhaitez pas, c'est très bien aussi. L'objectif est de toute fa�
 
 ## Étape suivante
 
-Vous avez un projet en tête ? [[contact:fr|Envoyer un petit message →]].
+Vous avez un projet en tête ? [[contact:fr|Envoyer un petit message]].
 
 Joignez de préférence :
 

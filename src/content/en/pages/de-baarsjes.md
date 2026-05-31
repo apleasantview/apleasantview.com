@@ -46,7 +46,7 @@ De Baarsjes has changed a lot in ten years. Plenty of new food spots, small shop
 
 ## Next step
 
-Want to check availability? [[contact|Send a short note →]].
+Want to check availability? [[contact|Send a short note]].
 
 I reply within a day.
 

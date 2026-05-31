@@ -19,7 +19,7 @@ Sites web, hébergement, et l'informatique pratique autour, pour une poignée de
 
 Je garde volontairement la liste de clients courte pour le travail local, et propose aussi du support aux équipes qui construisent avec Baseline.
 
-[[contact:fr|Me contacter pour les disponibilités →]]
+[[contact:fr|Me contacter pour les disponibilités]]
 
 </section>
 
@@ -33,7 +33,7 @@ Une mise à jour rapide, un renouvellement de domaine, une imprimante qui fait d
 
 C'est pour ça que je peux répondre au téléphone, retrouver votre setup de tête, et ne pas disparaître pendant des semaines.
 
-[[approach:fr|En savoir plus sur ma façon de travailler →]]
+[[approach:fr|En savoir plus sur ma façon de travailler]]
 
 </section>
 
@@ -67,7 +67,7 @@ Le travail se passe surtout ici dans le quartier. À distance, c'est possible au
 
 Je réponds à toutes les demandes dans la journée.
 
-[[contact:fr|Envoyer un petit message →]]
+[[contact:fr|Envoyer un petit message]]
 
 </section>
 

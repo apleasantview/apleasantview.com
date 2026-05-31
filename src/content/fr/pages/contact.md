@@ -29,7 +29,7 @@ De préférence :
 
 Je réponds dans la journée. Si je peux aider, je propose une étape suivante et je clarifie ce qui ne l'est pas avant de commencer.
 
-[[about:fr|En savoir plus sur `a pleasant view` →]]
+[[about:fr|En savoir plus sur `a pleasant view`]]
 
 </section>
 

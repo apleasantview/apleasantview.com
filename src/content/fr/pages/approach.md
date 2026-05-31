@@ -87,7 +87,7 @@ Pas un helpdesk IT complet, mais pas non plus seulement du web. Exactement le ch
 
 ## Disponibilité
 
-Envie de savoir s'il y a de la place ? [[contact:fr|Envoyer un petit message →]].
+Envie de savoir s'il y a de la place ? [[contact:fr|Envoyer un petit message]].
 
 Je réponds dans la journée.
 

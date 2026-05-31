@@ -19,7 +19,7 @@ Websites, hosting, en de praktische IT eromheen voor een handvol lokale bedrijve
 
 Ik hou het klantenbestand bewust klein voor lokaal werk, en bied ook ondersteuning voor teams die met Baseline bouwen.
 
-[[contact:nl|Neem contact op voor beschikbaarheid →]]
+[[contact:nl|Neem contact op voor beschikbaarheid]]
 
 </section>
 
@@ -33,7 +33,7 @@ Een korte update, een domeinverlenging, een printer die het niet doet. Het soort
 
 Daarom kan ik de telefoon opnemen, uw setup uit mijn hoofd weer halen, en niet wekenlang onbereikbaar zijn.
 
-[[approach:nl|Meer over hoe ik werk →]]
+[[approach:nl|Meer over hoe ik werk]]
 
 </section>
 
@@ -67,7 +67,7 @@ Het werk gebeurt vooral hier bij mij in de buurt. Op afstand kan ook, als het pa
 
 Ik reageer op alle vragen binnen een dag.
 
-[[contact:nl|Stuur een kort berichtje →]]
+[[contact:nl|Stuur een kort berichtje]]
 
 </section>
 

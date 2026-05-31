@@ -29,7 +29,7 @@ Stuur bij voorkeur mee:
 
 Ik reageer binnen een dag. Als ik kan helpen, stel ik een volgende stap voor en maak ik onduidelijkheden helder voor we beginnen.
 
-[[about:nl|Lees meer over `a pleasant view` →]]
+[[about:nl|Lees meer over `a pleasant view`]]
 
 </section>
 

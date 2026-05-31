@@ -62,7 +62,7 @@ Je suis Cristovao Verstraeten. Je travaille sur Baseline depuis le début 2026, 
 
 ## Étape suivante
 
-Pour un site sur Baseline pour votre activité, ou un support commercial pour une équipe déjà sur Baseline : [[contact:fr|envoyez un petit message →]].
+Pour un site sur Baseline pour votre activité, ou un support commercial pour une équipe déjà sur Baseline : [[contact:fr|envoyez un petit message]].
 
 </section>
 

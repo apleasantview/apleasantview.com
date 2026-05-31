@@ -80,7 +80,7 @@ Reliability counts more, for me, than growth metrics.
 
 ## Next step
 
-Want to check availability? [[contact|Send a short note →]].
+Want to check availability? [[contact|Send a short note]].
 
 I reply within a day.
 

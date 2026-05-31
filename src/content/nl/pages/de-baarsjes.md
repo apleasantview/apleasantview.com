@@ -46,7 +46,7 @@ De Baarsjes is in tien jaar fors veranderd. Veel nieuwe horeca, kleine winkels e
 
 ## Volgende stap
 
-Wilt u beschikbaarheid checken? [[contact:nl|Stuur een kort berichtje →]].
+Wilt u beschikbaarheid checken? [[contact:nl|Stuur een kort berichtje]].
 
 Ik reageer binnen een dag.
 

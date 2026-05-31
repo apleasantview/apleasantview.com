@@ -46,7 +46,7 @@ Bos en Lommer a vite changé ces dernières années : plus de petits entrepreneu
 
 ## Étape suivante
 
-Envie de vérifier les disponibilités ? [[contact:fr|Envoyer un petit message →]].
+Envie de vérifier les disponibilités ? [[contact:fr|Envoyer un petit message]].
 
 Je réponds dans la journée.
 

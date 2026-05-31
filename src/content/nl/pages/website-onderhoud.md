@@ -58,7 +58,7 @@ Website-onderhoud is een kant van hetzelfde abonnement dat ook [[it-support:nl|I
 
 ## Volgende stap
 
-Wilt u beschikbaarheid checken? [[contact:nl|Stuur een kort berichtje →]].
+Wilt u beschikbaarheid checken? [[contact:nl|Stuur een kort berichtje]].
 
 Ik reageer binnen een dag.
 

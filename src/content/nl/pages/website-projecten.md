@@ -101,7 +101,7 @@ Wilt u dat niet, ook prima. Het doel is hoe dan ook een schone afronding.
 
 ## Volgende stap
 
-Heeft u een project in gedachten? [[contact:nl|Stuur een kort berichtje →]].
+Heeft u een project in gedachten? [[contact:nl|Stuur een kort berichtje]].
 
 Stuur bij voorkeur mee:
 

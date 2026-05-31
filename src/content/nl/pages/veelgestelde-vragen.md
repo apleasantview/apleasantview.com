@@ -55,7 +55,7 @@ Kort antwoord op vragen die vaak terugkomen voor wie aan een doorlopende support
 
 ## Iets anders?
 
-Staat uw vraag er niet bij? [[contact:nl|Stuur een kort berichtje →]] en ik antwoord binnen een dag.
+Staat uw vraag er niet bij? [[contact:nl|Stuur een kort berichtje]] en ik antwoord binnen een dag.
 
 </section>
 

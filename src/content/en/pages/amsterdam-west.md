@@ -42,7 +42,7 @@ Ongoing support for your website and the practical IT around it, or a scoped pro
 - [[westerpark|In Westerpark]]: Spaarndammerbuurt, Staatsliedenbuurt, around the Westergasfabriek
 - [[bos-en-lommer|In Bos en Lommer]]: around Erasmuspark and Bos en Lommerplein
 
-Is your business in another part of Amsterdam? [[contact|Send a short note →]] and we'll see if it fits.
+Is your business in another part of Amsterdam? [[contact|Send a short note]] and we'll see if it fits.
 
 </section>
 
@@ -52,7 +52,7 @@ Is your business in another part of Amsterdam? [[contact|Send a short note →]]
 
 ## Next step
 
-Want to check availability? [[contact|Send a short note →]].
+Want to check availability? [[contact|Send a short note]].
 
 I reply within a day.
 

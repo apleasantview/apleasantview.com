@@ -46,7 +46,7 @@ Oud-West is dense and varied: small cafés, studios, boutiques, a mix of Dutch b
 
 ## Next step
 
-Want to check availability? [[contact|Send a short note →]].
+Want to check availability? [[contact|Send a short note]].
 
 I reply within a day.
 

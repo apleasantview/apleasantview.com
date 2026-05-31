@@ -55,7 +55,7 @@ Short answers to questions that come up often when people are considering an ong
 
 ## Something else?
 
-Question not listed? [[contact|Send a short note →]] and I'll reply within a day.
+Question not listed? [[contact|Send a short note]] and I'll reply within a day.
 
 </section>
 

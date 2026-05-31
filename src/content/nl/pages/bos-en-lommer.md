@@ -46,7 +46,7 @@ Bos en Lommer is de afgelopen jaren snel veranderd: meer kleine ondernemers, mee
 
 ## Volgende stap
 
-Wilt u beschikbaarheid checken? [[contact:nl|Stuur een kort berichtje →]].
+Wilt u beschikbaarheid checken? [[contact:nl|Stuur een kort berichtje]].
 
 Ik reageer binnen een dag.
 

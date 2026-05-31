@@ -46,7 +46,7 @@ Bos en Lommer has changed quickly in recent years: more small entrepreneurs, mor
 
 ## Next step
 
-Want to check availability? [[contact|Send a short note →]].
+Want to check availability? [[contact|Send a short note]].
 
 I reply within a day.
 

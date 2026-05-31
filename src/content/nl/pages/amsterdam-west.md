@@ -42,7 +42,7 @@ Doorlopende support voor uw website en de praktische IT eromheen, of een afgebak
 - [[westerpark:nl|In Westerpark]]: Spaarndammerbuurt, Staatsliedenbuurt, rond de Westergasfabriek
 - [[bos-en-lommer:nl|In Bos en Lommer]]: rond Erasmuspark en Bos en Lommerplein
 
-Zit uw zaak in een andere buurt in Amsterdam? [[contact:nl|Stuur een kort berichtje →]] en we kijken of het past.
+Zit uw zaak in een andere buurt in Amsterdam? [[contact:nl|Stuur een kort berichtje]] en we kijken of het past.
 
 </section>
 
@@ -52,7 +52,7 @@ Zit uw zaak in een andere buurt in Amsterdam? [[contact:nl|Stuur een kort berich
 
 ## Volgende stap
 
-Wilt u beschikbaarheid checken? [[contact:nl|Stuur een kort berichtje →]].
+Wilt u beschikbaarheid checken? [[contact:nl|Stuur een kort berichtje]].
 
 Ik reageer binnen een dag.
 

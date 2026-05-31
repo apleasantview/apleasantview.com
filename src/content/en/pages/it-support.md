@@ -58,7 +58,7 @@ IT support is the other side of the same plan that also covers [[website-mainten
 
 ## Next step
 
-Want to check availability? [[contact|Send a short note →]].
+Want to check availability? [[contact|Send a short note]].
 
 I reply within a day.
 

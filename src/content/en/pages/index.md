@@ -19,7 +19,7 @@ Websites, hosting, and the practical IT around them, for a handful of local busi
 
 I keep the client list deliberately small for local work, and offer support to teams building on Baseline.
 
-[[contact|Contact me for availability →]]
+[[contact|Contact me for availability]]
 
 </section>
 
@@ -33,7 +33,7 @@ A quick update, a domain renewal, a printer acting up. The kind of work that's h
 
 That's why I can answer the phone, pull your setup from memory, and not disappear for weeks at a time.
 
-[[approach|More about how I work →]]
+[[approach|More about how I work]]
 
 </section>
 
@@ -67,7 +67,7 @@ The work happens mostly here in the neighbourhood. Remote is fine when it's a fi
 
 I reply to all enquiries within a day.
 
-[[contact|Send a short note →]]
+[[contact|Send a short note]]
 
 </section>
 

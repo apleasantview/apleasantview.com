@@ -46,7 +46,7 @@ Westerpark is quieter than the Jordaan, but just as varied in small businesses. 
 
 ## Next step
 
-Want to check availability? [[contact|Send a short note →]].
+Want to check availability? [[contact|Send a short note]].
 
 I reply within a day.
 

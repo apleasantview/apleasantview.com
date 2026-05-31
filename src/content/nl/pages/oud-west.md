@@ -46,7 +46,7 @@ Oud-West is dicht en gevarieerd: kleine cafés, ateliers, boetieks, een mix van 
 
 ## Volgende stap
 
-Wilt u beschikbaarheid checken? [[contact:nl|Stuur een kort berichtje →]].
+Wilt u beschikbaarheid checken? [[contact:nl|Stuur een kort berichtje]].
 
 Ik reageer binnen een dag.
 

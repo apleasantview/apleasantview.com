@@ -46,7 +46,7 @@ Oud-West est dense et varié : petits cafés, ateliers, boutiques, un mélange d
 
 ## Étape suivante
 
-Envie de vérifier les disponibilités ? [[contact:fr|Envoyer un petit message →]].
+Envie de vérifier les disponibilités ? [[contact:fr|Envoyer un petit message]].
 
 Je réponds dans la journée.
 

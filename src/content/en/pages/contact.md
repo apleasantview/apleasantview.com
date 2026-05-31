@@ -29,7 +29,7 @@ Please include:
 
 I reply within a day. If I can help, I'll suggest a next step and clarify anything unclear before we begin.
 
-[[about|Read more about `a pleasant view` →]]
+[[about|Read more about `a pleasant view`]]
 
 </section>
 
