@@ -122,9 +122,10 @@ dd + dt {
 /* Blockquotes */
 
 blockquote {
-	padding-inline-start: 1em;
-	border-inline-start: 4px solid var(--color-border-default);
+	padding: 1em 0 1em 2em;
+	border-inline-start: 1px solid var(--color-border-default);
 	color: var(--tt-color-blockquote-text);
+	font-style: italic;
 }
 
 blockquote > :first-child {
