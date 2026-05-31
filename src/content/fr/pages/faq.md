@@ -58,3 +58,5 @@ Réponses courtes aux questions qui reviennent souvent quand on envisage un acco
 Votre question n'est pas listée ? [[contact:fr|Envoyer un petit message →]] et je réponds dans la journée.
 
 </section>
+
+---

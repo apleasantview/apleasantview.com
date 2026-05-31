@@ -92,3 +92,5 @@ Want to know if there's room? [[contact|Send a short note →]].
 I reply within a day.
 
 </section>
+
+---

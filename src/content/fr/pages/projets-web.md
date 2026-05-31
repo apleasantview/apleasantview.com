@@ -112,3 +112,5 @@ Joignez de préférence :
 Je réponds dans la journée avec une proposition pour l'étape suivante.
 
 </section>
+
+---

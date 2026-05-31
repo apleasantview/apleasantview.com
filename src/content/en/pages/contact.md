@@ -32,3 +32,5 @@ I reply within a day. If I can help, I'll suggest a next step and clarify anythi
 [[about|Read more about `a pleasant view` →]]
 
 </section>
+
+---

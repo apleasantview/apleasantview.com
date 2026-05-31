@@ -65,3 +65,5 @@ Ik ben Cristovao Verstraeten. Ik werk sinds begin 2026 aan Baseline, voortbouwen
 Voor een Baseline-site voor uw bedrijf, of commerciële ondersteuning voor een team dat al met Baseline werkt: [[contact:nl|stuur een kort berichtje →]].
 
 </section>
+
+---

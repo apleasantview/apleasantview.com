@@ -23,7 +23,7 @@ Ik hou het klantenbestand bewust klein voor lokaal werk, en bied ook ondersteuni
 
 </section>
 
-<hr>
+---
 
 <section class="u-flow">
 
@@ -37,7 +37,7 @@ Daarom kan ik de telefoon opnemen, uw setup uit mijn hoofd weer halen, en niet w
 
 </section>
 
-<hr>
+---
 
 <section class="u-flow">
 
@@ -57,7 +57,7 @@ Afgebakend werk wanneer u iets wilt laten bouwen, verbeteren of weer op orde bre
 
 </section>
 
-<hr>
+---
 
 <section class="u-flow">
 

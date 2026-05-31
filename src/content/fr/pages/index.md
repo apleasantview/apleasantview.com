@@ -23,7 +23,7 @@ Je garde volontairement la liste de clients courte pour le travail local, et pro
 
 </section>
 
-<hr>
+---
 
 <section class="u-flow">
 
@@ -37,7 +37,7 @@ C'est pour ça que je peux répondre au téléphone, retrouver votre setup de t�
 
 </section>
 
-<hr>
+---
 
 <section class="u-flow">
 
@@ -57,7 +57,7 @@ Du travail bien cadré quand vous voulez construire, améliorer ou remettre quel
 
 </section>
 
-<hr>
+---
 
 <section class="u-flow">
 
