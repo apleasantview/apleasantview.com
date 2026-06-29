@@ -5,21 +5,21 @@ export default {
 	languages: {
 		en: {
 			contentDir: 'content/en/',
-			languageCode: 'en',
+			locale: 'en-GB',
 			languageName: 'English',
 			title: 'a pleasant view',
 			tagline: 'Digital Services for Amsterdam West & the Jordaan'
 		},
 		nl: {
 			contentDir: 'content/nl/',
-			languageCode: 'nl',
+			locale: 'nl-NL',
 			languageName: 'Nederlands',
 			title: 'a pleasant view',
 			tagline: 'Webdesign en ontwikkeling abonnementen.'
 		},
 		fr: {
 			contentDir: 'content/fr/',
-			languageCode: 'fr',
+			locale: 'fr-FR',
 			languageName: 'Français',
 			title: 'a pleasant view',
 			tagline: 'Design et développement de sites webs par abonnements.'

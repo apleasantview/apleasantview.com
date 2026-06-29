@@ -1,4 +1,3 @@
-import { buildSeoGraph, buildSeoMeta } from '../../utils/seo-graph.js';
 import { gitModified } from '../../utils/git-date.js';
 
 const mdAlternates = (data) => ({
@@ -28,17 +27,9 @@ export default {
 			lastmod: (data) => data.dateModified || gitModified(data.page.inputPath)
 		},
 		head: {
-			// JSON-LD graph emitted into <head> via Baseline's head.script merge.
-			// buildSeoGraph reads _navigator.nodes for page identity + translation siblings.
-			script: (data) => [
-				{
-					type: 'application/ld+json',
-					content: JSON.stringify(buildSeoGraph(data))
-				}
-			],
-			// OG + Twitter meta. Same data sources as the graph so they cannot drift.
-			meta: (data) => buildSeoMeta(data),
-			// Add markdown alternates for site pages.
+			// JSON-LD graph, OG/Twitter meta, and canonical are emitted by
+			// <baseline-head> from _data/schema.js + settings.seo (next.42).
+			// Only the markdown alternate stays hand-wired.
 			link: (data) => [mdAlternates(data)]
 		}
 	}

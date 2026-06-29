@@ -12,26 +12,38 @@ export default {
 	tagline: 'Digital Services for Amsterdam West & the Jordaan',
 	url: 'https://www.apleasantview.com/',
 	defaultLanguage: 'en',
+	defaultLocale: 'en-GB',
 	noindex: false,
+
+	// Site-wide OG/Twitter defaults for <baseline-head>. Object form emits a
+	// dimensioned JSON-LD ImageObject alongside the og:image tag. Keep absolute.
+	seo: {
+		ogImage: {
+			url: 'https://www.apleasantview.com/og.jpg',
+			width: 1200,
+			height: 630,
+			alt: 'a pleasant view, digital services for Amsterdam-West and the Jordaan'
+		}
+	},
 
 	languages: {
 		en: {
 			contentDir: 'content/en/',
-			languageCode: 'en',
+			locale: 'en-GB',
 			languageName: 'English',
 			title: 'a pleasant view',
 			tagline: 'Digital Services for Amsterdam West & the Jordaan'
 		},
 		nl: {
 			contentDir: 'content/nl/',
-			languageCode: 'nl',
+			locale: 'nl-NL',
 			languageName: 'Nederlands',
 			title: 'a pleasant view',
 			tagline: 'Webdesign en ontwikkeling abonnementen.'
 		},
 		fr: {
 			contentDir: 'content/fr/',
-			languageCode: 'fr',
+			locale: 'fr-FR',
 			languageName: 'Français',
 			title: 'a pleasant view',
 			tagline: 'Design et développement de sites webs par abonnements.'

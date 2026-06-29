@@ -40,7 +40,7 @@ export default function (data) {
 	const entries = Object.values(navigatorNodes)
 		.filter((node) => node?.type === schemaType)
 		.map((node) => {
-			const lang = node.locale?.lang;
+			const lang = node.lang;
 			const inputPath = inputPathByUrl[node.url];
 			return {
 				'@type': WEBPAGE_TYPE_BY_TYPE[node.type] || 'WebPage',

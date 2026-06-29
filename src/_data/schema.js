@@ -1,6 +1,13 @@
-// SEO graph data for partials/seo-graph.njk and OG/Twitter fallbacks.
-// Cascade key: seo (`seo.organization`, `seo.person`, `seo.shareImage`).
+// Authored SEO identity, read by Baseline's <baseline-head> graph builder.
+// Cascade key: schema (`schema.organization`, `schema.person`).
+// Site-wide OG/Twitter defaults (ogImage) live in settings.seo, not here.
 // Null fields are dropped from the emitted graph.
+
+// The graph builder derives these @ids itself (Org slug = slugify(name),
+// Person keyed on person.url). We reference them to cross-link founder/worksFor.
+// Keep in sync if organization.name or person.url changes.
+const ORG_ID = 'https://www.apleasantview.com/#/schema.org/Organization/a-pleasant-view';
+const PERSON_ID = 'https://www.apleasantview.com/about/#/schema.org/Person';
 
 export default {
 	organization: {
@@ -11,6 +18,7 @@ export default {
 		email: 'hello@apleasantview.com',
 		telephone: null,
 		address: {
+			'@type': 'PostalAddress',
 			streetAddress: null,
 			postalCode: null,
 			addressLocality: 'Amsterdam',
@@ -34,7 +42,8 @@ export default {
 			'https://www.eleventy-baseline.dev/'
 		],
 		knowsAbout: ['Web design', 'Website maintenance', 'Eleventy', 'Static site hosting', 'Small-business IT support'],
-		slogan: null // null = fall back to site.tagline per language
+		slogan: null, // null = fall back to site.tagline per language
+		founder: { '@id': PERSON_ID }
 	},
 
 	person: {
@@ -50,15 +59,7 @@ export default {
 			'https://mastodon.social/@crisverstraeten',
 			'https://github.com/cristovaov',
 			'https://www.linkedin.com/in/cristovaoverstraeten/'
-		]
-		// worksFor wired by the partial via @id reference
-	},
-
-	shareImage: {
-		// OG and Twitter card fallback
-		url: 'https://www.apleasantview.com/og.jpg',
-		width: 1200,
-		height: 630,
-		alt: 'a pleasant view, digital services for Amsterdam-West and the Jordaan'
+		],
+		worksFor: { '@id': ORG_ID }
 	}
 };
