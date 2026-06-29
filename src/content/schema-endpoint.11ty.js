@@ -6,7 +6,7 @@
 // Schemamap: directive in robots.txt. Discovery surface for AI agents that
 // consume structured data corpus-wide (NLWeb pattern).
 
-import { LOCALE_REGION, WEBPAGE_TYPE_BY_TYPE } from '../../utils/seo-graph.js';
+import { LOCALE_REGION, WEBPAGE_TYPE_BY_TYPE } from '../../utils/seo-constants.js';
 import { gitModified } from '../../utils/git-date.js';
 
 const TYPES = ['service', 'neighborhood', 'faq', 'page', 'about', 'contact'];
