@@ -40,13 +40,7 @@ Het meeste werk gebeurt lokaal, maar op afstand kan ook, zeker als het werk duid
 
 ## In welke buurt?
 
-Het werkgebied beslaat heel [[amsterdam-west:nl|Amsterdam-West]] en de Jordaan. Klik op uw buurt voor meer:
-
-- [[jordaan:nl|Jordaan]]
-- [[oud-west:nl|Oud-West]]
-- [[de-baarsjes:nl|De Baarsjes]]
-- [[westerpark:nl|Westerpark]]
-- [[bos-en-lommer:nl|Bos en Lommer]]
+Het werkgebied beslaat heel Amsterdam-West en de Jordaan. Bekijk de [[amsterdam-west:nl|buurten waar ik werk]].
 
 </section>
 

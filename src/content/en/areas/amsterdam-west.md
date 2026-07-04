@@ -36,7 +36,7 @@ Ongoing support for your website and the practical IT around it, or a scoped pro
 
 ## Which neighborhood are you in?
 
-- [[jordaan:nl||In the Jordaan]]: historic streets, dense concentration of small businesses
+- [[jordaan|In the Jordaan]]: historic streets, dense concentration of small businesses
 - [[oud-west|In Oud-West]]: Helmersbuurt, Kinkerbuurt, around the Vondelpark
 - [[de-baarsjes|In De Baarsjes]]: around Mercatorplein and Hoofdweg
 - [[westerpark|In Westerpark]]: Spaarndammerbuurt, Staatsliedenbuurt, around the Westergasfabriek

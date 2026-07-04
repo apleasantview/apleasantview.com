@@ -40,13 +40,7 @@ Most of the work is local, but remote can work too, especially when the work is 
 
 ## Which neighborhood?
 
-The service area covers all of [[amsterdam-west|Amsterdam-West]] and the Jordaan. Pick your neighborhood for more:
-
-- [[jordaan:nl|Jordaan]]
-- [[oud-west|Oud-West]]
-- [[de-baarsjes|De Baarsjes]]
-- [[westerpark|Westerpark]]
-- [[bos-en-lommer|Bos en Lommer]]
+The service area covers all of Amsterdam-West and the Jordaan. See the [[amsterdam-west|neighborhoods I work in]].
 
 </section>
 

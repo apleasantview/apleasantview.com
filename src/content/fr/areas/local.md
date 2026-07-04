@@ -40,13 +40,7 @@ L'essentiel du travail se fait en local, mais à distance c'est possible aussi, 
 
 ## Dans quel quartier ?
 
-La zone couverte comprend tout [[amsterdam-west:fr|Amsterdam-West]] et le Jordaan. Cliquez sur votre quartier pour plus de détails :
-
-- [[jordaan:fr|Jordaan]]
-- [[oud-west:fr|Oud-West]]
-- [[de-baarsjes:fr|De Baarsjes]]
-- [[westerpark:fr|Westerpark]]
-- [[bos-en-lommer:fr|Bos en Lommer]]
+La zone couverte comprend tout Amsterdam-West et le Jordaan. Voyez les [[amsterdam-west:fr|quartiers où je travaille]].
 
 </section>
 
