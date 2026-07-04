@@ -1,51 +1,49 @@
-/* 01. Settings */
-@import './settings/colors.css';
-@import './settings/typography.css';
-@import './settings/spacing.css';
-@import './settings/borders.css';
-@import './settings/fluid-typography.css';
-@import './settings/fluid-spacing.css';
+/* 01. profile/primitives */
+@import './profile/primitives/colors.css';
+@import './profile/primitives/typography.css';
+@import './profile/primitives/spacing.css';
+@import './profile/primitives/borders.css';
+@import './profile/primitives/fluid-typography.css';
+@import './profile/primitives/fluid-spacing.css';
+@import './profile/skip-link.css';
+@import './profile/sr-only.css';
 
-/* 02. Tools */
-@import './tools/semantic.css';
-@import './tools/theme.css';
+/* 02. profile/semantic + profile/theme */
+@import './profile/semantic.css';
+@import './profile/theme.css';
 
-/* 03. Generic */
-@import './generic/modern-reset.css' layer(reset);
-@import './generic/skip-link.css';
-@import './generic/sr-only.css';
+/* 03. resets */
+@import './resets/modern-reset.css' layer(reset);
 
-/* 04. Base elements */
-@import './elements/base.css';
-@import './elements/p.css';
-@import './elements/a.css';
-@import './elements/headings.css';
-@import './elements/lists.css';
-@import './elements/hr.css';
-@import './elements/code.css';
+/* 04. document/base */
+@import './document/base.css';
 
-/* 05. Layouts and Objects */
-@import './layouts/l-document.css';
-@import './objects/o-svg.css';
-@import './objects/o-texture.css';
+/* 05. document/elements */
+@import './document/elements/p.css';
+@import './document/elements/a.css';
+@import './document/elements/headings.css';
+@import './document/elements/lists.css';
+@import './document/elements/hr.css';
+@import './document/elements/code.css';
 
-/* 06. Components */
+/* 06. document/utilities */
+@import './document/utilities/u-text.css';
+@import './document/utilities/u-flow.css';
+@import './document/utilities/u-wrapper.css';
+@import './document/utilities/u-glitch.css';
+
+/* 07. document/objects + document/layouts */
+@import './document/objects/o-svg.css';
+@import './document/objects/o-texture.css';
+@import './document/layouts/l-document.css';
+
+/* 08. components */
 @import './components/c-language-switcher.css';
 @import './components/c-site-nav.css';
 @import './components/c-footer-nav.css';
 @import './components/c-logo.css';
 @import './components/c-pricing-table.css';
-/* @import-glob "./components/*.css" layer(components); */
 
-/* 07. Utilities */
-@import './utilities/u-text.css';
-@import './utilities/u-flow.css';
-@import './utilities/u-wrapper.css';
-@import './utilities/u-glitch.css';
-@import './utilities/lenis.css';
-@import './utilities/mouse-follower.css';
-
-/* CSS is organised followng ITCSS and BEMIT naming conventions, see:
-@link: https://www.xfive.co/blog/itcss-scalable-maintainable-css-architecture/
-@link: https://benmarshall.me/itcss/
-*/
+/* 08. vendors */
+@import './vendors/lenis.css';
+@import './vendors/mouse-follower.css';
