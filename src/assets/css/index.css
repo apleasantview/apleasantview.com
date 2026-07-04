@@ -7,7 +7,7 @@
 @import './settings/fluid-spacing.css';
 
 /* 02. Tools */
-@import './tools/document.css';
+@import './tools/semantic.css';
 @import './tools/theme.css';
 
 /* 03. Generic */
