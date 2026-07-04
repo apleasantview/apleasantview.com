@@ -13,7 +13,7 @@ export default {
 	organization: {
 		'@type': 'LocalBusiness',
 		name: 'a pleasant view',
-		legalName: null, // TODO: registered KvK name if different
+		legalName: 'a pleasant view',
 		url: 'https://www.apleasantview.com/',
 		email: 'hello@apleasantview.com',
 		telephone: null,
@@ -25,20 +25,25 @@ export default {
 			addressRegion: 'Noord-Holland',
 			addressCountry: 'NL'
 		},
-		geo: null, // { latitude, longitude } or null
+		// GeoCircle, not a point: expresses coverage without pinning the (private) address.
+		geo: {
+			'@type': 'GeoCircle',
+			geoMidpoint: { '@type': 'GeoCoordinates', latitude: 52.3776, longitude: 4.8768 },
+			geoRadius: 3000
+		},
 		areaServed: ['Amsterdam-West', 'Jordaan', 'Oud-West', 'De Baarsjes', 'Westerpark', 'Bos en Lommer'],
 		taxID: '60532955', // KvK
-		vatID: null,
-		foundingDate: null, // "YYYY-MM-DD"
+		vatID: 'NL002490124B31',
+		foundingDate: '2009',
 		logo: {
 			url: 'https://www.apleasantview.com/web-app-manifest-512x512.png',
 			width: 512,
 			height: 512
 		},
 		sameAs: [
-			'https://mastodon.social/@crisverstraeten',
-			'https://github.com/apleasantview',
 			'https://www.linkedin.com/company/apleasantview',
+			'https://github.com/apleasantview',
+			'https://mastodon.social/@crisverstraeten',
 			'https://www.eleventy-baseline.dev/'
 		],
 		knowsAbout: ['Web design', 'Website maintenance', 'Eleventy', 'Static site hosting', 'Small-business IT support'],
