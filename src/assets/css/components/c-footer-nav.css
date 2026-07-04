@@ -11,3 +11,7 @@
 	margin-top: 0;
 	border: 1px solid transparent;
 }
+
+.c-footer-nav a[aria-current='page'] {
+	border-color: var(--color-border-strong);
+}

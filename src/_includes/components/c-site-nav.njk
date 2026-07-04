@@ -1,9 +1,5 @@
 <nav class="c-site-nav">
 	{% for item in navigation[lang].main %}
-		{% for node, entry in _navigator.nodes %}
-		{% if entry.slug === item.slug and entry.lang === lang %}
-			<a href="{{ entry.url }}">{{ item.label }}</a>
-		{% endif %}
-		{% endfor %}
+		<a href="{{ item.url }}"{% if item.url == page.url %} aria-current="page"{% endif %}>{{ item.label }}</a>
 	{% endfor %}
 </nav>

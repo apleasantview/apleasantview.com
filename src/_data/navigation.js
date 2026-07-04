@@ -1,52 +1,52 @@
 export default {
 	en: {
 		main: [
-			{ slug: 'home', label: 'Home' },
-			{ slug: 'services', label: 'Services' },
-			{ slug: 'approach', label: 'Approach' },
-			{ slug: 'about', label: 'About me' },
-			{ slug: 'contact', label: 'Contact' }
+			{ label: 'Home', url: '/' },
+			{ label: 'Services', url: '/#services' },
+			{ label: 'Approach', url: '/approach/' },
+			{ label: 'About me', url: '/about/' },
+			{ label: 'Contact', url: '/contact/' }
 		],
 
 		footer: [
-			{ slug: 'local', label: 'Local service' },
-			{ slug: 'faq', label: 'FAQ' },
-			{ slug: 'contact', label: 'Contact' },
-			{ slug: 'about', label: 'About' }
+			{ label: 'Local service', url: '/local/' },
+			{ label: 'FAQ', url: '/faq/' },
+			{ label: 'Contact', url: '/contact/' },
+			{ label: 'About', url: '/about/' }
 		]
 	},
 
 	nl: {
 		main: [
-			{ slug: 'home', label: 'Home' },
-			{ slug: 'diensten', label: 'Diensten' },
-			{ slug: 'aanpak', label: 'Aanpak' },
-			{ slug: 'over-mij', label: 'Over mij' },
-			{ slug: 'contact', label: 'Contact' }
+			{ label: 'Home', url: '/nl/' },
+			{ label: 'Diensten', url: '/nl/#diensten' },
+			{ label: 'Aanpak', url: '/nl/aanpak/' },
+			{ label: 'Over mij', url: '/nl/over-mij/' },
+			{ label: 'Contact', url: '/nl/contact/' }
 		],
 
 		footer: [
-			{ slug: 'lokaal', label: 'Lokale dienst' },
-			{ slug: 'veelgestelde-vragen', label: 'Veelgestelde vragen' },
-			{ slug: 'contact', label: 'Contact' },
-			{ slug: 'over-mij', label: 'Over' }
+			{ label: 'Lokale dienst', url: '/nl/lokaal/' },
+			{ label: 'Veelgestelde vragen', url: '/nl/veelgestelde-vragen/' },
+			{ label: 'Contact', url: '/nl/contact/' },
+			{ label: 'Over', url: '/nl/over-mij/' }
 		]
 	},
 
 	fr: {
 		main: [
-			{ slug: 'home', label: 'Accueil' },
-			{ slug: 'services', label: 'Services' },
-			{ slug: 'approche', label: 'Approche' },
-			{ slug: 'a-propos', label: 'À propos' },
-			{ slug: 'contact', label: 'Contact' }
+			{ label: 'Accueil', url: '/fr/' },
+			{ label: 'Services', url: '/fr/#services' },
+			{ label: 'Approche', url: '/fr/approche/' },
+			{ label: 'À propos', url: '/fr/a-propos/' },
+			{ label: 'Contact', url: '/fr/contact/' }
 		],
 
 		footer: [
-			{ slug: 'local', label: 'Service local' },
-			{ slug: 'faq', label: 'FAQ' },
-			{ slug: 'contact', label: 'Contact' },
-			{ slug: 'a-propos', label: 'À propos' }
+			{ label: 'Service local', url: '/fr/local/' },
+			{ label: 'FAQ', url: '/fr/faq/' },
+			{ label: 'Contact', url: '/fr/contact/' },
+			{ label: 'À propos', url: '/fr/a-propos/' }
 		]
 	}
 };
