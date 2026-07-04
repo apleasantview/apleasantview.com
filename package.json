@@ -26,7 +26,7 @@
 	"dependencies": {
 		"@11ty/eleventy": "^3.1.6",
 		"@11ty/eleventy-img": "^6.0.4",
-		"@apleasantview/eleventy-plugin-baseline": "0.1.0-next.43",
+		"@apleasantview/eleventy-plugin-baseline": "0.1.0-next.44",
 		"cross-env": "^10.1.0",
 		"cssnano": "^8.0.2",
 		"dotenv": "^17.4.2",
@@ -50,6 +50,6 @@
 	},
 	"allowScripts": {
 		"sharp@0.33.5": true,
-		"esbuild@0.27.0": true
+		"esbuild@0.28.1": true
 	}
 }
