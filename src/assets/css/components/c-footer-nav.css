@@ -10,8 +10,10 @@
 .c-footer-nav a {
 	margin-top: 0;
 	border: 1px solid transparent;
+	padding-inline: 0.5em;
 }
 
 .c-footer-nav a[aria-current='page'] {
-	border-color: var(--color-border-strong);
+	border-color: var(--color-text-muted);
+	border-radius: 4px;
 }
