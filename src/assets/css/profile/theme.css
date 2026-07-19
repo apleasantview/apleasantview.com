@@ -15,6 +15,10 @@ html {
 	--color-border-strong: var(--color-border-strong-light);
 	--color-surface-hover: var(--color-surface-hover-light);
 
+	/* Multiply keeps the texture's shadows against a light surface */
+	--texture-blend: multiply;
+	--texture-opacity: 0.25;
+
 	--distance-glitch-red-negative: -0.5em;
 	--distance-glitch-red-positive: 0.5em;
 	--distance-glitch-green-negative: -0.5em;
@@ -34,6 +38,10 @@ html {
 	--color-border-default: var(--color-border-default-light);
 	--color-border-strong: var(--color-border-strong-light);
 	--color-surface-hover: var(--color-surface-hover-light);
+
+	/* Multiply keeps the texture's shadows against a light surface */
+	--texture-blend: multiply;
+	--texture-opacity: 0.25;
 
 	--distance-glitch-red-negative: -0.5em;
 	--distance-glitch-red-positive: 0.5em;
@@ -57,6 +65,10 @@ html {
 		--color-border-strong: var(--color-border-strong-dark);
 		--color-surface-hover: var(--color-surface-hover-dark);
 
+		/* Screen keeps the texture's highlights against a dark surface */
+		--texture-blend: screen;
+		--texture-opacity: 0.12;
+
 		--distance-glitch-red-negative: -1em;
 		--distance-glitch-red-positive: 1em;
 		--distance-glitch-green-negative: -1em;
@@ -77,6 +89,10 @@ html {
 	--color-border-default: var(--color-border-default-dark);
 	--color-border-strong: var(--color-border-strong-dark);
 	--color-surface-hover: var(--color-surface-hover-dark);
+
+	/* Screen keeps the texture's highlights against a dark surface */
+	--texture-blend: screen;
+	--texture-opacity: 0.12;
 
 	--distance-glitch-red-negative: -1em;
 	--distance-glitch-red-positive: 1em;

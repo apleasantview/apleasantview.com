@@ -7,9 +7,9 @@
 	background-image: url('/assets/img/2-_FQp-yOr-1440.avif');
 	background-repeat: repeat;
 	background-attachment: scroll;
-	mix-blend-mode: overlay;
+	mix-blend-mode: var(--texture-blend);
 	pointer-events: none;
-	opacity: 0.6;
+	opacity: var(--texture-opacity, 0.6);
 	overflow: clip;
 	z-index: 1;
 }
