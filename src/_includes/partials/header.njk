@@ -1,9 +1,11 @@
 <header>
-	<div class="header_group u-flow u-wrapper">
-		{% include "components/c-logo--header.njk" %}
+	<div class="header__inner u-wrapper">
 		<div class="header__group">
-			{% include "components/c-language-switcher.njk" %}
+			{% include "components/c-logo--header.njk" %}
+		</div>
+		<div class="header__group">
 			{% include "components/c-site-nav.njk" %}
+			{% include "components/c-language-switcher.njk" %}
 		</div>
 	</div>
 </header>

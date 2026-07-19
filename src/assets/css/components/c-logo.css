@@ -1,5 +1,6 @@
 .c-logo--header {
 	max-width: fit-content;
+	padding-block: var(--space-inset-3xs);
 }
 
 a.c-logo__link {

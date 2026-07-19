@@ -1,0 +1,5 @@
+.u-flex--column {
+	display: flex;
+	flex-direction: column;
+	gap: var(--space-xs);
+}

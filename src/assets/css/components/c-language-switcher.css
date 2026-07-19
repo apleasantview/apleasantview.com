@@ -1,6 +1,7 @@
 .c-language-switcher {
 	max-width: fit-content;
 	padding-block: var(--space-inset-3xs);
+	margin-block-start: var(--space-3xs);
 }
 
 div.c-language-switcher__inner {

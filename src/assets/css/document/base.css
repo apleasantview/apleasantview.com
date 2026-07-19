@@ -16,21 +16,25 @@ body {
 }
 
 header {
-	padding-block: var(--space-inset-s);
+	padding-block: var(--space-inset-m);
 }
 
-.header__group {
-	--flow-space: var(--flow-space-2xs);
+.header__inner {
+	display: flex;
+	flex-wrap: wrap;
+	gap: var(--space-s);
+	align-items: start;
+	justify-content: space-between;
 }
 
 main {
-	padding-block: var(--space-inset-s);
+	padding-block: var(--space-inset-m);
 	flex: 1;
 }
 
 footer {
 	margin-top: auto;
-	padding-block: var(--space-inset-xs);
+	padding-block: var(--space-inset-m);
 }
 
 .footer__group {

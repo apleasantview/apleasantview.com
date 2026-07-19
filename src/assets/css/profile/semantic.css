@@ -122,9 +122,9 @@
 	--flow-space-4xl: var(--space-flow-4xl);
 
 	/* Wrapper utilities */
-	--wrapper-max-width: 105rem;
+	--wrapper-max-width: 64rem;
 	--wrapper-margin-inline: auto;
-	--wrapper-padding-inline: var(--space-s-xl);
+	--wrapper-padding-inline: var(--space-s-m);
 
 	/* Asset / effect roles (not theme-split yet) */
 	--color-logo-mark: var(--color-slate-25);
