@@ -26,7 +26,7 @@
 		--anim-glitch-timer: glitch-timer 6s infinite steps(1, end);
 		--anim-glitch-slice-top: glitch-top 1s infinite;
 		--anim-glitch-slice-bottom: glitch-bottom 1s infinite;
-		--anim-reveal-distance: 1.75em; /* how far it rises */
+		--anim-reveal-distance: 1.2rem; /* how far it rises */
 		--anim-reveal-ease: cubic-bezier(0.22, 1, 0.36, 1);
 	}
 }
