@@ -1,0 +1,28 @@
+/* document/animations.css — motion vocabulary and the reduced-motion gate.
+   Scoped to document on purpose: motion isn't promoted to profile until it
+   proves portable. Tokens and the gate live here; keyframes and application
+   live in each effect file (see animations/). */
+
+/* -- Motion gate ---------------------------------------------------------
+   Animation tokens hold the full shorthand and default to `none`, taking a
+   real value only inside no-preference. Motion fails closed: a missed gate
+   means no animation, never unwanted motion. Effects apply them with
+   `animation: var(--anim-*)` and never repeat the media query. */
+:root {
+	/* easings */
+
+	/* animations — off by default */
+	--anim-glitch: none;
+	--anim-glitch-timer: none;
+	--anim-glitch-slice-top: none;
+	--anim-glitch-slice-bottom: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	:root {
+		--anim-glitch: glitch-color-shift 9s infinite;
+		--anim-glitch-timer: glitch-timer 6s infinite steps(1, end);
+		--anim-glitch-slice-top: glitch-top 1s infinite;
+		--anim-glitch-slice-bottom: glitch-bottom 1s infinite;
+	}
+}

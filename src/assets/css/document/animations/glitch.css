@@ -1,0 +1,200 @@
+/* glitch — two variants with different reuse profiles.
+   Keyframes and glitch's own tokens (colours, split distances) live here;
+   only the reduced-motion gate and the --anim-glitch shorthand sit in
+   animations.css.
+     .glitch            RGB-split filter, reusable on any text / link / SVG
+     .glitch-container  structural slice glitch (pseudo-elements), one-off */
+
+/* -- Tokens --------------------------------------------------------------
+   Colours are constant; the RGB-split distance is larger in dark. These
+   blocks mirror theme.css verbatim, so behaviour is unchanged — glitch is
+   just self-contained now. */
+:root {
+	--color-glitch-red: var(--color-red-500);
+	--color-glitch-green: var(--color-green-500);
+	--color-glitch-blue: var(--color-blue-500);
+
+	--distance-glitch-red-negative: -0.08em;
+	--distance-glitch-red-positive: 0.08em;
+	--distance-glitch-green-negative: -0.08em;
+	--distance-glitch-green-positive: 0.08em;
+	--distance-glitch-blue-negative: -0.08em;
+	--distance-glitch-blue-positive: 0.08em;
+}
+
+:root[data-theme='light'] {
+	--distance-glitch-red-negative: -0.08em;
+	--distance-glitch-red-positive: 0.08em;
+	--distance-glitch-green-negative: -0.08em;
+	--distance-glitch-green-positive: 0.08em;
+	--distance-glitch-blue-negative: -0.08em;
+	--distance-glitch-blue-positive: 0.08em;
+}
+
+@media (prefers-color-scheme: dark) {
+	:root:not([data-theme]) {
+		--distance-glitch-red-negative: -0.25em;
+		--distance-glitch-red-positive: 0.25em;
+		--distance-glitch-green-negative: -0.25em;
+		--distance-glitch-green-positive: 0.25em;
+		--distance-glitch-blue-negative: -0.25em;
+		--distance-glitch-blue-positive: 0.25em;
+	}
+}
+
+:root[data-theme='dark'] {
+	--distance-glitch-red-negative: -0.25em;
+	--distance-glitch-red-positive: 0.25em;
+	--distance-glitch-green-negative: -0.25em;
+	--distance-glitch-green-positive: 0.25em;
+	--distance-glitch-blue-negative: -0.25em;
+	--distance-glitch-blue-positive: 0.25em;
+}
+
+/* -- Reusable: RGB-split filter ------------------------------------------
+   Reads --anim-glitch, so it's off unless no-preference. Drop it on the
+   wordmark, `a pleasant view`, a link — anything. */
+.glitch {
+	animation: var(--anim-glitch);
+}
+
+@keyframes glitch-color-shift {
+	/* Calm holds flat; bursts snap in at irregular, non-metronomic points.
+	   Over the 19s loop the gaps land near ~5s / ~8s / ~6s, so it never
+	   settles into a beat you can predict. Add another burst block to
+	   deepen the disguise. */
+	0%,
+	12%,
+	16%,
+	39%,
+	43%,
+	81%,
+	85%,
+	100% {
+		filter: none;
+	}
+	/* burst 1 (~2.5s) */
+	13% {
+		filter: drop-shadow(var(--distance-glitch-red-negative) 0 var(--color-glitch-red))
+			drop-shadow(var(--distance-glitch-green-positive) 0 var(--color-glitch-green))
+			drop-shadow(var(--distance-glitch-blue-negative) 0 var(--color-glitch-blue)) blur(0);
+	}
+	14.5% {
+		filter: drop-shadow(var(--distance-glitch-red-positive) 0 var(--color-glitch-red))
+			drop-shadow(var(--distance-glitch-green-negative) 0 var(--color-glitch-green))
+			drop-shadow(var(--distance-glitch-blue-positive) 0 var(--color-glitch-blue)) blur(0);
+	}
+	/* burst 2 (~7.6s) — order flipped so it doesn't read identical */
+	40% {
+		filter: drop-shadow(var(--distance-glitch-red-positive) 0 var(--color-glitch-red))
+			drop-shadow(var(--distance-glitch-green-negative) 0 var(--color-glitch-green))
+			drop-shadow(var(--distance-glitch-blue-positive) 0 var(--color-glitch-blue)) blur(0);
+	}
+	41.5% {
+		filter: drop-shadow(var(--distance-glitch-red-negative) 0 var(--color-glitch-red))
+			drop-shadow(var(--distance-glitch-green-positive) 0 var(--color-glitch-green))
+			drop-shadow(var(--distance-glitch-blue-negative) 0 var(--color-glitch-blue)) blur(0.05em);
+	}
+	/* burst 3 (~15.6s) */
+	82% {
+		filter: drop-shadow(var(--distance-glitch-red-negative) 0 var(--color-glitch-red))
+			drop-shadow(var(--distance-glitch-green-positive) 0 var(--color-glitch-green))
+			drop-shadow(var(--distance-glitch-blue-negative) 0 var(--color-glitch-blue)) blur(0);
+	}
+	83.5% {
+		filter: drop-shadow(var(--distance-glitch-red-positive) 0 var(--color-glitch-red))
+			drop-shadow(var(--distance-glitch-green-negative) 0 var(--color-glitch-green))
+			drop-shadow(var(--distance-glitch-blue-positive) 0 var(--color-glitch-blue)) blur(0.05em);
+	}
+}
+
+/* -- Structural: slice glitch --------------------------------------------
+   Duplicates the box into two clipped slices that jitter. Needs a positioned
+   container with a background to inherit. Currently unused. */
+.glitch-container {
+	position: relative;
+	display: inline-block;
+	animation: var(--anim-glitch-timer);
+}
+
+.glitch-container::before,
+.glitch-container::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	pointer-events: none;
+	background: inherit;
+	opacity: 0;
+}
+
+.glitch-container::before {
+	animation: var(--anim-glitch-slice-top);
+	clip-path: polygon(0 0, 100% 0, 100% 20%, 0 20%);
+}
+
+.glitch-container::after {
+	animation: var(--anim-glitch-slice-bottom);
+	clip-path: polygon(0 80%, 100% 80%, 100% 100%, 0 100%);
+}
+
+@keyframes glitch-timer {
+	0%,
+	95%,
+	100% {
+		filter: none;
+	}
+	96% {
+		filter: contrast(1.2) brightness(1.1);
+	}
+	97% {
+		filter: hue-rotate(15deg);
+	}
+	98% {
+		filter: none;
+	}
+}
+
+@keyframes glitch-top {
+	0%,
+	95%,
+	100% {
+		transform: none;
+		opacity: 0;
+	}
+	96% {
+		transform: translateX(-12px) skewX(15deg);
+		opacity: 0.5;
+	}
+	97% {
+		transform: translateX(12px) skewX(-15deg);
+		opacity: 0.5;
+	}
+	98% {
+		transform: none;
+		opacity: 0;
+	}
+}
+
+@keyframes glitch-bottom {
+	0%,
+	95%,
+	100% {
+		transform: none;
+		opacity: 0;
+	}
+	96% {
+		transform: translateX(12px) skewX(-13deg);
+		opacity: 0.5;
+	}
+	97% {
+		transform: translateX(-12px) skewX(13deg);
+		opacity: 0.5;
+	}
+	98% {
+		transform: none;
+		opacity: 0;
+	}
+}

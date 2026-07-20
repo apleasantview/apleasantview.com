@@ -3,7 +3,7 @@
 	/* Color roles (theme-split) */
 	--color-background-default-light: var(--color-slate-50);
 	--color-background-default-dark: var(--color-slate-950);
-	--color-background-subtle-light: var(--color-gray-50);
+	--color-background-subtle-light: var(--color-slate-200-alpha-08);
 	--color-background-subtle-dark: var(--color-gray-900);
 
 	--color-text-primary-light: var(--color-slate-800);
@@ -128,10 +128,6 @@
 
 	/* Asset / effect roles (not theme-split yet) */
 	--color-logo-mark: var(--color-slate-25);
-
-	--color-glitch-red: var(--color-red-500);
-	--color-glitch-green: var(--color-green-500);
-	--color-glitch-blue: var(--color-blue-500);
 
 	/* Component roles */
 	--text-size-cursor: var(--font-size-cursor);

@@ -19,12 +19,10 @@ html {
 	--texture-blend: multiply;
 	--texture-opacity: 0.25;
 
-	--distance-glitch-red-negative: -0.5em;
-	--distance-glitch-red-positive: 0.5em;
-	--distance-glitch-green-negative: -0.5em;
-	--distance-glitch-green-positive: 0.5em;
-	--distance-glitch-blue-negative: -0.5em;
-	--distance-glitch-blue-positive: 0.5em;
+	/* RGB primaries (from named CSS colours) */
+	--color-red-500: hsl(0, 100%, 75%); /* `red` */
+	--color-green-500: hsl(120, 100%, 55%); /* `green` */
+	--color-blue-500: hsl(240, 100%, 75%); /* `blue` */
 }
 
 :root[data-theme='light'] {
@@ -43,12 +41,10 @@ html {
 	--texture-blend: multiply;
 	--texture-opacity: 0.25;
 
-	--distance-glitch-red-negative: -0.5em;
-	--distance-glitch-red-positive: 0.5em;
-	--distance-glitch-green-negative: -0.5em;
-	--distance-glitch-green-positive: 0.5em;
-	--distance-glitch-blue-negative: -0.5em;
-	--distance-glitch-blue-positive: 0.5em;
+	/* RGB primaries (from named CSS colours) */
+	--color-red-500: hsl(0, 100%, 75%); /* `red` */
+	--color-green-500: hsl(120, 100%, 55%); /* `green` */
+	--color-blue-500: hsl(240, 100%, 75%); /* `blue` */
 }
 
 /* Dark theme mapping (system default + explicit) */
@@ -69,12 +65,10 @@ html {
 		--texture-blend: screen;
 		--texture-opacity: 0.12;
 
-		--distance-glitch-red-negative: -1em;
-		--distance-glitch-red-positive: 1em;
-		--distance-glitch-green-negative: -1em;
-		--distance-glitch-green-positive: 1em;
-		--distance-glitch-blue-negative: -1em;
-		--distance-glitch-blue-positive: 1em;
+		/* RGB primaries (from named CSS colours) */
+		--color-red-500: hsl(0, 100%, 50%); /* `red` */
+		--color-green-500: hsl(120, 100%, 25%); /* `green` */
+		--color-blue-500: hsl(240, 100%, 50%); /* `blue` */
 	}
 }
 
@@ -94,10 +88,8 @@ html {
 	--texture-blend: screen;
 	--texture-opacity: 0.12;
 
-	--distance-glitch-red-negative: -1em;
-	--distance-glitch-red-positive: 1em;
-	--distance-glitch-green-negative: -1em;
-	--distance-glitch-green-positive: 1em;
-	--distance-glitch-blue-negative: -1em;
-	--distance-glitch-blue-positive: 1em;
+	/* RGB primaries (from named CSS colours) */
+	--color-red-500: hsl(0, 100%, 50%); /* `red` */
+	--color-green-500: hsl(120, 100%, 25%); /* `green` */
+	--color-blue-500: hsl(240, 100%, 50%); /* `blue` */
 }

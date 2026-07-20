@@ -18,7 +18,11 @@
 /* 04. document/base */
 @import './document/base.css';
 
-/* 05. document/elements */
+/* 05. document/animations */
+@import './document/animations.css';
+@import './document/animations/glitch.css';
+
+/* 06. document/elements */
 @import './document/elements/p.css';
 @import './document/elements/a.css';
 @import './document/elements/headings.css';
@@ -26,24 +30,23 @@
 @import './document/elements/hr.css';
 @import './document/elements/code.css';
 
-/* 06. document/utilities */
+/* 07. document/utilities */
 @import './document/utilities/u-text.css';
 @import './document/utilities/u-flow.css';
 @import './document/utilities/u-wrapper.css';
-@import './document/utilities/u-glitch.css';
 
-/* 07. document/objects + document/layouts */
+/* 08. document/objects + document/layouts */
 @import './document/objects/o-svg.css';
 @import './document/objects/o-texture.css';
 @import './document/layouts/l-document.css';
 
-/* 08. components */
+/* 09. components */
 @import './components/c-language-switcher.css';
 @import './components/c-site-nav.css';
 @import './components/c-footer-nav.css';
 @import './components/c-logo.css';
 @import './components/c-pricing-table.css';
 
-/* 08. vendors */
+/* 10. vendors */
 @import './vendors/lenis.css';
 @import './vendors/mouse-follower.css';
