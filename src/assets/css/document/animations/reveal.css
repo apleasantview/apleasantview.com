@@ -3,14 +3,14 @@
 			   .reveal-group > * — children each ride their OWN view timeline,
 			   so they stagger for free by scroll position (no --i needed). */
 	.reveal,
-	.reveal-group > * {
+	.reveal-group > *:not(hr) {
 		animation-timeline: view();
 		animation-name: reveal-up;
 		animation-timing-function: var(--anim-reveal-ease);
 		animation-fill-mode: both;
 		/* start when the element enters, finish once it's 35% up the
 				   viewport. Widen the range = slower/longer reveal. */
-		animation-range: entry 0% cover 35%;
+		animation-range: cover 1% cover 40%;
 	}
 
 	@keyframes reveal-up {
