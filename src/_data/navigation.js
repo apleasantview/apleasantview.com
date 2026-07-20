@@ -1,7 +1,6 @@
 export default {
 	en: {
 		main: [
-			{ label: 'Home', url: '/' },
 			{ label: 'Services', url: '/#services' },
 			{ label: 'Approach', url: '/approach/' },
 			{ label: 'About me', url: '/about/' },
@@ -18,7 +17,6 @@ export default {
 
 	nl: {
 		main: [
-			{ label: 'Home', url: '/nl/' },
 			{ label: 'Diensten', url: '/nl/#diensten' },
 			{ label: 'Aanpak', url: '/nl/aanpak/' },
 			{ label: 'Over mij', url: '/nl/over-mij/' },
@@ -35,7 +33,6 @@ export default {
 
 	fr: {
 		main: [
-			{ label: 'Accueil', url: '/fr/' },
 			{ label: 'Services', url: '/fr/#services' },
 			{ label: 'Approche', url: '/fr/approche/' },
 			{ label: 'À propos', url: '/fr/a-propos/' },

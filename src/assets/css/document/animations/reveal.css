@@ -1,0 +1,26 @@
+@supports (animation-timeline: view()) {
+	/* .reveal      — a single element rises as it scrolls in.
+			   .reveal-group > * — children each ride their OWN view timeline,
+			   so they stagger for free by scroll position (no --i needed). */
+	.reveal,
+	.reveal-group > * {
+		animation-timeline: view();
+		animation-name: reveal-up;
+		animation-timing-function: var(--anim-reveal-ease);
+		animation-fill-mode: both;
+		/* start when the element enters, finish once it's 35% up the
+				   viewport. Widen the range = slower/longer reveal. */
+		animation-range: entry 0% cover 35%;
+	}
+
+	@keyframes reveal-up {
+		from {
+			opacity: 0;
+			transform: translateY(var(--anim-reveal-distance));
+		}
+
+		75% {
+			transform: translateY(0);
+		}
+	}
+}

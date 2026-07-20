@@ -21,6 +21,7 @@
 /* 05. document/animations */
 @import './document/animations.css';
 @import './document/animations/glitch.css';
+@import './document/animations/reveal.css';
 
 /* 06. document/elements */
 @import './document/elements/p.css';

@@ -16,7 +16,7 @@
 	padding-inline: var(--space-s);
 	border-radius: var(--border-radius-card);
 	height: fit-content;
-	background-color: var(--color-slate-200-alpha-08);
+	background-color: var(--color-slate-800-alpha-075);
 }
 
 .c-pricing-table__item--x {
