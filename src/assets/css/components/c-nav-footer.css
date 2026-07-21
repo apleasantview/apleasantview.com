@@ -1,9 +1,15 @@
 .c-nav-footer {
+	margin: 0;
+	padding: 0;
 	display: flex;
 	gap: var(--space-2xs);
 	flex-wrap: wrap;
 	align-items: flex-start;
 	padding-block-start: var(--space-inset-2xs);
+
+	li {
+		margin: 0;
+	}
 }
 
 .c-nav-footer a {

@@ -1,5 +1,7 @@
-<div class="c-nav-footer">
-	{% for item in navigation[lang].footer %}
-		<a href="{{ item.url }}"{% if item.url == page.url %} aria-current="page"{% endif %}>{{ item.label }}</a>
-	{% endfor %}
-</div>
+<nav aria-label="Footer">
+	<ul class="c-nav-footer" role="list">
+		{% for item in navigation[lang].footer %}
+			<a href="{{ item.url }}"{% if item.url == page.url %} aria-current="page"{% endif %}>{{ item.label }}</a>
+		{% endfor %}
+	</ul>
+</nav>

@@ -2,7 +2,7 @@
 	padding-block: var(--space-inset-2xs);
 }
 
-.c-nav-socials__inner {
+.c-nav-socials {
 	display: flex;
 	list-style: none;
 	padding-inline: 0.25rem;
@@ -15,7 +15,7 @@
 	}
 }
 
-.c-nav-socials__link {
+.c-nav-socials a {
 	fill: currentColor;
 	border: none;
 	max-width: 42px;

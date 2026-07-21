@@ -107,9 +107,10 @@ sub {
 /* Focus */
 
 :where(a, button, input, select, textarea, summary, [tabindex]:not([tabindex='-1'])):focus-visible {
-	outline: var(--focus-ring-width) solid var(--color-accent);
+	outline: var(--focus-ring-width) solid var(--color-text-muted);
 	outline-offset: var(--focus-ring-offset);
 	background-color: var(--color-surface-hover);
+	border-radius: 2px;
 }
 
 /* Description lists */

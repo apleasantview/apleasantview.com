@@ -1,5 +1,7 @@
-<nav class="c-nav-site">
+<nav aria-label="Site">
+	<ul class="c-nav-site" role="list">
 	{% for item in navigation[lang].main %}
-		<a href="{{ item.url }}"{% if item.url == page.url %} aria-current="page"{% endif %}>{{ item.label }}</a>
+		<li><a href="{{ item.url }}"{% if item.url == page.url %} aria-current="page"{% endif %}>{{ item.label }}</a></li>
 	{% endfor %}
+	</ul>
 </nav>
