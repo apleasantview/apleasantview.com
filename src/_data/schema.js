@@ -42,6 +42,7 @@ export default {
 		},
 		sameAs: [
 			'https://www.linkedin.com/company/apleasantview',
+			'https://www.facebook.com/apleasantview',
 			'https://github.com/apleasantview',
 			'https://mastodon.social/@crisverstraeten',
 			'https://www.eleventy-baseline.dev/'

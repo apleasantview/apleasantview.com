@@ -1,6 +1,9 @@
 <footer>
-	<div class="footer__group u-wrapper">
-		{% include "components/c-footer-nav.njk" %}
+	<div class="footer__inner u-wrapper">
+		<div class="footer__group">
+			{% include "components/c-nav-footer.njk" %}
+			{% include "components/c-nav-socials.njk" %}
+		</div>
 		<div class="footer__credits">
 			<span><strong>{{ "services" | translate }}</strong></span>
 			<br />

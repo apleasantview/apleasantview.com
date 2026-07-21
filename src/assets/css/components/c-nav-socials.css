@@ -1,0 +1,23 @@
+.c-nav-socials {
+	padding-block: var(--space-inset-2xs);
+}
+
+.c-nav-socials__inner {
+	display: flex;
+	list-style: none;
+	padding-inline: 0.25rem;
+	margin-block: 0;
+	align-items: start;
+	gap: 0.5rem;
+
+	& li {
+		display: inherit;
+	}
+}
+
+.c-nav-socials__link {
+	fill: currentColor;
+	border: none;
+	max-width: 42px;
+	min-height: 42px;
+}

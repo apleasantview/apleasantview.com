@@ -34,18 +34,23 @@ main {
 
 footer {
 	margin-top: auto;
-	padding-block: var(--space-inset-m);
+	padding-block-start: var(--space-inset-m);
+	padding-block-end: var(--space-inset-s);
 }
 
 .footer__group {
-	--flow-space: var(--flow-space-2xs);
-	font-size: var(--text-size-secondary);
+	display: flex;
+	align-items: flex-start;
+	flex-wrap: wrap;
+	gap: var(--space-s);
+	justify-content: space-between;
+	border-top: 1px solid var(--color-border-strong);
 }
 
 .footer__credits {
-	padding-block-start: var(--space-inset-2xs);
-	padding-inline: 0.15rem;
-	margin-block-start: var(--space-2xs);
+	font-size: var(--text-size-secondary);
+	padding-block: var(--space-inset-3xs);
+	padding-inline: 0.5rem;
 }
 
 em {

@@ -43,8 +43,9 @@
 
 /* 09. components */
 @import './components/c-language-switcher.css';
-@import './components/c-site-nav.css';
-@import './components/c-footer-nav.css';
+@import './components/c-nav-site.css';
+@import './components/c-nav-footer.css';
+@import './components/c-nav-socials.css';
 @import './components/c-logo.css';
 @import './components/c-pricing-table.css';
 

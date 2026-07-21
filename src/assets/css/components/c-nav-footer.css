@@ -1,19 +1,19 @@
-.c-footer-nav {
+.c-nav-footer {
 	display: flex;
 	gap: var(--space-2xs);
 	flex-wrap: wrap;
 	align-items: flex-start;
 	padding-block-start: var(--space-inset-2xs);
-	border-top: 1px solid var(--color-border-strong);
 }
 
-.c-footer-nav a {
+.c-nav-footer a {
 	margin-top: 0;
 	border: 1px solid transparent;
 	padding-inline: 0.5em;
+	font-size: var(--text-size-secondary);
 }
 
-.c-footer-nav a[aria-current='page'] {
+.c-nav-footer a[aria-current='page'] {
 	border-color: var(--color-text-muted);
 	border-radius: 4px;
 }
