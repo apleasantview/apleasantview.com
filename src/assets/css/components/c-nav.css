@@ -4,11 +4,11 @@
 .c-nav-socials {
 	margin: 0;
 	padding: 0;
-	padding-block: var(--space-inset-2xs);
+	padding-block: var(--space-inset-3xs);
 	display: flex;
 	flex-wrap: wrap;
 	align-items: start;
-	gap: var(--space-xs);
+	gap: var(--space-s);
 
 	li {
 		margin: 0;
@@ -24,12 +24,6 @@
 	}
 }
 
-.c-nav-site {
-	@media (width >768px) {
-		margin-block-start: var(--space-3xs);
-	}
-}
-
 .c-nav-site a {
 	font-size: var(--text-size-body);
 }
@@ -37,6 +31,10 @@
 .c-nav-site a[aria-current='page'] {
 	background-color: var(--color-surface-hover);
 	border-bottom-color: transparent;
+}
+
+.c-nav-footer {
+	padding-block: var(--space-inset-xs);
 }
 
 .c-nav-footer a {

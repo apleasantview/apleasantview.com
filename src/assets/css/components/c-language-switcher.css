@@ -1,6 +1,11 @@
 .c-language-switcher {
+	--flow-space: var(--space-inset-2xs);
 	max-width: fit-content;
 	padding-block: var(--space-inset-3xs);
+
+	@media (width >768px) {
+		--flow-space: 0.08em;
+	}
 }
 
 div.c-language-switcher__inner {
