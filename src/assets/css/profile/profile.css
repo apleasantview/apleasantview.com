@@ -1,0 +1,16 @@
+/* 01. primitives */
+@import './primitives/colors.css';
+@import './primitives/typography.css';
+@import './primitives/spacing.css';
+@import './primitives/borders.css';
+@import './primitives/fluid-typography.css';
+@import './primitives/fluid-spacing.css';
+@import './skip-link.css';
+@import './sr-only.css';
+
+/* 02. semantic + theme */
+@import './semantic/colors.css';
+@import './semantic/typography.css';
+@import './semantic/border.css';
+@import './semantic/spacing.css';
+@import './themes/dark.css';

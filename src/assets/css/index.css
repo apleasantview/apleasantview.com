@@ -1,16 +1,5 @@
 /* 01. profile/primitives */
-@import './profile/primitives/colors.css';
-@import './profile/primitives/typography.css';
-@import './profile/primitives/spacing.css';
-@import './profile/primitives/borders.css';
-@import './profile/primitives/fluid-typography.css';
-@import './profile/primitives/fluid-spacing.css';
-@import './profile/skip-link.css';
-@import './profile/sr-only.css';
-
-/* 02. profile/semantic + profile/theme */
-@import './profile/semantic.css';
-@import './profile/theme.css';
+@import './profile/profile.css';
 
 /* 03. resets */
 @import './resets/modern-reset.css' layer(reset);
@@ -48,5 +37,5 @@
 @import './components/c-pricing-table.css';
 
 /* 10. vendors */
-@import './vendors/lenis.css';
-@import './vendors/mouse-follower.css';
+/* @import './vendors/lenis.css'; */
+/* @import './vendors/mouse-follower.css'; */

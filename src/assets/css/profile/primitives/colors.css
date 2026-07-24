@@ -3,30 +3,50 @@
 	--color-black: #000000;
 	--color-white: #ffffff;
 
-	/* Gray scale (50 lightest to 950 darkest) */
-	--color-gray-50: #f8f9fa;
-	--color-gray-100: #f1f3f4;
-	--color-gray-200: #e5e5e7;
-	--color-gray-300: #d4d4d8;
-	--color-gray-400: #a1a1aa;
-	--color-gray-500: #71717a;
-	--color-gray-600: #52525b;
-	--color-gray-700: #3f3f46;
-	--color-gray-800: #27272a;
-	--color-gray-900: #18181b;
-	--color-gray-950: #0a0a0d;
+	/* Gray scale (50 lightest to 950 darkest; OKLCH, cool neutral) */
+	--color-gray-050: oklch(0.985 0.002 286);
+	--color-gray-100: oklch(0.966 0.003 286);
+	--color-gray-200: oklch(0.928 0.004 286);
+	--color-gray-300: oklch(0.868 0.006 286);
+	--color-gray-400: oklch(0.706 0.014 286);
+	--color-gray-500: oklch(0.552 0.016 286);
+	--color-gray-600: oklch(0.445 0.016 286);
+	--color-gray-700: oklch(0.372 0.014 286);
+	--color-gray-800: oklch(0.269 0.006 286);
+	--color-gray-900: oklch(0.205 0.005 286);
+	--color-gray-950: oklch(0.13 0.007 286);
 
-	/* Brand */
-	/* Near-white */
-	--color-slate-25: #f3f6fb; /* extracted from inline SVG */
+	/* Brand — Slate (OKLCH; 25/50/800/950 are the original anchors) */
+	--color-slate-025: oklch(0.966 0.008 256); /* near-white, from inline SVG */
+	--color-slate-050: oklch(0.945 0.022 254);
+	--color-slate-100: oklch(0.915 0.03 256);
+	--color-slate-200: oklch(0.86 0.04 256);
+	--color-slate-300: oklch(0.79 0.05 256);
+	--color-slate-400: oklch(0.71 0.058 257);
+	--color-slate-500: oklch(0.62 0.064 257);
+	--color-slate-600: oklch(0.52 0.067 258);
+	--color-slate-700: oklch(0.45 0.067 258);
+	--color-slate-800: oklch(0.395 0.064 260);
+	--color-slate-900: oklch(0.29 0.045 272);
+	--color-slate-950: oklch(0.19 0.02 290);
 
-	/* Slate (from extracted HSL) */
-	--color-slate-50: hsl(220 53% 94%);
-	--color-slate-800: hsl(220 37% 32%);
-	--color-slate-950: hsl(249 11% 12%);
+	/* Slate — translucent tints, derived from the scale via relative color */
+	--color-slate-800-a8: oklch(from var(--color-slate-800) l c h / 0.08);
+	--color-slate-050-a10: oklch(from var(--color-slate-050) l c h / 0.1);
+	--color-slate-200-a8: oklch(from var(--color-slate-200) l c h / 0.08);
 
-	/* Slate (alpha variants) */
-	--color-slate-800-alpha-075: hsl(220 37% 32% / 0.075);
-	--color-slate-50-alpha-10: hsl(220 53% 97% / 0.1);
-	--color-slate-200-alpha-08: hsl(220 37% 80% / 0.08);
+	/* Alpha scale — colour-agnostic, low-clustered (Radix-shaped). Compose
+	   at the semantic tier: oklch(from <color> l c h / var(--alpha-N)). */
+	--alpha-01: 0.012;
+	--alpha-02: 0.03;
+	--alpha-03: 0.05;
+	--alpha-04: 0.07;
+	--alpha-05: 0.09;
+	--alpha-06: 0.11;
+	--alpha-07: 0.15;
+	--alpha-08: 0.22;
+	--alpha-09: 0.3;
+	--alpha-10: 0.44;
+	--alpha-11: 0.6;
+	--alpha-12: 0.85;
 }

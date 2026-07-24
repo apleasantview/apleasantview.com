@@ -1,0 +1,28 @@
+/* Semantic — colour roles. Primitives in primitives/colors.css. */
+:root {
+	color-scheme: light;
+
+	--color-background-default: var(--color-slate-050);
+	--color-background-subtle: var(--color-slate-200-a8);
+	--color-text-primary: var(--color-slate-800);
+	--color-text-muted: var(--color-gray-600);
+	--color-accent: var(--color-slate-800);
+	--color-border-default: var(--color-slate-800);
+	--color-border-strong: var(--color-gray-800);
+	--color-surface-hover: var(--color-slate-800-a8);
+
+	/* Asset / effect roles (not theme-split yet) */
+	--color-logo-mark: var(--color-slate-025);
+
+	/* Multiply keeps the texture's shadows against a light surface */
+	--texture-blend: multiply;
+	--texture-opacity: 0.2;
+
+	/* RGB primaries (from named CSS colours) */
+	--color-red-500: hsl(0, 100%, 75%); /* `red` */
+	--color-green-500: hsl(120, 100%, 55%); /* `green` */
+	--color-blue-500: hsl(240, 100%, 75%); /* `blue` */
+
+	--focus-ring-color-light: var(--color-slate-800);
+	--focus-ring-color: var(--color-slate-800);
+}

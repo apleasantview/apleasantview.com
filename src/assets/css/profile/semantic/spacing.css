@@ -1,0 +1,54 @@
+/* Semantic — spacing, flow, wrapper. Primitives in primitives/spacing + fluid-spacing.css. */
+:root {
+	/* Padding blocks (inset) for containers */
+	--space-inset-3xs: var(--space-3xs);
+	--space-inset-2xs: var(--space-2xs);
+	--space-inset-xs: var(--space-xs);
+	--space-inset-s: var(--space-s);
+	--space-inset-m: var(--space-m);
+	--space-inset-l: var(--space-l);
+	--space-inset-xl: var(--space-xl);
+	--space-inset-2xl: var(--space-2xl);
+
+	/* Horizontal spacing between inline items */
+	--space-inline-tight: var(--space-2xs);
+	--space-inline-compact: var(--space-xs);
+	--space-inline-default: var(--space-s);
+	--space-inline-comfortable: var(--space-m);
+
+	/* Vertical rhythm spacing */
+	--space-stack-3xs: var(--space-3xs);
+	--space-stack-2xs: var(--space-2xs);
+	--space-stack-xs: var(--space-xs);
+	--space-stack-s: var(--space-s);
+	--space-stack-m: var(--space-m);
+	--space-stack-l: var(--space-l);
+	--space-stack-xl: var(--space-xl);
+
+	/* Gap for clusters (wrap-friendly groupings) - Optionally switch to pairs */
+	--space-cluster-s: var(--space-xs);
+	--space-cluster-m: var(--space-s);
+	--space-cluster-l: var(--space-m);
+
+	/* Spacing roles (subset, based on extracted values) */
+	--space-stack-card: var(--space-static-28);
+	--space-cluster-card: var(--space-static-28);
+	--space-inline-body-padding: var(--space-static-16);
+	--space-outline-offset: var(--space-static-32);
+
+	/* Flow */
+	--flow-space-2xs: var(--space-flow-2xs);
+	--flow-space-xs: var(--space-flow-xs);
+	--flow-space-s: var(--space-flow-s);
+	--flow-space-m: var(--space-flow-m);
+	--flow-space-l: var(--space-flow-l);
+	--flow-space-xl: var(--space-flow-xl);
+	--flow-space-2xl: var(--space-flow-2xl);
+	--flow-space-3xl: var(--space-flow-3xl);
+	--flow-space-4xl: var(--space-flow-4xl);
+
+	/* Wrapper utilities */
+	--wrapper-max-width: 64rem;
+	--wrapper-margin-inline: auto;
+	--wrapper-padding-inline: var(--space-s-m);
+}

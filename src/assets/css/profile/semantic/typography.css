@@ -1,0 +1,39 @@
+/* Semantic — typography roles. Primitives in primitives/typography.css. */
+:root {
+	--font-family-body: var(--font-family-sans);
+	--font-family-heading: var(--font-family-sans);
+	--font-family-code: var(--font-family-mono);
+
+	--text-size-body: var(--step-0);
+	--text-size-code: var(--step--1);
+	--text-size-secondary: var(--step--1);
+	--text-size-muted: var(--step--2);
+	--text-size-lede: var(--step-1);
+	--text-size-title: var(--step-2);
+	--text-size-display: var(--step-4);
+
+	--text-lineheight-tight: var(--line-height-tight);
+	--text-lineheight-default: var(--line-height-normal);
+	--text-lineheight-loose: var(--line-height-loose);
+
+	--text-weight-light: var(--font-weight-light);
+	--text-weight-normal: var(--font-weight-normal);
+	--text-weight-medium: var(--font-weight-medium);
+	--text-weight-semibold: var(--font-weight-semibold);
+	--text-weight-bold: var(--font-weight-bold);
+
+	--text-letterspacing-body: var(--letter-spacing-body);
+	--text-letterspacing-heading-tight: var(--letter-spacing-heading-tight);
+	--text-letterspacing-heading-loose: var(--letter-spacing-heading-loose);
+
+	--text-inlinesize-body: 75ch;
+	--text-inlinesize-heading: fit-content;
+
+	/* Links */
+	--link-underline-thickness: 0.05em;
+	--link-underline-offset: 0.2em;
+
+	/* Cursor */
+	--text-size-cursor: var(--font-size-cursor);
+	--text-lineheight-cursor: var(--line-height-cursor);
+}

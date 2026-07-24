@@ -1,0 +1,48 @@
+@media (prefers-color-scheme: dark) {
+	:root:not([data-theme='light']) {
+		color-scheme: dark;
+
+		--color-background-default: var(--color-slate-950);
+		--color-background-subtle: var(--color-gray-900);
+		--color-text-primary: var(--color-slate-050);
+		--color-text-muted: var(--color-gray-300);
+		--color-accent: var(--color-slate-50);
+		--color-border-default: var(--color-slate-050);
+		--color-border-strong: var(--color-gray-100);
+		--color-surface-hover: var(--color-slate-050-a10);
+
+		/* Screen keeps the texture's highlights against a dark surface */
+		--texture-blend: screen;
+		--texture-opacity: 0.12;
+
+		/* RGB primaries (from named CSS colours) */
+		--color-red-500: hsl(0, 100%, 50%); /* `red` */
+		--color-green-500: hsl(120, 100%, 25%); /* `green` */
+		--color-blue-500: hsl(240, 100%, 50%); /* `blue` */
+	}
+}
+
+:root[data-theme='dark'] {
+	color-scheme: dark;
+
+	--color-background-default: var(--color-slate-950);
+	--color-background-subtle: var(--color-gray-900);
+	--color-text-primary: var(--color-slate-050);
+	--color-text-muted: var(--color-gray-300);
+	--color-accent: var(--color-slate-50);
+	--color-border-default: var(--color-slate-050);
+	--color-border-strong: var(--color-gray-100);
+	--color-surface-hover: var(--color-slate-50-a10);
+
+	/* Screen keeps the texture's highlights against a dark surface */
+	--texture-blend: screen;
+	--texture-opacity: 0.12;
+
+	/* RGB primaries (from named CSS colours) */
+	--color-red-500: hsl(0, 100%, 50%); /* `red` */
+	--color-green-500: hsl(120, 100%, 25%); /* `green` */
+	--color-blue-500: hsl(240, 100%, 50%); /* `blue` */
+
+	--focus-ring-color-dark: var(--color-slate-050);
+	--focus-ring-color: var(--color-slate-050);
+}
